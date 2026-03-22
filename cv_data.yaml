@@ -1,340 +1,2383 @@
-publications:
-- title: 'Still spurious: A comment on attempts to revive cognitive ability tilts'
-  authors: Nilsonne G, et al.
-  year: 2025
-  doi: 10.1371/journal.pone.0326486
-  journal: PLOS One
-  links: {}
-- title: 'The Spurious Prospective Associations Model (SPAM): Explaining longitudinal associations due to statistical artifacts'
-  authors: Nilsonne G, et al.
-  year: 2025
-  doi: 10.1371/journal.pone.0331609
-  journal: PLOS One
-  links: {}
-- title: 'Stakeholders’ perceptions of the synergy between intellectual property and open science: A cross-sectional survey'
-  authors: Nilsonne G, et al.
-  year: 2025
-  doi: 10.12688/openreseurope.20782.1
-  journal: Open Research Europe
-  links: {}
-- title: Results reporting for clinical trials led by medical universities and university hospitals in the nordic countries
-    was often missing or delayed
-  authors: Nilsonne G, et al.
-  year: 2025
-  doi: 10.1016/j.jclinepi.2025.111710
-  journal: Journal of Clinical Epidemiology
-  links: {}
-- title: A formal model accounting for measurement reliability shows attenuated effect of higher education on intelligence
-    in longitudinal data
-  authors: Nilsonne G, et al.
-  year: 2024
-  doi: 10.1098/rsos.230513
-  journal: Royal Society Open Science
-  links: {}
-- title: 'Breastfeeding, cognitive ability, and residual confounding: A comment on studies by Pereyra-Elìas et al.'
-  authors: Nilsonne G, et al.
-  year: 2024
-  doi: 10.1371/journal.pone.0297216
-  journal: PLOS ONE
-  links: {}
-- title: 'Distorted meta-analytic findings on peer influence: A reanalysis'
-  authors: Nilsonne G, et al.
-  year: 2023
-  doi: 10.1016/j.heliyon.2023.e21458
-  journal: Heliyon
-  links: {}
-- title: 'Unmasking artifactual links: A reanalysis reveals No direct causal relationship between self-esteem and quality
-    of social relations'
-  authors: Nilsonne G, et al.
-  year: 2023
-  doi: 10.1016/j.heliyon.2023.e20397
-  journal: Heliyon
-  links: {}
-- title: Replacing academic journals
-  authors: Nilsonne G, et al.
-  year: 2023
-  doi: 10.1098/rsos.230206
-  journal: Royal Society Open Science
-  links: {}
-- title: Planning preclinical confirmatory multicenter trials to strengthen translation from basic to clinical research –
-    a multi-stakeholder workshop report
-  authors: Nilsonne G, et al.
-  year: 2022
-  doi: 10.1186/s41231-022-00130-8
-  journal: Translational Medicine Communications
-  links: {}
-- title: 'Editors publishing in their own journals: A systematic review of prevalence and a discussion of normative aspects'
-  authors: Nilsonne G, et al.
-  year: 2022
-  doi: 10.1002/leap.1449
-  journal: Learned Publishing
-  links: {}
-- title: Consensus-based guidance for conducting and reporting multi-analyst studies
-  authors: Nilsonne G, et al.
-  year: 2021
-  doi: 10.7554/eLife.72185
-  journal: eLife
-  links: {}
-- title: Spontaneous eye movements during eyes-open rest reduce resting-state-network modularity by increasing visual-sensorimotor
-    connectivity
-  authors: Nilsonne G, et al.
-  year: 2021
-  doi: 10.1162/netn_a_00186
-  journal: Network Neuroscience
-  links: {}
-- title: 'Fostering global data sharing: highlighting the recommendations of the Research Data Alliance COVID-19 working group
-    [version 2; peer review: 2 approved, 1 approved with reservations]'
-  authors: Nilsonne G, et al.
-  year: 2021
-  doi: 10.12688/wellcomeopenres.16378.2
-  links: {}
-- title: 'Oxazepam and cognitive reappraisal: A randomised experiment'
-  authors: Nilsonne G, et al.
-  year: 2021
-  doi: 10.1371/journal.pone.0249065
-  journal: PLOS ONE
-  links: {}
-- title: EEG-based model and antidepressant response
-  authors: Nilsonne G, et al.
-  year: 2021
-  doi: 10.1038/s41587-020-00768-5
-  journal: Nature Biotechnology
-  links: {}
-- title: '<p>Gray Matter Volume Correlates of Sleepiness: A Voxel-Based Morphometry Study in Younger and Older Adults</p>'
-  authors: Nilsonne G, et al.
-  year: 2020
-  doi: 10.2147/NSS.S240493
-  journal: Nature and Science of Sleep
-  links: {}
-- title: Exploring the consistency and value of humour style profiles
-  authors: Nilsonne G, et al.
-  year: 2020
-  doi: 10.1080/23743603.2020.1756239
-  journal: Comprehensive Results in Social Psychology
-  links: {}
-- title: Improvement in indices of cellular protection after psychological treatment for social anxiety disorder
-  authors: Nilsonne G, et al.
-  year: 2019
-  doi: 10.1038/s41398-019-0668-2
-  journal: Translational Psychiatry
-  links: {}
-- title: Sleep restriction caused impaired emotional regulation without detectable brain activation changes—a functional magnetic
-    resonance imaging study
-  authors: Nilsonne G, et al.
-  year: 2019
-  doi: 10.1098/rsos.181704
-  journal: Royal Society Open Science
-  links: {}
-- title: 'Company employees as experimental participants in traffic safety research: Prevalence and implications'
-  authors: Nilsonne G, et al.
-  year: 2019
-  doi: 10.1016/j.trf.2018.10.008
-  journal: 'Transportation Research Part F: Traffic Psychology and Behaviour'
-  links: {}
-- title: Estimating statistical power, posterior probability and publication bias of psychological research using the observed
-    replication rate
-  authors: Nilsonne G, et al.
-  year: 2018
-  doi: 10.1098/rsos.181190
-  journal: Royal Society Open Science
-  links: {}
-- title: 'Data availability, reusability, and analytic reproducibility: evaluating the impact of a mandatory open data policy
-    at the journal Cognition'
-  authors: Nilsonne G, et al.
-  year: 2018
-  doi: 10.1098/rsos.180448
-  journal: Royal Society Open Science
-  links:
-    preprint: https://doi.org/10.17605/OSF.IO/39CFB
-    data: https://osf.io/39cfb/
-    code: https://osf.io/39cfb/
-- title: 'The effect of sleep restriction on empathy for pain: An fMRI study in younger and older adults'
-  authors: Nilsonne G, et al.
-  year: 2017
-  doi: 10.1038/s41598-017-12098-9
-  journal: Scientific Reports
-  links: {}
-- title: 'Intrinsic brain connectivity after partial sleep deprivation in young and older adults: results from the Stockholm
-    Sleepy Brain study'
-  authors: Nilsonne G, et al.
-  year: 2017
-  doi: 10.1038/s41598-017-09744-7
-  journal: Scientific Reports
-  links: {}
-- title: 'Effects of 25 mg oxazepam on emotional mimicry and empathy for pain: a randomized controlled experiment'
-  authors: Nilsonne G, et al.
-  year: 2017
-  doi: 10.1098/rsos.160607
-  journal: Royal Society Open Science
-  links: {}
-- title: 'Diurnal Variation of Circulating Interleukin-6 in Humans: A Meta-Analysis'
-  authors: Nilsonne G, et al.
-  year: 2016
-  doi: 10.1371/journal.pone.0165799
-  journal: PLOS ONE
-  links: {}
-- title: 'Health at the ballot box: disease threat does not predict attractiveness preference in British politicians'
-  authors: Nilsonne G, et al.
-  year: 2016
-  doi: 10.1098/rsos.160049
-  journal: Royal Society Open Science
-  links: {}
-- title: 'Leukocyte telomere length and hippocampus volume: a meta-analysis [version 1; referees: 2 approved]'
-  authors: Nilsonne G, et al.
-  year: 2015
-  doi: 10.12688/f1000research.7198.1
-  links: {}
-- title: Diagnostic and prognostic value of soluble syndecan-1 in pleural malignancies
-  authors: Nilsonne G, et al.
-  year: 2014
-  doi: 10.1155/2014/419853
-  journal: Biomed Res Int
-  links: {}
-- title: Hyaluronan and N-ERC/mesothelin as key biomarkers in a specific two-step model to predict pleural malignant mesothelioma
-  authors: Nilsonne G, et al.
-  year: 2013
-  doi: 10.1371/journal.pone.0072030
-  journal: PLoS ONE
-  links: {}
-- title: Microenvironment-Dependent Phenotypic Changes in a SCID Mouse Model for Malignant Mesothelioma
-  authors: Nilsonne G, et al.
-  year: 2013
-  doi: 10.3389/fonc.2013.00203
-  journal: Front Oncol
-  links: {}
-- title: Variation in drug sensitivity of malignant mesothelioma cell lines with substantial effects of selenite and bortezomib,
-    highlights need for individualized therapy
-  authors: Nilsonne G, et al.
-  year: 2013
-  doi: 10.1371/journal.pone.0065903
-  journal: PLoS ONE
-  links: {}
-- title: 'Learning in a simple biological system: a pilot study of classical conditioning of human macrophages in vitro'
-  authors: Nilsonne G, et al.
-  year: 2011
-  doi: 10.1186/1744-9081-7-47
-  journal: Behav. Brain Funct.
-  links: {}
-- title: Selenite Induces Posttranscriptional Blockade of HLA-E Expression and Sensitizes Tumor Cells to CD94/NKG2A-Positive
-    NK Cells
-  authors: Nilsonne G, et al.
-  year: 2011
-  doi: 10.4049/jimmunol.1100610
-  journal: J. Immunol.
-  links: {}
-- title: '[Open Access Week 16-24 October: Open access increases access to the research]'
-  authors: Nilsonne G, et al.
-  year: 2010
-  journal: Lakartidningen
-  links: {}
-- title: Phenotype-dependent apoptosis signalling in mesothelioma cells after selenite exposure
-  authors: Nilsonne G, et al.
-  year: 2009
-  doi: 10.1186/1756-9966-28-92
-  journal: J. Exp. Clin. Cancer Res.
-  links: {}
-- title: Syndecan-1 and FGF-2, but Not FGF Receptor-1, Share a Common Transport Route and Co-Localize with Heparanase in the
-    Nuclei of Mesenchymal Tumor Cells
-  authors: Nilsonne G, et al.
-  year: 2009
-  doi: 10.1371/journal.pone.0007346
-  journal: PLoS One
-  links: {}
-- title: Quantification of alternative mRNA species and identification of thioredoxin reductase 1 isoforms in human tumor
-    cells
-  authors: Nilsonne G, et al.
-  year: 2007
-  doi: 10.1111/j.1432-0436.2006.00121.x
-  journal: Differentiation
-  links: {}
-- title: Selenite induces apoptosis in sarcomatoid malignant mesothelioma cells through oxidative stress
-  authors: Nilsonne G, et al.
-  year: 2006
-  doi: 10.1016/j.freeradbiomed.2006.04.031
-  journal: Free Radic. Biol. Med.
-  links: {}
-book_chapters:
-- title: 'Figure: Publication bias'
-  authors: Nilsonne G, et al.
-  year: 2023
-  doi: 10.53962/w0d6-9kwa
-  links: {}
-- title: 'Figure: Open science concepts'
-  authors: Nilsonne G, et al.
-  year: 2022
-  doi: 10.53962/z783-40a1
-  links: {}
-preprints:
-- title: TrialScout links published results to trial registrations using a large language model
-  authors: Nilsonne G, et al.
-  year: 2026
-  doi: 10.64898/2026.03.15.26348383
-  links: {}
-- title: Assessing the Compliance and Timeliness of Results Reporting for Clinical Trials on Antimicrobial Agents
-  authors: Nilsonne G, et al.
-  year: 2025
-  doi: 10.64898/2025.12.23.25342922
-  links: {}
-- title: 'Effects of one-night partial sleep deprivation on perivascular space volume fraction: Findings from the Stockholm
-    Sleepy Brain Study'
-  authors: Nilsonne G, et al.
-  year: 2024
-  doi: 10.1101/2024.10.26.620382
-  links: {}
-- title: Results reporting for clinical trials led by medical universities and university hospitals in the Nordic countries
-    was often missing or delayed
-  authors: Nilsonne G, et al.
-  year: 2024
-  doi: 10.1101/2024.02.04.24301363
-  links: {}
-- title: Digitization of data from published plots v1.0 v1
-  authors: Nilsonne G, et al.
-  year: 2023
-  doi: 10.17504/protocols.io.n2bvj8wnngk5/v1
-  links: {}
-- title: Pathways towards community-based, transparent, and systematic quality control of research objects
-  authors: Nilsonne G, et al.
-  year: 2022
-  doi: 10.52843/cassyni.q2hj8l
-  links: {}
-- title: 'Discrepancy review: A feasibility study of a novel peer review intervention to reduce undisclosed discrepancies
-    between registrations and publications'
-  authors: Nilsonne G, et al.
-  year: 2022
-  doi: 10.1101/2022.01.18.22269507
-  links: {}
-- title: Spontaneous eye-movements during eyes-open rest reduce resting-state-network modularity by increasing visual-sensorimotor
-    connectivity
-  authors: Nilsonne G, et al.
-  year: 2020
-  doi: 10.1101/2020.05.18.100669
-  links: {}
-- title: 'Intrinsic brain connectivity after partial sleep deprivation in young and older adults: results from the Stockholm
-    Sleepy Brain study'
-  authors: Nilsonne G, et al.
-  year: 2016
-  doi: 10.1101/073494
-  links: {}
-other_publications:
-- title: 'Oxazepam and cognitive reappraisal: a randomised experiment'
-  authors: Nilsonne G, et al.
-  year: 2019
-  doi: 10.1101/656355
-  links: {}
-- title: Targeting thioredoxin reductase - a possible new treatment for malignant mesothelioma
-  authors: Nilsonne G, et al.
-  year: 2006
-  journal: Lung Cancer
-  links: {}
-- title: DIFFERENTIAL EFFECTS OF SELENITE ON MALIGNANT MESOTHELIOMA CELLS- A NOVEL THERAPEUTIC APPROACH RELATED TO THE Trx-TrxR
-    SYSTEM AND THE REDOX STATE OF THE CELLS
-  authors: Nilsonne G, et al.
-  year: 2004
-  journal: Anticancer Res.
-  links: {}
 meta:
   name: Gustav Nilsonne
   orcid: 0000-0001-5273-0150
   affiliation: Karolinska Institutet
-  email: ''
-presentations: []
+  email: gustav.nilsonne@ki.se
+publications:
+- title: Results reporting for clinical trials led by medical universities and university hospitals in the Nordic countries
+    was often missing or delayed
+  authors: Nilsonne G, et al
+  year: 2025
+  doi: 10.1016/j.jclinepi.2025.111710
+  journal: Nilsonne G
+  links: {}
+- title: 'Same data, different analysts: variation in effect sizes due to analytical decisions in ecology and evolutionary
+    biology'
+  authors: ''
+  year: 2025
+  doi: 10.1186/s12915-024-02101-x
+  journal: BMC Biology.
+  links:
+    preprint: https://doi.org/10.32942/X2GG62
+- title: 'EEGManyPipelines: A Large-scale, Grassroots Multi-analyst Study of Electroencephalography Analysis Practices in
+    the Wild'
+  authors: ''
+  year: 2024
+  doi: 10.1162/jocn\_a\_02087
+  journal: Journal of Cognitive Neuroscience
+  links:
+    preprint: https://doi.org/10.31222/osf.io/jq342
+- title: The past, present, and future of the brain imaging data structure (BIDS)
+  authors: ''
+  year: 2024
+  doi: 10.1162/imag\_a\_00103
+  journal: Imaging Neuroscience
+  links:
+    preprint: https://doi.org/10.48550/arXiv.2309.05768
+- title: Understanding the provenance and quality of methods is essential for responsible reuse of FAIR data
+  authors: Weissgerber TL, Gazda MA, Nilsonne G, et al
+  year: 2024
+  doi: 10.1038/s41591-024-02879-x
+  journal: Nilsonne G
+  links: {}
+- title: A formal model accounting for measurement reliability shows attenuated effect of higher education on intelligence
+    in longitudinal data
+  authors: Eriksson K, Sorjonen K, Falkstedt D, Melin B, Nilsonne G
+  year: 2024
+  doi: 10.1098/rsos.230513
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/xajz8
+- title: Registrering och rapportering av kliniska studier kan bli bättre
+  authors: Axfors C, Nilsonne G
+  year: 2024
+  journal: Nilsonne G
+  links:
+    web: https://lakartidningen.se/klinik-och-vetenskap-1/kommentar/2024/06/registrering-och-rapportering-av-kliniska-studier-kan-bli-battre/
+- title: Subjective Evidence Evaluation Survey For Multi-Analyst Studies
+  authors: ''
+  year: 2024
+  doi: 10.1098/rsos.240125
+  journal: Royal Society Open Science
+  links:
+    preprint: https://doi.org/10.31234/osf.io/mxje3
+- title: One hundred years of EEG for brain and behaviour research
+  authors: ''
+  year: 2024
+  doi: 10.1038/s41562-024-01941-5
+  journal: Nature Human Behaviour
+  links: {}
+- title: 'The International Climate Psychology Collaboration: Climate change-related data collected from 63 countries'
+  authors: ''
+  year: 2024
+  doi: 10.1038/s41597-024-03865-1
+  journal: Scientific Data
+  links: {}
+- title: Altered Empathy Processing in Frontotemporal Dementia
+  authors: ''
+  year: 2024
+  doi: 10.1101/2024.03.21.586051
+  journal: JAMA Network Open
+  links:
+    preprint: https://doi.org/10.1001/jamanetworkopen.2024.48601
+- title: 'Exhaustion Disorder in Primary Care: A Comparison With Major Depressive Disorder and Adjustment Disorder'
+  authors: ''
+  year: 2024
+  doi: 10.1111/sjop.13087
+  journal: Scandinavian Journal of Psychology
+  links: {}
+- title: 'Uncertain inference in random intercept cross-lagged panel models: An example involving need for cognition and anxiety
+    and depression symptoms'
+  authors: Sorjonen K, Nilsonne G, Melin B, Ingre M
+  year: 2023
+  doi: 10.1016/j.paid.2022.111925
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/2a5gp
+- title: The Psychological Science Accelerator’s COVID-19 rapid-response dataset
+  authors: ''
+  year: 2023
+  doi: 10.1038/s41597-022-01811-7
+  journal: Scientific Data
+  links: {}
+- title: 'Dangers of including outcome at baseline as a covariate in latent change score models: Results from simulations
+    and empirical re-analyses'
+  authors: Sorjonen K, Ingre M, Nilsonne G, Melin B
+  year: 2023
+  doi: 10.1016/j.heliyon.2023.e15746
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/2sxja
+- title: Olika slutsatser från samma data
+  authors: Nilsonne G, Johannesson M, Dreber A
+  year: 2023
+  journal: Nilsonne G
+  links:
+    web: https://lakartidningen.se/klinik-och-vetenskap-1/artiklar-1/temaartikel/2023/05/olika-slutsatser-fran-samma-data/
+- title: Replacing academic journals
+  authors: Brembs B, Huneman P, Schönbrodt F, Nilsonne G, Susi T, Siems R, et al
+  year: 2023
+  doi: 10.1098/rsos.230206
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.5281/zenodo.7974116
+- title: 'Unmasking artifactual links: A reanalysis reveals No direct causal relationship between self-esteem and quality
+    of social relations'
+  authors: Sorjonen K, Ingre M, Melin B, Nilsonne G
+  year: 2023
+  journal: Nilsonne G
+  links: {}
+- title: 'Spurious heritability of ability tilts: A comment on Coyle et al. (2023)'
+  authors: Sorjonen K, Melin B, Nilsonne G
+  year: 2023
+  doi: 10.31234/osf.io/kds5c
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/kds5c
+- title: 'Distorted meta-analytic findings on peer influence: A reanalysis'
+  authors: Sorjonen K, Nilsonne G, Melin B
+  year: 2023
+  doi: 110.1016/j.heliyon.2023.e21458
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/szkt8
+- title: 'Inconclusive evidence for an increasing effect of maternal supportiveness on childhood intelligence in Dunkel et
+    al. (2023): A simulated reanalysis'
+  authors: Sorjonen K, Melin B, Nilsonne G
+  year: 2023
+  doi: 10.1016/j.intell.2024.101815
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/945hb
+- title: Spurious correlations in research on ability tilt
+  authors: Sorjonen K, Nilsonne G, Ingre M, Melin B
+  year: 2022
+  doi: 10.1016/j.paid.2021.111268
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/cg8hd
+- title: 'Lord’s paradox in latent change score modeling: an example involving facilitating longitudinal effects between intelligence
+    and academic achievement'
+  authors: Sorjonen K, Melin B, Nilsonne G
+  year: 2022
+  doi: 10.1016/j.paid.2021.111520
+  journal: Nilsonne G
+  links: {}
+- title: 'Curiosity might not help after all: Predicted trajectories for need for cognition and anxiety and depression symptoms
+    based on findings by Zainal and Newman (2022)'
+  authors: Sorjonen K, Nilsonne G, Ingre M, Melin B
+  year: 2022
+  doi: 10.1016/j.jad.2022.01.109
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/dh2zm
+- title: Generalizability Tests Forecasting Collaboration
+  authors: Delios A, Clemente EG, Wu T, Tan H, Wang Y, Gordon M, Viganola D, Chen Z, Dreber A, Johannesson M, Pfeiffer T
+  year: 2022
+  doi: 10.1073/pnas.2120377119
+  journal: Proceedings of the National Academy of Sciences
+  links: {}
+- title: 'Microscopy-BIDS: an extension to the Brain Imaging Data Structure for Microscopy Data'
+  authors: Bourget M-H, Kamentsky L, Ghosh S, Mazzamuto G, Lazari A, Markiewicz CJ, Oostenveld R, Niso G, Halchenko YO, Lipp
+    I, Takerkart S, Toussaint P-J, Khan AR, Nilsonne G, Castelli FM, BIDS Maintainers, Cohen-Adad J
+  year: 2022
+  doi: 10.3389/fnins.2022.871228
+  journal: Nilsonne G
+  links: {}
+- title: Psychological Science Accelerator Self-Determination Theory Collaboration
+  authors: ''
+  year: 2022
+  doi: 10.1073/pnas.2111091119
+  journal: Proceedings of the National Academy of Sciences
+  links:
+    preprint: https://doi.org/10.31234/osf.io/n3dyf
+- title: 'Regression to the mean in latent change score models: an example involving breastfeeding and intelligence'
+  authors: Sorjonen K, Nilsonne G, Ingre M, Melin B
+  year: 2022
+  doi: 10.1186/s12887-022-03349-4
+  journal: Nilsonne G
+  links: {}
+- title: 'In COVID-19 health messaging, loss framing increases anxiety with little-to-no concomitant benefits: Experimental
+    evidence from 84 countries'
+  authors: ''
+  year: 2022
+  doi: 10.1007/s42761-022-00128-3
+  journal: Affective science
+  links: {}
+- title: A many-analysts approach to the relation between religiosity and well-being
+  authors: ''
+  year: 2022
+  doi: 10.1080/2153599X.2022.2070255
+  journal: Religion, Brain & Behavior
+  links: {}
+- title: TARG Meta-Research Group & Collaborators
+  authors: ''
+  year: 2022
+  doi: 10.1098/rsos.220142
+  journal: Royal Society Open Science
+  links:
+    preprint: https://doi.org/10.1101/2022.01.18.22269507
+- title: 'Exhaustion Disorder: A Scoping Review of Research on a Recently Introduced Stress-Related Diagnosis'
+  authors: Lindsäter E, Svärdman F, Wallert J, Ivanova EN, Söderholm A, Fondberg R, Nilsonne G, Cervenka S, Lekander M, Rück
+    C
+  year: 2022
+  doi: 10.1192/bjo.2022.559
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/m4w9x
+- title: 'Questioning the vulnerability model: Prospective associations between low self-esteem and subsequent degree of depression
+    may be spurious'
+  authors: Sorjonen K, Nilsonne G, Ingre M, Melin B
+  year: 2022
+  doi: 10.1016/j.jad.2022.08.003
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/4kcma
+- title: Planning preclinical confirmatory multicenter trials to strengthen translation from basic to clinical research –
+    a multi-stakeholder workshop report
+  authors: Drude NI, Martinez-Gamboa L, Danziger M, Collazo A, Kniffert S, Wiebach J, Nilsonne G, Konietschke F, Piper SK,
+    Pawel S, Micheloud C, Held L, Frommlet F, Segelcke D, Pogatzki-Zahn EM, Voelkl B, Friede T, Brunner E, Dempfle A, Haller
+    B, Jung MJ, Riecken LB, Kuhn H-G, Tenbusch M, Higuita LMS, Remarque EJ, Grüninger-Egli SL, Manske K, Kobold S, Rivalan
+    M, Wedekind L, Wilcke JC, Boulesteix A-L, Meinhardt MW, Spanagel R, Hettmer S, von Lüttichau I, Regina C, Dirnagl U, Toelch
+    U
+  year: 2022
+  doi: 10.1186/s41231-022-00130-8
+  journal: Nilsonne G
+  links: {}
+- title: 'Melin B. Further arguments that ability tilt correlations are spurious: A reply to Coyle (2022)'
+  authors: Sorjonen K, Ingre M, Nilsonne G
+  year: 2022
+  doi: 10.1016/j.intell.2022.101706
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/7vhnz
+- title: 'Breastfeeding, cognitive ability, and residual confounding: A comment on Pereyra-Elìas et al. (2022)'
+  authors: Sorjonen K, Nilsonne G, Ingre M, Melin B
+  year: 2022
+  doi: 10.1371/journal.pone.0297216
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/gkftq
+- title: 'Cortical Thickness and Resting State Cardiac Function Across the Lifespan: A Cross-Sectional Pooled Mega Analysis'
+  authors: ''
+  year: 2021
+  doi: 10.1111/psyp.13688
+  journal: Psychophysiology
+  links:
+    preprint: https://doi.org/10.31219/osf.io/btjpw
+- title: EEG-based model and antidepressant response
+  authors: Nilsonne G, Harrell F
+  year: 2021
+  doi: 10.1038/s41587-020-00768-5
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/hqxzd
+- title: '#EEGManyLabs: Investigating the Replicability of Influential EEG Experiments'
+  authors: Pavlov YG, Adamian N, Appelhoff S, Arvaneh M, Christopher Benwell PD, Beste C, Bland A, Bradford DE, Bublatzky
+    F, Busch N, Clayson PE, Cruse D, Czeszumski A, Almenberg AD, Dumas G, Ehinger BV, Ganis G, He X, Hinojosa JA, Huber-Huber
+    C, Inzlicht M, Jack BN, Johannesson M, Jones R, Kaltwasser L, Karimi-Rouzbahani H, Keil A, König P, Kouara L, Kulke L,
+    Ladouceur C, Langer N, Liesefeld HR, Luque D, MacNamara A, Mudrik L, Muthuraman M, Neal L, Nilsonne G, Galán JGN, Ocklenburg
+    S, Oostenveld R, Pernet DC, Pourtois G, Ruzzoli M, Sass S, Schaefer A, Senderecka M, Snyder JS, Tamnes CK, Tognoli E,
+    Vugt MK van, Verona E, Vloeberghs R, Welke D, Wessel J, Zakharov I, Mushtaq F
+  year: 2021
+  doi: 10.1016/j.cortex.2021.03.013
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/528nr
+- title: 'Brainhack: Developing a culture of open, inclusive, community-driven neuroscience'
+  authors: ''
+  year: 2021
+  doi: 10.1016/j.neuron.2021.04.001
+  journal: Neuron
+  links:
+    preprint: http://doi.org/10.31234/osf.io/rytjq
+- title: 'International Transfers of Health Research Data Following Schrems II: A Problem in Need of a Solution'
+  authors: Hallinan D, Bernier A, Cambon-Thomsen A, Crawley F P, Dimitrova D, Medeiros C, Nilsonne G, Parker S, Pickering
+    B, Rennes S
+  year: 2021
+  doi: 10.1038/s41431-021-00893-y
+  journal: Nilsonne G
+  links:
+    preprint: http://doi.org/10.2139/ssrn.3688392
+- title: 'Same data, different conclusions: Radical dispersion in empirical results when independent analysts operationalize
+    and test the same hypothesis'
+  authors: ''
+  year: 2021
+  doi: 10.1016/j.obhdp.2021.02.003
+  journal: Organizational Behavior and Human Decision Processes
+  links:
+    preprint: http://repository.essex.ac.uk/id/eprint/29938
+- title: A multi-country test of brief reappraisal interventions on emotions during the COVID-19 pandemic
+  authors: ''
+  year: 2021
+  doi: 10.1038/s41562-021-01173-x
+  journal: Nature Human Behavior
+  links:
+    preprint: https://doi.org/10.31234/osf.io/m4gpq
+- title: 'Fostering global data sharing: highlighting the recommendations of the Research Data Alliance COVID-19 working group'
+  authors: Austin CC, Bernier A, Bezuidenhout L, Bicarregui J, Biro T, Cambon-Thomsen A, Russo Carroll S, Cournia Z, Dabrowski
+    PW, Diallo G, Duflot T, Garcia L, Gesing S, Gonzalez-Beltran A, Gururaj A, Harrower N, Lin D, Medeiros C, Méndez E, Meyers
+    N, Mietchen D, Nagrani R, Nilsonne G, Parker S, Pickering B, Pienta A, Polydoratou P, Psomopoulos F, Rennes S, Rowe R,
+    Sansone S-A, Shanahan H, Sitz L, Stocks J, Tovani-Palone MR, Uhlmansiek M
+  year: 2021
+  doi: 10.12688/wellcomeopenres.16378.2
+  journal: Nilsonne G
+  links: {}
+- title: 'Dangers of residual confounding: A cautionary tale featuring cognitive ability, socioeconomic background, and education'
+  authors: Sorjonen K, Falkstedt D, Wallin AS, Melin B, Nilsonne G
+  year: 2021
+  doi: 10.1186/s40359-021-00653-z
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/esfx5
+- title: Consensus-based guidance for conducting and reporting multi-analyst studies
+  authors: Aczel B, Szaszi B, Nilsonne G, van den Akker OR, Albers CJ, van Assen MA, Bastiaansen JA, Benjamin D, Boehm U,
+    Botvinik-Nezer R, Bringmann LF, Busch NA, Caruyer E, Cataldo AM, Cowan N, Delios A, van Dongen NN, Donkin C, van Doorn
+    JB, Dreber A, Dutilh G, Egan GF, Gernsbacher MA, Hoekstra R, Hoffmann S, Holzmeister F, Huber J, Johannesson M, Jonas
+    KJ, Kindel AT, Kirchler M, Kunkels YK, Lindsay DS, Mangin J-F, Matzke D, Munafò MR, Newell BR, Nosek BA, Poldrack RA,
+    van Ravenzwaaij D, Rieskamp J, Salganik MJ, Sarafoglou A, Schonberg T, Schweinsberg M, Shanks D, Silberzahn R, Simons
+    DJ, Spellman BA, St-Jean S, Starns JJ, Uhlmann EL, Wicherts J, Wagenmakers E-J
+  year: 2021
+  doi: 10.7554/eLife.72185
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31222/osf.io/5ecnh
+- title: 'Gray matter volume correlates of sleepiness: a voxel–based morphometry study in younger and older adults'
+  authors: Åkerstedt T, Lekander M, Nilsonne G, Tamm S, d'Onofrio P, Kecklund G, Fischer H, Schwarz J, Petrovic P, Månsson
+    KNT
+  year: 2020
+  doi: 10.2147/NSS.S240493
+  journal: Nilsonne G
+  links: {}
+- title: Exploring the Consistency and Value of Humour Style Clusters
+  authors: Evans T, Johannes N, Winska J, Glińska-Neweś A, van Stekelenburg A, Nilsonne G, Dean L, Fido D, Galloway G, Jones
+    S, Masson I, Soares A, Steptoe-Warren G, Thompson N, d'Angelo Ungson N
+  year: 2020
+  doi: 10.1080/23743603.2020.1756239
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/b8g9z
+- title: Variability in the analysis of a single neuroimaging dataset by many teams
+  authors: ''
+  year: 2020
+  doi: 10.1038/s41586-020-2314-9
+  journal: Nature
+  links:
+    preprint: https://doi.org/10.1101/843193
+- title: Culture and Work Forecasting Collaboration
+  authors: Tierney W, Hardy J, Ebersole C, Viganola D, Clemente E, Gordon M, Hoogeveen S, Haaf J, Dreber A, Johannesson M,
+    Pfeiffer T, Huang J L, Vaugh L A, DeMarree K G, Igou E, Chapman H, Gantman A, Vanaman M, Wylie J, Storbeck J, Andreychik
+    M R, McPhetres J
+  year: 2020
+  doi: 10.1016/j.obhdp.2020.07.002
+  journal: Journal of Experimental Social Psychology.
+  links: {}
+- title: A combined fMRI and EMG study of emotional contagion following partial sleep deprivation in young and older humans
+  authors: Tamm S, Schwarz J, Thuné H, Kecklund G, Petrovic P, Åkerstedt T, Fischer H, Lekander M, Nilsonne G
+  year: 2020
+  doi: 10.1038/s41598-020-74489-9
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/k6acx
+- title: A comparison of models with weight, height, and BMI as predictors of mortality
+  authors: Sorjonen K, Nilsonne G, Falkstedt D, Hemmingson T, Ingre M
+  year: 2020
+  doi: 10.1002/osp4.473
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/xamzc
+- title: Hiring Decisions Forecasting Collaboration
+  authors: Tierney W, Hardy JH, Ebersole CR, Leavitt K, Viganola D, Clemente EG, Gordon M, Dreber A, Johannesson M, Pfeiffer
+    T
+  year: 2020
+  doi: 10.1016/j.obhdp.2020.07.002
+  journal: Organizational Behavior and Human Decision Processes
+  links: {}
+- title: Spontaneous eye-movements during eyes-open rest reduce resting-state-network modularity by increasing visual-sensorimotor
+    connectivity
+  authors: Koba C, Notaro G, Tamm S, Nilsonne G, Hasson U
+  year: 2020
+  doi: 10.1162/netn\_a\_00186
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.1101/2020.05.18.100669
+- title: Sleep restriction caused impaired emotional regulation without detectable brain activation changes - a functional
+    magnetic resonance imaging study
+  authors: Tamm S, Nilsonne G, Schwarz J, Golkar A, Kecklund G, Petrovic P, Fischer H, Åkerstedt T, Lekander M
+  year: 2019
+  doi: 10.1098/rsos.181704
+  journal: Nilsonne G
+  links:
+    preprint: http://doi.org/10.1101/436048
+- title: Cross-sectional associations between inflammation, sickness behaviour, health anxiety and self-rated health in a
+    Swedish primary care population
+  authors: Lodin K, Lekander M, Petrovic P, Nilsonne G, Hedman-Lagerlöf E, Andreasson A
+  year: 2019
+  doi: 10.1177/2058739219844357
+  journal: Nilsonne G
+  links: {}
+- title: Improvement in indices of cellular protection after psychological treatment for social anxiety disorder
+  authors: Månsson KNT, Lindqvist D, Yang L, Svanborg C, Isung J, Nilsonne G, Bergman Nordgren L, El Alaou Si, Hedman-Lagerlöf
+    E, Kraepelien M, Högström J, Andersson G, Boraxbekk C-J, Fischer H, Lavebratt C, Wolkowitz O, Furmark T
+  year: 2019
+  doi: 10.1038/s41398-019-0668-2
+  journal: Nilsonne G
+  links: {}
+- title: 'Justify Your Alpha: A Response to “Redefine Statistical Significance”'
+  authors: ''
+  year: 2018
+  doi: 10.1038/s41562-018-0311-x
+  journal: Nature Human Behaviour
+  links:
+    preprint: https://psyarxiv.com/9s3y6
+- title: 'Company employees as experimental participants in traffic safety research: prevalence and implications'
+  authors: Radun I, Nilsonne G, Radun J, Helgesson G, Kecklund G
+  year: 2018
+  doi: 10.1016/j.trf.2018.10.008
+  journal: Nilsonne G
+  links:
+    preprint: http://hdl.handle.net/10616/46553
+- title: 'Data sharing in qualitative research: opportunities and concerns'
+  authors: McGrath C, Nilsonne G
+  year: 2018
+  doi: 10.15694/mep.2018.0000255.1
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31219/osf.io/ewyjb
+- title: 'Effects of 25 mg oxazepam on emotional mimicry and empathy for pain: a randomized controlled experiment'
+  authors: Nilsonne G, Tamm S, Golkar A, Olsson A, Martin I, Petrovic P
+  year: 2017
+  doi: 10.1098/rsos.160607
+  journal: Nilsonne G
+  links:
+    preprint: http://dx.doi.org/10.6084/m9.figshare.1558201
+    data: http://dx.doi.org/10.5281/zenodo.31480
+    code: http://dx.doi.org/10.5281/zenodo.31480
+- title: Circulating interleukin-6 in Parkinson Disease
+  authors: Nilsonne G, Lekander M
+  year: 2017
+  doi: 10.1001/jamaneurol.2017.0037
+  journal: Nilsonne G
+  links:
+    data: http://dx.doi.org/10.5281/zenodo.182505
+    code: http://dx.doi.org/10.5281/zenodo.182505
+- title: Subcortical brain volume differences in participants with attention deficit hyperactivity disorder in children and
+    adults
+  authors: Bejerot S, Nilsonne G, Humble M
+  year: 2017
+  doi: 10.1016/S2215-0366(17)30160-8
+  journal: Nilsonne G
+  links:
+    data: http://dx.doi.org/10.5281/zenodo.345161
+    code: http://dx.doi.org/10.5281/zenodo.345161
+- title: 'Intrinsic brain connectivity after partial sleep deprivation in young and older adults: results from the Stockholm
+    Sleepy Brain Study'
+  authors: Nilsonne G, Tamm S, Schwarz J, Almeida R, Fischer H, Kecklund G, Lekander M, Fransson P, Åkerstedt T
+  year: 2017
+  doi: 10.1038/s41598-017-09744-7
+  journal: Nilsonne G
+  links:
+    preregistration: https://clinicaltrials.gov/ct2/show/NCT02000076
+    preprint: http://dx.doi.org/10.1101/073494
+    data: http://doi.org/10.5281/zenodo.581250
+    code: http://doi.org/10.5281/zenodo.581250
+- title: 'The effect of sleep restriction on empathy for pain: An fMRI study in younger and older adults'
+  authors: Tamm S, Nilsonne G, Lamm C, Kecklund G, Petrovic P, Fischer H, Åkerstedt T, Lekander M
+  year: 2017
+  doi: 10.1038/s41598-017-12098-9
+  journal: Nilsonne G
+  links:
+    preregistration: https://clinicaltrials.gov/ct2/show/NCT02000076
+    data: https://openneuro.org/dataset/ds000201/
+    code: https://openneuro.org/dataset/ds000201/
+- title: Effects of late night short sleep on in-home polysomnography – relation to adult age and sex
+  authors: Åkerstedt T, Lekander M, Nilsonne G, Tamm S, d'Onofrio P, Kecklund G, Fischer H, Schwarz J
+  year: 2017
+  doi: 10.1111/jsr.12626
+  journal: Nilsonne G
+  links: {}
+- title: Intrinsic functional connectivity of insular cortex and symptoms of sickness during acute experimental inflammation
+  authors: Lekander M, Karshikoff B, Johansson E, Soop A, Fransson P, Lundström J. N, Andreasson A, Ingvar M, Petrovic P,
+    Axelsson J, Nilsonne G
+  year: 2016
+  doi: 10.1016/j.bbi.2015.12.018
+  journal: Nilsonne G
+  links:
+    data: http://dx.doi.org/10.5281/zenodo.35770
+    code: http://dx.doi.org/10.5281/zenodo.35770
+- title: Response to a comment on “Estimating the reproducibility of psychological science”
+  authors: Anderson CJ, Bahník Š, Barnett-Cowan M, Bosco FA, Chandler J, Chartier CR, Cheung F, Christopherson CD, Cordes
+    A, Cremata EJ, Della Penna N, Estel V, Fedor A, Fitneva SA, Frank MC, Grange JA, Hartshorne JK, Hasselman F, Henninger
+    F, Jonas KJ, Lai CK, Levitan CA, Miller JK, Moore KS, Meixner JM, Munafò MR, Neijenhuijs KI, Nilsonne G, Nosek BA, Plessow
+    F, Prenoveau JM, Ricker AA, Schmidt K, Spies JR, Stieger S, Strohminger N, Sullivan GB, van Aert RCM, van Assen MALM,
+    van der Hulst M, Vanpaemel W, Vianello M, Voracek M, Zuni K
+  year: 2016
+  doi: 10.1126/science.aad9163
+  journal: Nilsonne G
+  links: {}
+- title: Post-traumatic stress disorder and interleukin 6
+  authors: Nilsonne G, Hilgard J, Lekander M, Arnberg F
+  year: 2016
+  doi: 10.1016/S2215-0366(16)00022-5
+  journal: Nilsonne G
+  links:
+    preprint: http://hdl.handle.net/10616/44992
+- title: 'Health at the ballot box: Disease threat does not predict attractiveness preference in British politicians'
+  authors: Nilsonne G, Renberg A, Tamm S, Lekander M
+  year: 2016
+  doi: 10.1098/rsos.160049
+  journal: Nilsonne G
+  links:
+    data: http://dx.doi.org/10.5281/zenodo.12984
+    code: http://dx.doi.org/10.5281/zenodo.12984
+- title: Reliability and construct validity of the Psychopathic Personality Inventory-Revised in a Swedish non-criminal sample
+    – a multimethod approach including psychophysiological correlates of empathy for pain
+  authors: Sörman K, Nilsonne G, Howner K, Tamm S, Caman S, Wang H, Edens J, Gustavsson P, Lilienfeld S, Ingvar M, Petrovic
+    P, Fischer H, Kristiansson M
+  year: 2016
+  doi: 10.1371/journal.pone.0156570
+  journal: Nilsonne G
+  links:
+    data: http://dx.doi.org/10.5061/dryad.qh8c9
+- title: 'Diurnal variation of circulating interleukin-6: a meta-analysis'
+  authors: Nilsonne G, Lekander M, Åkerstedt T, Axelsson J, Ingre M
+  year: 2016
+  doi: 10.1371/journal.pone.0165799
+  journal: Nilsonne G
+  links:
+    preprint: http://dx.doi.org/10.1101/042507
+- title: Estimating the reproducibility of psychological science
+  authors: Open Science Collaboration
+  year: 2015
+  doi: 10.1126/science.aac4716
+  journal: Open Science Collaboration
+  links:
+    data: https://osf.io/ezcuj
+- title: 'Leukocyte telomere length and hippocampus volume: a meta-analysis'
+  authors: Nilsonne G, Tamm S, Månsson K, Åkerstedt T, Lekander M
+  year: 2015
+  doi: 10.12688/f1000research.7198.1
+  journal: Nilsonne G
+  links:
+    data: http://dx.doi.org/10.5281/zenodo.31771
+    code: http://dx.doi.org/10.5281/zenodo.31771
+- title: Diagnostic and Prognostic Value of Soluble Syndecan-1 for Pleural Malignancies
+  authors: Mundt F, Heidari-Hamedari G, Nilsonne G, Metintas M, Hjerpe A, Dobra K
+  year: 2014
+  doi: 10.1155/2014/419853
+  journal: Nilsonne G
+  links:
+    data: http://dx.doi.org/10.5061/dryad.c42t7
+- title: Variation in Drug Sensitivity of Malignant Mesothelioma Cell Lines with Substantial Effects of Selenite and Bortezomib,
+    Highlights Need for Individualized Therapy
+  authors: Szulkin A, Nilsonne G, Mundt F, Wasik A, Souri P, Hjerpe A, Dobra K
+  year: 2013
+  doi: 10.1371/journal.pone.0065903
+  journal: Nilsonne G
+  links: {}
+- title: Microenvironment-dependent phenotypic changes in a SCID mouse model for malignant mesothelioma
+  authors: Darai-Ramqvist E, Nilsonne G, Flores-Staino C, Hjerpe A, Dobra K
+  year: 2013
+  doi: 10.3389/fonc.2013.00203
+  journal: Nilsonne G
+  links:
+    data: http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48019
+- title: Hyaluronan and N-ERC/Mesothelin as Key Biomarkers in a Specific Two-Step Model to Predict Pleural Malignant Mesothelioma
+  authors: Mundt F*, Nilsonne G*, Arslan S, Csürös K, Hillerdal G, Yildirim H, Metintas M, Dobra K, Hjerpe A
+  year: 2013
+  doi: 10.1371/journal.pone.0072030
+  journal: Nilsonne G
+  links:
+    data: http://dx.doi.org/10.5061/dryad.h122b
+- title: Selenite Induces Posttranscriptional Blockade of HLA-E Expression and Sensitizes Tumor Cells to CD94/NKG2A-Positive
+    NK cells
+  authors: Enqvist M, Nilsonne G, Hammarfjord O, Wallin R, Björkström N, Björnstedt M, Hjerpe A, Ljunggren H-G, Dobra K, Malmberg
+    K-J, Carlsten, M
+  year: 2011
+  doi: 10.4049/jimmunol.1100610
+  journal: Nilsonne G
+  links: {}
+- title: 'Learning in a simple biological system: a pilot study of classical conditioning of human macrophages in vitro'
+  authors: Nilsonne G, Appelgren A, Axelsson J, Fredrikson M, Lekander M
+  year: 2011
+  doi: 10.1186/1744-9081-7-47
+  journal: Nilsonne G
+  links: {}
+- title: Phenotype-dependent apoptosis signalling in mesothelioma cells after selenite exposure
+  authors: Nilsonne G, Olm E, Szulkin A, Mundt F, Stein A, Kosic B, Rundlöf A-K, Fernandes A P, Björnstedt M, Hjerpe A, and
+    Dobra K
+  year: 2009
+  doi: 10.1186/1756-9966-28-92
+  journal: Nilsonne G
+  links: {}
+- title: Syndecan-1 and FGF-2, but Not FGF Receptor-1, Share a Common Transport Route and Co-Localize with Heparanase in the
+    Nuclei of Mesenchymal Tumor Cells
+  authors: Zong F, Fthenou E, Wolmer N, Hollósi P, Kovalszky I, Szilák L, Mogler C, Nilsonne G, Tzanakakis G, and Dobra K
+  year: 2009
+  doi: 10.1371/journal.pone.0007346
+  journal: Nilsonne G
+  links: {}
+- title: Quantification of alternative mRNA species and identification of thioredoxin reductase 1 isoforms in human tumor
+    cells
+  authors: Rundlöf A-K, Fernandes A, Selenius M, Shariatgorji M, Nilsonne G, Ilag L, Dobra K and Björnstedt M
+  year: 2007
+  doi: 10.1111/j.1432-0436.2006.00121.x
+  journal: Nilsonne G
+  links: {}
+- title: Selenite induces apoptosis in sarcomatoid malignant mesothelioma cells through oxidative stress
+  authors: Nilsonne G, Sun X, Nyström C, Rundlöf A-K, Fernandes A, Björnstedt M, Dobra K
+  year: 2006
+  doi: 10.1016/j.freeradbiomed.2006.04.031
+  journal: Nilsonne G
+  links:
+    preprint: http://hdl.handle.net/10616/47514
+- title: A Practical Guide for Transparency in Psychological Science
+  authors: Klein O, Hardwicke TE, Aust F, Breuer J, Danielsson H, Hofelich Mohr A, IJzerman H, Nilsonne G, Vanpaemel W, Frank
+    MC
+  year: 0
+  doi: 10.1525/collabra.158
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.17605/OSF.IO/RTYGM
+- title: 'Data availability, reusability, and analytic reproducibility: Evaluating the impact of a mandatory open data policy
+    at the journal Cognition'
+  authors: Hardwicke TE, Mathur M, MacDonald K, Nilsonne G, Banks GC, Kidwell MC, Hofelich Mohr A, Clayton E, Yoon EJ, Tessler
+    MH, Lenne RL, Altman S, Long B, Frank MC
+  year: 0
+  doi: 10.1098/rsos.180448
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.17605/OSF.IO/39CFB
+- title: Estimating statistical power, posterior probability and publication bias of psychological research using the observed
+    replication rate
+  authors: Ingre M, Nilsonne G
+  year: 0
+  doi: 10.1098/rsos.181190
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.6084/m9.figshare.5573113
+- title: 'Crowdsourcing hypothesis tests: Making transparent how design choices shape research results'
+  authors: ''
+  year: 0
+  doi: 10.1037/bul0000220
+  journal: Psychological Bulletin
+  links:
+    preprint: http://repository.essex.ac.uk/id/eprint/25784
+- title: 'Oxazepam and cognitive reappraisal: a randomised experiment'
+  authors: Nilsonne G, Tamm S, Golkar A, Olsson A, Sörman K, Howner K, Kristiansson M, Ingvar M, Petrovic P
+  year: 0
+  doi: 10.1101/656355
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.1101/656355
+- title: The new Accounting for Expected Adjusted Effect test (AEAE test) has higher positive predictive value than a zero-order
+    significance test
+  authors: Sorjonen K, Nilsonne G, Melin B, Ingre M
+  year: 0
+  doi: 10.1186/s13104-021-05545-4
+  journal: Nilsonne G
+  links:
+    preprint: http://doi.org/10.31234/osf.io/fp8g3
+- title: 'ENIGMA-Sleep: Challenges, opportunities, and the road map'
+  authors: Tahmasian M, Aleman A, Andreassen OA, Arab Z, Baillet M, Benedetti F, Bresser T, Bright J, Chee MWL, Chylinski
+    D, Cheng W, Deantoni M, Dresler M, Eickhoff SB, Eickhoff CR, Elvsåshagen T, Feng J, Foster‐Dingley JC, Ganjgahi H, Grabe
+    HJ, Groenewold NA, Ho TC, Hong SB, Houenou J, Irungu B, Jahanshad N, Khazaie H, Kim H, Koshmanova E, Kocevska D, Kochunov
+    P, Lakbila‐Kamal O, Leerssen J, Li M, Luik AI, Muto V, Narbutas J, Nilsonne G, O’Callaghan VS, Olsen A, Osorio RS, Poletti
+    S, Poudel G, Reesen JE, Reneman L, Reyt M, Riemann D, Rosenzweig I, Rostampour M, Saberi A, Schiel J, Schmidt C, Schrantee
+    A, Sciberras E, Silk TJ, Sim K, Smevik H, Soares JC, Spiegelhalder K, Stein DJ, Talwar P, Tamm S, Teresi G l, Valk SL,
+    Someren EV, Vandewalle G, Egroo MV, Völzke H, Walter M, Wassing R, Weber FD, Weihs A, Westlye LT, Wright MJ, Wu M-J, Zak
+    N, Zarei M
+  year: 0
+  doi: gjtqz6
+  journal: Nilsonne G
+  links: {}
+- title: Editors publishing in their own journals – a systematic review of prevalence and a discussion of normative aspects
+  authors: Helgesson G, Radun I, Radun J, Nilsonne G
+  year: 0
+  doi: 10.1002/leap.1449
+  journal: Nilsonne G
+  links:
+    preprint: https://doi.org/10.31222/osf.io/dc6je
+- title: 'Addressing Climate Change with Behavioral Science: A Global Intervention Tournament in 63 Countries'
+  authors: ''
+  year: 0
+  doi: 10.1126/sciadv.adj5778
+  journal: Science Advances
+  links:
+    preprint: https://doi.org/10.31234/osf.io/cr5at
+- title: 'Longevity biomarkers: applications and limitations'
+  authors: Shrike BT, Nilsonne G, Weisser V, Aimbetov R
+  year: 0
+  doi: 10.55277/ResearchHub.rb3ck05l
+  journal: Nilsonne G
+  links: {}
+preprints:
+- title: Results reporting for clinical trials led by medical universities and university hospitals in the Nordic countries
+    was often missing or delayed
+  authors: Nilsonne G, et al
+  year: 2024
+  doi: 10.1101/2024.02.04.24301363
+  journal: Nilsonne G
+  links: {}
+- title: 'Effects of one-night partial sleep deprivation on perivascular space volume fraction: Findings from the Stockholm
+    Sleepy Brain Study'
+  authors: Custer RM, Lynch KM, Barisano G, Herting MM, Åkerstedt T, Nilsonne G, et al
+  year: 2024
+  doi: 10.1101/2024.10.26.620382
+  journal: Nilsonne G
+  links: {}
+- title: 'Inconclusive evidence for a prospective effect of academic self-concept on achievement: A simulated reanalysis and
+    comment on Marsh et al. (2024)'
+  authors: Sorjonen K, Melin B, Nilsonne G
+  year: 2024
+  doi: 10.31234/osf.io/3cjtr
+  journal: Nilsonne G
+  links: {}
+- title: 'Triangulation can be useful depending on what you wish to achieve: A reply to Lucas et al. (2024)'
+  authors: Sorjonen K, Nilsonne G, Melin B
+  year: 2024
+  doi: 10.31234/osf.io/6dq2j
+  journal: Nilsonne G
+  links: {}
+- title: 'Seven challenges for research integrity education: current status and recommendations'
+  authors: ''
+  year: 2023
+  doi: 10.31219/osf.io/5w9kg
+  journal: OSF Preprints
+  links: {}
+- title: 'Spurious effects in random-intercept cross-lagged panel models: Results from simulations and reanalyses of data
+    on self-esteem and problematic eating behaviors used by Beckers et al. (2023)'
+  authors: Sorjonen K, Nilsonne G, Ghaderi A, Melin B
+  year: 2023
+  doi: 10.31234/osf.io/hferw
+  journal: Nilsonne G
+  links: {}
+- title: 'A tale of two “opens”: Intersections between Free and Open Source Software and Open Scholarship'
+  authors: Tennant J, Agarwal R, Baždarić K, Brassard D, Crick T, Dunleavy DJ, Evans TR, Gardner N, Gonzalez-Marquez M, Graziotin
+    D, Greshake Tzovaras B, Gunnarsson D, Havemann J, Hosseini M, Katz DS, Knöchelmann M, Madan CR, Manghi P, Marocchino A,
+    Masuzzo P, Murray-Rust P, Narayanaswamy S, Nilsonne G, Pacheco-Mendoza J, Penders B, Pourret O, Rera M, Samuel J, Steiner
+    T, Stojanovski J, Uribe-Tirado A, Vos R, Worthington S, Yarkoni T. (2020)
+  year: 2020
+  doi: 10.31235/osf.io/2kxq8
+  journal: Nilsonne G
+  links: {}
+- title: A multimodal brain imaging dataset on sleep deprivation in young and old humans
+  authors: Nilsonne G, Tamm S, d’Onofrio P, Thuné HÅ, Schwarz J, Lavebratt C, Liu, JJ, Månsson KNT, Sundelin T, Axelsson J,
+    Fransson P, Kecklund G, Fischer H, Lekander M, Åkerstedt Torbjörn
+  year: 0
+  journal: Nilsonne G
+  links:
+    preprint: http://hdl.handle.net/10616/45181
+    data: https://openneuro.org/dataset/ds000201/
+- title: 'A cocktail fallacy in research with composite variables: a commentary on job strain and effort–reward imbalance
+    (ERI) theories with updated meta-analyses on health outcomes'
+  authors: Ingre M, Sorjonen K, Nilsonne G
+  year: 0
+  doi: 10.31234/osf.io/9hyxj
+  journal: Nilsonne G
+  links: {}
+- title: Empirical evidence for a three-level model of emotional contagion, empathy and emotional regulation
+  authors: Nilsonne G, Schwarz J, Kecklund G, Petrovic P, Fischer H, Åkerstedt T, Lekander M, Tamm S
+  year: 0
+  doi: 10.31234/osf.io/ake34
+  journal: Nilsonne G
+  links: {}
+- title: 'In aqua veritas: Triangulation of cross-lagged effects for improved causal inference'
+  authors: Sorjonen K, Arshamian A, Lager E, Nilsonne G,Melin B
+  year: 0
+  doi: 10.31234/osf.io/ztwy6
+  journal: Nilsonne G
+  links: {}
+- title: A taxonomy of treatment effects in data with two waves of measurement and a promotion of triangulation
+  authors: Sorjonen K, Arshamian A, Lager E, Nilsonne G,Melin B
+  year: 0
+  doi: 10.31234/osf.io/q47s6
+  journal: Nilsonne G
+  links: {}
+- title: 'Still spurious: A comment on attempts to revive cognitive ability tilts'
+  authors: Sorjonen K, Melin B, Nilsonne G
+  year: 0
+  doi: 10.31234/osf.io/tbhx6
+  journal: Nilsonne G
+  links: {}
+- title: 'The Spurious Prospective Associations Model (SPAM): Explaining longitudinal associations due to statistical artifacts'
+  authors: Sorjonen K, Melin B, Nilsonne G
+  year: 0
+  doi: 10.31234/osf.io/aj6mn
+  journal: Nilsonne G
+  links: {}
+book_chapters:
+- title: 'Affective Regulation and the Neuroscience of Emotion: Festschrift in Honor of Arne Öhman'
+  authors: Nilsonne G
+  year: 2011
+  journal: Gustav Nilsonne
+  links:
+    web: http://libris.kb.se/bib/13545415
+presentations:
+- title: Concepts in Open Science
+  year: 2025
+  type: invited
+  links:
+    slides: https://osf.io/5r8v9
+- title: Öppna forskningsdata för ett rationellt samhälle
+  year: 2025
+  type: invited
+  links: {}
+- title: ReproducibiliTea Journal Club
+  year: 2024
+  type: invited
+  links: {}
+- title: On Metascience
+  year: 2024
+  type: invited
+  links:
+    slides: https://osf.io/xq623
+- title: Metascience in medical research–some examples
+  year: 2024
+  type: invited
+  links:
+    slides: https://osf.io/2xq5h
+- title: Så kan medicinsk forskning bli mer pålitlig och användbar
+  year: 2024
+  type: invited
+  links:
+    slides: https://osf.io/j7tgk
+- title: Research Assessment for Transparency and Reproducibility
+  year: 2024
+  type: invited
+  links: {}
+- title: Multi-analyst research designs and the influence of analytical variability on the robustness of research results
+  year: 2024
+  type: invited
+  links:
+    slides: https://osf.io/rbshd
+- title: Data sharing in research on human participants
+  year: 2024
+  type: invited
+  links:
+    slides: https://osf.io/79hcn
+- title: 'The long road towards open science: strategies for change'
+  year: 2024
+  type: invited
+  links:
+    slides: https://osf.io/rn8wf
+    code: https://doi.org/10.5281/zenodo.12570472
+- title: On Metascience
+  year: 2024
+  type: invited
+  links: {}
+- title: Metascience for better research transparency and reproducibility
+  year: 2024
+  type: invited
+  links:
+    slides: https://osf.io/9wq8c
+- title: Data sharing – some principles and examples
+  year: 2024
+  type: invited
+  links:
+    slides: https://osf.io/cw5bn
+- title: Varför öppna forskningsdata? Juridiken som möjliggörare
+  year: 2024
+  type: invited
+  links:
+    slides: https://osf.io/ypwm5
+- title: Vägen mot öppen tillgång till forskningsdata - hur går omställningen?
+  year: 2024
+  type: popular-science
+  links:
+    video: https://www.youtube.com/watch?v=pa9PV9jw5-M
+- title: How to make science more trustworthy by improving transparency and reproducibility
+  year: 2023
+  type: invited
+  links:
+    slides: https://osf.io/ung8q
+- title: Historien bakom Coara
+  year: 2023
+  type: invited
+  links:
+    slides: https://osf.io/e8pvs
+- title: The why and how of data sharing
+  year: 2023
+  type: invited
+  links:
+    slides: https://osf.io/ht7d5
+- title: Bortom transformativa avtal
+  year: 2023
+  type: invited
+  links:
+    slides: https://osf.io/85a6x
+- title: Open science and reproducible research
+  year: 2023
+  type: invited
+  links:
+    slides: https://osf.io/5a8f2
+- title: Brainstorming new ways to drive clinical trial reporting
+  year: 2023
+  type: invited
+  links:
+    video: https://www.youtube.com/watch?v=HohWoE3bMi0
+- title: 'Debate: Should sponsors be sanctioned for failing to report clinical results?'
+  year: 2023
+  type: invited
+  links:
+    video: https://www.youtube.com/watch?v=IjsGeVlkXeE
+- title: Teaching reproducible research practices – experiences from Karolinska Institutet
+  year: 2023
+  type: invited
+  links:
+    slides: https://osf.io/e6vrj
+- title: Sekundäranvändning av forskningsdata – forskarens perspektiv
+  year: 2023
+  type: invited
+  links:
+    slides: https://osf.io/xthbf
+- title: CoARA – bakgrund och innebörd ur en forskares perspektiv
+  year: 2023
+  type: invited
+  links:
+    slides: https://osf.io/85a6x
+- title: Rapportering av utförda studier – en aspekt av forskningens transparens och integritet
+  year: 2023
+  type: invited
+  links:
+    slides: https://osf.io/jc7dy
+- title: Data sharing in neuroimaging research
+  year: 2023
+  type: invited
+  links:
+    slides: https://osf.io/fk3ny
+- title: Open and accessible data – a recipe for research success?
+  year: 2023
+  type: invited
+  links:
+    video: https://www.kth.se/en/biblioteket/kalender/evenemang/oppen-och-tillganglig-data-framgangsrecept-for-forskning-1.1270470
+- title: Ett forskarperspektiv
+  year: 2023
+  type: invited
+  links: {}
+- title: Clinical trials reporting at Nordic medical universities and university hospitals
+  year: 2023
+  type: invited
+  links:
+    video: https://www.youtube.com/watch?v=RoYXvmG0KN0
+    slides: https://osf.io/z2cyn
+- title: 'Pathways to an open science system: Replacing academic journals'
+  year: 2023
+  type: invited
+  links:
+    slides: https://osf.io/jvw5g
+- title: Replacing Academic Journals
+  year: 2023
+  type: invited
+  links: {}
+- title: Replacing Academic Journals
+  year: 2023
+  type: invited
+  links: {}
+- title: Clinical trials reporting at Nordic medical universities and university hospitals
+  year: 2023
+  type: invited
+  links:
+    slides: https://osf.io/bh98f
+- title: Clinical trials reporting at Nordic medical universities and university hospitals
+  year: 2023
+  type: invited
+  links:
+    slides: https://osf.io/cdqm6
+- title: Olika slutsatser från samma data - analytisk flexibilitet i medicinsk forskning
+  year: 2023
+  type: conference
+  event: Nilsonne G
+  links:
+    slides: https://osf.io/fm7we
+- title: 'EEGManyPipelines: A large-scale, grass-root multi-analyst study of EEG analysis practices'
+  year: 2023
+  type: conference
+  event: Nilsonne G
+  links:
+    slides: https://osf.io/zn2vf
+- title: Risk Of Significant Error - A checklist to assess the risk of errors in statistical reporting and datasets
+  year: 2023
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Ensuring DeSci results are reproducible and trustworthy
+  year: 2023
+  type: conference
+  event: Nilsonne G
+  links:
+    slides: https://osf.io/z5amvh
+- title: Research assessment as a lever to improve scientific practices
+  year: 2023
+  type: conference
+  event: Nilsonne G
+  links:
+    code: https://zenodo.org/doi/10.5281/zenodo.8390232
+    slides: https://vimeo.com/showcase/10628629/video/862484008
+- title: Clinical trials reporting at Nordic medical universities and university hospitals
+  year: 2023
+  type: conference
+  event: Nilsonne G
+  links:
+    slides: https://osf.io/z2cyn
+- title: Coara – vad är det?
+  year: 2023
+  type: conference
+  event: Nilsonne G
+  links:
+    slides: https://osf.io/2jw5n
+- title: Big team science reproducibility collaborations and transnational initiatives
+  year: 2023
+  type: conference
+  event: Nilsonne G
+  links:
+    slides: https://osf.io/b7v3y
+- title: Risk Of Statistical Error - A checklist to assess the risk of errors in statistical reporting and datasets
+  year: 2023
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Meta-vetenskap med Gustav Nilsonne
+  year: 2023
+  type: popular-science
+  links:
+    web: https://tyngre.se/podcast/tyngre-traningssnack/meta-vetenskap-med-gustav-nilsonne
+- title: How to reclaim ownership of scholarly publishing
+  year: 2022
+  type: invited
+  links:
+    slides: https://osf.io/rc82z/
+- title: Meritvärdering för ett öppet forskningssystem i Europa
+  year: 2022
+  type: invited
+  links:
+    slides: https://osf.io/dqyp3/
+- title: Big team science in Psychology - How to use large samples and many analysts to assess and improve reproducibility
+  year: 2022
+  type: invited
+  links:
+    slides: https://osf.io/b3wh6/
+- title: Using the Brain Imaging Data Structure (BIDS) to organise and analyse data
+  year: 2022
+  type: invited
+  links:
+    slides: https://osf.io/4rtcx/
+- title: Reproducerbarhetskrisen i biomedicinsk forskning
+  year: 2022
+  type: invited
+  links: {}
+- title: Implementering av SUHF:s färdplan för öppen vetenskap
+  year: 2022
+  type: invited
+  links:
+    slides: https://osf.io/xf9nk/
+- title: Replacing Academic Journals
+  year: 2022
+  type: invited
+  links:
+    slides: https://osf.io/amz5w/
+- title: Research Reproducibility in the Social Sciences
+  year: 2022
+  type: invited
+  links:
+    slides: https://osf.io/zvm7p/
+- title: I stället för tidskrifter
+  year: 2022
+  type: invited
+  links: {}
+- title: 'Omställning till ett öppet vetenskapssystem: svenska lärosätens roll'
+  year: 2022
+  type: invited
+  links:
+    slides: https://osf.io/zvyqa/
+- title: Open Science
+  year: 2022
+  type: invited
+  links:
+    slides: https://stefanwiens.github.io/open_science_talk/openscience.html
+- title: Öppen tillgång till forskningsdata
+  year: 2022
+  type: invited
+  links:
+    slides: https://osf.io/s26xh
+- title: Pathways towards community-based, transparent, and systematic quality control of research objects
+  year: 2022
+  type: invited
+  links:
+    slides: https://osf.io/4u6jc
+- title: Perspectives on scientific reproducibility
+  year: 2022
+  type: invited
+  links:
+    slides: https://osf.io/hnju6
+- title: Transparency and reproducibility in neuroscience
+  year: 2022
+  type: invited
+  links:
+    slides: https://osf.io/nx2yw
+- title: Transparency and reproducibility in psychiatry research
+  year: 2022
+  type: invited
+  links:
+    slides: https://osf.io/wnm4r
+- title: Systematic, transparent, and community-based assessment and quality control of research data
+  year: 2022
+  type: invited
+  links:
+    slides: https://osf.io/wnm4r
+- title: Open science and data sharing
+  year: 2022
+  type: invited
+  links:
+    slides: https://osf.io/bvu2s
+- title: Teaching open science and reproducible research at Karolinska Institutet
+  year: 2022
+  type: invited
+  links:
+    slides: https://osf.io/9s2pd
+- title: 'Data domain specialists and flagship projects: challenges and successes in crafting partner contributions to the
+    Swedish National Data Service consortium'
+  year: 2022
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Changing the publication system
+  year: 2022
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Forskning vi kan lita på - en förutsättning för rationellt beslutsfattande
+  year: 2022
+  type: popular-science
+  links:
+    slides: https://osf.io/cbtgq/
+- title: Falska forskningsfynd?
+  year: 2022
+  type: popular-science
+  links:
+    web: https://poddtoppen.se/podcast/1373262000/barnpsykologerna/163-falska-forskningsfynd
+- title: Öppen vetenskap och forskningens pålitlighet
+  year: 2022
+  type: popular-science
+  links:
+    web: https://open.spotify.com/episode/6BxWjCEWoI1JO1rT7weYZL
+- title: Open and FAIR data – some principles and examples
+  year: 2021
+  type: invited
+  links:
+    slides: https://osf.io/3at4s/
+- title: Betydelsen av datahanteringsplaner
+  year: 2021
+  type: invited
+  links:
+    slides: https://osf.io/nmdp4/
+- title: Is PrePublication the future? Challenges and opportunities after a pandemic
+  year: 2021
+  type: invited
+  links: {}
+- title: Reproducibility in science –challenges and solutions
+  year: 2021
+  type: invited
+  links:
+    slides: https://osf.io/9uw4x/
+- title: The multi-analyst design - examples and outstanding metascientific questions
+  year: 2021
+  type: invited
+  links:
+    slides: https://osf.io/yprkw/
+- title: Replacing Academic journals
+  year: 2021
+  type: invited
+  links:
+    slides: https://osf.io/uktqb/
+- title: '"It matters how we open knowledge": A panel discussion on open access and equity'
+  year: 2021
+  type: invited
+  links:
+    web: https://kib.ki.se/kalender/it-matters-how-we-open-knowledge-panel-discussion-open-access-and-equity
+    video: https://www.youtube.com/watch?v=6oZbVTqhX5o
+- title: Methods to assess and mitigate re-identification risks when sharing research data
+  year: 2021
+  type: invited
+  links:
+    slides: https://osf.io/7xenk/
+- title: Ethics of FAIR in Neuroimaging
+  year: 2021
+  type: conference
+  event: Nilsonne G
+  links:
+    video: http://somup.com/crfqiyF6BC
+    slides: 'https://osf.io/bswxp/ '
+- title: Data sharing for clinical research – challenges and opportunities
+  year: 2021
+  type: conference
+  event: Nilsonne G
+  links:
+    slides: https://osf.io/4rgj3/
+- title: Gustav Nilsonne om replikerbarhet och open science
+  year: 2021
+  type: popular-science
+  links:
+    web: https://dubbelblind.se/Avsnitt-2.html
+- title: 'Open neuroimaging data and personal data privacy: convergence or divergence'
+  year: 2020
+  type: invited
+  links:
+    code: https://github.com/ohbm/osr2020/issues/70
+    video: https://www.youtube.com/watch?v=A3BapxKPnRQ&list=PLVso6Qs8PLChTc8uMUWNSe_Bj4tfOHC_f&index=27
+- title: Pre-registration, Registered reports
+  year: 2020
+  type: invited
+  links:
+    preregistration: https://github.com/ohbm/osr2020/issues/88
+    video: https://www.youtube.com/watch?v=-GKKiwMyfH8&list=PLVso6Qs8PLChTc8uMUWNSe_Bj4tfOHC_f&index=15
+- title: 'Brain research data sharing and personal data privacy: continued discussion on anonymization + community meeting'
+  year: 2020
+  type: invited
+  links:
+    code: https://github.com/ohbm/osr2020/issues/93
+    video: https://www.youtube.com/watch?v=j9wFwBxwMvI&list=PLVso6Qs8PLChTc8uMUWNSe_Bj4tfOHC_f&index=16
+- title: Publicly sharing data – opportunities and challenges
+  year: 2020
+  type: invited
+  links:
+    slides: https://osf.io/tp37s/
+- title: Öppen data och registerforskning
+  year: 2020
+  type: invited
+  links:
+    slides: https://osf.io/sfn4v/
+- title: Anonymization and secondary use of individual participant data
+  year: 2020
+  type: conference
+  event: Nilsonne G
+  links:
+    web: https://www.reward-equator-conference-2020.com/programme/#programme
+- title: Data sharing for scientific integrity - examples and frameworks
+  year: 2020
+  type: conference
+  event: Nilsonne G
+  links:
+    slides: https://osf.io/sz3wn/
+- title: Open methodology and reproducible research
+  year: 2019
+  type: invited
+  links:
+    slides: https://osf.io/ah6sy/
+- title: Panel discussion about open science
+  year: 2019
+  type: invited
+  links: {}
+- title: 'Open Science: a researcher’s perspective'
+  year: 2019
+  type: invited
+  links: {}
+- title: Open science – what a young researcher needs to know?
+  year: 2019
+  type: invited
+  links:
+    slides: https://osf.io/xbcde/
+- title: Reproducerbarhet i psykologisk och psykiatrisk forskning - några exempel
+  year: 2019
+  type: conference
+  event: Nilsonne G
+  links:
+    slides: https://osf.io/5nt6s/
+- title: Reproducerbarhet i psykologisk och psykiatrisk forskning - några exempel
+  year: 2019
+  type: conference
+  event: Nilsonne G
+  links:
+    slides: https://osf.io/n6mhf/
+- title: Open data in research on humans – promises and challenges
+  year: 2019
+  type: conference
+  event: Nilsonne G
+  links:
+    slides: https://osf.io/ja4sr/
+- title: Ett forskningsprojekt från ax till limpa
+  year: 2019
+  type: popular-science
+  links:
+    slides: https://osf.io/zx59b/
+- title: Demokratisera forskningen - till varje pris?
+  year: 2019
+  type: popular-science
+  links:
+    video: https://www.facebook.com/vetenskapoallm/videos/882241585458235/
+- title: A research project from start to finish
+  year: 2019
+  type: popular-science
+  links: {}
+- title: Forskning och verklighet – vilka vetenskapliga påståenden kan vi lita på och varför?
+  year: 2019
+  type: popular-science
+  links:
+    slides: https://osf.io/y65gr/
+- title: Open data - examples and reflections
+  year: 2018
+  type: invited
+  links: {}
+- title: Open data in neuroimaging research
+  year: 2018
+  type: invited
+  links:
+    slides: https://osf.io/s8bep/
+- title: Öppna forskningsdata
+  year: 2018
+  type: invited
+  links: {}
+- title: Åtgärder för öppna data
+  year: 2018
+  type: invited
+  links: {}
+- title: Kan vi skilja mellan bra och dålig forskning?
+  year: 2018
+  type: invited
+  links: {}
+- title: 'Intrinsic brain connectivity after partial sleep deprivation in young and older adults: results from the Stockholm
+    Sleepy Brain study'
+  year: 2018
+  type: invited
+  links: {}
+- title: Preprints – a discussion
+  year: 2018
+  type: invited
+  links:
+    slides: https://osf.io/wfctz/
+- title: Reproducibility and Openness in Psychological Science
+  year: 2018
+  type: invited
+  links:
+    slides: https://osf.io/yre8g/
+- title: Open and FAIR data from human participants in neuroscientific research
+  year: 2018
+  type: invited
+  links:
+    slides: https://osf.io/8jbqh/
+- title: 'Meta-science in neuroscience: examples and perspectives'
+  year: 2018
+  type: invited
+  links:
+    slides: https://osf.io/f6hjs/
+- title: The FAIR principles and global health research
+  year: 2018
+  type: conference
+  event: Nilsonne G
+  links:
+    slides: https://osf.io/2nxmr/
+- title: Dissipating and cumulating research fields - new concepts for promoting data salvage
+  year: 2018
+  type: conference
+  event: Nilsonne G
+  links:
+    slides: https://osf.io/u7z23/
+- title: Replikeringsproblemet och dess möjliga lösningar
+  year: 2018
+  type: popular-science
+  links: {}
+- title: Replikeringsproblemet och dess möjliga lösningar
+  year: 2018
+  type: popular-science
+  links:
+    web: https://www.facebook.com/events/674879442897045/
+- title: S13. Can Psychological Treatment Slow Down Cellular Aging in Social Anxiety Disorder? An Intervention Study Evaluating
+    Changes in Telomere Length and Telomerase Activity
+  year: 2018
+  type: conference-abstract
+  event: Nilsonne G
+  links: {}
+- title: 'Sleepy Brain 2: Multimodal brain imaging after a night of sleep deprivation'
+  year: 2018
+  type: conference-abstract
+  event: Nilsonne G
+  links:
+    poster: https://osf.io/vxmdj/
+- title: Forskningsetik och öppna data
+  year: 2017
+  type: invited
+  links: {}
+- title: 'Effects of sleep deprivation on resting state connectivity and emotional processing: results from the Stockholm
+    Sleepy Brain study'
+  year: 2017
+  type: invited
+  links: {}
+- title: Brain imaging of sleep deprivation in healthy older humans – results from the Stockholm Sleepy Brain study
+  year: 2017
+  type: invited
+  links: {}
+- title: Reproducibility and Openness in Psychiatry and Psychology, Karolinska Institutet, Centre for Psychiatry Research,
+    2017-11-17
+  year: 2017
+  type: invited
+  links:
+    slides: https://osf.io/6zu3s/
+- title: Reproducibility and Openness in Psychiatry and Psychology, Karolinska Institutet, Kompetenscentrum för psykoterapi,
+    2017-12-05
+  year: 2017
+  type: invited
+  links: {}
+- title: Öppen vetenskap – principer, exempel och erfarenheter
+  year: 2017
+  type: invited
+  links: {}
+- title: Nilsonne G. Panelsamtal. Öppen Vetenskap – Möjligheter och utmaningar, Stoc
+  year: 2017
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: 'Increased global fMRI signal variability after partial sleep deprivation: findings from the Stockholm Sleepy Brain
+    study'
+  year: 2017
+  type: conference
+  event: Nilsonne G
+  links:
+    poster: https://files.aievolution.com/hbm1701/abstracts/36492/1909_Nilsonne.pdf
+- title: 'Interleukin-6: diurnal variation and relation to sleep'
+  year: 2017
+  type: conference
+  event: Nilsonne G
+  links:
+    poster: https://osf.io/kd53f/
+- title: 'Increased global fMRI signal variability after partial sleep deprivation: findings from the Stockholm Sleepy Brain
+    study'
+  year: 2017
+  type: conference
+  event: Nilsonne G
+  links:
+    poster: https://files.aievolution.com/hbm1701/abstracts/36492/1909_Nilsonne.pdf
+- title: 'Workshop: IRB for open data'
+  year: 2017
+  type: conference
+  event: Nilsonne G
+  links:
+    code: https://github.com/gilmore-lab/sips-2017-07-30/blob/master/index.Rmd
+    slides: https://osf.io/9d5hr/
+- title: 'Salvaging data: retrospective publication'
+  year: 2017
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Incentivizing open data with badges
+  year: 2017
+  type: conference
+  event: Nilsonne G
+  links:
+    slides: https://osf.io/r7xv2/
+- title: 'Red Vic lecture: The Reproducibility Crisis 2017-08-15. Web: \hrefhttps://www.facebook.com/events/1'
+  year: 2017
+  type: popular-science
+  links:
+    web: https://www.facebook.com/events/1938720233042050/
+- title: 'Panelsamtal Axfoundation: Hotet mot sanningen 2017-10-10.'
+  year: 2017
+  type: popular-science
+  links: {}
+- title: Replication science and other methods for reproducible research
+  year: 2016
+  type: invited
+  links: {}
+- title: What’s new in open science and reproducible research?
+  year: 2016
+  type: invited
+  links: {}
+- title: Öppen och reproducerbar vetenskap
+  year: 2016
+  type: invited
+  links:
+    web: http://www.neuro.uu.se/kalendarium/kalendarium-detaljsida/?eventId=20518
+- title: Open data. Karolinska Institutet Library, Stockholm, Sweden, 2016
+  year: 2016
+  type: invited
+  links: {}
+- title: Open science and reproducible research
+  year: 2016
+  type: invited
+  links: {}
+- title: 'Open data: examples and implications'
+  year: 2016
+  type: invited
+  links: {}
+- title: Öppna och dolda data – konsekvenser för forskning och hälsa
+  year: 2016
+  type: invited
+  links:
+    web: http://www.sverigesungaakademi.se/823.html
+    video: https://www.youtube.com/watch?v=VLYBNdt0neo
+- title: Open data. Karolinska University Hospital/Southwestern Stockholm Psychiatry region, OCD tea
+  year: 2016
+  type: invited
+  links: {}
+- title: 'Öppna data Open Science lecture series. Stockholm University Library, 2016. Slides: \hrefh'
+  year: 2016
+  type: invited
+  links:
+    slides: http://su.se/polopoly_fs/1.308713.1479911338!/menu/standard/file/\%C3\%96ppna\%20data\%20SU-biblioteket\%20161122.pptx
+- title: 'It hurts me too: an fMRI study on the effects of experimental sleep restriction on empathy for pain in younger and
+    older adults'
+  year: 2016
+  type: conference
+  event: Social & Affective Neuroscience Society Annual Meeting
+  links: {}
+- title: 'Öppna, slutna och dolda data: erfarenheter av en metaanalys och synpunkter från en forskares horisont'
+  year: 2016
+  type: conference
+  event: Nilsonne G
+  links:
+    data: http://www.kb.se/Dokument/program_moa_responsiv.pdf
+    slides: http://www.slideshare.net/kbredaktion/ppna-slutna-och-dolda-data-erfarenheter-av-en-metaanalys-och-synpunkter-frn-en-forskares-horisont-gustav-nilsonne
+- title: 'The hidden costs of nudging: Experimental evidence from reminders in fundraising'
+  year: 2016
+  type: conference
+  event: Gravert C
+  links: {}
+- title: 'Vetenskapsspecial 2016-10-20. SoundCloud: \hrefhttps://soundcloud.com/radiobubbla/torsdag-20-oktobe'
+  year: 2016
+  type: popular-science
+  links: {}
+- title: 'Vetenskapsspecial 2016-11-18. SoundCloud: \hrefhttps://soundcloud.com/radiobubbla/fredag-18-novembe'
+  year: 2016
+  type: popular-science
+  links: {}
+- title: 'Medicinspecial 2016-12-13. SoundCloud: \hrefhttps://soundcloud.com/radiobubbla/tisdag-13-december-t'
+  year: 2016
+  type: popular-science
+  links: {}
+- title: 'Vetenskapsspecial 2016-12-28. SoundCloud: \hrefhttps://soundcloud.com/radiobubbla/onsdag-28-decembe'
+  year: 2016
+  type: popular-science
+  links: {}
+- title: 'Panelsamtal Människa Plus 2016-11-27. Web: \hrefhttp://kulturhusetstadsteatern.se/ForumDebatt/Evene'
+  year: 2016
+  type: popular-science
+  links:
+    web: http://kulturhusetstadsteatern.se/ForumDebatt/Evenemang/2016/Manniska-maskin/
+- title: Panelsamtal tidningen Curies femårsjubileum 2016-11-30
+  year: 2016
+  type: popular-science
+  links: {}
+- title: Women sleep better and have a stronger response to late night curtailed sleep than men, particularly in older individuals-effects
+    on polysomnographical sleep
+  year: 2016
+  type: conference-abstract
+  event: Nilsonne G
+  links:
+    poster: http://www.stressforskning.su.se/polopoly_fs/1.302846.1476781538!/menu/standard/file/Torbj\%C3\%B6rn\%20september\%202016.pdf
+- title: Why do psychopathic traits persist? - an evolutionary perspective
+  year: 2015
+  type: invited
+  links: {}
+- title: Reproducibility in psychological science
+  year: 2015
+  type: invited
+  links: {}
+- title: 'Psychopathy: Brain mechanisms from an evolutionary perspective'
+  year: 2015
+  type: invited
+  links: {}
+- title: Effects of Sleep Deprivation on Emotional Processing Related to Others’ Emotional Expression and Experience
+  year: 2015
+  type: conference
+  event: Nilsonne G
+  links:
+    web: http://www.psychologicalscience.org/convention/icps_program/search/viewProgram.cfm?Abstract_ID=33014
+- title: How can we live forever? The dilemma of human enhancement
+  year: 2015
+  type: popular-science
+  event: Crosstalks
+  links:
+    web: http://www.su.se/english/society-and-business/conversations-on-research/how-can-we-live-forever-1.245569
+    video: https://www.youtube.com/watch?v=74irIhJVKK8\&index=32\&list=PLvm-fAk-DoHVR6aWtbjW3oX9J7\_3KIhH3
+- title: Evidensbaserad politik
+  year: 2015
+  type: popular-science
+  links:
+    web: http://www.almedalsveckan.info/event/view/32971
+- title: Evidensbaserad policy
+  year: 2015
+  type: popular-science
+  links:
+    web: https://www.facebook.com/events/963649207030580/
+- title: Vi måste randomisera oss
+  year: 2015
+  type: popular-science
+  links: {}
+- title: Oxazepam and emotional responding
+  year: 2015
+  type: popular-science
+  links: {}
+- title: 'Stockholm Pride/Vetenskap och Folkbildning 2015-07-27: Häng med en forskare'
+  year: 2015
+  type: popular-science
+  links: {}
+- title: 'Vetenskapsspecial 2015-02-14. SoundCloud: \hrefhttps://soundcloud.com/radiobubbla/lordag-14-februar'
+  year: 2015
+  type: popular-science
+  links: {}
+- title: Effects of sleep deprivation on brain functions in the emotional domain
+  year: 2014
+  type: invited
+  links: {}
+- title: Prosocial enhancement
+  year: 2014
+  type: invited
+  links: {}
+- title: 'Sleep deprivation and the brain: focus on emotion'
+  year: 2014
+  type: invited
+  event: Imaging the Sleepy Brain
+  links: {}
+- title: Effect of partial sleep deprivation on empathic responding in an fMRI experiment
+  year: 2014
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Effect of partial sleep deprivation on empathy for pain in an fMRI experiment
+  year: 2014
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Sleep Deprivation and Emotion – fMRI studies
+  year: 2014
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Sömn, sömnbrist och emotionell reglering
+  year: 2014
+  type: popular-science
+  links:
+    web: http://www.stressforskning.su.se/om-oss/evenemang/arbete-och-\%C3\%A5terh\%C3\%A4mtning-nya-id\%C3\%A9er-om-hur-stress-s\%C3\%B6mn-\%C3\%A5lder-och-arbetstider-h\%C3\%A4nger-ihop-1.177394
+    video: https://www.youtube.com/watch?v=wq2C_KNrn-8
+- title: Effect of partial sleep deprivation on empathy for pain in an fMRI experiment
+  year: 2014
+  type: conference-abstract
+  event: Nilsonne G
+  links: {}
+- title: Effects of partial sleep deprivation on the neural mechanisms of face perception
+  year: 2014
+  type: conference-abstract
+  event: Nilsonne G
+  links:
+    poster: http://www.stressforskning.su.se/polopoly_fs/1.238728.1433421508!/menu/standard/file/hanna.pdf
+- title: 'Partial sleep deprivation and emotional function: the Stockholm Sleepy Brain Project'
+  year: 2013
+  type: invited
+  links: {}
+- title: Psychopathic traits and the representation of others’ emotional states
+  year: 2013
+  type: conference
+  event: Nilsonne G
+  links:
+    poster: http://www.stressforskning.su.se/polopoly_fs/1.238724.1433421432!/menu/standard/file/Gustav\%202.pdf
+- title: Pharmacological modulation of empathy using Oxazepam
+  year: 2013
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Effect of partial sleep deprivation on self-rated health and sickness
+  year: 2013
+  type: conference
+  event: Nilsonne G
+  links:
+    poster: http://www.stressforskning.su.se/polopoly_fs/1.238751.1433422633!/menu/standard/file/PNIRS\%20Gustav\%20Nilsonne.pdf
+- title: Detection of facial mimicry by electromyography during fMRI scanning
+  year: 2013
+  type: conference
+  event: Nilsonne G
+  links:
+    poster: http://www.stressforskning.su.se/polopoly_fs/1.238727.1433421471!/menu/standard/file/Gustav\%203.pdf
+- title: Emotional Regulation and Empathy – Pharmacological and Translational Studies
+  year: 2012
+  type: invited
+  links: {}
+- title: Psychopathic traits and the representation of others’ emotional states
+  year: 2012
+  type: invited
+  links: {}
+- title: Effects of 25 mg Oxazepam on self-reported and psychophysiological measures of empathy
+  year: 2012
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Effects of 25 mg Oxazepam on self-reported and psychophysiological measures of empathy
+  year: 2012
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: 'Effects of 25 mg Oxazepam on empathy: a behavioural study'
+  year: 2012
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Kärlek och sex i hjärnan
+  year: 2012
+  type: popular-science
+  links:
+    web: http://test.tomtit.se/event-konferens/Science-cafe/
+- title: Annat sex
+  year: 2012
+  type: popular-science
+  links:
+    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-82012/Uppskattad-och-normvidgande-temadag-pa-Karolinska-Institutet-/
+- title: Empati - när, var, och hur?
+  year: 2012
+  type: popular-science
+  links:
+    web: http://www.sls.se/Utbildning/Webb-tv/Tisdagar-2012/
+    video: http://79.136.112.58/ability/show/qks/sls11dec12/speed.asp
+- title: Informationsinfrastruktur för ett rationellt samhälle
+  year: 2012
+  type: popular-science
+  links: {}
+- title: Open Access från en forskares horisont
+  year: 2011
+  type: invited
+  event: Vetenskapsrådet
+  links:
+    slides: http://www.kb.se/dokument/Bibliotek/utbildning/2011/Nilsonne\%20Open\%20Access\%20forskares\%20horisont\%20111012.pdf
+- title: Varför open access - en forskares perspektiv
+  year: 2011
+  type: invited
+  links:
+    web: https://www.kth.se/kthb/publicering/open-access/open-access-week/open-access-week-2011-1.546646
+- title: Sex och kärlek i hjärnan
+  year: 2011
+  type: popular-science
+  links: {}
+- title: Varför behöver vi en ny sexualvaneundersökning?
+  year: 2011
+  type: popular-science
+  links: {}
+- title: Sex och kärlek i hjärnan
+  year: 2011
+  type: popular-science
+  links:
+    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-52011/Medlemskvall-4-okt-Sex-och-karlek-i-hjarnan/
+- title: Nilsonne G et al. Title not on record. KI Cancer Retreat, Djurönäset 2009.
+  year: 2009
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Nilsonne G et al. Title not on record. KI Cancer Retreat, Djurönäset 2008.
+  year: 2008
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Nilsonne G et al. Title not on record. KI Cancer Retreat, Djurönäset 2007.
+  year: 2007
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Selenite-induced apoptosis signalling in differentially sensitive mesothelioma cell lines
+  year: 2007
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: 'Nilsonne G et al. Title not on record. Cell Signalling World: Signal Transdu'
+  year: 2006
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Nilsonne G et al. Title not on record. KI Cancer Retreat, Djurönäset 2006.
+  year: 2006
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Targeting thioredoxin reductase - a possible new treatment for malignant mesothelioma
+  year: 2006
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Selenite induces apoptosis in therapy resistant malignant mesothelioma cells
+  year: 2005
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Selenite induces apoptosis in therapy resistant malignant mesothelioma cells
+  year: 2005
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Selenite induces apoptosis in malignant mesothelioma cells
+  year: 2004
+  type: conference
+  event: Nilsonne G
+  links: {}
+- title: Differential effects of selenite on malignant mesothelioma cells - a novel therapeutic approach related to the Trx-TrxR
+    system and the redox state of the cells
+  year: 2004
+  type: conference-abstract
+  event: Nilsonne G
+  links: {}
+- title: Nilsonne G. Title not on record. Läkaresällskapets Riksstämma, Sektionen för
+  year: 2003
+  type: conference
+  event: Nilsonne G
+  links: {}
+other_publications:
+- title: 'Fostering Open Science in Europe: Engagement Strategies from EOSC''s Task Forces on Research Careers and Curricula'
+  authors: Nilsonne G
+  year: 2024
+  doi: 10.5281/zenodo.10925393
+  journal: Gustav Nilsonne
+  links:
+    code: https://doi.org/10.5281/zenodo.10925393
+  section_source: Reports
+- title: Delning av forskningsdata – att göra humanistisk forskning nåbar för fler
+  authors: Tikkanen KW, Nilsonne G
+  year: 2024
+  journal: Nilsonne G
+  links:
+    web: https://humtank.se/svensk-nationell-datatjanst-delning-av-forskningsdata-att-gora-humanistisk-forskning-nabar-for-fler/
+  section_source: Scholarly debate
+- title: An open letter regarding Scientific Reports
+  authors: Bishop D, et al
+  year: 2024
+  links:
+    web: https://deevybee.blogspot.com/2024/10/an-open-letter-regarding-scientific.html
+  section_source: Scholarly debate
+- title: ”Många forskare struntar i att redovisa sina resultat”
+  authors: Nilsonne G
+  year: 2024
+  journal: DN Debatt
+  links: {}
+  section_source: Popular science writings and general debate
+- title: Digitization of data from published plots v1. 0
+  authors: Nilsonne G, Ahnström, L
+  year: 2023
+  doi: 10.17504/protocols.io.n2bvj8wnngk5/v1
+  journal: Nilsonne G
+  links: {}
+  section_source: Other digital research objects
+- title: Replikeringskrisen hotar vetenskapens trovärdighet
+  authors: Nilsonne G
+  year: 2023
+  journal: Nilsonne G
+  links:
+    web: https://www.vof.se/wp-content/uploads/2023/05/3-replikeringskrisen.pdf
+  section_source: Scholarly debate
+- title: Ofullständig rapportering av studier försämrar kunskapsläget
+  authors: Axfors C, Nilsonne G
+  year: 2023
+  journal: Nilsonne G
+  links:
+    web: https://lakartidningen.se/opinion/debatt/2023/03/ofullstandig-rapportering-av-studier-forsamrar-kunskapslaget
+  section_source: Scholarly debate
+- title: Open Science Community Sverige
+  authors: Nilsonne G
+  year: 2023
+  journal: Nilsonne G
+  links:
+    web: https://www.diva-portal.org/smash/record.jsf?pid=diva2\%3A1746618
+  section_source: Scholarly debate
+- title: Utmaningar för den forskande läkaren
+  authors: Nilsonne G, Axfors C, Zavalis E
+  year: 2023
+  journal: Nilsonne G
+  links:
+    web: https://lakartidningen.se/klinik-och-vetenskap-1/artiklar-1/temainledning/2023/05/utmaningar-for-den-forskande-lakaren/
+  section_source: Scholarly debate
+- title: ”Vetenskapliga tidskrifter har spelat ut sin roll”
+  authors: Nilsonne G
+  year: 2023
+  journal: Nilsonne G
+  links:
+    web: https://www.svd.se/a/Kn2da5/de-vetenskapliga-tidskrifterna-har-spelat-ut-sin-roll-skriver-gustav-nilsonne
+  section_source: Scholarly debate
+- title: Uppföljning av öppen vetenskap – hur gör vi?
+  authors: Nilsonne G
+  year: 2023
+  journal: Nilsonne G
+  links:
+    web: https://www.anpdm.com/article/4340584A7644435E41724642514071/32864910/7424591
+  section_source: Scholarly debate
+- title: Riktlinjer för öppen vetenskap en besvikelse
+  authors: Nilsonne G
+  year: 2023
+  journal: Nilsonne G
+  links:
+    web: https://unt.se/debatt/artikel/kungliga-biblioteket-missar-malet-universiteten-blir-forlorare/lw778xwr
+  section_source: Scholarly debate
+- title: 'EOSC as an Enabler of Research Assessment Reform: Position Paper from Task Force on Research Careers, Recognition,
+    and Credit'
+  authors: Nilsonne G, O'Neill G, Dahle S, Gaillard V, Priess-Buchheit J, Schmidt B, Psomopoulos F
+  year: 2023
+  doi: 10.5281/zenodo.10417069
+  journal: Nilsonne G
+  links:
+    code: https://doi.org/10.5281/zenodo.10417069
+  section_source: Scholarly debate
+- title: How to reclaim ownership of scholarly publishing
+  authors: Brembs B, Nilsonne G, Susi T
+  year: 2022
+  journal: Nilsonne G
+  links: {}
+  section_source: Scholarly debate
+- title: Creating a market to replace publisher monopolies
+  authors: Brembs B, Huneman P, Schönbrodt F, Nilsonne G, Susi T, Siems R, Perakakis P, Trachana V, Ma L, Rodriguez-Cuadrado
+    S
+  year: 2022
+  journal: Nilsonne G
+  links:
+    web: https://www.coalition-s.org/blog/creating-a-market-to-replace-publisher-monopolies/
+  section_source: Scholarly debate
+- title: Sverige får inte missa tåget när EU satsar på öppen vetenskap
+  authors: Widmark W, Anderberg S, Holmgren S, Lindvall J, Nilsonne G
+  year: 2022
+  journal: Nilsonne G
+  links:
+    web: https://www.tidningencurie.se/debatt/sverige-far-inte-missa-taget-nar-eu-satsar-pa-oppen-vetenskap/
+  section_source: Scholarly debate
+- title: Forskningsbibliotek viktiga för Europasatsning på öppna data
+  authors: Widmark W, Anderberg S, Holmgren S, Lindvall J, Nilsonne G
+  year: 2022
+  journal: Nilsonne G
+  links:
+    web: https://www.biblioteksbladet.se/ideer/debatt/forskningsbibliotek-viktiga-for-europasatsning-pa-oppen-data/
+  section_source: Scholarly debate
+- title: Dags att överge traditionella tidskrifter
+  authors: Nilsonne G
+  year: 2022
+  journal: Nilsonne G
+  links:
+    web: https://www.svd.se/a/eEr1JK/gustav-nilsonne-dags-att-overge-traditionella-tidskrifter
+  section_source: Scholarly debate
+- title: Dags att förnya hur forskning bedöms
+  authors: Nilsonne G, Jönsson JI, Söderbergh Widding A
+  year: 2022
+  journal: Nilsonne G
+  links:
+    web: https://www.tidningencurie.se/debatt/dags-att-fornya-hur-forskning-bedoms
+  section_source: Scholarly debate
+- title: 'Bakvägsidentifiering av forskningsdata med personuppgifter: riskbedömning och riskminskande åtgärder'
+  authors: Nilsonne G
+  year: 2022
+  journal: Nilsonne G
+  links:
+    web: http://www.diva-portal.org/smash/record.jsf?pid=diva2\%3A1673731
+  section_source: Scholarly debate
+- title: De utmattade måste få tillgång till rätt vård
+  authors: Nilsonne G
+  year: 2022
+  journal: DN Debatt
+  links: {}
+  section_source: Popular science writings and general debate
+- title: A fMRI pre-registration template
+  authors: Beyer F, Flannery J, Gau R, Janssen L, Schaare L, Hartmann H, et al
+  year: 2021
+  links:
+    preregistration: https://www.psycharchives.org/en/item/eaf562e3-69a7-46a4-925a-05a982ef1a0b
+  section_source: Other digital research objects
+- title: Recommendations and Guidelines on data sharing
+  authors: Nilsonne G
+  year: 2020
+  doi: 10.15497/rda00052
+  links: {}
+  section_source: Reports
+- title: Datahanteringsplaner och policy för öppen tillgång till forskningsdata
+  authors: Nilsonne G
+  year: 2020
+  links: {}
+  section_source: Reports
+- title: Stor variation i resultat när olika forskare analyserade samma data
+  authors: Nilsonne G
+  year: 2020
+  journal: Nilsonne G
+  links:
+    web: https://lakartidningen.se/klinik-och-vetenskap-1/nya-ron/2020/06/stor-variation-i-resultat-nar-olika-forskare-analyserade-samma-data/
+  section_source: Scholarly debate
+- title: Rekommendationer om Covid-19-data från Research Data Alliance (RDA)
+  authors: Nilsonne G
+  year: 2020
+  journal: Nilsonne G
+  links:
+    web: https://www.anpdm.com/article/4340584A7644435E41724642514071/26886017/6186063
+  section_source: Scholarly debate
+- title: BIDS and the NeuroImaging Data Model (NIDM)
+  authors: Appelhoff S, Bates JF, Ghosh S, Keator DB, Kennedy DN, Poldrack R, Poline JB, Steffener J, Nichols BN, Feingold
+    F, Pernet C, Nilsonne G, Maumet C, Flandin G, Gau R, Oostenveld R, Dupre E, Delorme A, Markiewicz CJ, Perez N, Helmer
+    KG, Jarecka D, Grethe JS, Patterson D, Auer T, Bartsch H, Nichols TE, Calhoun V
+  year: 2019
+  doi: 10.7490/f1000research.1117293.1
+  journal: Nilsonne G
+  links: {}
+  section_source: Scholarly debate
+- title: Dyrköpt avtal med Elsevier
+  authors: Nilsonne G
+  year: 2019
+  journal: Nilsonne G
+  links:
+    web: https://www.tidningencurie.se/debatt/dyrkopt-avtal-med-elsevier/
+  section_source: Scholarly debate
+- title: Rothstein överdriver problem med evidensbaserad policy
+  authors: Nilsonne G
+  year: 2019
+  links:
+    web: http://evidensbaseradpolicy.se/2019/11/12/rothstein-overdriver-problem-med-randomiserade-provningar-av-policy/
+  section_source: Popular science writings and general debate
+- title: Öppen tillgång till forskningsdata och publikationer – möjligheter och utmaningar
+  authors: Nilsonne G
+  year: 2018
+  links:
+    web: https://osf.io/gupa3/
+  section_source: Reports
+- title: 'Replik: Befria forskningen från tidskrifternas tvångströja'
+  authors: Nilsonne G
+  year: 2018
+  journal: Nilsonne G
+  links:
+    web: https://www.tidningencurie.se/debatt/replik-befria-forskningen-fran-tidskriftspubliceringens-tvangstroja/
+  section_source: Scholarly debate
+- title: Psykologin i framkant för öppen vetenskap
+  authors: Willén R, Nilsonne G
+  year: 2017
+  journal: Nilsonne G
+  links:
+    web: http://www.diva-portal.org/smash/record.jsf?pid=diva2\%3A1172689
+  section_source: Scholarly debate
+- title: Ingen motsättning mellan demokrati och evidens
+  authors: Dietrichson E, Nilsonne G, Palm A
+  year: 2017
+  journal: Nilsonne G
+  links:
+    web: http://www.skolaochsamhalle.se/flode/skola/elias-dietrichson-med-flera-ingen-motsattning-mellan-demokrati-och-evidens/
+  section_source: Scholarly debate
+- title: Öppen tillgång ger författare starkare ställning
+  authors: Nilsonne G
+  year: 2017
+  journal: Nilsonne G
+  links:
+    web: https://universitetslararen.se/2017/06/01/oppen-tillgang-ger-forfattare-starkare-stallning/
+  section_source: Scholarly debate
+- title: 'Open science: providing skills and inspiring change'
+  authors: Nilsonne G
+  year: 2017
+  journal: Nilsonne G
+  links:
+    web: https://blog.stockholmuniversitypress.se/2017/06/26/open-science-providing-skills-and-inspiring-change/
+  section_source: Scholarly debate
+- title: Bias i metaanalys kan leda till överskattade effekter
+  authors: Nilsonne G
+  year: 2016
+  journal: Nilsonne G
+  links:
+    web: http://lakartidningen.se/Klinik-och-vetenskap/Nya-ron/2015/11/Samband-mellan-inflammation-och-PTSD-granskad-i-metaanalys/\#comments
+  section_source: Scholarly debate
+- title: Öppna data kan öka kunskapsmassan och motverka fusk
+  authors: Nilsonne G. Willén R
+  year: 2016
+  journal: Nilsonne G
+  links:
+    web: http://www.lakartidningen.se/Klinik-och-vetenskap/Kommentar/2016/10/Oppna-data-kan-oka-kunskapsmassan-och-motverka-fusk/
+  section_source: Scholarly debate
+- title: Vetenskapsrådet bör agera mer kraftfullt
+  authors: Nilsonne G
+  year: 2016
+  journal: Nilsonne G
+  links:
+    web: http://www.svd.se/vetenskapsradet-bor-agera-mer-kraftfullt/om/debatt
+  section_source: Scholarly debate
+- title: Upprop för välgrundad forskning och vård
+  authors: Kanstrup M, Moberg K, Gustafsson S, Gornitzki C, Nilsonne G, Galanti MR
+  year: 2016
+  journal: Nilsonne G
+  links: {}
+  section_source: Scholarly debate
+- title: Rösträttsreform måste testas på rätt sätt
+  authors: Nilsonne G
+  year: 2016
+  journal: Dagens Samhälle
+  links:
+    web: http://www.dagenssamhalle.se/debatt/roestraettsreform-maste-testas-pa-raett-saett-24121
+  section_source: Popular science writings and general debate
+- title: Evidensbaserad policy ger ideologin tydligare roll
+  authors: Nilsonne G
+  year: 2016
+  journal: Frihetssmedjan
+  links:
+    web: http://www.frihetssmedjan.se/2016/04/gustav-nilsonne-med-dr-evidensbaserad-policy-ger-ideologin-tydligare-roll/
+  section_source: Popular science writings and general debate
+- title: Evidensbasering är ett ungt och innehållsrikt begrepp
+  authors: Nilsonne G
+  year: 2016
+  journal: Frihetssmedjan
+  links:
+    web: http://www.frihetssmedjan.se/2016/05/replik-evidensbasering-ar-ett-ungt-och-innehallsrikt-begrepp/
+  section_source: Popular science writings and general debate
+- title: Skolor, delta inte i ett dåligt betygsexperiment
+  authors: Nilsonne G
+  year: 2016
+  journal: Svenska Dagbladet
+  links:
+    web: http://www.svd.se/skolor-delta-inte-i-ett-daligt-experiment
+  section_source: Popular science writings and general debate
+- title: 'Omskärelse av pojkar och män: risker och potentiella hälsovinster'
+  authors: Nilsonne G
+  year: 2015
+  links: {}
+  section_source: Reports
+- title: Fusk bekämpas bäst med öppna forskningsdata
+  authors: Nilsonne G
+  year: 2015
+  journal: Nilsonne G
+  links:
+    web: http://www.tidningencurie.se/22/kronikor/kronikor/2015-06-30-gustav-nilsonne-fusk-bekampas-bast-med-oppna-forskningsdata.html
+  section_source: Scholarly debate
+- title: Mindre än hälften av psykologistudier kunde reproduceras
+  authors: Nilsonne G
+  year: 2015
+  journal: Nilsonne G
+  links:
+    web: http://www.lakartidningen.se/Klinik-och-vetenskap/Nya-ron/2015/09/Mindre-an-halften-av-psykologistudier-kunde-upprepas/
+  section_source: Scholarly debate
+- title: Sprutbytesprogram är en fråga om rättvisa
+  authors: Nilsonne G
+  year: 2015
+  journal: Ottar
+  links:
+    web: http://www.ottar.se/artiklar/sprutbytesprogram-r-en-fr-ga-om-r-ttvisa
+  section_source: Popular science writings and general debate
+- title: Creativity, art and science
+  authors: Nilsonne G
+  year: 2015
+  journal: Vision Forum
+  links:
+    web: hhttp://vision-forum.blogspot.se/2015/02/creativity-art-and-science.html
+  section_source: Popular science writings and general debate
+- title: Kunskap måste gå före ideologi och populism
+  authors: Nilsonne G
+  year: 2015
+  journal: DN Debatt
+  links:
+    web: http://www.dn.se/debatt/kunskap-maste-ga-fore-ideologi-och-populism/
+  section_source: Popular science writings and general debate
+- title: Evidensbaserad policy
+  authors: Nilsonne G
+  year: 2015
+  links:
+    web: http://www.almedalsveckan.info/event/view/32971
+  section_source: Popular science writings and general debate
+- title: Towards an ecosystem for open data
+  authors: Nilsonne G
+  year: 2014
+  journal: Nilsonne G
+  links:
+    web: http://blogs.bmj.com/bmj/2014/10/24/gustav-nilsonne-towards-an-ecosystem-for-open-data/
+  section_source: Scholarly debate
+- title: Våga vårda vårt fackspråk
+  authors: Nilsonne G
+  year: 2014
+  journal: Nilsonne G
+  links:
+    web: http://www.lakartidningen.se/Aktuellt/Kultur/Kultur/2014/02/Vaga-varda-vart-facksprak/
+  section_source: Scholarly debate
+- title: Öppna data viktig pusselbit i framtidens forskningsmetod
+  authors: Nilsonne G
+  year: 2014
+  journal: Nilsonne G
+  links:
+    web: http://www.lakartidningen.se/Opinion/Debatt/2014/10/Oppna-data-viktig-pusselbit-i-framtidens-forskningsmetod/
+  section_source: Scholarly debate
+- title: Clinical trials, replication, and crowdsourcing
+  authors: Nilsonne G
+  year: 2014
+  journal: Nilsonne G
+  links:
+    web: http://osc.centerforopenscience.org/2014/11/19/clinical-trials-replication-crowdsourcing/
+  section_source: Scholarly debate
+- title: Biologiska grunder för sexuell läggning
+  authors: Nilsonne G
+  year: 2013
+  journal: Den onaturliga naturen - Kunskapsmaterial om sexualitet och kön för lärare i naturkunskap och biologi på gymnasiet
+  links:
+    web: http://www.rfsu.se/Bildbank/Dokument/Metod-Handledning/Den\%20onaturliga\%20naturen_MQ2.pdf?epslanguage=sv
+  section_source: Popular science writings and general debate
+- title: Dags för regeringen att sätta ned foten om tvångssteriliseringarna
+  authors: Nilsonne G
+  year: 2012
+  links:
+    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-12012/Dags-for-regeringen-att-satta-ned-foten-om-tvangssteriliseringarna/
+  section_source: Popular science writings and general debate
+- title: Transsexuella har legitim rätt att vilja bli föräldrar
+  authors: Nilsonne G
+  year: 2012
+  journal: newsmill.se
+  links:
+    web: https://drive.google.com/open?id=0B79wnU8V_Roic1QySHZnRHJqY3c
+  section_source: Popular science writings and general debate
+- title: Studie stärker argument mot omskärelse av pojkar
+  authors: Nilsonne G
+  year: 2012
+  journal: Ottar
+  links:
+    web: http://www.ottar.se/artiklar/studier-st-rker-argument-mot-omsk-relse-av-pojkar
+  section_source: Popular science writings and general debate
+- title: Pride är en angelägenhet för hela Stockholm
+  authors: Nilsonne G
+  year: 2012
+  journal: DN Debatt
+  links:
+    web: http://www.dn.se/debatt/pride-ar-en-angelagenhet-for-hela-stockholm/
+  section_source: Popular science writings and general debate
+- title: 'Kärlekens kemi: Kärlek blir till i hjärnan'
+  authors: Nilsonne G
+  year: 2012
+  journal: Forskare berättar om kroppen
+  links: {}
+  section_source: Popular science writings and general debate
+- title: Om bevisföring i klinisk medicin och i allmänhet
+  authors: Nilsonne G
+  year: 2011
+  journal: Nilsonne G
+  links:
+    web: http://www.vof.se/folkvett/ar-2011/nr-1/om-bevisforing-klinisk-medicin-och-allmanhet/
+  section_source: Scholarly debate
+- title: Tankar kring det nya verksamhetsåret
+  authors: Nilsonne G
+  year: 2011
+  links:
+    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Mars-2011/Ordforandens-rader/
+  section_source: Popular science writings and general debate
+- title: Stora steg mot ökat medlemsinflytande på årets RFSU-kongress
+  authors: Nilsonne G
+  year: 2011
+  links:
+    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nummer-4-2011/Stora-steg-mot-okat-medlemsinflytande-pa-arets-RFSU-kongress/
+  section_source: Popular science writings and general debate
+- title: Pridefestivalen en höjdpunkt på året
+  authors: Nilsonne G
+  year: 2011
+  links:
+    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nummer-5-2011/Pridefestivalen-en-hojdpunkt-pa-aret/
+  section_source: Popular science writings and general debate
+- title: Dags för handling i tvångssteriliseringsfrågan
+  authors: Nilsonne G
+  year: 2011
+  links:
+    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-52011/Dags-for-handling-i-tvangssteriliseringsfragan/
+  section_source: Popular science writings and general debate
+- title: Bättre kunskaper krävs om ungas sexuella hälsa
+  authors: Nilsonne G
+  year: 2011
+  links:
+    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-72011/Battre-kunskaper-kravs-om-ungdomars-sexuella-halsa/
+  section_source: Popular science writings and general debate
+- title: Kunskap – en kungsväg till förändring
+  authors: Nilsonne G
+  year: 2011
+  links:
+    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-72011/Battre-kunskaper-kravs-om-ungdomars-sexuella-halsa/
+  section_source: Popular science writings and general debate
+- title: Det ideella engagemanget är öppenhetens grundval
+  authors: Nilsonne G
+  year: 2011
+  journal: newsmill.se
+  links:
+    web: https://drive.google.com/open?id=0B79wnU8V_RoiVHRELWtPc0tSdGs
+  section_source: Popular science writings and general debate
+- title: Open access ökar forskningens tillgänglighet
+  authors: Nilsonne G
+  year: 2010
+  journal: Nilsonne G
+  links:
+    web: http://www.lakartidningen.se/OldWebArticlePdf/1/15188/2491.pdf
+  section_source: Scholarly debate
+- title: Läkarstudenters minskande empati under utbildningen ifrågasätts
+  authors: Nilsonne G
+  year: 2010
+  journal: Nilsonne G
+  links:
+    web: http://ww2.lakartidningen.se/07engine.php?articleId=14714
+  section_source: Scholarly debate
+- title: Förförande diagnoser
+  authors: Nilsonne G
+  year: 2010
+  journal: Ottar Rapport
+  links:
+    web: http://www.ottar.se/artiklar/f-rf-rande-diagnoser
+  section_source: Popular science writings and general debate
+- title: Dissection manual for porcine heart
+  authors: Nilsonne G, Arborelius L
+  year: 0
+  doi: 10.6084/m9.figshare.5782944
+  journal: Nilsonne G
+  links: {}
+  section_source: Study Materials
+- title: Interactive classroom memory tests using online tools
+  authors: Nilsonne G
+  year: 0
+  doi: 10.6084/m9.figshare.1449013
+  journal: Nilsonne G
+  links:
+    data: http://dx.doi.org/10.5281/zenodo.18561
+    code: http://dx.doi.org/10.5281/zenodo.18561
+  section_source: Other digital research objects
+- title: 'Figure: interlinked digital research objects'
+  authors: Nilsonne G
+  year: 0
+  doi: 10.53962/hbfx-kmg3
+  journal: Nilsonne G
+  links: {}
+  section_source: Other digital research objects
+- title: Var är alla flickorna?
+  authors: Nilsonne G
+  year: 0
+  links:
+    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nummer-3/Var-ar-alla-flickorna/
+  section_source: Popular science writings and general debate
+- title: Den fantastiska hjärnan
+  authors: Nilsonne G
+  year: 0
+  journal: Fjärde Uppgiften
+  links:
+    video: http://fjardeuppgiften.se/tag/gustav-nilsonne/
+  section_source: Popular science writings and general debate
+- title: Innovationsfokus eller fri grundforskning – hur blir forskningspolitiken efter valet?
+  authors: Nilsonne G
+  year: 0
+  links:
+    web: https://www.tidningencurie.se/kronikor/innovationsfokus-eller-fri-grundforskning---hur-blir-forskningspolitiken-efter-valet
+  section_source: Popular science writings and general debate
+- title: Öppna data – framtidens väg
+  authors: Nilsonne G
+  year: 0
+  links:
+    web: https://www.tidningencurie.se/kronikor/oppna-data---framtidens-vag
+  section_source: Popular science writings and general debate
+- title: Are You an Illusion – betraktelser över svunna kontroverser
+  authors: Nilsonne G
+  year: 0
+  links:
+    web: https://www.tidningencurie.se/kronikor/are-you-an-illusion---betraktelser-over-svunna-kontroverser
+  section_source: Popular science writings and general debate
+- title: Kan en biolog laga en radio?
+  authors: Nilsonne G
+  year: 0
+  links:
+    web: https://www.tidningencurie.se/kronikor/kan-en-biolog-laga-en-radio
+  section_source: Popular science writings and general debate
+- title: Bra förslag om open access men kunskapsvinsten måste vara tydlig
+  authors: Nilsonne G
+  year: 0
+  links:
+    web: https://www.tidningencurie.se/kronikor/bra-forslag-om-open-access-men-kunskapsvinsten-maste-vara-tydlig
+  section_source: Popular science writings and general debate
+- title: Cellteorin och medvetandets gåta
+  authors: Nilsonne G
+  year: 0
+  links:
+    web: https://www.tidningencurie.se/kronikor/cellteorin-och-medvetandets-gata
+  section_source: Popular science writings and general debate
+- title: 'Risk of bias in a meta-analysis of cytokine-inhibiting drugs against depression: reflections from the 24th PNIRS
+    meeting'
+  authors: Nilsonne G
+  year: 0
+  doi: 10.6084/m9.figshare.5027387.v1
+  links: {}
+  section_source: Blogging
+- title: 'A tentative assessment of fMRI data sharing in the journal Plos One: results from the Stockholm BrainHack'
+  authors: Nilsonne G
+  year: 0
+  doi: 10.6084/m9.figshare.5027384.v1
+  links: {}
+  section_source: Blogging
