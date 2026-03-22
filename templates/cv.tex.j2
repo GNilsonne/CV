@@ -1,0 +1,114 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+% Link styling
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!70!black,
+    urlcolor=blue!70!black,
+    citecolor=blue!70!black,
+}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries\scshape}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{1.5ex plus .5ex minus .2ex}{1ex plus .2ex}
+
+% Compact lists
+\setlist[enumerate]{leftmargin=2em, itemsep=0.3ex, parsep=0ex}
+\setlist[itemize]{leftmargin=2em, itemsep=0.3ex, parsep=0ex}
+
+% No page numbers on first page
+\thispagestyle{empty}
+
+\begin{document}
+
+% Header
+\begin{center}
+    {\LARGE\bfseries << meta.name|tex >>}\\[0.5em]
+    << meta.affiliation|tex >>\\
+    <% if meta.email %><< meta.email|tex >> $\cdot$ <% endif %>
+    ORCID: \href{https://orcid.org/<< meta.orcid >>}{<< meta.orcid >>}
+\end{center}
+
+\vspace{1em}
+
+<% if publications %>
+\section{Publications}
+
+\begin{enumerate}[label={[\arabic*]}]
+<% for pub in publications %>
+    \item << pub.authors|tex >>
+    (<< pub.year >>).
+    << pub.title|tex >>.
+    <% if pub.journal %>\textit{<< pub.journal|tex >>}<% endif %><% if pub.volume %>, << pub.volume|tex >><% endif %><% if pub.issue %>(<< pub.issue|tex >>)<% endif %><% if pub.pages %>, << pub.pages|tex >><% endif %>.
+    <% if pub.doi %>\href{https://doi.org/<< pub.doi >>}{doi:<< pub.doi|tex >>}<% endif %><< pub.links|links >>
+
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+<% if preprints %>
+\section{Preprints}
+
+\begin{enumerate}[label={[\arabic*]}]
+<% for pub in preprints %>
+    \item << pub.authors|tex >>
+    (<< pub.year >>).
+    << pub.title|tex >>.
+    <% if pub.doi %>\href{https://doi.org/<< pub.doi >>}{doi:<< pub.doi|tex >>}<% endif %><< pub.links|links >>
+
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+<% if book_chapters %>
+\section{Book Chapters}
+
+\begin{enumerate}[label={[\arabic*]}]
+<% for pub in book_chapters %>
+    \item << pub.authors|tex >>
+    (<< pub.year >>).
+    << pub.title|tex >>.
+    <% if pub.doi %>\href{https://doi.org/<< pub.doi >>}{doi:<< pub.doi|tex >>}<% endif %><< pub.links|links >>
+
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+<% if presentations %>
+\section{Presentations}
+
+\begin{enumerate}[label={[\arabic*]}]
+<% for pres in presentations %>
+    \item << pres.title|tex >>.
+    <% if pres.event %><< pres.event|tex >><% endif %><% if pres.location %>, << pres.location|tex >><% endif %>
+    (<< pres.year >>).
+    <% if pres.type %>\textit{<< pres.type|tex >>}.<% endif %><< pres.links|links >>
+
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+<% if other_publications %>
+\section{Other Publications}
+
+\begin{enumerate}[label={[\arabic*]}]
+<% for pub in other_publications %>
+    \item << pub.authors|tex >>
+    (<< pub.year >>).
+    << pub.title|tex >>.
+    <% if pub.doi %>\href{https://doi.org/<< pub.doi >>}{doi:<< pub.doi|tex >>}<% endif %><< pub.links|links >>
+
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+\end{document}

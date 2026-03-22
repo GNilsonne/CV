@@ -1,0 +1,340 @@
+publications:
+- title: 'Still spurious: A comment on attempts to revive cognitive ability tilts'
+  authors: Nilsonne G, et al.
+  year: 2025
+  doi: 10.1371/journal.pone.0326486
+  journal: PLOS One
+  links: {}
+- title: 'The Spurious Prospective Associations Model (SPAM): Explaining longitudinal associations due to statistical artifacts'
+  authors: Nilsonne G, et al.
+  year: 2025
+  doi: 10.1371/journal.pone.0331609
+  journal: PLOS One
+  links: {}
+- title: 'Stakeholders’ perceptions of the synergy between intellectual property and open science: A cross-sectional survey'
+  authors: Nilsonne G, et al.
+  year: 2025
+  doi: 10.12688/openreseurope.20782.1
+  journal: Open Research Europe
+  links: {}
+- title: Results reporting for clinical trials led by medical universities and university hospitals in the nordic countries
+    was often missing or delayed
+  authors: Nilsonne G, et al.
+  year: 2025
+  doi: 10.1016/j.jclinepi.2025.111710
+  journal: Journal of Clinical Epidemiology
+  links: {}
+- title: A formal model accounting for measurement reliability shows attenuated effect of higher education on intelligence
+    in longitudinal data
+  authors: Nilsonne G, et al.
+  year: 2024
+  doi: 10.1098/rsos.230513
+  journal: Royal Society Open Science
+  links: {}
+- title: 'Breastfeeding, cognitive ability, and residual confounding: A comment on studies by Pereyra-Elìas et al.'
+  authors: Nilsonne G, et al.
+  year: 2024
+  doi: 10.1371/journal.pone.0297216
+  journal: PLOS ONE
+  links: {}
+- title: 'Distorted meta-analytic findings on peer influence: A reanalysis'
+  authors: Nilsonne G, et al.
+  year: 2023
+  doi: 10.1016/j.heliyon.2023.e21458
+  journal: Heliyon
+  links: {}
+- title: 'Unmasking artifactual links: A reanalysis reveals No direct causal relationship between self-esteem and quality
+    of social relations'
+  authors: Nilsonne G, et al.
+  year: 2023
+  doi: 10.1016/j.heliyon.2023.e20397
+  journal: Heliyon
+  links: {}
+- title: Replacing academic journals
+  authors: Nilsonne G, et al.
+  year: 2023
+  doi: 10.1098/rsos.230206
+  journal: Royal Society Open Science
+  links: {}
+- title: Planning preclinical confirmatory multicenter trials to strengthen translation from basic to clinical research –
+    a multi-stakeholder workshop report
+  authors: Nilsonne G, et al.
+  year: 2022
+  doi: 10.1186/s41231-022-00130-8
+  journal: Translational Medicine Communications
+  links: {}
+- title: 'Editors publishing in their own journals: A systematic review of prevalence and a discussion of normative aspects'
+  authors: Nilsonne G, et al.
+  year: 2022
+  doi: 10.1002/leap.1449
+  journal: Learned Publishing
+  links: {}
+- title: Consensus-based guidance for conducting and reporting multi-analyst studies
+  authors: Nilsonne G, et al.
+  year: 2021
+  doi: 10.7554/eLife.72185
+  journal: eLife
+  links: {}
+- title: Spontaneous eye movements during eyes-open rest reduce resting-state-network modularity by increasing visual-sensorimotor
+    connectivity
+  authors: Nilsonne G, et al.
+  year: 2021
+  doi: 10.1162/netn_a_00186
+  journal: Network Neuroscience
+  links: {}
+- title: 'Fostering global data sharing: highlighting the recommendations of the Research Data Alliance COVID-19 working group
+    [version 2; peer review: 2 approved, 1 approved with reservations]'
+  authors: Nilsonne G, et al.
+  year: 2021
+  doi: 10.12688/wellcomeopenres.16378.2
+  links: {}
+- title: 'Oxazepam and cognitive reappraisal: A randomised experiment'
+  authors: Nilsonne G, et al.
+  year: 2021
+  doi: 10.1371/journal.pone.0249065
+  journal: PLOS ONE
+  links: {}
+- title: EEG-based model and antidepressant response
+  authors: Nilsonne G, et al.
+  year: 2021
+  doi: 10.1038/s41587-020-00768-5
+  journal: Nature Biotechnology
+  links: {}
+- title: '<p>Gray Matter Volume Correlates of Sleepiness: A Voxel-Based Morphometry Study in Younger and Older Adults</p>'
+  authors: Nilsonne G, et al.
+  year: 2020
+  doi: 10.2147/NSS.S240493
+  journal: Nature and Science of Sleep
+  links: {}
+- title: Exploring the consistency and value of humour style profiles
+  authors: Nilsonne G, et al.
+  year: 2020
+  doi: 10.1080/23743603.2020.1756239
+  journal: Comprehensive Results in Social Psychology
+  links: {}
+- title: Improvement in indices of cellular protection after psychological treatment for social anxiety disorder
+  authors: Nilsonne G, et al.
+  year: 2019
+  doi: 10.1038/s41398-019-0668-2
+  journal: Translational Psychiatry
+  links: {}
+- title: Sleep restriction caused impaired emotional regulation without detectable brain activation changes—a functional magnetic
+    resonance imaging study
+  authors: Nilsonne G, et al.
+  year: 2019
+  doi: 10.1098/rsos.181704
+  journal: Royal Society Open Science
+  links: {}
+- title: 'Company employees as experimental participants in traffic safety research: Prevalence and implications'
+  authors: Nilsonne G, et al.
+  year: 2019
+  doi: 10.1016/j.trf.2018.10.008
+  journal: 'Transportation Research Part F: Traffic Psychology and Behaviour'
+  links: {}
+- title: Estimating statistical power, posterior probability and publication bias of psychological research using the observed
+    replication rate
+  authors: Nilsonne G, et al.
+  year: 2018
+  doi: 10.1098/rsos.181190
+  journal: Royal Society Open Science
+  links: {}
+- title: 'Data availability, reusability, and analytic reproducibility: evaluating the impact of a mandatory open data policy
+    at the journal Cognition'
+  authors: Nilsonne G, et al.
+  year: 2018
+  doi: 10.1098/rsos.180448
+  journal: Royal Society Open Science
+  links:
+    preprint: https://doi.org/10.17605/OSF.IO/39CFB
+    data: https://osf.io/39cfb/
+    code: https://osf.io/39cfb/
+- title: 'The effect of sleep restriction on empathy for pain: An fMRI study in younger and older adults'
+  authors: Nilsonne G, et al.
+  year: 2017
+  doi: 10.1038/s41598-017-12098-9
+  journal: Scientific Reports
+  links: {}
+- title: 'Intrinsic brain connectivity after partial sleep deprivation in young and older adults: results from the Stockholm
+    Sleepy Brain study'
+  authors: Nilsonne G, et al.
+  year: 2017
+  doi: 10.1038/s41598-017-09744-7
+  journal: Scientific Reports
+  links: {}
+- title: 'Effects of 25 mg oxazepam on emotional mimicry and empathy for pain: a randomized controlled experiment'
+  authors: Nilsonne G, et al.
+  year: 2017
+  doi: 10.1098/rsos.160607
+  journal: Royal Society Open Science
+  links: {}
+- title: 'Diurnal Variation of Circulating Interleukin-6 in Humans: A Meta-Analysis'
+  authors: Nilsonne G, et al.
+  year: 2016
+  doi: 10.1371/journal.pone.0165799
+  journal: PLOS ONE
+  links: {}
+- title: 'Health at the ballot box: disease threat does not predict attractiveness preference in British politicians'
+  authors: Nilsonne G, et al.
+  year: 2016
+  doi: 10.1098/rsos.160049
+  journal: Royal Society Open Science
+  links: {}
+- title: 'Leukocyte telomere length and hippocampus volume: a meta-analysis [version 1; referees: 2 approved]'
+  authors: Nilsonne G, et al.
+  year: 2015
+  doi: 10.12688/f1000research.7198.1
+  links: {}
+- title: Diagnostic and prognostic value of soluble syndecan-1 in pleural malignancies
+  authors: Nilsonne G, et al.
+  year: 2014
+  doi: 10.1155/2014/419853
+  journal: Biomed Res Int
+  links: {}
+- title: Hyaluronan and N-ERC/mesothelin as key biomarkers in a specific two-step model to predict pleural malignant mesothelioma
+  authors: Nilsonne G, et al.
+  year: 2013
+  doi: 10.1371/journal.pone.0072030
+  journal: PLoS ONE
+  links: {}
+- title: Microenvironment-Dependent Phenotypic Changes in a SCID Mouse Model for Malignant Mesothelioma
+  authors: Nilsonne G, et al.
+  year: 2013
+  doi: 10.3389/fonc.2013.00203
+  journal: Front Oncol
+  links: {}
+- title: Variation in drug sensitivity of malignant mesothelioma cell lines with substantial effects of selenite and bortezomib,
+    highlights need for individualized therapy
+  authors: Nilsonne G, et al.
+  year: 2013
+  doi: 10.1371/journal.pone.0065903
+  journal: PLoS ONE
+  links: {}
+- title: 'Learning in a simple biological system: a pilot study of classical conditioning of human macrophages in vitro'
+  authors: Nilsonne G, et al.
+  year: 2011
+  doi: 10.1186/1744-9081-7-47
+  journal: Behav. Brain Funct.
+  links: {}
+- title: Selenite Induces Posttranscriptional Blockade of HLA-E Expression and Sensitizes Tumor Cells to CD94/NKG2A-Positive
+    NK Cells
+  authors: Nilsonne G, et al.
+  year: 2011
+  doi: 10.4049/jimmunol.1100610
+  journal: J. Immunol.
+  links: {}
+- title: '[Open Access Week 16-24 October: Open access increases access to the research]'
+  authors: Nilsonne G, et al.
+  year: 2010
+  journal: Lakartidningen
+  links: {}
+- title: Phenotype-dependent apoptosis signalling in mesothelioma cells after selenite exposure
+  authors: Nilsonne G, et al.
+  year: 2009
+  doi: 10.1186/1756-9966-28-92
+  journal: J. Exp. Clin. Cancer Res.
+  links: {}
+- title: Syndecan-1 and FGF-2, but Not FGF Receptor-1, Share a Common Transport Route and Co-Localize with Heparanase in the
+    Nuclei of Mesenchymal Tumor Cells
+  authors: Nilsonne G, et al.
+  year: 2009
+  doi: 10.1371/journal.pone.0007346
+  journal: PLoS One
+  links: {}
+- title: Quantification of alternative mRNA species and identification of thioredoxin reductase 1 isoforms in human tumor
+    cells
+  authors: Nilsonne G, et al.
+  year: 2007
+  doi: 10.1111/j.1432-0436.2006.00121.x
+  journal: Differentiation
+  links: {}
+- title: Selenite induces apoptosis in sarcomatoid malignant mesothelioma cells through oxidative stress
+  authors: Nilsonne G, et al.
+  year: 2006
+  doi: 10.1016/j.freeradbiomed.2006.04.031
+  journal: Free Radic. Biol. Med.
+  links: {}
+book_chapters:
+- title: 'Figure: Publication bias'
+  authors: Nilsonne G, et al.
+  year: 2023
+  doi: 10.53962/w0d6-9kwa
+  links: {}
+- title: 'Figure: Open science concepts'
+  authors: Nilsonne G, et al.
+  year: 2022
+  doi: 10.53962/z783-40a1
+  links: {}
+preprints:
+- title: TrialScout links published results to trial registrations using a large language model
+  authors: Nilsonne G, et al.
+  year: 2026
+  doi: 10.64898/2026.03.15.26348383
+  links: {}
+- title: Assessing the Compliance and Timeliness of Results Reporting for Clinical Trials on Antimicrobial Agents
+  authors: Nilsonne G, et al.
+  year: 2025
+  doi: 10.64898/2025.12.23.25342922
+  links: {}
+- title: 'Effects of one-night partial sleep deprivation on perivascular space volume fraction: Findings from the Stockholm
+    Sleepy Brain Study'
+  authors: Nilsonne G, et al.
+  year: 2024
+  doi: 10.1101/2024.10.26.620382
+  links: {}
+- title: Results reporting for clinical trials led by medical universities and university hospitals in the Nordic countries
+    was often missing or delayed
+  authors: Nilsonne G, et al.
+  year: 2024
+  doi: 10.1101/2024.02.04.24301363
+  links: {}
+- title: Digitization of data from published plots v1.0 v1
+  authors: Nilsonne G, et al.
+  year: 2023
+  doi: 10.17504/protocols.io.n2bvj8wnngk5/v1
+  links: {}
+- title: Pathways towards community-based, transparent, and systematic quality control of research objects
+  authors: Nilsonne G, et al.
+  year: 2022
+  doi: 10.52843/cassyni.q2hj8l
+  links: {}
+- title: 'Discrepancy review: A feasibility study of a novel peer review intervention to reduce undisclosed discrepancies
+    between registrations and publications'
+  authors: Nilsonne G, et al.
+  year: 2022
+  doi: 10.1101/2022.01.18.22269507
+  links: {}
+- title: Spontaneous eye-movements during eyes-open rest reduce resting-state-network modularity by increasing visual-sensorimotor
+    connectivity
+  authors: Nilsonne G, et al.
+  year: 2020
+  doi: 10.1101/2020.05.18.100669
+  links: {}
+- title: 'Intrinsic brain connectivity after partial sleep deprivation in young and older adults: results from the Stockholm
+    Sleepy Brain study'
+  authors: Nilsonne G, et al.
+  year: 2016
+  doi: 10.1101/073494
+  links: {}
+other_publications:
+- title: 'Oxazepam and cognitive reappraisal: a randomised experiment'
+  authors: Nilsonne G, et al.
+  year: 2019
+  doi: 10.1101/656355
+  links: {}
+- title: Targeting thioredoxin reductase - a possible new treatment for malignant mesothelioma
+  authors: Nilsonne G, et al.
+  year: 2006
+  journal: Lung Cancer
+  links: {}
+- title: DIFFERENTIAL EFFECTS OF SELENITE ON MALIGNANT MESOTHELIOMA CELLS- A NOVEL THERAPEUTIC APPROACH RELATED TO THE Trx-TrxR
+    SYSTEM AND THE REDOX STATE OF THE CELLS
+  authors: Nilsonne G, et al.
+  year: 2004
+  journal: Anticancer Res.
+  links: {}
+meta:
+  name: Gustav Nilsonne
+  orcid: 0000-0001-5273-0150
+  affiliation: Karolinska Institutet
+  email: ''
+presentations: []
