@@ -255,6 +255,10 @@ def format_links_latex(links) -> str:
         "web": "web",
         "poster": "poster",
         "correction": "correction",
+        "pdf": "pdf",
+        "diva": "DiVA",
+        "program": "program",
+        "url": "link",
     }
     parts = []
     seen_urls = set()

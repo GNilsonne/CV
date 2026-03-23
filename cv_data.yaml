@@ -2491,10 +2491,11 @@ publications:
   open_access: Closed Access
 preprints:
 - title: A multimodal brain imaging dataset on sleep deprivation in young and old humans
-  journal: ''
+  journal: Karolinska Open Archive
   authors: Nilsonne G, Tamm S, d’Onofrio P, Thuné HÅ, Schwarz J, Lavebratt C, Liu, JJ, Månsson KNT, Sundelin T, Axelsson J,
     Fransson P, Kecklund G, Fischer H, Lekander M, Åkerstedt Torbjörn
   links:
+    url: http://hdl.handle.net/10616/45181
     data: https://openneuro.org/dataset/ds000201/
 - title: 'A cocktail fallacy in research with composite variables: a commentary on job strain and effort–reward imbalance
     (ERI) theories with updated meta-analyses on health outcomes'
@@ -2505,13 +2506,14 @@ preprints:
   publication_date: '2019-02-24'
   rims_id: '676806'
 - title: 'A tale of two “opens”: Intersections between Free and Open Source Software and Open Scholarship'
-  journal: ''
+  journal: SocArXiv
   year: 2020
   authors: Tennant J, Agarwal R, Baždarić K, Brassard D, Crick T, Dunleavy DJ, Evans TR, Gardner N, Gonzalez-Marquez M, Graziotin
     D, Greshake Tzovaras B, Gunnarsson D, Havemann J, Hosseini M, Katz DS, Knöchelmann M, Madan CR, Manghi P, Marocchino A,
     Masuzzo P, Murray-Rust P, Narayanaswamy S, Nilsonne G, Pacheco-Mendoza J, Penders B, Pourret O, Rera M, Samuel J, Steiner
     T, Stojanovski J, Uribe-Tirado A, Vos R, Worthington S, Yarkoni T
   links: {}
+  doi: 10.31235/osf.io/2kxq8
 - title: Empirical evidence for a three-level model of emotional contagion, empathy and emotional regulation
   journal: ''
   doi: 10.31234/osf.io/ake34
@@ -2567,9 +2569,10 @@ preprints:
   authors: Sorjonen K, Melin B, Nilsonne G
   links: {}
 - title: 'The Spurious Prospective Associations Model (SPAM): Explaining longitudinal associations due to statistical artifacts'
-  journal: ''
+  journal: PsyArXiv
   authors: Sorjonen K, Melin B, Nilsonne G
   links: {}
+  doi: 10.31234/osf.io/aj6mn
 - title: 'Inconclusive evidence for a prospective effect of academic self-concept on achievement: A simulated reanalysis and
     comment on Marsh et al. (2024)'
   journal: ''
@@ -2682,13 +2685,6 @@ preprints:
   links: {}
   rims_id: '676772'
   publication_date: '2022-12-26'
-- title: Psychological Science Accelerator Funding and Finance Committee Bylaws
-  authors: IJzerman H, Lewis NA, Azevedo F, Coles NA, Corral-Frías NS, Nilsonne G, Lazarevic LB, Schmidt K
-  doi: 10.31234/osf.io/en87j
-  year: 2022
-  links: {}
-  rims_id: '733239'
-  publication_date: '2022-10-28'
 - title: 'Disease threat does not predict attractiveness preference in a United Kingdom dataset: a replication attempt and
     commentary on White et al., Psych Sci 2013'
   authors: Nilsonne G, Renberg A, Tamm S, Lekander M
@@ -2782,62 +2778,76 @@ scholarly_debate:
   journal: Läkartidningen
   year: 2010
   authors: Nilsonne G
-  links: {}
+  links:
+    web: http://www.lakartidningen.se/OldWebArticlePdf/1/15188/2491.pdf
 - title: Läkarstudenters minskande empati under utbildningen ifrågasätts
   journal: Läkartidningen
   year: 2010
   authors: Nilsonne G
-  links: {}
+  links:
+    web: http://ww2.lakartidningen.se/07engine.php?articleId=14714
 - title: Om bevisföring i klinisk medicin och i allmänhet
   journal: Folkvett
   year: 2011
   authors: Nilsonne G
-  links: {}
+  links:
+    web: http://www.vof.se/folkvett/ar-2011/nr-1/om-bevisforing-klinisk-medicin-och-allmanhet/
+    diva: http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1055191\&dswid=-9257
+    pdf: http://www.diva-portal.org/smash/get/diva2:1055191/FULLTEXT01.pdf
 - title: Towards an ecosystem for open data
   journal: BMJ blogs
   year: 2014
   authors: Nilsonne G
-  links: {}
+  links:
+    web: http://blogs.bmj.com/bmj/2014/10/24/gustav-nilsonne-towards-an-ecosystem-for-open-data/
 - title: Våga vårda vårt fackspråk
   journal: Läkartidningen
   year: 2014
   authors: Nilsonne G
-  links: {}
+  links:
+    web: http://www.lakartidningen.se/Aktuellt/Kultur/Kultur/2014/02/Vaga-varda-vart-facksprak/
 - title: Öppna data viktig pusselbit i framtidens forskningsmetod
   journal: Läkartidningen
   year: 2014
   authors: Nilsonne G
-  links: {}
+  links:
+    web: http://www.lakartidningen.se/Opinion/Debatt/2014/10/Oppna-data-viktig-pusselbit-i-framtidens-forskningsmetod/
 - title: Clinical trials, replication, and crowdsourcing
   journal: Open Science Collaboration blog
   year: 2014
   authors: Nilsonne G
-  links: {}
+  links:
+    web: http://osc.centerforopenscience.org/2014/11/19/clinical-trials-replication-crowdsourcing/
 - title: Fusk bekämpas bäst med öppna forskningsdata
   journal: Curie
   year: 2015
   authors: Nilsonne G
-  links: {}
+  links:
+    web: http://www.tidningencurie.se/22/kronikor/kronikor/2015-06-30-gustav-nilsonne-fusk-bekampas-bast-med-oppna-forskningsdata.html
 - title: Mindre än hälften av psykologistudier kunde reproduceras
   journal: Läkartidningen
   year: 2015
   authors: Nilsonne G
-  links: {}
+  links:
+    web: http://www.lakartidningen.se/Klinik-och-vetenskap/Nya-ron/2015/09/Mindre-an-halften-av-psykologistudier-kunde-upprepas/
 - title: Bias i metaanalys kan leda till överskattade effekter
   journal: Läkartidningen
   year: 2016
   authors: Nilsonne G
-  links: {}
+  links:
+    web: http://lakartidningen.se/Klinik-och-vetenskap/Nya-ron/2015/11/Samband-mellan-inflammation-och-PTSD-granskad-i-metaanalys/\#comments
 - title: Öppna data kan öka kunskapsmassan och motverka fusk
   journal: Läkartidningen
   year: 2016
   authors: Nilsonne G. Willén R
-  links: {}
+  links:
+    web: http://www.lakartidningen.se/Klinik-och-vetenskap/Kommentar/2016/10/Oppna-data-kan-oka-kunskapsmassan-och-motverka-fusk/
 - title: Vetenskapsrådet bör agera mer kraftfullt
   journal: Svenska Dagbladet
   year: 2016
   authors: Nilsonne G
-  links: {}
+  links:
+    web: http://www.svd.se/vetenskapsradet-bor-agera-mer-kraftfullt/om/debatt
 - title: Upprop för välgrundad forskning och vård
   journal: KI-bladet
   year: 2016
@@ -2847,27 +2857,32 @@ scholarly_debate:
   journal: Psykologtidningen
   year: 2017
   authors: Willén R, Nilsonne G
-  links: {}
+  links:
+    web: http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1172689
 - title: Ingen motsättning mellan demokrati och evidens
   journal: Skola och Samhälle
   year: 2017
   authors: Dietrichson E, Nilsonne G, Palm A
-  links: {}
+  links:
+    web: http://www.skolaochsamhalle.se/flode/skola/elias-dietrichson-med-flera-ingen-motsattning-mellan-demokrati-och-evidens/
 - title: Öppen tillgång ger författare starkare ställning
   journal: Universitetsläraren
   year: 2017
   authors: Nilsonne G
-  links: {}
+  links:
+    web: https://universitetslararen.se/2017/06/01/oppen-tillgang-ger-forfattare-starkare-stallning/
 - title: 'Open science: providing skills and inspiring change'
   journal: Stockholm University Press blog
   year: 2017
   authors: Nilsonne G
-  links: {}
+  links:
+    web: https://blog.stockholmuniversitypress.se/2017/06/26/open-science-providing-skills-and-inspiring-change/
 - title: 'Replik: Befria forskningen från tidskrifternas tvångströja'
   journal: Curie
   year: 2018
   authors: Nilsonne G
-  links: {}
+  links:
+    web: https://www.tidningencurie.se/debatt/replik-befria-forskningen-fran-tidskriftspubliceringens-tvangstroja/
 - title: BIDS and the NeuroImaging Data Model (NIDM)
   journal: F1000Research
   doi: 10.7490/f1000research.1117293.1
@@ -2875,22 +2890,27 @@ scholarly_debate:
   authors: Appelhoff S, Bates JF, Ghosh S, Keator DB, Kennedy DN, Poldrack R, Poline JB, Steffener J, Nichols BN, Feingold
     F, Pernet C, Nilsonne G, Maumet C, Flandin G, Gau R, Oostenveld R, Dupre E, Delorme A, Markiewicz CJ, Perez N, Helmer
     KG, Jarecka D, Grethe JS, Patterson D, Auer T, Bartsch H, Nichols TE, Calhoun V
-  links: {}
+  links:
+    web: https://doi.org/10.7490/f1000research.1117293.1
+    doi: 10.7490/f1000research.1117293.1
 - title: Dyrköpt avtal med Elsevier
   journal: Curie
   year: 2019
   authors: Nilsonne G
-  links: {}
+  links:
+    web: https://www.tidningencurie.se/debatt/dyrkopt-avtal-med-elsevier/
 - title: Stor variation i resultat när olika forskare analyserade samma data
   journal: Läkartidningen
   year: 2020
   authors: Nilsonne G
-  links: {}
+  links:
+    web: https://lakartidningen.se/klinik-och-vetenskap-1/nya-ron/2020/06/stor-variation-i-resultat-nar-olika-forskare-analyserade-samma-data/
 - title: Rekommendationer om Covid-19-data från Research Data Alliance (RDA)
   journal: SND nyhetsbrev
   year: 2020
   authors: Nilsonne G
-  links: {}
+  links:
+    web: https://www.anpdm.com/article/4340584A7644435E41724642514071/26886017/6186063
 - title: How to reclaim ownership of scholarly publishing
   journal: Research Europe
   year: 2022
@@ -2901,66 +2921,80 @@ scholarly_debate:
   year: 2022
   authors: Brembs B, Huneman P, Schönbrodt F, Nilsonne G, Susi T, Siems R, Perakakis P, Trachana V, Ma L, Rodriguez-Cuadrado
     S
-  links: {}
+  links:
+    web: https://www.coalition-s.org/blog/creating-a-market-to-replace-publisher-monopolies/
 - title: Sverige får inte missa tåget när EU satsar på öppen vetenskap
   journal: Curie
   year: 2022
   authors: Widmark W, Anderberg S, Holmgren S, Lindvall J, Nilsonne G
-  links: {}
+  links:
+    web: https://www.tidningencurie.se/debatt/sverige-far-inte-missa-taget-nar-eu-satsar-pa-oppen-vetenskap/
 - title: Forskningsbibliotek viktiga för Europasatsning på öppna data
   journal: Biblioteksbladet
   year: 2022
   authors: Widmark W, Anderberg S, Holmgren S, Lindvall J, Nilsonne G
-  links: {}
+  links:
+    web: https://www.biblioteksbladet.se/ideer/debatt/forskningsbibliotek-viktiga-for-europasatsning-pa-oppen-data/
 - title: Dags att överge traditionella tidskrifter
   journal: Svenska Dagbladet
   year: 2022
   authors: Nilsonne G
-  links: {}
+  links:
+    web: https://www.svd.se/a/eEr1JK/gustav-nilsonne-dags-att-overge-traditionella-tidskrifter
+    slides: https://osf.io/8t2cz/
 - title: Dags att förnya hur forskning bedöms
   journal: Curie
   year: 2022
   authors: Nilsonne G, Jönsson JI, Söderbergh Widding A
-  links: {}
+  links:
+    web: https://www.tidningencurie.se/debatt/dags-att-fornya-hur-forskning-bedoms
 - title: 'Bakvägsidentifiering av forskningsdata med personuppgifter: riskbedömning och riskminskande åtgärder'
   journal: 'Svepet: medlemsblad för Svensk epidemiologisk förening (SVEP)'
   year: 2022
   authors: Nilsonne G
-  links: {}
+  links:
+    diva: http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1673731
 - title: Replikeringskrisen hotar vetenskapens trovärdighet
   journal: Folkvett
   year: 2023
   authors: Nilsonne G
-  links: {}
+  links:
+    web: https://www.vof.se/wp-content/uploads/2023/05/3-replikeringskrisen.pdf
 - title: Ofullständig rapportering av studier försämrar kunskapsläget
   journal: Läkartidningen
   year: 2023
   authors: Axfors C, Nilsonne G
-  links: {}
+  links:
+    web: https://lakartidningen.se/opinion/debatt/2023/03/ofullstandig-rapportering-av-studier-forsamrar-kunskapslaget
 - title: Open Science Community Sverige
   journal: Svenska Dagbladet
   year: 2023
-  links: {}
+  links:
+    diva: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1746618
 - title: Utmaningar för den forskande läkaren
   journal: Läkartidningen
   year: 2023
   authors: Nilsonne G, Axfors C, Zavalis E
-  links: {}
+  links:
+    web: https://lakartidningen.se/klinik-och-vetenskap-1/artiklar-1/temainledning/2023/05/utmaningar-for-den-forskande-lakaren/
 - title: ”Vetenskapliga tidskrifter har spelat ut sin roll”
   journal: Svenska Dagbladet
   year: 2023
   authors: Nilsonne G,
-  links: {}
+  links:
+    web: https://www.svd.se/a/Kn2da5/de-vetenskapliga-tidskrifterna-har-spelat-ut-sin-roll-skriver-gustav-nilsonne
 - title: Uppföljning av öppen vetenskap – hur gör vi?
   journal: SND Nätverks-nytt
   year: 2023
   authors: Nilsonne G,
-  links: {}
+  links:
+    web: https://www.anpdm.com/article/4340584A7644435E41724642514071/32864910/7424591
 - title: Riktlinjer för öppen vetenskap en besvikelse
   journal: Upsala Nya Tidning
   year: 2023
   authors: Nilsonne G,
-  links: {}
+  links:
+    web: https://unt.se/debatt/artikel/kungliga-biblioteket-missar-malet-universiteten-blir-forlorare/lw778xwr
 - title: 'EOSC as an Enabler of Research Assessment Reform: Position Paper from Task Force on Research Careers, Recognition,
     and Credit'
   journal: ''
@@ -2973,12 +3007,14 @@ scholarly_debate:
   journal: ''
   year: 2024
   authors: Tikkanen KW, Nilsonne G
-  links: {}
+  links:
+    web: https://humtank.se/svensk-nationell-datatjanst-delning-av-forskningsdata-att-gora-humanistisk-forskning-nabar-for-fler/
 - title: An open letter regarding Scientific Reports
   journal: ''
   year: 2024
   authors: Bishop D, et al
-  links: {}
+  links:
+    web: https://deevybee.blogspot.com/2024/10/an-open-letter-regarding-scientific.html
 - title: Registration and reporting of results from clinical trials in Nordic countries - there is scope for improvement
   year: 2024
   authors: Axfors C, Nilsonne G
@@ -2987,59 +3023,86 @@ scholarly_debate:
 invited_talks:
 - title: Open Access från en forskares horisont.
   year: 2011
-  links: {}
+  links:
+    program: http://www.kb.se/Dokument/Bibliotek/utbildning/2011/Openaccesskrav_dialog12%20okt%20Uppdaterat.pdf
+  venue: Swedish Research Council (Vetenskapsrådet), Stockholm, Sweden, 2011-10-12.
 - title: Varför open access - en forskares perspektiv.
   year: 2011
-  links: {}
+  links:
+    web: https://www.kth.se/kthb/publicering/open-access/open-access-week/open-access-week-2011-1.546646
+  venue: Kungliga Tekniska Högskolan, Stockholm, Sweden, 2011-10-27.
 - title: Emotional Regulation and Empathy – Pharmacological and Translational Studies.
   year: 2012
   links: {}
+  venue: F.C. Donders institute of cognitive neuroimaging, Nijmegen, the Netherlands, 2012
 - title: Psychopathic traits and the representation of others’ emotional states.
   year: 2012
   links: {}
+  venue: Stockholm University, Center for Cultural Evolution, Stockholm, Sweden, 2012-12-14
 - title: 'Partial sleep deprivation and emotional function: the Stockholm Sleepy Brain Project.'
   year: 2013
   links: {}
+  venue: University of California at Berkeley, Dept. of Psychology, USA, 2013
 - title: Effects of sleep deprivation on brain functions in the emotional domain.
   year: 2014
   links: {}
+  venue: Stockholm University, Department of Psychology, Stockholm, Sweden, 2014
 - title: Prosocial enhancement.
   year: 2014
   links: {}
+  venue: Karolinska Institutet, Department of Learning, Informatics, Management, and Etics, Stockholm, Sweden, 2014 (with
+    Karim Jebari)
 - title: 'Sleep deprivation and the brain: focus on emotion.'
   year: 2014
-  links: {}
+  links:
+    web: http://ki.se/en/cns/calendar/imaging-the-sleepy-brain
+    diva: http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A775077\&dswid=-7532
+  venue: Imaging the Sleepy Brain symposium, Karolinska Institutet 2014.
 - title: Why do psychopathic traits persist? - an evolutionary perspective.
   year: 2015
   links: {}
+  venue: Swedish National Board of Forensic Medicine, staff conference on forensic psychiatry, Stockholm, Sweden, 2015-04-01
 - title: Reproducibility in psychological science.
   year: 2015
   links: {}
+  venue: Karolinska Institutet, Department of Clinical Neuroscience, Division of Psychology, Stockholm, Sweden, 2015
 - title: 'Psychopathy: Brain mechanisms from an evolutionary perspective.'
   year: 2015
   links: {}
+  venue: Karolinska Institutet and Swedish National Board of Forensic Medicine, Symposium on Psychopathy and Neurobiological
+    Aspects of Personality Traits, Stockholm, Sweden, 2015
 - title: Replication science and other methods for reproducible research.
   year: 2016
   links: {}
+  venue: Karolinska University Hospital, Center for Andrology and Sexual Medicine, Stockholm, Sweden, 2016
 - title: What’s new in open science and reproducible research?
   year: 2016
   links: {}
+  venue: Karolinska Institutet, Department of Clinical Neuroscience, Division of Psychology, Stockholm, Sweden, 2016
 - title: Öppen och reproducerbar vetenskap.
   year: 2016
-  links: {}
+  links:
+    web: http://www.neuro.uu.se/kalendarium/kalendarium-detaljsida/?eventId=20518
+  venue: Uppsala University, Department of Neuroscience, Uppsala, Sweden, 2016-09-30.
 - title: Open data.
   year: 2016
   links: {}
+  venue: Karolinska Institutet Library, Stockholm, Sweden, 2016
 - title: Open science and reproducible research.
   year: 2016
-  links: {}
+  links:
+    slides: https://osf.io/5a8f2
+  venue: Karolinska Institutet, Department of Public Health, Stockholm, Sweden, 2016
 - title: 'Open data: examples and implications.'
   year: 2016
   links: {}
+  venue: Gävle University, Gävle, Sweden, 2016
 - title: Öppna och dolda data – konsekvenser för forskning och hälsa.
   year: 2016
   links:
     video: https://www.youtube.com/watch?v=2noejs93mY8
+  venue: 'Seminarium om forskningsetik: Kan vi lita på forskningen? Sveriges unga akademi och Vetenskapsrådets expertgrupp
+    för etik, Kungliga Vetenskapsakademien 2016.'
 - title: Open data.
   year: 2016
   links: {}
@@ -3047,16 +3110,20 @@ invited_talks:
   year: 2016
   links:
     video: https://www.youtube.com/watch?v=1azYwpiAunA
+  venue: Open Science lecture series. Stockholm University Library, 2016.
 - title: Forskningsetik och öppna data
   year: 2017
   links: {}
+  venue: Panelsamtal, Högskolan i Skövde, 2017-04-06
 - title: 'Effects of sleep deprivation on resting state connectivity and emotional processing: results from the Stockholm
     Sleepy Brain study.'
   year: 2017
   links: {}
+  venue: University of California at Berkeley, Dept. of Psychology, USA, 2017-07-17
 - title: Brain imaging of sleep deprivation in healthy older humans – results from the Stockholm Sleepy Brain study
   year: 2017
   links: {}
+  venue: Karolinska Institutet, Aging Research Center, 2017-10-03
 - title: Reproducibility and Openness in Psychiatry and Psychology, Karolinska Institutet, Centre for Psychiatry Research,
     2017-11-17.
   year: 2017
@@ -3069,130 +3136,165 @@ invited_talks:
 - title: Öppen vetenskap – principer, exempel och erfarenheter
   year: 2017
   links: {}
+  venue: ', Uppsala University, U-CARE, 2017-12-11.'
 - title: Open data - examples and reflections
   year: 2018
   links: {}
+  venue: ', Uppsala University, Department of Earth Sciences, 2018-02-14.'
 - title: Open data in neuroimaging research
   year: 2018
   links:
     slides: https://osf.io/s8bep/
+  venue: ', Karolinska Institutet, Department of Clinical Neuroscience, PET centre, 2018-03-23.'
 - title: Öppna forskningsdata
   year: 2018
   links: {}
+  venue: ', Karolinska Institutet, Department of Clinical Neuroscience, Enebrink research group, 2018-04-11.'
 - title: Åtgärder för öppna data
   year: 2018
   links: {}
+  venue: ', University of Gothenburg, Svensk Nationell Datatjänst, 2018-04-26.'
 - title: Kan vi skilja mellan bra och dålig forskning?
   year: 2018
   links: {}
+  venue: ', Framida miljövård på vetenskaplig grund – \#hurvetdudet?, MISTRA Council for Environmental Management 2018-05-28.'
 - title: 'Intrinsic brain connectivity after partial sleep deprivation in young and older adults: results from the Stockholm
     Sleepy Brain study'
   year: 2018
   links: {}
+  venue: ', StratNeuro Retreat 2018-05-30.'
 - title: Preprints – a discussion
   year: 2018
   links:
     slides: https://osf.io/wfctz/
+  venue: ', Karolinska Institutet, Centre for Psychiatry Research, 2018-09-21.'
 - title: Reproducibility and Openness in Psychological Science
   year: 2018
   links:
     slides: https://osf.io/yre8g/
+  venue: ', DIS Stockholm, 2018-10-16.'
 - title: Open and FAIR data from human participants in neuroscientific research
   year: 2018
   links:
     slides: https://osf.io/8jbqh/
+  venue: ', Society for Neuroscience 2018, San Diego, 2018-11-04. me:'
 - title: 'Meta-science in neuroscience: examples and perspectives'
   year: 2018
   links:
     slides: https://osf.io/f6hjs/
+  venue: ', Quest center, Berlin Institute of Health, 2018-11-26.'
 - title: Open methodology and reproducible research
   year: 2019
   links:
     slides: https://osf.io/ah6sy/
+  venue: ', Stockholm University, Department of Molecular Bioscience, 2019-05-03.'
 - title: Panel discussion about open science
   year: 2019
   links: {}
+  venue: ', Stockholm University, 2019-05-14.'
 - title: 'Open Science: a researcher’s perspective'
   year: 2019
   links: {}
+  venue: ', Erasmus Staff Week for Librarians: Towards Open Science, 2019-09-27.'
 - title: Open science – what a young researcher needs to know?
   year: 2019
   links:
     slides: https://osf.io/xbcde/
+  venue: ', Karolinska Institutet, Brjánn Ljótsson''s research group, 2019-10-31.'
 - title: 'Open neuroimaging data and personal data privacy: convergence or divergence'
   year: 2020
   links:
     video: https://www.youtube.com/watch?v=A3BapxKPnRQ&list=PLVso6Qs8PLChTc8uMUWNSe_Bj4tfOHC_f&index=27
+  venue: ', Organization for Human Brain Mapping, Emergent Session, 2020-06-23, panel talk. .'
 - title: Pre-registration, Registered reports
   year: 2020
   links:
     video: https://www.youtube.com/watch?v=-GKKiwMyfH8&list=PLVso6Qs8PLChTc8uMUWNSe_Bj4tfOHC_f&index=15
+  venue: ', Organization for Human Brain Mapping, Emergent Session, 2020-07-01, panel talk.'
 - title: 'Brain research data sharing and personal data privacy: continued discussion on anonymization + community meeting'
   year: 2020
   links:
     video: https://www.youtube.com/watch?v=j9wFwBxwMvI&list=PLVso6Qs8PLChTc8uMUWNSe_Bj4tfOHC_f&index=16
+  venue: ', Organization for Human Brain Mapping, Emergent Session, 2020-07-03, panel talk.'
 - title: Publicly sharing data – opportunities and challenges
   year: 2020
   links:
     slides: https://osf.io/tp37s/
+  venue: ', Karolinska Institutet, Research school for health care sciences, 2020-10-27.'
 - title: Öppen data och registerforskning
   year: 2020
   links:
     slides: https://osf.io/sfn4v/
+  venue: ', Umeå universitet och Svensk nationell datatjänst, Registerbaserad forskning och öppen tillgång till forskningsdata,
+    2020-11-26.'
 - title: Open and FAIR data – some principles and examples
   year: 2021
   links:
     slides: https://osf.io/3at4s/
+  venue: ', Karlstads universitet, Open data from a researcher''s perspective, 2021-02-25.'
 - title: Betydelsen av datahanteringsplaner
   year: 2021
   links:
     slides: https://osf.io/nmdp4/
+  venue: ', Umeå universitet, 2021-03-02.'
 - title: Is PrePublication the future? Challenges and opportunities after a pandemic
   year: 2021
   links: {}
+  venue: ', Karolinska Institutet, panel discussion, 2021-05-03'
 - title: Reproducibility in science –challenges and solutions
   year: 2021
   links:
     slides: https://osf.io/9uw4x/
+  venue: ', Karolinska Institutet, Department of Neurobiology, Care Sciences and Society, Division of Nursing, 2021-05-13'
 - title: The multi-analyst design - examples and outstanding metascientific questions
   year: 2021
   links:
     slides: https://osf.io/yprkw/
+  venue: ', Charité/Quest, Current topics in meta-science, 2021-06-21'
 - title: Replacing Academic journals
   year: 2021
   links:
     slides: https://osf.io/uktqb/
+  venue: ', European Open Science Cloud Steering Board, 2021-09-29'
 - title: '"It matters how we open knowledge": A panel discussion on open access and equity'
   year: 2021
   links:
     video: https://www.youtube.com/watch?v=6oZbVTqhX5o
+  venue: ', panel talk, Stockholm Trio university alliance, 2021-10-28.'
 - title: Methods to assess and mitigate re-identification risks when sharing research data
   year: 2021
   links:
     slides: https://osf.io/7xenk/
+  venue: ', LUPOP/Tornblad seminar series on methodological issues in epidemiology and population research, 2021-11-11'
 - title: How to reclaim ownership of scholarly publishing
   year: 2022
   links:
     slides: https://osf.io/rc82z/
+  venue: ', National Library of Sweden, 2022-01-25'
 - title: Meritvärdering för ett öppet forskningssystem i Europa
   year: 2022
   links:
     slides: https://osf.io/dqyp3/
+  venue: ', Swedish National Data Service network meeting, 2022-02-11'
 - title: Big team science in Psychology - How to use large samples and many analysts to assess and improve reproducibility
   year: 2022
   links:
     slides: https://osf.io/b3wh6/
+  venue: ', Stockholm University, Department of Psychology, 2022-02-16'
 - title: Using the Brain Imaging Data Structure (BIDS) to organise and analyse data
   year: 2022
   links:
     slides: https://osf.io/4rtcx/
+  venue: ', Swedish National Data Service, 2022-04-20.'
 - title: Reproducerbarhetskrisen i biomedicinsk forskning
   year: 2022
   links: {}
+  venue: ', Apotekarsocieteten, 2022-04-21.'
 - title: Implementering av SUHF:s färdplan för öppen vetenskap
   year: 2022
   links:
     slides: https://osf.io/xf9nk/
+  venue: ', Swedish National Data Service Network Meeting, Gothenburg 2022-04-27.'
 - title: Replacing Academic Journals
   year: 2022
   links:
@@ -3201,65 +3303,84 @@ invited_talks:
   year: 2022
   links:
     slides: https://osf.io/zvm7p/
+  venue: ', Swedish Institute for Social Research, Stockholm University, 2022-06-15.'
 - title: I stället för tidskrifter
   year: 2022
   links: {}
+  venue: ', Mitt i transformationen 4 - presentationer och diskussioner om den interna omfördelningsmodellen för Bibsamkonsortiet,
+    National Library of Sweden, 2022-06-15.'
 - title: 'Omställning till ett öppet vetenskapssystem: svenska lärosätens roll'
   year: 2022
   links:
     slides: https://osf.io/zvyqa/
+  venue: ', Keynote presentation, Medicinska bibliotekskonferensen 2022, 2022-06-16.'
 - title: Open Science
   year: 2022
-  links: {}
+  links:
+    web: https://stefanwiens.github.io/open_science_talk/openscience.html
+  venue: ', Department of Psychology at Stockholm University, 2022-08-26, with Stefan Wiens.'
 - title: Öppen tillgång till forskningsdata
   year: 2022
   links:
     slides: https://osf.io/s26xh
+  venue: ', Högskolan i Halmstad, 2022-09-06.'
 - title: Pathways towards community-based, transparent, and systematic quality control of research objects
   year: 2022
   links:
     slides: https://osf.io/4u6jc
     video: https://www.youtube.com/watch?v=QqGHW5tb87s
+  venue: ', The Future of Science seminar series by the DeSci foundation, 2022-09-19. . .'
 - title: Perspectives on scientific reproducibility
   year: 2022
   links:
     slides: https://osf.io/hnju6
+  venue: ', inar by the Karolinska Institutet library for Open Access Week, 2022-10-24. .'
 - title: Transparency and reproducibility in neuroscience
   year: 2022
   links:
     slides: https://osf.io/nx2yw
+  venue: ', Copenhagen University, 2022-10-31. .'
 - title: Transparency and reproducibility in psychiatry research
   year: 2022
   links:
     slides: https://osf.io/wnm4r
+  venue: ', Uppsala University, 2022-11-11. .'
 - title: Systematic, transparent, and community-based assessment and quality control of research data
   year: 2022
   links:
     slides: https://osf.io/wnm4r
+  venue: ', Berlin University Alliance, 2022-12-05. .'
 - title: Open science and data sharing
   year: 2022
   links:
     slides: https://osf.io/bvu2s
+  venue: ', Uppsala University, WOMHER research school, 2022-12-07. .'
 - title: Teaching open science and reproducible research at Karolinska Institutet
   year: 2022
   links:
     slides: https://osf.io/9s2pd
+  venue: ', Life Science Trainers, Training others to adopt FAIR practices panel talk, How to train FAIR miniseries, 2022-12-15.
+    .'
 - title: How to make science more trustworthy by improving transparency and reproducibility
   year: 2023
   links:
     slides: https://osf.io/ung8q
+  venue: ', Open Science Community Uppsala, 2023-01-13. .'
 - title: Historien bakom Coara
   year: 2023
   links:
     slides: https://osf.io/e8pvs
+  venue: ', SUHF Dialogseminarium, 2023-01-20. .'
 - title: The why and how of data sharing
   year: 2023
   links:
     slides: https://osf.io/ht7d5
+  venue: ', Högskolan i Borås (online), 2023-01-25. .'
 - title: Bortom transformativa avtal
   year: 2023
   links:
     slides: https://osf.io/85a6x
+  venue: ', SUHF online inar, 2023-03-17. .'
 - title: Open science and reproducible research
   year: 2023
   links:
@@ -3268,45 +3389,60 @@ invited_talks:
   year: 2023
   links:
     video: https://www.youtube.com/watch?v=HohWoE3bMi0
+  venue: ', Panel discussion, Consilium Scientific, 2023-04-27. . Transcript: .'
 - title: 'Debate: Should sponsors be sanctioned for failing to report clinical results?'
   year: 2023
   links:
     video: https://www.youtube.com/watch?v=IjsGeVlkXeE
+  venue: ', Consilium Scientific, 2023-05-04. . Transcript: .'
 - title: Teaching reproducible research practices – experiences from Karolinska Institutet
   year: 2023
   links:
     slides: https://osf.io/e6vrj
+  venue: ', German Reproducibility Networks and Berlin Institutes of Health, Reproducible research: Education and Teaching
+    formats reports from the reproducibility networks, Berlin, 2023-05-11. .'
 - title: Sekundäranvändning av forskningsdata – forskarens perspektiv
   year: 2023
   links:
     slides: https://osf.io/xthbf
+  venue: ', Nätverksträff för högskolearkivarier, Karolinska Institutet, 2023-05-26. .'
 - title: CoARA – bakgrund och innebörd ur en forskares perspektiv
   year: 2023
   links:
     slides: https://osf.io/85a6x
+  venue: ', SUHF online inar "CoARA och öppen vetenskap – vad innebär det för de svenska lärosätena?", 2023-06-02. .'
 - title: Rapportering av utförda studier – en aspekt av forskningens transparens och integritet
   year: 2023
   links:
     slides: https://osf.io/jc7dy
+  venue: ', Centrala Djurförsöksetiska Nämnden, 2023-08-30. .'
 - title: Data sharing in neuroimaging research
   year: 2023
   links:
     slides: https://osf.io/fk3ny
+  venue: ', Symposium: Towards better science – FAIR and open research data in practice. Karolinska Institutet Open Science
+    Working Group, 2023-09-07. .'
 - title: Open and accessible data – a recipe for research success?
   year: 2023
-  links: {}
+  links:
+    web: https://www.kth.se/en/biblioteket/kalender/evenemang/oppen-och-tillganglig-data-framgangsrecept-for-forskning-1.1270470
+  venue: ', Debate, University Library of the Royal Institute of Technology, Stockholm, 2023-10-05. .'
 - title: Ett forskarperspektiv
   year: 2023
   links: {}
+  venue: ', Nationellt strategiskt event om öppen vetenskap och det europeiska öppna forskningsmolnet (EOSC), VR \& SUHF,
+    Stockholm, 2023-10-12.'
 - title: Clinical trials reporting at Nordic medical universities and university hospitals
   year: 2023
   links:
     video: https://www.youtube.com/watch?v=RoYXvmG0KN0
     slides: https://osf.io/z2cyn
+  venue: ', METRICS Center, Stanford University, 2023-10-05. . .'
 - title: 'Pathways to an open science system: Replacing academic journals'
   year: 2023
   links:
     slides: https://osf.io/jvw5g
+  venue: ', Institute for Futures Studies, Stockholm, 2023-10-18. .'
 - title: Replacing Academic Journals
   year: 2023
   links: {}
@@ -3325,34 +3461,43 @@ invited_talks:
 - title: ReproducibiliTea Journal Club
   year: 2024
   links: {}
+  venue: ', Stanford University, 2024-03-13.'
 - title: On Metascience
   year: 2024
   links:
     slides: https://osf.io/xq623
+  venue: ', Social Science Observatory, San Francisco, 2024-03-19.'
 - title: Metascience in medical research–some examples
   year: 2024
   links:
     slides: https://osf.io/2xq5h
+  venue: ', Swedish Congress of General Practice, Uppsala, 2024-04-24. .'
 - title: Så kan medicinsk forskning bli mer pålitlig och användbar
   year: 2024
   links:
     slides: https://osf.io/j7tgk
+  venue: ', Keynote presentation, Swedish Congress of General Practice, Uppsala, 2024-04-25. .'
 - title: Research Assessment for Transparency and Reproducibility
   year: 2024
   links: {}
+  venue: ', Event with John Ioannidis at Karolinska Institutet, 2024-04-26, organizer and panelist.'
 - title: Multi-analyst research designs and the influence of analytical variability on the robustness of research results
   year: 2024
   links:
     slides: https://osf.io/rbshd
+  venue: ', Innsbruck University, Department of Economics, 2024-05-08.'
 - title: Data sharing in research on human participants
   year: 2024
   links:
     slides: https://osf.io/79hcn
+  venue: ', The Swedish School of Sports and Health Sciences, 2024-05-16.'
 - title: 'The long road towards open science: strategies for change'
   year: 2024
   links:
     slides: https://osf.io/rn8wf
     video: https://www.youtube.com/watch?v=svJvq1cot5k
+  venue: ', Opening keynote of the Open Repositories 2024 conference in Gothenburg, Sweden, 2024-06-03. . . and video: Zenodo,
+    doi:'
 - title: On Metascience
   year: 2024
   links: {}
@@ -3360,21 +3505,26 @@ invited_talks:
   year: 2024
   links:
     slides: https://osf.io/9wq8c
+  venue: ', ReproducibiliTea journal club, Karolinska Institutet, 2024-09-05. .'
 - title: Data sharing – some principles and examples
   year: 2024
   links:
     slides: https://osf.io/cw5bn
+  venue: ', Department of Epidemiology and Biostatistics, Karolinska Institutet, 2024-10-01. .'
 - title: Varför öppna forskningsdata? Juridiken som möjliggörare
   year: 2024
   links:
     slides: https://osf.io/ypwm5
+  venue: ', Juristnätverket inom Svensk Nationell Datatjänst, Göteborg, 2024-11-07. .'
 - title: Concepts in Open Science
   year: 2025
   links:
     slides: https://osf.io/5r8v9
+  venue: ', IP4OS project meeting, 2025-02-13. .'
 - title: Öppna forskningsdata för ett rationellt samhälle
   year: 2025
   links: {}
+  venue: ', Keynote, Umeå University network for data management, 2025-06-03. enumerate'
 conference_presentations:
 - title: Nilsonne G. Title not on record. Läkaresällskapets Riksstämma, Sektionen för Patologi, Stockholm 2003. Oral presentation.
   year: 2003

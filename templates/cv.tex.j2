@@ -279,7 +279,7 @@
 \section{Invited Talks}
 \begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for pres in invited_talks %>
-    \item << pres.title|notrailingdot|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
+    \item << pres.title|notrailingdot|tex >>.<% if pres.venue %> << pres.venue|autolink >><% if not pres.venue.endswith('.') %>.<% endif %><% endif %><% if pres.year and not pres.venue %> << pres.year >>.<% endif %><< pres.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
