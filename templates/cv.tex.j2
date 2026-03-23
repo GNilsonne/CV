@@ -173,7 +173,7 @@
 \section{Publications in Academic Journals}
 \begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for pub in publications %>
-    \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>. <% if pub.journal %>\textit{<< pub.journal|notrailingdot|tex >>}.<% endif %><% if pub.year %> << pub.year >><% endif %><% if pub.volume %>;<< pub.volume >><% endif %><% if pub.issue %>(<< pub.issue >>)<% endif %><% if pub.pages %>:<< pub.pages >><% elif pub.article_number %>:<< pub.article_number >><% endif %>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %><% if pub.pmid %> PMID:~\href{https://pubmed.ncbi.nlm.nih.gov/<< pub.pmid >>}{<< pub.pmid >>}<% endif %><< pub.links|links >>
+    \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>. <% if pub.journal %>\textit{<< pub.journal|notrailingdot|tex >>}.<% endif %><% if pub.year %> << pub.year >><% endif %><% if pub.volume %>;<< pub.volume >><% endif %><% if pub.issue %>(<< pub.issue >>)<% endif %><% if pub.pages %>:<< pub.pages >><% elif pub.article_number %>:<< pub.article_number >><% endif %>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %><< pub.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
