@@ -2410,84 +2410,6 @@ publications:
     Evolution, Eucalyptus
   open_access: Open Access
   rims_id: '904181'
-- title: 'Open Access Week 16-24 October: Open access increases access to the research'
-  authors: Nilsonne G
-  journal: Lakartidningen
-  year: 2010
-  volume: '107'
-  issue: '41'
-  pages: '2491'
-  links: {}
-  rims_id: '547356'
-- title: 105. Effects of partial sleep deprivation on self-rated health and sickness
-  authors: Nilsonne G, Tamm S, d’Onofrio P, Schwarz J, Kecklund G, Åkerstedt T, Fischer H, Lekander M
-  journal: BRAIN BEHAVIOR AND IMMUNITY
-  doi: 10.1016/j.bbi.2013.07.117
-  year: 2013
-  volume: '32'
-  pages: e30
-  links: {}
-  rims_id: '640324'
-  issn: 0889-1591
-  publication_date: 2013-09
-  canonical_journal: BRAIN BEHAVIOR AND IMMUNITY
-  keywords: 32 Biomedical and Clinical Sciences, 5202 Biological Psychology, 3204 Immunology, 3209 Neurosciences, 52 Psychology,
-    Sleep Research, Behavioral and Social Science, 3 Good Health and Well Being
-  open_access: Closed Access
-- title: Open data important part of future research methodology
-  authors: Nilsonne G
-  journal: Lakartidningen
-  year: 2014
-  volume: '111'
-  issue: 44-45
-  pages: 1952-1953
-  links: {}
-  rims_id: '515113'
-- title: 146. Effects of low-dose LPS on resting-state fMRI network activity
-  authors: Lekander M, Karshikoff B, Nilsonne G, Ingvar M, Johansson E, Lundström J, Åkerstedt T, Höglund CO, Axelsson J
-  journal: BRAIN BEHAVIOR AND IMMUNITY
-  doi: 10.1016/j.bbi.2014.06.166
-  year: 2014
-  volume: '40'
-  pages: e42
-  links: {}
-  rims_id: '636982'
-  issn: 0889-1591
-  publication_date: 2014-09
-  canonical_journal: BRAIN BEHAVIOR AND IMMUNITY
-  keywords: 5202 Biological Psychology, 32 Biomedical and Clinical Sciences, 52 Psychology, Biomedical Imaging, Neurosciences,
-    Clinical Research, Clinical Trials and Supportive Activities, 1.1 Normal biological development and functioning
-  open_access: Closed Access
-- title: 'The bio terminology group recommends: Dare to nurture our professional language '
-  authors: Nilsonne G
-  journal: Lakartidningen
-  year: 2014
-  volume: '111'
-  issue: '8'
-  pages: '349'
-  links: {}
-  rims_id: '733252'
-- title: 'Interleukin-6: Diurnal variation and relation to sleep'
-  authors: Nilsonne G, Ingre M, Hedlund M, Axelsson J, Åkerstedt T, Lekander M
-  journal: BRAIN BEHAVIOR AND IMMUNITY
-  doi: 10.1016/j.bbi.2017.07.042
-  year: 2017
-  volume: '66'
-  pages: e8
-  links: {}
-  rims_id: '673378'
-  issn: 0889-1591
-  publication_date: 2017-11
-  canonical_journal: BRAIN BEHAVIOR AND IMMUNITY
-  keywords: 32 Biomedical and Clinical Sciences, 3201 Cardiovascular Medicine and Haematology, Sleep Research
-  open_access: Closed Access
-- title: 'Same data - different conclusions: Analytical flexibility in medical research can be considerable'
-  authors: Nilsonne G, Johannesson M, Dreber A
-  journal: Lakartidningen
-  year: 2023
-  volume: '120'
-  links: {}
-  rims_id: '661603'
 - title: 'Questioning the Reciprocal Effects Model of Academic Self-Concept and Achievement: A Reanalysis of a Meta-Analysis
     of Longitudinal Studies and a Simulation'
   authors: Sorjonen K, Ingre M, Melin B, Nilsonne G
@@ -2509,13 +2431,6 @@ publications:
   keywords: academic achievement, academic self-concept, reciprocal effects model, re-meta-analysis, simulation, spurious
     prospective effects
   open_access: Gold OA
-- title: Registration and reporting of results from clinical trials in Nordic countries - there is scope for improvement
-  authors: Axfors C, Nilsonne G
-  journal: Lakartidningen
-  year: 2024
-  volume: '121'
-  links: {}
-  rims_id: '873748'
 - title: 'Still No Convincing Evidence for a Causal Effect of Academic Self-Concept on Achievement: A Reply to Núñez-Regueiro
     et al., 2025'
   authors: Sorjonen K, Melin B, Nilsonne G
@@ -3078,6 +2993,11 @@ scholarly_debate:
   journal: ''
   year: 2024
   authors: Bishop D, et al
+  links: {}
+- title: Registration and reporting of results from clinical trials in Nordic countries - there is scope for improvement
+  year: 2024
+  authors: Axfors C, Nilsonne G
+  journal: Lakartidningen
   links: {}
 invited_talks:
 - title: Open Access från en forskares horisont.
@@ -3732,6 +3652,21 @@ conference_abstracts:
   year: 2018
   links:
     slides: https://osf.io/vxmdj/
+- title: 105. Effects of partial sleep deprivation on self-rated health and sickness
+  year: 2013
+  authors: Nilsonne G, Tamm S, d’Onofrio P, Schwarz J, Kecklund G, Åkerstedt T, Fischer H, Lekander M
+  links:
+    doi: https://doi.org/10.1016/j.bbi.2013.07.117
+- title: 146. Effects of low-dose LPS on resting-state fMRI network activity
+  year: 2014
+  authors: Lekander M, Karshikoff B, Nilsonne G, Ingvar M, Johansson E, Lundström J, Åkerstedt T, Höglund CO, Axelsson J
+  links:
+    doi: https://doi.org/10.1016/j.bbi.2014.06.166
+- title: 'Interleukin-6: Diurnal variation and relation to sleep'
+  year: 2017
+  authors: Nilsonne G, Ingre M, Hedlund M, Axelsson J, Åkerstedt T, Lekander M
+  links:
+    doi: https://doi.org/10.1016/j.bbi.2017.07.042
 popular_science_talks:
 - title: Sex och kärlek i hjärnan.
   authors: 'Stockholm Pride/RFSU Stockholm 2011-08-05:'
