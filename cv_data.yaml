@@ -217,11 +217,10 @@ academic_commissions:
     ki.se: http://ki.se/en/cns/calendar/imaging-the-sleepy-brain
     idear-net: http://www.idear-net.net/ssc/?wpdmpro=abstracts-imaging-the-sleepy-brain
 - description: Ambassador for the Center for Open Science
+  subitems:
+  - Participated in the Mozilla Festival 2014, London, UK
   links:
     Center for Open Science: https://cos.io/
-- description: Participated in the Mozilla Festival 2014, London, UK
-  links:
-    Mozilla Festival 2014: http://2014.mozillafestival.org/
 - description: Chairperson of the Committee for Badges for open practices, Center for Open Science, 2014-2017
   links:
     Badges for open practices: https://osf.io/tvyxz/wiki/home/
@@ -267,51 +266,54 @@ academic_commissions:
 - description: Member of EOSC-Future & Research Data Alliance Artificial Intelligence & Data Visitation Working Group, 2022-2023
 - description: Member of Karolinska Institutet Open Science Working Group, 2022-
 - description: 'Reviewer for scientific journals, books, and conferences:'
-- description: International Journal of Cancer
-- description: Cancer Epidemiology, Biomarkers, and Prevention*
-- description: BMC Cancer
-- description: British Journal of Cancer*
-- description: Journal of Hematology and Oncology*
-- description: Science Translational Medicine
-- description: Brain, Behavior, and Immunity*
-- description: PLOS One*
-- description: Scandinavian journal of Psychology*
-- description: F1000 Research* (open peer review reports listed below)
-- description: Organization for Human Brain Mapping 2017
-- description: American Psychologist*
-- description: Sleep Medicine Reviews*
-- description: Journal of Inflammation Research*
-- description: Organization for Human Brain Mapping 2018
-- description: Translational Psychiatry*
-- description: SLEEP*
-- description: Human Brain Mapping*
-- description: Molecular Psychiatry*
-- description: Meta-Psychology
-- description: Systematic Reviews*
-- description: 'Psychiatry Research: Neuroimaging*'
-- description: European Sleep Medicine Textbook (Second Edition)*
-- description: Royal Society Open Science*
-- description: Meta-Psychology
-- description: 'The Review of Psychology *Registered in Web of Science, ID: 1550920'
-  links:
-    '1550920': https://www.webofscience.com/wos/author/record/1550920
+  subitems:
+  - International Journal of Cancer
+  - Cancer Epidemiology, Biomarkers, and Prevention*
+  - BMC Cancer
+  - British Journal of Cancer*
+  - Journal of Hematology and Oncology*
+  - Science Translational Medicine
+  - Brain, Behavior, and Immunity*
+  - PLOS One*
+  - Scandinavian journal of Psychology*
+  - F1000 Research* (open peer review reports listed below)
+  - Organization for Human Brain Mapping 2017
+  - American Psychologist*
+  - Sleep Medicine Reviews*
+  - Journal of Inflammation Research*
+  - Organization for Human Brain Mapping 2018
+  - Translational Psychiatry*
+  - SLEEP*
+  - Human Brain Mapping*
+  - Molecular Psychiatry*
+  - Meta-Psychology
+  - Systematic Reviews*
+  - 'Psychiatry Research: Neuroimaging*'
+  - European Sleep Medicine Textbook (Second Edition)*
+  - Royal Society Open Science*
+  - Meta-Psychology
+  - The Review of Psychology
+  footnote: '*Registered in Web of Science, ID: 1550920'
 - description: 'Reviewer for scientific grants:'
-- description: Horizon 2020 Marie Skłodowska Curie 2017
-- description: Horizon 2020 Marie Skłodowska Curie 2018
-- description: Horizon 2020 Marie Skłodowska Curie 2019
-- description: Horizon 2020 Marie Skłodowska Curie 2020
-- description: SPOKES Wellcome Trust Funded Translational Partnership Fellowships 2020, Berlin Institute of Health
-- description: Horizon 2020 Future and Emerging Technologies (FET) Open 2020
-- description: Horizon Europe Marie Skłodowska Curie 2021
-- description: Norrsken Mind Foundation 2022
-- description: ACX grants 2023
-- description: ALF Region Skåne 2024
+  subitems:
+  - Horizon 2020 Marie Skłodowska Curie 2017
+  - Horizon 2020 Marie Skłodowska Curie 2018
+  - Horizon 2020 Marie Skłodowska Curie 2019
+  - Horizon 2020 Marie Skłodowska Curie 2020
+  - SPOKES Wellcome Trust Funded Translational Partnership Fellowships 2020, Berlin Institute of Health
+  - Horizon 2020 Future and Emerging Technologies (FET) Open 2020
+  - Horizon Europe Marie Skłodowska Curie 2021
+  - Norrsken Mind Foundation 2022
+  - ACX grants 2023
+  - ALF Region Skåne 2024
 - description: Reviewer for scientific prizes
-- description: British Neuroscience Association Credibility in Neuroscience Prize, 2024
+  subitems:
+  - British Neuroscience Association Credibility in Neuroscience Prize, 2024
 - description: Reviewer of nonfiction books and book proposals
-- description: Fri Tanke Förlag
-- description: Elsevier
-- description: SAGE Publications
+  subitems:
+  - Fri Tanke Förlag
+  - Elsevier
+  - SAGE Publications
 - description: 'Guest editor of special issue of the Swedish Medical Journal on metascience, "Medicinsk forskning i fågelperspektiv",
     with Cathrine Axfors and Emmanuel Zavalis, 2023. web: lakartidningen.se/tag/tema-medicinsk-forskning-i-fagelperspektiv/'
   links:
@@ -2070,7 +2072,6 @@ conference_abstracts:
   links: {}
 - title: '0149 Gray Matter Volume Correlates Of Sleepiness: A Voxel-based Morphometry Study In Younger And Older Adults.'
   authors: Åkerstedt T, Lekander M, Nilsonne G, Tamm S, d’Onofrio P, Kecklund G, Fischer H, Petrovic P, Månsson KN
-  year: 149
   links: {}
 - title: 'Sleepy Brain 2: Multimodal brain imaging after a night of sleep deprivation.'
   authors: Nilsonne G, Tamm S, Schwarz J, Kecklund G, Lekander M, Petrovic P, Åkerstedt T
@@ -2216,8 +2217,6 @@ popular_science_talks:
   links:
     video: https://www.youtube.com/watch?v=pa9PV9jw5-M
 popular_science_writings:
-- title: ''
-  links: {}
 - title: Förförande diagnoser.
   year: 2010
   links:
@@ -2226,34 +2225,27 @@ popular_science_writings:
   year: 2011
   links: {}
 - title: Tankar kring det nya verksamhetsåret.
-  year: 2011
   links:
     web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Mars-2011/Ordforandens-rader/
 - title: Var är alla flickorna?
   links:
     web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nummer-3/Var-ar-alla-flickorna/
 - title: Stora steg mot ökat medlemsinflytande på årets RFSU-kongress.
-  year: 2011
   links:
     web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nummer-4-2011/Stora-steg-mot-okat-medlemsinflytande-pa-arets-RFSU-kongress/
 - title: Pridefestivalen en höjdpunkt på året.
-  year: 2011
   links:
     web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nummer-5-2011/Pridefestivalen-en-hojdpunkt-pa-aret/
 - title: Dags för handling i tvångssteriliseringsfrågan.
-  year: 5201
   links:
     web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-52011/Dags-for-handling-i-tvangssteriliseringsfragan/
 - title: Bättre kunskaper krävs om ungas sexuella hälsa.
-  year: 7201
   links:
     web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-72011/Battre-kunskaper-kravs-om-ungdomars-sexuella-halsa/
 - title: Kunskap – en kungsväg till förändring.
-  year: 7201
   links:
     web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-72011/Battre-kunskaper-kravs-om-ungdomars-sexuella-halsa/
 - title: Dags för regeringen att sätta ned foten om tvångssteriliseringarna.
-  year: 1201
   links:
     web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-12012/Dags-for-regeringen-att-satta-ned-foten-om-tvangssteriliseringarna/
 - title: Det ideella engagemanget är öppenhetens grundval.

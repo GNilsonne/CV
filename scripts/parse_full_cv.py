@@ -201,6 +201,119 @@ def parse_simple_list_section(tex, heading):
     return result
 
 
+def parse_nested_list_section(tex, heading):
+    """Parse a section with nested itemize lists (e.g., reviewer lists).
+    
+    Returns list of entries where each entry can have 'subitems' list.
+    """
+    section = extract_section(tex, heading)
+    if not section:
+        return []
+    
+    result = []
+    # Split by top-level \item, but track nested \begin{itemize}/\end{itemize}
+    # First, let's split smarter: find top-level items by tracking nesting depth
+    lines = section.split("\n")
+    
+    current_item = []
+    in_item = False
+    
+    items_raw = []
+    depth = 0
+    buf = []
+    
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith("\\begin{itemize}") or stripped.startswith("\\begin{enumerate}"):
+            depth += 1
+            if depth == 1:
+                # This is the outermost list, skip the \begin
+                continue
+            buf.append(line)
+        elif stripped.startswith("\\end{itemize}") or stripped.startswith("\\end{enumerate}"):
+            depth -= 1
+            if depth == 0:
+                # End of outermost list
+                continue
+            buf.append(line)
+        elif stripped.startswith("\\item") and depth == 1:
+            # New top-level item
+            if buf:
+                items_raw.append("\n".join(buf))
+            buf = [line]
+        else:
+            buf.append(line)
+    if buf:
+        items_raw.append("\n".join(buf))
+    
+    for raw in items_raw:
+        # Check if this item has a nested \begin{itemize}
+        if "\\begin{itemize}" in raw or "\\begin{enumerate}" in raw:
+            # Split into parent text and sub-items
+            parent_match = re.match(r"\\item\s+(.*?)\\begin\{(?:itemize|enumerate)\}", raw, re.DOTALL)
+            if parent_match:
+                parent_text = parent_match.group(1)
+            else:
+                parent_text = raw.split("\\begin{")[0]
+                parent_text = re.sub(r"^\\item\s*", "", parent_text)
+            
+            parent_clean = clean_tex(parent_text)
+            hrefs = extract_href(parent_text)
+            
+            # Extract sub-items
+            subitems = []
+            sub_raw = raw[raw.index("\\begin{"):]
+            sub_entries = re.split(r"\\item\s+", sub_raw)
+            for sub in sub_entries:
+                sub = sub.strip()
+                if not sub or sub.startswith("\\begin") or sub.startswith("\\end"):
+                    continue
+                # Remove \end{itemize} and everything after (including footnotes)
+                sub = re.sub(r"\\end\{[^}]*\}.*", "", sub, flags=re.DOTALL)
+                sub_text = clean_tex(sub)
+                if sub_text:
+                    subitems.append(sub_text)
+            
+            # Check for text after \end{itemize} (e.g., the Web of Science note)
+            end_match = re.search(r"\\end\{(?:itemize|enumerate)\}(.*?)$", raw, re.DOTALL)
+            footnote = ""
+            if end_match:
+                fn_text = clean_tex(end_match.group(1))
+                fn_hrefs = extract_href(end_match.group(1))
+                if fn_text:
+                    footnote = fn_text
+            
+            entry = {"description": parent_clean}
+            if subitems:
+                entry["subitems"] = subitems
+            if footnote:
+                entry["footnote"] = footnote
+            links = {}
+            for url, label in hrefs:
+                links[label.strip() if label.strip() else "link"] = url
+            if links:
+                entry["links"] = links
+            if parent_clean or subitems:
+                result.append(entry)
+        else:
+            # Simple item, no nesting
+            raw = re.sub(r"^\\item\s*", "", raw)
+            raw = re.sub(r"%[^\n]*", "", raw)
+            hrefs = extract_href(raw)
+            text = clean_tex(raw)
+            if not text:
+                continue
+            entry = {"description": text}
+            links = {}
+            for url, label in hrefs:
+                links[label.strip() if label.strip() else "link"] = url
+            if links:
+                entry["links"] = links
+            result.append(entry)
+    
+    return result
+
+
 def parse_publication(raw):
     """Parse a single publication entry from raw LaTeX."""
     entry = {}
@@ -399,8 +512,10 @@ def parse_presentation(raw):
         if authors and len(authors) > 2:
             entry["authors"] = authors
 
-    # Extract year
-    year_match = re.search(r"(\d{4})", raw)
+    # Extract year, strip URLs first to avoid matching digits in URLs
+    raw_no_urls = re.sub(r"\\href\{[^}]*\}", "", raw)
+    raw_no_urls = re.sub(r"https?://[^\s]+", "", raw_no_urls)
+    year_match = re.search(r"((?:19|20)\d{2})", raw_no_urls)
     if year_match:
         entry["year"] = int(year_match.group(1))
     
@@ -608,7 +723,10 @@ def parse_popular_science_writings(tex):
         else:
             entry["title"] = clean_tex(raw[:150])
         
-        year_match = re.search(r"(\d{4})", raw)
+        # Extract year, but strip URLs first to avoid matching digits in URLs
+        raw_no_urls = re.sub(r"\\href\{[^}]*\}", "", raw)
+        raw_no_urls = re.sub(r"https?://[^\s]+", "", raw_no_urls)
+        year_match = re.search(r"((?:19|20)\d{2})", raw_no_urls)
         if year_match:
             entry["year"] = int(year_match.group(1))
         
@@ -621,7 +739,8 @@ def parse_popular_science_writings(tex):
             else:
                 links["web"] = url
         entry["links"] = links
-        items.append(entry)
+        if entry.get("title"):
+            items.append(entry)
     return items
 
 
@@ -655,7 +774,7 @@ def main():
     data["phd_committee"] = parse_simple_list_section(tex, "PhD thesis committee member/faculty opponent")
     
     # Academic commissions
-    data["academic_commissions"] = parse_simple_list_section(tex, "Academic commissions of trust")
+    data["academic_commissions"] = parse_nested_list_section(tex, "Academic commissions of trust")
     
     # Other commissions
     data["other_commissions"] = parse_simple_list_section(tex, "Other commissions of trust")

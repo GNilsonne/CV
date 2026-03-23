@@ -140,6 +140,14 @@
 \begin{itemize}[nolistsep]
 <% for c in academic_commissions %>
     \item << c.description|tex >>
+    <% if c.subitems %>
+    \begin{itemize}[nolistsep]
+    <% for sub in c.subitems %>
+        \item << sub|tex >>
+    <% endfor %>
+    \end{itemize}
+    <% endif %>
+    <% if c.footnote %>\\<< c.footnote|tex >><% endif %>
 <% endfor %>
 \end{itemize}
 <% endif %>
