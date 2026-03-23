@@ -162,13 +162,21 @@ def coauthors_from_orcid(orcid_id: str, exclude_self: bool = True) -> dict:
 
 
 def sort_by_surname(name: str) -> str:
-    """Extract likely surname for sorting. Handles 'First Last' and 'Last, First'."""
+    """Extract likely surname for sorting. Handles 'Surname Initials' (Vancouver) and 'First Last'."""
     name = name.strip()
     if "," in name:
         return name.split(",")[0].strip().lower()
     parts = name.split()
-    if parts:
+    if len(parts) >= 2:
+        # Vancouver format: "Surname I" or "Surname AB" — last part is short initials
+        last = parts[-1]
+        if len(last) <= 3 and last.replace("-", "").isalpha() and last[0].isupper():
+            # Last part looks like initials, surname is everything before
+            return " ".join(parts[:-1]).lower()
+        # Otherwise assume "First Last"
         return parts[-1].lower()
+    if parts:
+        return parts[0].lower()
     return name.lower()
 
 
