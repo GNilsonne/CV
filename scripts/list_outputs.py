@@ -16,7 +16,12 @@ Examples:
 import argparse
 import csv
 import io
+import sys
 from pathlib import Path
+
+# Force UTF-8 stdout on Windows
+if sys.stdout.encoding != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8")
 
 import yaml
 

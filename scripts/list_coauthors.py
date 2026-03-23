@@ -19,6 +19,10 @@ import re
 import sys
 import time
 import urllib.request
+
+# Force UTF-8 stdout on Windows (cp1252 can't handle ö, å, ń, etc.)
+if sys.stdout.encoding != "utf-8":
+    sys.stdout.reconfigure(encoding="utf-8")
 from collections import defaultdict
 from pathlib import Path
 
