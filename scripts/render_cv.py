@@ -98,6 +98,7 @@ def render_latex(data: dict, template_dir: str, template_name: str) -> str:
     env.filters["tex"] = tex_escape
     env.filters["links"] = format_links_latex
     env.filters["notrailingdot"] = lambda s: str(s).rstrip(".") if s else ""
+    env.filters["doi"] = lambda s: str(s).replace("_", r"\_") if s else ""
 
     template = env.get_template(template_name)
     return template.render(**data)

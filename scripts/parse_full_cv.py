@@ -327,14 +327,19 @@ def parse_publication(raw):
     title_candidates = re.findall(r"\\textbf\{((?:[^{}]|\{[^{}]*\})*)\}", raw)
     title = ""
     for tc in title_candidates:
+        # Skip author self-references: \textit{...} inside \textbf{...}
+        if re.match(r"^\s*\\textit\{", tc):
+            continue
         cleaned = clean_tex(tc)
         # Skip if it's just a name or very short
         if cleaned and len(cleaned) > 20 and not re.match(r"^[A-Z][a-z]+ [A-Z]$", cleaned):
             title = cleaned
             break
     if not title and title_candidates:
-        # Fall back to longest candidate
-        title = clean_tex(max(title_candidates, key=lambda x: len(x)))
+        # Fall back to longest candidate that isn't an author reference
+        non_author = [tc for tc in title_candidates if not re.match(r"^\s*\\textit\{", tc)]
+        if non_author:
+            title = clean_tex(max(non_author, key=lambda x: len(x)))
     entry["title"] = title.rstrip(".")
     
     # Extract journal - \emph{Journal Name} or \textit{Journal Name}
@@ -352,10 +357,8 @@ def parse_publication(raw):
             not jc_clean.startswith("bioR") and
             not jc_clean.startswith("MedR") and
             "preprint" not in jc_clean.lower() and
-            # Skip person names (pattern: "Surname X" or "Surname XY")
+            # Skip person names (pattern: "Surname X" or "Surname XY" — single initial)
             not re.match(r"^[A-ZÅÄÖÜ][a-zåäöü]+\s+[A-ZÅÄÖÜ]{1,3}$", jc_clean) and
-            # Skip names like "Gustav Nilsonne"
-            not re.match(r"^[A-ZÅÄÖÜ][a-zåäöü]+\s+[A-ZÅÄÖÜ][a-zåäöü]+$", jc_clean) and
             # Skip if it's inside \textbf{\textit{...}} (author self-reference)
             "\\textbf{\\textit{%s}" % jc not in raw):
             journal = jc_clean
@@ -370,6 +373,9 @@ def parse_publication(raw):
         doi = doi_match.group(1).strip().rstrip(".")
         # Clean doi: prefix if accidentally included
         doi = re.sub(r"^doi:", "", doi)
+        # Clean LaTeX escapes from DOI (e.g., \_ -> _)
+        doi = doi.replace(r"\_", "_")
+        doi = doi.replace(r"\&", "&")
         entry["doi"] = doi
     
     # Extract year
@@ -386,10 +392,9 @@ def parse_publication(raw):
     real_title_pos = -1
     for m in re.finditer(r"\\textbf\{((?:[^{}]|\{[^{}]*\})*)\}", raw):
         content = m.group(1)
-        # Skip if it's just \textit{Name} (author self-reference)
-        if re.match(r"^\s*\\textit\{[^}]+\}\s*$", content):
+        # Skip if it contains \textit{ (author self-reference or group name)
+        if re.match(r"^\s*\\textit\{", content):
             continue
-        # Skip if it's just a short name like "Open Science Collaboration"
         cleaned = clean_tex(content)
         if len(cleaned) > 20:  # Real titles are longer
             real_title_pos = m.start()

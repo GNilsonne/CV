@@ -420,7 +420,7 @@ publications:
   authors: Mundt F, Heidari-Hamedari G, Nilsonne G, Metintas M, Hjerpe A, Dobra K
   links:
     data: http://dx.doi.org/10.5061/dryad.c42t7
-- title: Open Science Collaboration
+- title: Estimating the reproducibility of psychological science
   journal: Science
   doi: 10.1126/science.aac4716
   year: 2015
@@ -455,7 +455,7 @@ publications:
     van der Hulst M, Vanpaemel W, Vianello M, Voracek M, Zuni K
   links: {}
 - title: Post-traumatic stress disorder and interleukin 6
-  journal: ''
+  journal: Lancet Psychiatry
   doi: 10.1016/S2215-0366(16)00022-5
   year: 2016
   authors: Nilsonne G, Hilgard J, Lekander M, Arnberg F
@@ -508,7 +508,7 @@ publications:
     code: http://dx.doi.org/10.5281/zenodo.182505
 - title: Subcortical brain volume differences in participants with attention deficit hyperactivity disorder in children and
     adults
-  journal: ''
+  journal: Lancet Psychiatry
   doi: 10.1016/S2215-0366(17)30160-8
   year: 2017
   authors: Bejerot S, Nilsonne G, Humble M
@@ -517,7 +517,7 @@ publications:
     code: http://dx.doi.org/10.5281/zenodo.345161
 - title: 'Intrinsic brain connectivity after partial sleep deprivation in young and older adults: results from the Stockholm
     Sleepy Brain Study'
-  journal: ''
+  journal: Scientific Reports
   doi: 10.1038/s41598-017-09744-7
   year: 2017
   authors: Nilsonne G, Tamm S, Schwarz J, Almeida R, Fischer H, Kecklund G, Lekander M, Fransson P, Åkerstedt T
@@ -527,7 +527,7 @@ publications:
     data: https://openneuro.org/dataset/ds000201/
     code: https://openneuro.org/dataset/ds000201/
 - title: 'The effect of sleep restriction on empathy for pain: An fMRI study in younger and older adults'
-  journal: ''
+  journal: Scientific Reports
   doi: 10.1038/s41598-017-12098-9
   year: 2017
   authors: Tamm S, Nilsonne G, Lamm C, Kecklund G, Petrovic P, Fischer H, Åkerstedt T, Lekander M
@@ -604,13 +604,13 @@ publications:
   authors: Lodin K, Lekander M, Petrovic P, Nilsonne G, Hedman-Lagerlöf E, Andreasson A
   links: {}
 - title: 'Crowdsourcing hypothesis tests: Making transparent how design choices shape research results'
-  journal: ''
+  journal: Psychological Bulletin
   doi: 10.1037/bul0000220
   authors: Landy J, et al
   links:
     preprint: http://repository.essex.ac.uk/id/eprint/25784
 - title: Improvement in indices of cellular protection after psychological treatment for social anxiety disorder
-  journal: ''
+  journal: Translational Psychiatry
   doi: 10.1038/s41398-019-0668-2
   year: 2019
   authors: Månsson KNT, Lindqvist D, Yang L, Svanborg C, Isung J, Nilsonne G, Bergman Nordgren L, El Alaou Si, Hedman-Lagerlöf
@@ -645,7 +645,7 @@ publications:
   authors: Koenig J, et al
   links:
     preprint: https://doi.org/10.31219/osf.io/btjpw
-- title: Culture and Work Forecasting Collaboration
+- title: 'A creative destruction approach to replication: Implicit work and sex morality across cultures'
   journal: Journal of Experimental Social Psychology.
   doi: 10.1016/j.obhdp.2020.07.002
   year: 2020
@@ -654,14 +654,14 @@ publications:
     M R, McPhetres J Culture and Work Forecasting Collaboration, Uhlmann E L
   links: {}
 - title: A combined fMRI and EMG study of emotional contagion following partial sleep deprivation in young and older humans
-  journal: ''
+  journal: Scientific Reports
   doi: 10.1038/s41598-020-74489-9
   year: 2020
   authors: Tamm S, Schwarz J, Thuné H, Kecklund G, Petrovic P, Åkerstedt T, Fischer H, Lekander M, Nilsonne G
   links:
     preprint: https://doi.org/10.31234/osf.io/k6acx
 - title: EEG-based model and antidepressant response
-  journal: ''
+  journal: Nature Biotechnology
   doi: 10.1038/s41587-020-00768-5
   year: 2021
   authors: Nilsonne G, Harrell F
@@ -674,7 +674,7 @@ publications:
   authors: Sorjonen K, Nilsonne G, Falkstedt D, Hemmingson T, Ingre M
   links:
     preprint: https://doi.org/10.31234/osf.io/xamzc
-- title: Hiring Decisions Forecasting Collaboration
+- title: Creative destruction in science
   journal: Organizational Behavior and Human Decision Processes
   doi: 10.1016/j.obhdp.2020.07.002
   year: 2020
@@ -683,8 +683,8 @@ publications:
   links: {}
 - title: Spontaneous eye-movements during eyes-open rest reduce resting-state-network modularity by increasing visual-sensorimotor
     connectivity
-  journal: ''
-  doi: 10.1162/netn\_a\_00186
+  journal: Network Neuroscience
+  doi: 10.1162/netn_a_00186
   year: 2020
   authors: Koba C, Notaro G, Tamm S, Nilsonne G, Hasson U
   links:
@@ -702,7 +702,7 @@ publications:
   links:
     preprint: https://doi.org/10.31234/osf.io/528nr
 - title: 'Oxazepam and cognitive reappraisal: a randomised experiment'
-  journal: ''
+  journal: Plos One
   doi: 10.1101/656355
   authors: Nilsonne G, Tamm S, Golkar A, Olsson A, Sörman K, Howner K, Kristiansson M, Ingvar M, Petrovic P
   links:
@@ -808,7 +808,7 @@ publications:
   authors: Sorjonen K, Nilsonne G, Ingre M, Melin B
   links:
     preprint: https://doi.org/10.31234/osf.io/dh2zm
-- title: Generalizability Tests Forecasting Collaboration
+- title: Examining the generalizability of research findings from archival data
   journal: Proceedings of the National Academy of Sciences
   doi: 10.1073/pnas.2120377119
   year: 2022
@@ -816,7 +816,7 @@ publications:
     Generalizability Tests Forecasting Collaboration, Uhlmann E
   links: {}
 - title: Editors publishing in their own journals – a systematic review of prevalence and a discussion of normative aspects
-  journal: ''
+  journal: Learned Publishing
   doi: 10.1002/leap.1449
   authors: Helgesson G, Radun I, Radun J, Nilsonne G
   links:
@@ -828,7 +828,7 @@ publications:
   authors: Bourget M-H, Kamentsky L, Ghosh S, Mazzamuto G, Lazari A, Markiewicz CJ, Oostenveld R, Niso G, Halchenko YO, Lipp
     I, Takerkart S, Toussaint P-J, Khan AR, Nilsonne G, Castelli FM, BIDS Maintainers, Cohen-Adad J
   links: {}
-- title: Psychological Science Accelerator Self-Determination Theory Collaboration
+- title: A global experiment on motivating social distancing during the COVID-19 pandemic
   journal: Proceedings of the National Academy of Sciences
   doi: 10.1073/pnas.2111091119
   year: 2022
@@ -854,7 +854,8 @@ publications:
   year: 2022
   authors: Hoogeveen S, et al
   links: {}
-- title: TARG Meta-Research Group & Collaborators
+- title: 'Discrepancy review: A feasibility study of a novel peer review intervention to reduce undisclosed discrepancies
+    between registrations and publications'
   journal: Royal Society Open Science
   doi: 10.1098/rsos.220142
   year: 2014
@@ -897,7 +898,7 @@ publications:
   links:
     preprint: https://doi.org/10.31234/osf.io/2a5gp
 - title: The Psychological Science Accelerator’s COVID-19 rapid-response dataset
-  journal: ''
+  journal: Scientific Data
   doi: 10.1038/s41597-022-01811-7
   year: 2023
   authors: Buchanan EM, Lewis SC, Paris B, Forscher PS, Pavlacic JM, Beshears JE, et al
@@ -938,7 +939,7 @@ publications:
 - title: 'EEGManyPipelines: A Large-scale, Grassroots Multi-analyst Study of Electroencephalography Analysis Practices in
     the Wild'
   journal: Journal of Cognitive Neuroscience
-  doi: 10.1162/jocn\_a\_02087
+  doi: 10.1162/jocn_a_02087
   year: 2024
   authors: Trübutschek D, Yang YF, Gianelli C, Cesnaite E, Fischer NL, Vinding MC, et al
   links:
@@ -958,7 +959,7 @@ publications:
   links:
     preprint: https://doi.org/10.31234/osf.io/szkt8
 - title: 'Addressing Climate Change with Behavioral Science: A Global Intervention Tournament in 63 Countries'
-  journal: ''
+  journal: Science Advances
   doi: 10.1126/sciadv.adj5778
   authors: Vlasceanu M, et al
   links:
@@ -971,14 +972,14 @@ publications:
   links:
     preprint: https://doi.org/10.31234/osf.io/gkftq
 - title: The past, present, and future of the brain imaging data structure (BIDS)
-  journal: ''
-  doi: 10.1162/imag\_a\_00103
+  journal: Imaging Neuroscience
+  doi: 10.1162/imag_a_00103
   year: 2024
   authors: Poldrack RA, et al
   links:
     preprint: https://doi.org/10.48550/arXiv.2309.05768
 - title: Understanding the provenance and quality of methods is essential for responsible reuse of FAIR data
-  journal: ''
+  journal: Nature Medicine
   year: 2024
   authors: Weissgerber TL, Gazda MA, Nilsonne G, et al
   links: {}
@@ -1017,7 +1018,7 @@ publications:
   authors: Mushtaq F, et al
   links: {}
 - title: 'The International Climate Psychology Collaboration: Climate change-related data collected from 63 countries'
-  journal: ''
+  journal: Scientific Data
   doi: 10.1038/s41597-024-03865-1
   year: 2024
   authors: Doell KC, et al
@@ -1141,11 +1142,6 @@ preprints:
   year: 2024
   authors: Sorjonen K, Nilsonne G, Melin B
   links: {}
-- title: Nilsonne G
-  journal: 'Cross-lagged network models do not prove causality: Results from simulations and analyses of symptoms of depression
-    and anxiety.'
-  doi: 10.31234/osf.io/j3k68
-  links: {}
 books:
 - title: 'Affective Regulation and the Neuroscience of Emotion: Festschrift in Honor of Arne Öhman'
   journal: ''
@@ -1195,9 +1191,10 @@ reports:
   links:
     data: https://doi.org/10.5281/zenodo.10925393
 study_materials:
-- title: Nilsonne G, Arborelius L
+- title: Dissection manual for porcine heart
   journal: ''
   doi: 10.6084/m9.figshare.5782944
+  authors: Nilsonne G, Arborelius L
   links: {}
 digital_research_objects:
 - title: Interactive classroom memory tests using online tools
@@ -1280,7 +1277,7 @@ scholarly_debate:
   authors: Nilsonne G. Willén R
   links: {}
 - title: Vetenskapsrådet bör agera mer kraftfullt
-  journal: ''
+  journal: Svenska Dagbladet
   year: 2016
   authors: Nilsonne G
   links: {}
@@ -1338,7 +1335,7 @@ scholarly_debate:
   authors: Nilsonne G
   links: {}
 - title: How to reclaim ownership of scholarly publishing
-  journal: ''
+  journal: Research Europe
   year: 2022
   authors: Brembs B, Nilsonne G, Susi T
   links: {}
@@ -1359,7 +1356,7 @@ scholarly_debate:
   authors: Widmark W, Anderberg S, Holmgren S, Lindvall J, Nilsonne G
   links: {}
 - title: Dags att överge traditionella tidskrifter
-  journal: ''
+  journal: Svenska Dagbladet
   year: 2022
   authors: Nilsonne G
   links: {}
@@ -1384,7 +1381,7 @@ scholarly_debate:
   authors: Axfors C, Nilsonne G
   links: {}
 - title: Open Science Community Sverige
-  journal: ''
+  journal: Svenska Dagbladet
   year: 2023
   links: {}
 - title: Utmaningar för den forskande läkaren
@@ -1393,7 +1390,7 @@ scholarly_debate:
   authors: Nilsonne G, Axfors C, Zavalis E
   links: {}
 - title: ”Vetenskapliga tidskrifter har spelat ut sin roll”
-  journal: ''
+  journal: Svenska Dagbladet
   year: 2023
   authors: Nilsonne G,
   links: {}
