@@ -15,6 +15,7 @@ import argparse
 import csv
 import io
 import json
+import os
 import re
 import sys
 import time
@@ -195,12 +196,12 @@ def format_text(coauthors: dict, with_papers: bool) -> str:
 
 def format_csv(coauthors: dict, with_papers: bool) -> str:
     buf = io.StringIO()
-    writer = csv.writer(buf)
+    writer = csv.writer(buf, delimiter=";")
     if with_papers:
         writer.writerow(["name", "paper_count", "papers"])
         for name in sorted(coauthors.keys(), key=sort_by_surname):
             papers = coauthors[name]
-            writer.writerow([name, len(papers), "; ".join(papers)])
+            writer.writerow([name, len(papers), " | ".join(papers)])
     else:
         writer.writerow(["name", "paper_count"])
         for name in sorted(coauthors.keys(), key=sort_by_surname):
@@ -243,7 +244,17 @@ def main():
         coauthors = coauthors_from_yaml(data, exclude_self)
 
     formatters = {"text": format_text, "csv": format_csv, "md": format_md}
-    print(formatters[args.format](coauthors, args.with_papers))
+    output = formatters[args.format](coauthors, args.with_papers)
+
+    if args.format == "csv":
+        os.makedirs("output", exist_ok=True)
+        out_path = os.path.join("output", "coauthors.csv")
+        # Write with UTF-8 BOM so Excel handles Å, ö, ń etc. correctly
+        with open(out_path, "w", encoding="utf-8-sig", newline="") as f:
+            f.write(output)
+        print(f"Written: {out_path}", file=sys.stderr)
+    else:
+        print(output)
 
 
 if __name__ == "__main__":
