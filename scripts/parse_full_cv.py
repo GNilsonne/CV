@@ -32,6 +32,8 @@ def clean_tex(s):
     s = s.strip()
     # Remove comments first (but not % in URLs)
     s = re.sub(r"(?<!\\)%[^\n]*", "", s)
+    # Remove {\bf ...} pattern (old-style bold)
+    s = re.sub(r"\{\\bf\s+([^}]*)\}", r"\1", s)
     # Remove nested \textbf{\textit{...}}
     s = re.sub(r"\\textbf\{\\textit\{([^}]*)\}\}", r"\1", s)
     # Remove \textbf{...}, \textit{...}, \emph{...}
@@ -62,6 +64,13 @@ def clean_tex(s):
     # Remove leftover LaTeX commands like \item
     s = re.sub(r"\\item\s*", "", s)
     # Collapse whitespace
+    s = re.sub(r"\s+", " ", s).strip()
+    # Final cleanup: remove any remaining \command{...} patterns
+    # Do multiple passes to handle nesting
+    for _ in range(3):
+        s = re.sub(r"\\[a-zA-Z]+\{([^{}]*)\}", r"\1", s)
+    # Remove any remaining bare \commands (no braces)
+    s = re.sub(r"\\(?:newpage|noindent|vspace|hspace)\b\s*", "", s)
     s = re.sub(r"\s+", " ", s).strip()
     return s
 
@@ -341,13 +350,29 @@ def parse_presentation(raw):
     """Parse a single presentation entry."""
     entry = {}
     
-    # Extract title (usually in \textbf{})
-    title_match = re.search(r"\\textbf\{([^}]+(?:\{[^}]*\}[^}]*)*)\}", raw)
-    if title_match:
-        entry["title"] = clean_tex(title_match.group(1))
-    else:
-        entry["title"] = clean_tex(raw[:200])
+    # Extract title - skip \textbf{\textit{Name}} (author self-references)
+    # and find the real title \textbf{...} which contains longer text
+    title = ""
+    for m in re.finditer(r"\\textbf\{((?:[^{}]|\{[^{}]*\})*)\}", raw):
+        content = m.group(1)
+        # Skip author self-references like \textit{Nilsonne G}
+        if re.match(r"^\s*\\textit\{[^}]+\}\s*$", content):
+            continue
+        cleaned = clean_tex(content)
+        if len(cleaned) > 5:
+            title = cleaned
+            break
     
+    # Try {\bf ...} pattern if no \textbf found
+    if not title:
+        bf_match = re.search(r"\{\\bf\s+([^}]+)\}", raw)
+        if bf_match:
+            title = clean_tex(bf_match.group(1))
+    
+    if not title:
+        title = clean_tex(raw[:200])
+    
+    entry["title"] = title
     # Extract year
     year_match = re.search(r"(\d{4})", raw)
     if year_match:
@@ -524,7 +549,10 @@ def parse_popular_science_writings(tex):
     items = []
     for raw in entries:
         entry = {}
-        title_match = re.search(r"\\(?:textbf|bf)\{([^}]+)\}", raw)
+        # Try \textbf{...} first, then {\bf ...}
+        title_match = re.search(r"\\textbf\{([^}]+)\}", raw)
+        if not title_match:
+            title_match = re.search(r"\{\\bf\s+([^}]+)\}", raw)
         if title_match:
             entry["title"] = clean_tex(title_match.group(1))
         else:
