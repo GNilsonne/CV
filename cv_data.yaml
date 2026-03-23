@@ -872,7 +872,15 @@ publications:
   journal: Nature Human Behaviour
   doi: 10.1038/s41562-018-0311-x
   year: 2018
-  authors: Lakens D, et al
+  authors: Lakens D, Adolfi FG, Albers CJ, Anvari F, Apps MAJ, Argamon SE, Baguley T, Becker RB, Benning SD, Bradford DE,
+    Buchanan EM, Caldwell AR, Van Calster B, Carlsson R, Chen S-C, Chung B, Colling LJ, Collins GS, Crook Z, Cross ES, Daniels
+    S, Danielsson H, DeBruine L, Dunleavy DJ, Earp BD, Feist MI, Ferrell JD, Field JG, Fox NW, Friesen A, Gomes C, Gonzalez-Marquez
+    M, Grange JA, Grieve AP, Guggenberger R, Grist J, van Harmelen A-L, Hasselman F, Hochard KD, Hoffarth MR, Holmes NP, Ingre
+    M, Isager PM, Isotalus HK, Johansson C, Juszczyk K, Kenny DA, Khalil AA, Konat B, Lao J, Larsen EG, Lodder GMA, Lukavsky
+    J, Madan CR, Manheim D, Martin SR, Martin AE, Mayo DG, McCarthy RJ, McConway K, McFarland C, Nio AQX, Nilsonne G, de Oliveira
+    CL, de Xivry J-JO, Parsons S, Pfuhl G, Quinn KA, Sakon JJ, Saribay SA, Schneider IK, Selvaraju M, Sjoerds Z, Smith SG,
+    Smits T, Spies JR, Sreekumar V, Steltenpohl CN, Stenhouse N, Swiatkowski W, Vadillo MA, Van Assen MALM, Williams MN, Williams
+    SE, Williams DR, Yarkoni T, Ziano I, Zwaan RA
   links:
     preprint: https://psyarxiv.com/9s3y6
     data: https://osf.io/by2kc/
@@ -1023,7 +1031,11 @@ publications:
 - title: 'Crowdsourcing hypothesis tests: Making transparent how design choices shape research results'
   journal: Psychological Bulletin
   doi: 10.1037/bul0000220
-  authors: Landy J, et al
+  authors: Landy JF, Jia ML, Ding IL, Viganola D, Tierney W, Dreber A, Johannesson M, Pfeiffer T, Ebersole CR, Gronau QF,
+    Ly A, van den Bergh D, Marsman M, Derks K, Wagenmakers E-J, Proctor A, Bartels DM, Bauman CW, Brady WJ, Cheung F, Cimpian
+    A, Dohle S, Donnellan MB, Hahn A, Hall MP, Jiménez-Leal W, Johnson DJ, Lucas RE, Monin B, Montealegre A, Mullen E, Pang
+    J, Ray J, Reinero DA, Reynolds J, Sowden W, Storage D, Su R, Tworek CM, Van Bavel JJ, Walco D, Wills J, Xu X, Yam KC,
+    Yang X, Cunningham WA, Schweinsberg M, Urwitz M, The Crowdsourcing Hypothesis Tests Collaboration, Uhlmann EL
   links:
     preprint: http://repository.essex.ac.uk/id/eprint/25784
   volume: '146'
@@ -1102,7 +1114,25 @@ publications:
   journal: Nature
   doi: 10.1038/s41586-020-2314-9
   year: 2020
-  authors: Botvinik-Nezer R, et al
+  authors: Botvinik-Nezer R, Holzmeister F, Camerer CF, Dreber A, Huber J, Johannesson M, Kirchler M, Iwanir R, Mumford JA,
+    Adcock RA, Avesani P, Baczkowski BM, Bajracharya A, Bakst L, Ball S, Barilari M, Bault N, Beaton D, Beitner J, Benoit
+    RG, Berkers RMWJ, Bhanji JP, Biswal BB, Bobadilla-Suarez S, Bortolini T, Bottenhorn KL, Bowring A, Braem S, Brooks HR,
+    Brudner EG, Calderon CB, Camilleri JA, Castrellon JJ, Cecchetti L, Cieslik EC, Cole ZJ, Collignon O, Cox RW, Cunningham
+    WA, Czoschke S, Dadi K, Davis CP, Luca AD, Delgado MR, Demetriou L, Dennison JB, Di X, Dickie EW, Dobryakova E, Donnat
+    CL, Dukart J, Duncan NW, Durnez J, Eed A, Eickhoff SB, Erhart A, Fontanesi L, Fricke GM, Fu S, Galván A, Gau R, Genon
+    S, Glatard T, Glerean E, Goeman JJ, Golowin SAE, González-García C, Gorgolewski KJ, Grady CL, Green MA, Guassi Moreira
+    JF, Guest O, Hakimi S, Hamilton JP, Hancock R, Handjaras G, Harry BB, Hawco C, Herholz P, Herman G, Heunis S, Hoffstaedter
+    F, Hogeveen J, Holmes S, Hu C-P, Huettel SA, Hughes ME, Iacovella V, Iordan AD, Isager PM, Isik AI, Jahn A, Johnson MR,
+    Johnstone T, Joseph MJE, Juliano AC, Kable JW, Kassinopoulos M, Koba C, Kong X-Z, Koscik TR, Kucukboyaci NE, Kuhl BA,
+    Kupek S, Laird AR, Lamm C, Langner R, Lauharatanahirun N, Lee H, Lee S, Leemans A, Leo A, Lesage E, Li F, Li MYC, Lim
+    PC, Lintz EN, Liphardt SW, Losecaat Vermeer AB, Love BC, Mack ML, Malpica N, Marins T, Maumet C, McDonald K, McGuire JT,
+    Melero H, Méndez Leal AS, Meyer B, Meyer KN, Mihai G, Mitsis GD, Moll J, Nielson DM, Nilsonne G, Notter MP, Olivetti E,
+    Onicas AI, Papale P, Patil KR, Peelle JE, Pérez A, Pischedda D, Poline J-B, Prystauka Y, Ray S, Reuter-Lorenz PA, Reynolds
+    RC, Ricciardi E, Rieck JR, Rodriguez-Thompson AM, Romyn A, Salo T, Samanez-Larkin GR, Sanz-Morales E, Schlichting ML,
+    Schultz DH, Shen Q, Sheridan MA, Silvers JA, Skagerlund K, Smith A, Smith DV, Sokol-Hessner P, Steinkamp SR, Tashjian
+    SM, Thirion B, Thorp JN, Tinghög G, Tisdall L, Tompson SH, Toro-Serey C, Torre Tresols JJ, Tozzi L, Truong V, Turella
+    L, van 't Veer AE, Verguts T, Vettel JM, Vijayarajah S, Vo K, Wall MB, Weeda WD, Weis S, White DJ, Wisniewski D, Xifra-Porxas
+    A, Yearling EA, Yoon S, Yuan R, Yuen KSL, Zhang L, Zhang X, Zosky JE, Nichols TE, Poldrack RA, Schonberg T
   links:
     preprint: https://doi.org/10.1101/843193
   volume: '582'
@@ -1124,7 +1154,14 @@ publications:
   journal: Psychophysiology
   doi: 10.1111/psyp.13688
   year: 2021
-  authors: Koenig J, et al
+  authors: Koenig J, Abler B, Agartz I, Åkerstedt T, Andreassen OA, Anthony M, Bär K-J, Bertsch K, Brown RC, Brunner R, Carnevali
+    L, Critchley HD, Cullen KR, de Geus EJC, de la Cruz F, Dziobek I, Ferger MD, Fischer H, Flor H, Gaebler M, Gianaros PJ,
+    Giummarra MJ, Greening SG, Guendelman S, Heathers JAJ, Herpertz SC, Hu MX, Jentschke S, Kaess M, Kaufmann T, Klimes-Dougan
+    B, Koelsch S, Krauch M, Kumral D, Lamers F, Lee T-H, Lekander M, Lin F, Lotze M, Makovac E, Mancini M, Mancke F, Månsson
+    KNT, Manuck SB, Mather M, Meeten F, Min J, Mueller B, Muench V, Nees F, Nga L, Nilsonne G, Ordonez Acuna D, Osnes B, Ottaviani
+    C, Penninx BWJH, Ponzio A, Poudel GR, Reinelt J, Ren P, Sakaki M, Schumann A, Sørensen L, Specht K, Straub J, Tamm S,
+    Thai M, Thayer JF, Ubani B, van der Mee DJ, van Velzen LS, Ventura-Bort C, Villringer A, Watson DR, Wei L, Wendt J, Schreiner
+    MW, Westlye LT, Weymar M, Winkelmann T, Wu G-R, Yoo HJ, Quintana DS
   links:
     preprint: https://doi.org/10.31219/osf.io/btjpw
   volume: '58'
@@ -1317,7 +1354,12 @@ publications:
   journal: Neuron
   doi: 10.1016/j.neuron.2021.04.001
   year: 2021
-  authors: Gau R, et al
+  authors: Gau R, Noble S, Heuer K, Bottenhorn KL, Bilgin IP, Yang Y-F, Huntenburg JM, Bayer JMM, Bethlehem RAI, Rhoads SA,
+    Vogelbacher C, Borghesani V, Levitis E, Wang H-T, Van Den Bossche S, Kobeleva X, Legarreta JH, Guay S, Atay SM, Varoquaux
+    GP, Huijser DC, Sandström MS, Herholz P, Nastase SA, Badhwar A, Dumas G, Schwab S, Moia S, Dayan M, Bassil Y, Brooks PP,
+    Mancini M, Shine JM, O'Connor D, Xie X, Poggiali D, Friedrich P, Heinsfeld AS, Riedl L, Toro R, Caballero-Gaudes C, Eklund
+    A, Garner KG, Nolan CR, Demeter DV, Barrios FA, Merchant JS, McDevitt EA, Oostenveld R, Craddock RC, Rokem A, Doyle A,
+    Ghosh SS, Nikolaidis A, Stanley OW, Uruñuela E, Brainhack Community
   links:
     preprint: http://doi.org/10.31234/osf.io/rytjq
   volume: '109'
@@ -1361,7 +1403,23 @@ publications:
   journal: Organizational Behavior and Human Decision Processes
   doi: 10.1016/j.obhdp.2021.02.003
   year: 2021
-  authors: Schweinsberg M, et al
+  authors: Schweinsberg M, Feldman M, Staub N, van den Akker OR, van Aert RCM, van Assen MALM, Liu Y, Althoff T, Heer J, Kale
+    A, Mohamed Z, Amireh H, Prasad VV, Bernstein A, Robinson E, Snellman K, Sommer SA, Otner SMG, Robinson D, Madan N, Silberzahn
+    R, Goldstein P, Tierney W, Murase T, Mandl B, Viganola D, Strobl C, Schaumans CBC, Kelchtermans S, Naseeb C, Garrison
+    SM, Yarkoni T, Chan CSR, Adie P, Alaburda P, Albers C, Alspaugh S, Alstott J, Nelson AA, de la Rubia EA, Arzi A, Bahnik
+    S, Baik J, Balling LW, Banker S, Baranger DAA, Barr DJ, Barros-Rivera B, Bauer M, Blaise E, Boelen L, Carbonell KB, Briers
+    RA, Burkhard O, Canela M-A, Castrillo L, Catlett T, Chen O, Clark M, Cohn B, Coppock A, Cuguero-Escofet N, Curran PG,
+    Cyrus-Lai W, Dai D, Dalla Riva GV, Danielsson H, Russo RDFSM, de Silva N, Derungs C, Dondelinger F, de Souza CD, Dube
+    BT, Dubova M, Dunn BM, Edelsbrunner PA, Finley S, Fox N, Gnambs T, Gong Y, Grand E, Greenawalt B, Han D, Hanel PHP, Hong
+    AB, Hood D, Hsueh J, Huang L, Hui KN, Hultman KA, Javaid A, Jiang LJ, Jong J, Kamdar J, Kane D, Kappler G, Kaszubowski
+    E, Kavanagh CM, Khabsa M, Kleinberg B, Kouros J, Krause H, Krypotos A-M, Lavbic D, Lee RL, Leffel T, Lim WY, Liverani
+    S, Loh B, Lonsmann D, Low JW, Lu A, MacDonald K, Madan CR, Madsen LH, Maimone C, Mangold A, Marshall A, Matskewich HE,
+    Mavon K, McLain KL, McNamara AA, McNeill M, Mertens U, Miller D, Moore B, Moore A, Nantz E, Nasrullah Z, Nejkovic V, Nell
+    CS, Nelson AA, Nilsonne G, Nolan R, O'Brien CE, O'Neil P, O'Shea K, Olita T, Otterbacher J, Palsetia D, Pereira B, Pozdniakov
+    I, Protzko J, Reyt J-N, Riddle T, Ali AARO, Ropovik I, Rosenberg JM, Rothen S, Schulte-Mecklenbeck M, Sharma N, Shotwell
+    G, Skarzynski M, Stedden W, Stodden V, Stoffel MA, Stoltzman S, Subbaiah S, Tatman R, Thibodeau PH, Tomkins S, Valdivia
+    A, van de Woestijne GB, Viana L, Villeseche F, Wadsworth WD, Wanders F, Watts K, Wells JD, Whelpley CE, Won A, Wu L, Yip
+    A, Youngflesh C, Yu J-C, Zandian A, Zhang L, Zibman C, Uhlmann EL
   links:
     preprint: http://repository.essex.ac.uk/id/eprint/29938
   volume: '165'
@@ -1390,7 +1448,50 @@ publications:
   journal: Nature Human Behavior
   doi: 10.1038/s41562-021-01173-x
   year: 2021
-  authors: Wang K, et al
+  authors: Wang K, Goldenberg A, Dorison CA, Miller JK, Uusberg A, Lerner JS, Gross JJ, Agesin BB, Bernardo M, Campos O, Eudave
+    L, Grzech K, Ozery DH, Jackson EA, Garcia EOL, Drexler SM, Jurković AP, Rana K, Wilson JP, Antoniadi M, Desai K, Gialitaki
+    Z, Kushnir E, Nadif K, Bravo ON, Nauman R, Oosterlinck M, Pantazi M, Pilecka N, Szabelska A, van Steenkiste IMM, Filip
+    K, Bozdoc AI, Marcu GM, Agadullina E, Adamkovič M, Roczniewska M, Reyna C, Kassianos AP, Westerlund M, Ahlgren L, Pöntinen
+    S, Adetula GA, Dursun P, Arinze AI, Arinze NC, Ogbonnaya CE, Ndukaihe ILG, Dalgar I, Akkas H, Macapagal PM, Lewis S, Metin-Orta
+    I, Foroni F, Willis M, Santos AC, Mokady A, Reggev N, Kurfali MA, Vasilev MR, Nock NL, Parzuchowski M, Espinoza Barría
+    MF, Vranka M, Kohlová MB, Ropovik I, Harutyunyan M, Wang C, Yao E, Becker M, Manunta E, Kaminski G, Boudesseu J, Marko
+    D, Evans K, Lewis DMG, Findor A, Landry AT, Aruta JJB, Ortiz MS, Vally Z, Pronizius E, Voracek M, Lamm C, Grinberg M,
+    Li R, Valentova JV, Mioni G, Cellini N, Chen S-C, Zickfeld J, Moon K, Azab H, Levy N, Karababa A, Beaudry JL, Boucher
+    L, Collins WM, Todsen AL, van Schie K, Vintr J, Bavolar J, Kaliska L, Križanić V, Samojlenko L, Pourafshari R, Geiger
+    SJ, Beitner J, Warmelink L, Ross RM, Stephen ID, Hostler TJ, Azouaghe S, McCarthy R, Szala A, Grano C, Solorzano CS, Anjum
+    G, Jimenez-Leal W, Bradford M, Pérez LC, Cruz Vásquez JE, Galindo-Caballero OJ, Vargas-Nieto JC, Kácha O, Arvanitis A,
+    Xiao Q, Cárcamo R, Zorjan S, Tajchman Z, Vilares I, Pavlacic JM, Kunst JR, Tamnes CK, von Bastian CC, Atari M, Sharifian
+    M, Hricova M, Kačmár P, Schrötter J, Rahal R-M, Cohen N, FatahModares S, Zrimsek M, Zakharov I, Koehn MA, Esteban-Serna
+    C, Calin-Jageman RJ, Krafnick AJ, Štrukelj E, Isager PM, Urban J, Silva JR, Martončik M, Očovaj SB, Šakan D, Kuzminska
+    AO, Djordjevic JM, Almeida IAT, Ferreira A, Lazarevic LB, Manley H, Ricaurte DZ, Monteiro RP, Etabari Z, Musser E, Dunleavy
+    D, Chou W, Godbersen H, Ruiz-Fernández S, Reeck C, Batres C, Kirgizova K, Muminov A, Azevedo F, Alvarez DS, Butt MM, Lee
+    JM, Chen Z, Verbruggen F, Ziano I, Tümer M, Charyate ACA, Dubrov D, Tejada Rivera MDCMC, Aberson C, Pálfi B, Maldonado
+    MA, Hubena B, Sacakli A, Ceary CD, Richard KL, Singer G, Perillo JT, Ballantyne T, Cyrus-Lai W, Fedotov M, Du H, Wielgus
+    M, Pit IL, Hruška M, Sousa D, Aczel B, Hajdu N, Szaszi B, Adamus S, Barzykowski K, Micheli L, Schmidt N-D, Zsido AN, Paruzel-Czachura
+    M, Muda R, Bialek M, Kowal M, Sorokowska A, Misiak M, Mola D, Ortiz MV, Correa PS, Belaus A, Muchembled F, Ribeiro RR,
+    Arriaga P, Oliveira R, Vaughn LA, Szwed P, Kossowska M, Czarnek G, Kielińska J, Antazo B, Betlehem R, Stieger S, Nilsonne
+    G, Simonovic N, Taber J, Gourdon-Kanhukamwe A, Domurat A, Ihaya K, Yamada Y, Urooj A, Gill T, Čadek M, Bylinina L, Messerschmidt
+    J, Kurfalı M, Adetula A, Baklanova E, Albayrak-Aydemir N, Kappes HB, Gjoneska B, House T, Jones MV, Berkessel JB, Chopik
+    WJ, Çoksan S, Seehuus M, Khaoudi A, Bokkour A, El Arabi KA, Djamai I, Iyer A, Parashar N, Adiguzel A, Kocalar HE, Bundt
+    C, Norton JO, Papadatou-Pastou M, De la Rosa-Gomez A, Ankushev V, Bogatyreva N, Grigoryev D, Ivanov A, Prusova I, Romanova
+    M, Sarieva I, Terskova M, Hristova E, Kadreva VH, Janak A, Schei V, Sverdrup TE, Askelund AD, Pineda LMS, Krupić D, Levitan
+    CA, Johannes N, Ouherrou N, Say N, Sinkolova S, Janjić K, Stojanovska M, Stojanovska D, Khosla M, Thomas AG, Kung FYH,
+    Bijlstra G, Mosannenzadeh F, Balci BB, Reips U-D, Baskin E, Ishkhanyan B, Czamanski-Cohen J, Dixson BJW, Moreau D, Sutherland
+    CAM, Chuan-Peng H, Noone C, Flowe H, Anne M, Janssen SMJ, Topor M, Majeed NM, Kunisato Y, Yu K, Daches S, Hartanto A,
+    Vdovic M, Anton-Boicuk L, Forbes PAG, Kamburidis J, Marinova E, Nedelcheva-Datsova M, Rachev NR, Stoyanova A, Schmidt
+    K, Suchow JW, Koptjevskaja-Tamm M, Jernsäther T, Olofsson JK, Bialobrzeska O, Marszalek M, Tatachari S, Afhami R, Law
+    W, Antfolk J, Žuro B, Van Doren N, Soto JA, Searston R, Miranda J, Damnjanović K, Yeung SK, Krupić D, Hoyer K, Jaeger
+    B, Ren D, Pfuhl G, Klevjer K, Corral-Frías NS, Frias-Armenta M, Lucas MY, Torres AO, Toro M, Delgado LGJ, Vega D, Solas
+    SÁ, Vilar R, Massoni S, Frizzo T, Bran A, Vaidis DC, Vieira L, Paris B, Capizzi M, Coelho GLDH, Greenburgh A, Whitt CM,
+    Tullett AM, Du X, Volz L, Bosma MJ, Karaarslan C, Sarıoğuz E, Allred TB, Korbmacher M, Colloff MF, Lima TJS, Ribeiro MFF,
+    Verharen JPH, Karekla M, Karashiali C, Sunami N, Jaremka LM, Storage D, Habib S, Studzinska A, Hanel PHP, Holford DL,
+    Sirota M, Wolfe K, Chiu F, Theodoropoulou A, Ahn ER, Lin Y, Westgate EC, Brohmer H, Hofer G, Dujols O, Vezirian K, Feldman
+    G, Travaglino GA, Ahmed A, Li M, Bosch J, Torunsky N, Bai H, Manavalan M, Song X, Walczak RB, Zdybek P, Friedemann M,
+    Rosa AD, Kozma L, Alves SG, Lins S, Pinto IR, Correia RC, Babinčák P, Banik G, Rojas-Berscia LM, Varella MAC, Uttley J,
+    Beshears JE, Thommesen KK, Behzadnia B, Geniole SN, Silan MA, Maturan PLG, Vilsmeier JK, Tran US, Izquierdo SM, Mensink
+    MC, Sorokowski P, Groyecka-Bernard A, Radtke T, Adoric VC, Carpentier J, Özdoğru AA, Joy-Gaba JA, Hedgebeth MV, Ishii
+    T, Wichman AL, Röer JP, Ostermann T, Davis WE, Suter L, Papachristopoulos K, Zabel C, Onie S, Ebersole CR, Chartier CR,
+    Mallik PR, Urry HL, Buchanan EM, Coles NA, Primbs MA, Basnight-Brown DM, IJzerman H, Forscher PS, Moshontz H
   links:
     preprint: https://doi.org/10.31234/osf.io/m4gpq
   volume: '5'
@@ -1608,7 +1709,52 @@ publications:
   journal: Affective science
   doi: 10.1007/s42761-022-00128-3
   year: 2022
-  authors: Dorison C, et al
+  authors: Dorison CA, Lerner JS, Heller BH, Rothman AJ, Kawachi II, Wang K, Rees VW, Gill BP, Gibbs N, Ebersole CR, Vally
+    Z, Tajchman Z, Zsido AN, Zrimsek M, Chen Z, Ziano I, Gialitaki Z, Ceary CD, Lin Y, Kunisato Y, Yamada Y, Xiao Q, Jiang
+    X, Du X, Yao E, Wilson JP, Cyrus-Lai W, Jimenez-Leal W, Law W, Collins WM, Richard KL, Vranka M, Ankushev V, Schei V,
+    Križanić V, Kadreva VH, Adoric VC, Tran US, Yeung SK, Hassan W, Houston R, Lima TJS, Ostermann T, Frizzo T, Sverdrup TE,
+    House T, Gill T, Fedotov M, Paltrow T, Jernsäther T, Koptjevskaja-Tamm M, Hostler TJ, Ishii T, Szaszi B, Adamus S, Suter
+    L, Habib S, Studzinska A, Stojanovska D, Janssen SMJ, Stieger S, Schulenberg SE, Tatachari S, Azouaghe S, Sorokowski P,
+    Sorokowska A, Song X, Lewis SC, Sinkolova S, Grigoryev D, Drexler SM, Daches S, Geniole SN, Vračar S, Massoni S, Zorjan
+    S, Sarıoğuz E, Izquierdo SM, Alves SG, Pöntinen S, Solas SÁ, Ordoñez-Riaño S, Očovaj SB, Onie S, Lins S, Çoksan S, Sacakli
+    A, Ruiz-Fernández S, Geiger SJ, FatahModares S, Walczak RB, Betlehem R, Vilar R, Cárcamo R, Ross RM, McCarthy R, Ballantyne
+    T, Westgate EC, Afhami R, Ren D, Monteiro RP, Reips U-D, Reggev N, Calin-Jageman RJ, Pourafshari R, Oliveira R, Nedelcheva-Datsova
+    M, Rahal R-M, Ribeiro RR, Radtke T, Searston R, Habte R, Zdybek P, Chen S-C, Maturan PLG, Perillo JT, Isager PM, Kačmár
+    P, Macapagal PM, Szwed P, Hanel PHP, Forbes PAG, Arriaga P, Paris B, Papachristopoulos K, Correa PS, Kácha O, Bernardo
+    M, Campos O, Bravo ON, Galindo-Caballero OJ, Ogbonnaya CE, Bialobrzeska O, Kiselnikova N, Simonovic N, Cohen N, Nock NL,
+    Johannes N, Albayrak-Aydemir N, Say N, Torunsky N, Van Doren N, Sunami N, Rachev NR, Majeed NM, Schmidt N-D, Nadif K,
+    Corral-Frías NS, Ouherrou N, Pantazi M, Lucas MY, Vasilev MR, Ortiz MV, Butt MM, Kabir M, Muda R, Tejada Rivera MDCM,
+    Sirota M, Seehuus M, Parzuchowski M, Toro M, Hricova M, Maldonado MA, Marszalek M, Karekla M, Mioni G, Bosma MJ, Westerlund
+    M, Vdovic M, Bialek M, Silan MA, Anne M, Misiak M, Grinberg M, Capizzi M, Espinoza Barría MF, Kurfali MA, Mensink MC,
+    Harutyunyan M, Khosla M, Korbmacher M, Adamkovič M, Ribeiro MFF, Terskova M, Hruška M, Martončik M, Voracek M, Čadek M,
+    Frías-Armenta M, Kowal M, Topor M, Roczniewska M, Oosterlinck M, Kohlová MB, Paruzel-Czachura M, Romanova M, Papadatou-Pastou
+    M, Lund ML, Antoniadi M, Jones MV, Ortiz MS, Manavalan M, Muminov A, Kossowska M, Friedemann M, Wielgus M, Varella MAC,
+    Colloff MF, Bradford M, Vaughn LA, Eudave L, Vieira L, Pineda LMS, Pérez LC, Lazarevic LB, Jaremka LM, Kushnir E, Anton-Boicuk
+    L, de Holanda Coelho GL, Ahlgren L, Levitan CA, Micheli L, Volz L, Stojanovska M, Boucher L, Samojlenko L, Delgado LGJ,
+    Kaliska L, Warmelink L, Rojas-Berscia LM, Yu K, Wachowicz J, Desai K, Barzykowski K, Kozma L, Evans K, Kirgizova K, Agesin
+    BE, Koehn MA, Wolfe K, Korobova T, Klevjer K, van Schie K, Vezirian K, Damnjanović K, Thommesen KK, Schmidt K, Filip K,
+    Grzech K, Hoyer K, Moon K, Rana K, Janjić K, Suchow JW, Kielińska J, Cruz Vásquez JE, Beitner J, Vargas-Nieto JC, Roxas
+    JCT, Taber J, Urriago-Rayo J, Pavlacic JM, Bavolar J, Soto JA, Olofsson JK, Vilsmeier JK, Messerschmidt J, Czamanski-Cohen
+    J, Boudesseul J, Lee JM, Kamburidis J, Zickfeld J, Miranda JF, Verharen JPH, Hristova E, Beshears JE, Đorđević JM, Bosch
+    J, Valentova JV, Antfolk J, Berkessel JB, Schrötter J, Urban J, Röer JP, Norton JO, Silva JR, Pickering JS, Vintr J, Uttley
+    J, Kunst JR, Ndukaihe ILG, Iyer A, Vilares I, Ivanov A, Ropovik I, Sula I, Sarieva I, Metin-Orta I, Prusova I, Pinto I,
+    Bozdoc AI, Almeida IAT, Pit IL, Dalgar I, Zakharov I, Arinze AI, Ihaya K, Stephen ID, Gjoneska B, Brohmer H, Flowe H,
+    Godbersen H, Kocalar HE, Hedgebeth MV, Chuan-Peng H, Sharifian M, Manley H, Akkas H, Hajdu N, Azab H, Kaminski G, Nilsonne
+    G, Anjum G, Travaglino GA, Feldman G, Pfuhl G, Czarnek G, Marcu GM, Hofer G, Banik G, Adetula GA, Bijlstra G, Verbruggen
+    F, Kung FYH, Foroni F, Singer G, Muchembled F, Azevedo F, Mosannenzadeh F, Marinov E, Štrukelj E, Etebari Z, Baskin E,
+    Garcia EOL, Musser E, van Steenkiste IMM, Ahn ER, Pronizius E, Jackson EA, Manunta E, Agadullina E, Šakan D, Dursun P,
+    Dujols O, Dubrov D, Willis M, Tümer M, Beaudry JL, Popović D, Dunleavy D, Djamai I, Krupić D, Vega D, Du H, Mola D, Davis
+    WE, Holford DL, Lewis DMG, Vaidis DC, Ozery DH, Ricaurte DZ, Storage D, Sousa D, Alvarez DS, Rosa AD, Krupić D, Marko
+    D, Moreau D, Reeck C, Correia RC, Whitt CM, Lamm C, Solorzano CS, von Bastian CC, Sutherland CA, Overkott C, Aberson CL,
+    Wang C, Karashiali C, Noone C, Chiu F, Picciocchi C, Karaarslan C, Cellini N, Esteban-Serna C, Reyna C, Batres C, Li R,
+    Grano C, Carpentier J, Tamnes CK, Fu CHY, Ishkhanyan B, Bylinina L, Jaeger B, Bundt C, Allred TB, Bokkour A, Bogatyreva
+    N, Chopik WJ, Antazo B, Behzadnia B, Becker M, Cocco B, Chou W-L, Hubena B, Žuro B, Aczel B, Baklanova E, Bai H, Balci
+    BB, Babinčák P, Dixson BJW, Mokady A, Kappes HB, Atari M, Szala A, Szabelska A, Aruta JJB, Domurat A, Arinze NC, Modena
+    A, Adiguzel A, Monajem A, Arabi KAE, Özdoğru AA, Olaya Torres AJ, Theodoropoulou A, Jurković AP, Kassianos AP, Findor
+    A, Hartanto A, Thibault Landry A, Ferreira A, Santos AC, De la Rosa-Gomez A, Gourdon-Kanhukamwe A, Todsen AL, Karababa
+    A, Janak A, Bran A, Tullett AM, Kuzminska AO, Krafnick AJ, Urooj A, Khaoudi A, Ahmed A, Groyecka-Bernard A, Askelund AD,
+    Adetula A, Belaus A, Charyate AC, Wichman AL, Stoyanova A, Greenburgh A, Thomas AG, Arvanitis A, Forscher PS, Mallik PR,
+    Primbs MA, Miller JK, Moshontz H, Urry HL, IJzerman H, Basnight-Brown DM, Chartier CR, Buchanan EM, Coles NA
   links: {}
   volume: '3'
   issue: '3'
@@ -1627,7 +1773,31 @@ publications:
   journal: Religion, Brain & Behavior
   doi: 10.1080/2153599X.2022.2070255
   year: 2022
-  authors: Hoogeveen S, et al
+  authors: Hoogeveen S, Sarafoglou A, Aczel B, Aditya Y, Alayan AJ, Allen PJ, Altay S, Alzahawi S, Amir Y, Anthony F-V, Appiah
+    OK, Atkinson QD, Baimel A, Balkaya-Ince M, Balsamo M, Banker S, Bartos F, Becerra M, Beffara B, Beitner J, Bendixen T,
+    Berkessel JB, Berniunas R, Billet MI, Billingsley J, Bortolini T, Breitsohl H, Bret A, Brown FL, Brown J, Brumbaugh CC,
+    Buczny J, Bulbulia J, Caballero S, Carlucci L, Carmichael CL, Cattaneo MEGV, Charles SJ, Claessens S, Panagopoulos MC,
+    Costa AB, Crone DL, Czoschke S, Czymara C, D'Urso ED, Dahlstrom O, Dalla Rosa A, Danielsson H, De Ron J, de Vries YA,
+    Dean KK, Dik BJ, Disabato DJ, Doherty JK, Draws T, Drouhot L, Dujmovic M, Dunham Y, Ebert T, Edelsbrunner PA, Eerland
+    A, Elbaek CT, Farahmand S, Farahmand H, Farias M, Feliccia AA, Fischer K, Fischer R, Fisher-Thompson D, Francis Z, Frick
+    S, Frisch LK, Geraldes D, Gerdin E, Geven L, Ghasemi O, Gielens E, Gligoric V, Hagel K, Hajdu N, Hamilton HR, Hamzah I,
+    Hanel PHP, Hawk CE, Himawan KK, Holding BC, Homman LE, Ingendahl M, Inkila H, Inman ML, Islam C-G, Isler O, Izydorczyk
+    D, Jaeger B, Johnson KA, Jong J, Karl JA, Kaszubowski E, Katz BA, Keefer LA, Kelchtermans S, Kelly JM, Klein RA, Kleinberg
+    B, Knowles ML, Kolczynska M, Koller D, Krasko J, Kritzler S, Krypotos A-M, Kyritsis T, Landes TL, Laukenmann R, Forsyth
+    GAL, Lazar A, Lehman BJ, Levy N, Lo RF, Lodder P, Lorenz J, Lowicki P, Ly AL, Maassen E, Magyar-Russell GM, Maier M, Marsh
+    DR, Martinez N, Martinie M, Martoyo I, Mason SE, Mauritsen AL, McAleer P, McCauley T, McCullough M, McKay R, McMahon CM,
+    McNamara AA, Means KK, Mercier B, Mitkidis P, Monin B, Moon JW, Moreau D, Morgan J, Murphy J, Muscatt G, Nagel C, Nagy
+    T, Nalborczyk L, Nilsonne G, Noack P, Norenzayan A, Nuijten MB, Olsson-Collentine A, Oviedo L, Pavlov YG, Pawelski JO,
+    Pearson HI, Pedder H, Peetz HK, Pinus M, Pirutinsky S, Polito V, Porubanova M, Poulin MJ, Prenoveau JM, Prince MA, Protzko
+    J, Pryor C, Purzycki BG, Qiu L, Putter JQ, Rabelo A, Radell ML, Ramsay JE, Reid G, Roberts AJ, Luna LMR, Ross RM, Roszak
+    P, Roy N, Saarelainen S-MK, Sasaki JY, Schaumans C, Schivinski B, Schmitt MC, Schnitker SA, Schnuerch M, Schreiner MR,
+    Schuttengruber V, Sebben S, Segerstrom SC, Seryczynska B, Shjoedt U, Simsek M, Sleegers WWA, Smith ER, Sowden WJ, Spath
+    M, Sporlein C, Stedden W, Stoevenbelt AH, Stuber S, Sulik J, Suwartono C, Syropoulos S, Szaszi B, Szecsi P, Tappin BM,
+    Tay L, Thibault RT, Thompson B, Thurn CM, Torralba J, Tuthill SD, Ullein A-M, Van Aert RCM, van Assen MALM, Van Cappellen
+    P, van den Akker OR, Van der Cruyssen I, Van der Noll J, van Dongen NNN, Van Lissa CJ, van Mulukom V, van Ravenzwaaij
+    D, van Zyl CJJ, Vaughn LA, Verschuere B, Vianello M, Vilanova F, Vishkin A, Vogel V, Vogelsmeier LVDE, Watanabe S, White
+    CJM, Wiebels K, Wiechert S, Willett ZZ, Witkowiak M, Witvliet CVO, Wiwad D, Wuyts R, Xygalatas D, Yang X, Yeo DJ, Yilmaz
+    O, Zarzeczna N, Zhao Y, Zijlmans J, van Elk M, Wagenmakers E-J
   links: {}
   volume: '13'
   issue: '3'
@@ -1746,7 +1916,39 @@ publications:
   journal: Scientific Data
   doi: 10.1038/s41597-022-01811-7
   year: 2023
-  authors: Buchanan EM, Lewis SC, Paris B, Forscher PS, Pavlacic JM, Beshears JE, et al
+  authors: Buchanan EM, Lewis SC, Paris B, Forscher PS, Pavlacic JM, Beshears JE, Drexler SM, Gourdon-Kanhukamwe A, Mallik
+    PR, Silan MAA, Miller JK, IJzerman H, Moshontz H, Beaudry JL, Suchow JW, Chartier CR, Coles NA, Sharifian M, Todsen AL,
+    Levitan CA, Azevedo F, Legate N, Heller B, Rothman AJ, Dorison CA, Gill BP, Wang K, Rees VW, Gibbs N, Goldenberg A, Thi
+    Nguyen T-V, Gross JJ, Kaminski G, von Bastian CC, Paruzel-Czachura M, Mosannenzadeh F, Azouaghe S, Bran A, Ruiz-Fernandez
+    S, Santos AC, Reggev N, Zickfeld JH, Akkas H, Pantazi M, Ropovik I, Korbmacher M, Arriaga P, Gjoneska B, Warmelink L,
+    Alves SG, de Holanda Coelho GL, Stieger S, Schei V, Hanel PHP, Szaszi B, Fedotov M, Antfolk J, Marcu G-M, Schrötter J,
+    Kunst JR, Geiger SJ, Adetula A, Kocalar HE, Kielińska J, Kačmár P, Bokkour A, Galindo-Caballero OJ, Djamai I, Pöntinen
+    SJ, Agesin BE, Jernsäther T, Urooj A, Rachev NR, Koptjevskaja-Tamm M, Kurfalı M, Pit IL, Li R, Çoksan S, Dubrov D, Paltrow
+    TE, Baník G, Korobova T, Studzinska A, Jiang X, Aruta JJBR, Vintr J, Chiu F, Kaliska L, Berkessel JB, Tümer M, Morales-Izquierdo
+    S, Chuan-Peng H, Vezirian K, Rosa AD, Bialobrzeska O, Vasilev MR, Beitner J, Kácha O, Žuro B, Westerlund M, Nedelcheva-Datsova
+    M, Findor A, Krupić D, Kowal M, Askelund AD, Pourafshari R, Đorđević JM, Schmidt N-D, Baklanova E, Szala A, Zakharov I,
+    Vranka MA, Ihaya K, Grano C, Cellini N, Białek M, Anton-Boicuk L, Dalgar I, Adıgüzel A, Verharen JPH, Maturan PLG, Kassianos
+    AP, Oliveira R, Čadek M, Adoric VC, Özdoğru AA, Sverdrup TE, Aczel B, Zambrano D, Ahmed A, Tamnes CK, Yamada Y, Volz L,
+    Sunami N, Suter L, Vieira L, Groyecka-Bernard A, Kamburidis JA, Reips U-D, Harutyunyan M, Adetula GA, Allred TB, Barzykowski
+    K, Antazo BG, Zsido AN, Šakan DD, Cyrus-Lai W, Ahlgren LP, Hruška M, Vega D, Manunta E, Mokady A, Capizzi M, Martončik
+    M, Say N, Filip K, Vilar R, Staniaszek K, Vdovic M, Adamkovic M, Johannes N, Hajdu N, Cohen N, Overkott C, Krupić D, Hubena
+    B, Nilsonne G, Mioni G, Solorzano CS, Ishii T, Chen Z, Kushnir E, Karaarslan C, Ribeiro RR, Khaoudi A, Kossowska M, Bavolar
+    J, Hoyer K, Roczniewska M, Karababa A, Becker M, Monteiro RP, Kunisato Y, Metin-Orta I, Adamus S, Kozma L, Czarnek G,
+    Domurat A, Štrukelj E, Alvarez DS, Parzuchowski M, Massoni S, Czamanski-Cohen J, Pronizius E, Muchembled F, van Schie
+    K, Saçaklı A, Hristova E, Kuzminska AO, Charyate A, Bijlstra G, Afhami R, Majeed NM, Musser ED, Sirota M, Ross RM, Yeung
+    SK, Papadatou-Pastou M, Foroni F, Almeida IAT, Grigoryev D, Lewis DMG, Holford DL, Janssen SMJ, Tatachari S, Batres C,
+    Olofsson JK, Daches S, Belaus A, Pfuhl G, Corral-Frias NS, Sousa D, Röer JP, Isager PM, Godbersen H, Walczak RB, Van Doren
+    N, Ren D, Gill T, Voracek M, DeBruine LM, Anne M, Očovaj SB, Thomas AG, Arvanitis A, Ostermann T, Wolfe K, Arinze NC,
+    Bundt C, Lamm C, Calin-Jageman RJ, Davis WE, Karekla M, Zorjan S, Jaremka LM, Uttley J, Hricova M, Koehn MA, Kiselnikova
+    N, Bai H, Krafnick AJ, Balci BB, Ballantyne T, Lins S, Vally Z, Esteban-Serna C, Schmidt K, Macapagal PML, Szwed P, Zdybek
+    PM, Moreau D, Collins WM, Joy-Gaba JA, Vilares I, Tran US, Boudesseul J, Albayrak-Aydemir N, Dixson BJW, Perillo JT, Ferreira
+    A, Westgate EC, Aberson CL, Arinze AI, Jaeger B, Butt MM, Silva JR, Storage DS, Janak AP, Jiménez-Leal W, Soto JA, Sorokowska
+    A, McCarthy R, Tullett AM, Frias-Armenta M, Ribeiro MFF, Hartanto A, Forbes PAG, Willis ML, Del Carmen Tejada R M, Torres
+    AJO, Stephen ID, Vaidis DC, de la Rosa-Gómez A, Yu K, Sutherland CAM, Manavalan M, Behzadnia B, Urban J, Baskin E, McFall
+    JP, Ogbonnaya CE, Fu CHY, Rahal R-M, Ndukaihe ILG, Hostler TJ, Kappes HB, Sorokowski P, Khosla M, Lazarevic LB, Eudave
+    L, Vilsmeier JK, Luis EO, Muda R, Agadullina E, Cárcamo RA, Reeck C, Anjum G, Venegas MCT, Misiak M, Ryan RM, Nock NL,
+    Travaglino GA, Mensink MC, Feldman G, Wichman AL, Chou W, Ziano I, Seehuus M, Chopik WJ, Kung FYH, Carpentier J, Vaughn
+    LA, Du H, Xiao Q, Lima TJS, Noone C, Onie S, Verbruggen F, Radtke T, Primbs MA
   links: {}
   volume: '10'
   issue: '1'
@@ -1808,7 +2010,8 @@ publications:
   journal: Royal Society Open Science
   doi: 10.1098/rsos.230206
   year: 2023
-  authors: Brembs B, Huneman P, Schönbrodt F, Nilsonne G, Susi T, Siems R, et al
+  authors: Brembs B, Huneman P, Schönbrodt F, Nilsonne G, Susi T, Siems R, Perakakis P, Trachana V, Ma L, Rodriguez-Cuadrado
+    S
   links:
     preprint: https://doi.org/10.5281/zenodo.7974116
   volume: '10'
@@ -1835,7 +2038,8 @@ publications:
   journal: Journal of Cognitive Neuroscience
   doi: 10.1162/jocn_a_02087
   year: 2024
-  authors: Trübutschek D, Yang YF, Gianelli C, Cesnaite E, Fischer NL, Vinding MC, et al
+  authors: Trübutschek D, Yang Y-F, Gianelli C, Cesnaite E, Fischer NL, Vinding MC, Marshall TR, Algermissen J, Pascarella
+    A, Puoliväli T, Vitale A, Busch NA, Nilsonne G
   links:
     preprint: https://doi.org/10.31222/osf.io/jq342
   volume: '36'
@@ -1867,7 +2071,31 @@ publications:
 - title: 'Addressing Climate Change with Behavioral Science: A Global Intervention Tournament in 63 Countries'
   journal: Science Advances
   doi: 10.1126/sciadv.adj5778
-  authors: Vlasceanu M, et al
+  authors: Vlasceanu M, Doell KC, Bak-Coleman JB, Todorova B, Berkebile-Weinberg MM, Grayson SJ, Patel Y, Goldwert D, Pei
+    Y, Chakroff A, Pronizius E, van den Broek KL, Vlasceanu D, Constantino S, Morais MJ, Schumann P, Rathje S, Fang K, Aglioti
+    SM, Alfano M, Alvarado-Yepez AJ, Andersen A, Anseel F, Apps MAJ, Asadli C, Awuor FJ, Azevedo F, Basaglia P, Bélanger JJ,
+    Berger S, Bertin P, Białek M, Bialobrzeska O, Blaya-Burgo M, Bleize DNM, Bø S, Boecker L, Boggio PS, Borau S, Bos B, Bouguettaya
+    A, Brauer M, Brick C, Brik T, Briker R, Brosch T, Buchel O, Buonauro D, Butalia R, Carvacho H, Chamberlain SAE, Chan H-Y,
+    Chow D, Chung D, Cian L, Cohen-Eick N, Contreras-Huerta LS, Contu D, Cristea V, Cutler J, D'Ottone S, De Keersmaecker
+    J, Delcourt S, Delouvée S, Diel K, Douglas BD, Drupp MA, Dubey S, Ekmanis J, Elbaek CT, Elsherif M, Engelhard IM, Escher
+    YA, Etienne TW, Farage L, Farias AR, Feuerriegel S, Findor A, Freira L, Friese M, Gains NP, Gallyamova A, Geiger SJ, Genschow
+    O, Gjoneska B, Gkinopoulos T, Goldberg B, Goldenberg A, Gradidge S, Grassini S, Gray K, Grelle S, Griffin SM, Grigoryan
+    L, Grigoryan A, Grigoryev D, Gruber J, Guilaran J, Hadar B, Hahnel UJJ, Halperin E, Harvey AJ, Haugestad CAP, Herman AM,
+    Hershfield HE, Himichi T, Hine DW, Hofmann W, Howe L, Huaman-Chulluncuy ET, Huang G, Ishii T, Ito A, Jia F, Jost JT, Jovanović
+    V, Jurgiel D, Kácha O, Kankaanpää R, Kantorowicz J, Kantorowicz-Reznichenko E, Kaplan Mintz K, Kaya I, Kaya O, Khachatryan
+    N, Klas A, Klein C, Klöckner CA, Koppel L, Kosachenko AI, Kothe EJ, Krebs R, Krosch AR, Krouwel APM, Kyrychenko Y, Lagomarsino
+    M, Lamm C, Lange F, Lee Cunningham J, Lees J, Leung TY, Levy N, Lockwood PL, Longoni C, López Ortega A, Loschelder DD,
+    Lu JG, Luo Y, Luomba J, Lutz AE, Majer JM, Markowitz E, Marsh AA, Mascarenhas KL, Mbilingi B, Mbungu W, McHugh C, Meijers
+    MHC, Mercier H, Mhagama FL, Michalakis K, Mikus N, Milliron S, Mitkidis P, Monge-Rodríguez FS, Mora YL, Moreau D, Motoki
+    K, Moyano M, Mus M, Navajas J, Nguyen TL, Nguyen DM, Nguyen T, Niemi L, Nijssen SRR, Nilsonne G, Nitschke JP, Nockur L,
+    Okura R, Öner S, Özdoğru AA, Palumbo H, Panagopoulos C, Panasiti MS, Pärnamets P, Paruzel-Czachura M, Pavlov YG, Payán-Gómez
+    C, Pearson AR, Pereira da Costa L, Petrowsky HM, Pfattheicher S, Pham NT, Ponizovskiy V, Pretus C, Rêgo GG, Reimann R,
+    Rhoads SA, Riano-Moreno J, Richter I, Röer JP, Rosa-Sullivan J, Ross RM, Sabherwal A, Saito T, Sarrasin O, Say N, Schmid
+    K, Schmitt MT, Schoenegger P, Scholz C, Schug MG, Schulreich S, Shreedhar G, Shuman E, Sivan S, Sjåstad H, Soliman M,
+    Soud K, Spampatti T, Sparkman G, Spasovski O, Stanley SK, Stern JA, Strahm N, Suko Y, Sul S, Syropoulos S, Taylor NC,
+    Tedaldi E, Tinghög G, Huynh LDT, Travaglino GA, Tsakiris M, Tüter İ, Tyrala M, Uluğ ÖM, Urbanek A, Valko D, van der Linden
+    S, van Schie K, van Stekelenburg A, Vanags E, Västfjäll D, Vesely S, Vintr J, Vranka M, Wanguche PO, Willer R, Wojcik
+    AD, Xu R, Yadav A, Zawisza M, Zhao X, Zhao J, Żuk D, Van Bavel JJ
   links:
     preprint: https://doi.org/10.31234/osf.io/cr5at
   volume: '10'
@@ -1906,7 +2134,17 @@ publications:
   journal: Imaging Neuroscience
   doi: 10.1162/imag_a_00103
   year: 2024
-  authors: Poldrack RA, et al
+  authors: Poldrack RA, Markiewicz CJ, Appelhoff S, Ashar YK, Auer T, Baillet S, Bansal S, Beltrachini L, Benar CG, Bertazzoli
+    G, Bhogawar S, Blair RW, Bortoletto M, Boudreau M, Brooks TL, Calhoun VD, Castelli FM, Clement P, Cohen AL, Cohen-Adad
+    J, D'Ambrosio S, de Hollander G, de la Iglesia-Vayá M, de la Vega A, Delorme A, Devinsky O, Draschkow D, Duff EP, DuPre
+    E, Earl E, Esteban O, Feingold FW, Flandin G, Galassi A, Gallitto G, Ganz M, Gau R, Gholam J, Ghosh SS, Giacomel A, Gillman
+    AG, Gleeson P, Gramfort A, Guay S, Guidali G, Halchenko YO, Handwerker DA, Hardcastle N, Herholz P, Hermes D, Honey CJ,
+    Innis RB, Ioanas H-I, Jahn A, Karakuzu A, Keator DB, Kiar G, Kincses B, Laird AR, Lau JC, Lazari A, Legarreta JH, Li A,
+    Li X, Love BC, Lu H, Marcantoni E, Maumet C, Mazzamuto G, Meisler SL, Mikkelsen M, Mutsaerts H, Nichols TE, Nikolaidis
+    A, Nilsonne G, Niso G, Norgaard M, Okell TW, Oostenveld R, Ort E, Park PJ, Pawlik M, Pernet CR, Pestilli F, Petr J, Phillips
+    C, Poline J-B, Pollonini L, Raamana PR, Ritter P, Rizzo G, Robbins KA, Rockhill AP, Rogers C, Rokem A, Rorden C, Routier
+    A, Saborit-Torres JM, Salo T, Schirner M, Smith RE, Spisak T, Sprenger J, Swann NC, Szinte M, Takerkart S, Thirion B,
+    Thomas AG, Torabian S, Varoquaux G, Voytek B, Welzel J, Wilson M, Yarkoni T, Gorgolewski KJ
   links:
     preprint: https://doi.org/10.48550/arXiv.2309.05768
   volume: '2'
@@ -1974,7 +2212,11 @@ publications:
   journal: Royal Society Open Science
   doi: 10.1098/rsos.240125
   year: 2024
-  authors: Sarafoglou A, et al
+  authors: Sarafoglou A, Hoogeveen S, van den Bergh D, Aczel B, Albers CJ, Althoff T, Botvinik-Nezer R, Busch NA, Cataldo
+    AM, Devezer B, van Dongen NNN, Dreber A, Fried EI, Hoekstra R, Hoffman S, Holzmeister F, Huber J, Huntington-Klein N,
+    Ioannidis J, Johannesson M, Kirchler M, Loken E, Mangin J-F, Matzke D, Menkveld AJ, Nilsonne G, van Ravenzwaaij D, Schweinsberg
+    M, Schulz-Kuempel H, Shanks DR, Simons DJ, Spellman BA, Stoevenbelt AH, Szaszi B, Trübutschek D, Tuerlinckx F, Uhlmann
+    EL, Vanpaemel W, Wicherts J, Wagenmakers E-J
   links:
     preprint: https://doi.org/10.31234/osf.io/mxje3
   volume: '11'
@@ -1994,7 +2236,15 @@ publications:
   journal: Nature Human Behaviour
   doi: 10.1038/s41562-024-01941-5
   year: 2024
-  authors: Mushtaq F, et al
+  authors: Mushtaq F, Welke D, Gallagher A, Pavlov YG, Kouara L, Bosch-Bayard J, van den Bosch JJF, Arvaneh M, Bland AR, Chaumon
+    M, Borck C, He X, Luck SJ, Machizawa MG, Pernet C, Puce A, Segalowitz SJ, Rogers C, Awais M, Babiloni C, Bailey NW, Baillet
+    S, Bendall RCA, Brady D, Bringas-Vega ML, Busch NA, Calzada-Reyes A, Chatard A, Clayson PE, Cohen MX, Cole J, Constant
+    M, Corneyllie A, Coyle D, Cruse D, Delis I, Delorme A, Fair D, Falk TH, Gamer M, Ganis G, Gloy K, Gregory S, Hassall CD,
+    Hiley KE, Ivry RB, Jerbi K, Jenkins M, Kaiser J, Keil A, Knight RT, Kochen S, Kotchoubey B, Krigolson OE, Langer N, Liesefeld
+    HR, Lippé S, London RE, MacNamara A, Makeig S, Marinovic W, Martínez-Montes E, Marzuki AA, Mathew RK, Michel C, Millán
+    JDR, Mon-Williams M, Morales-Chacón L, Naar R, Nilsonne G, Niso G, Nyhus E, Oostenveld R, Paul K, Paulus W, Pfabigan DM,
+    Pourtois G, Rampp S, Rausch M, Robbins K, Rossini PM, Ruzzoli M, Schmidt B, Senderecka M, Srinivasan N, Stegmann Y, Thompson
+    PM, Valdes-Sosa M, van der Molen MJW, Veniero D, Verona E, Voytek B, Yao D, Evans AC, Valdes-Sosa P
   links: {}
   volume: '8'
   issue: '8'
@@ -2012,7 +2262,31 @@ publications:
   journal: Scientific Data
   doi: 10.1038/s41597-024-03865-1
   year: 2024
-  authors: Doell KC, et al
+  authors: Doell KC, Todorova B, Vlasceanu M, Bak Coleman JB, Pronizius E, Schumann P, Azevedo F, Patel Y, Berkebile-Wineberg
+    MM, Brick C, Lange F, Grayson SJ, Pei Y, Chakroff A, van den Broek KL, Lamm C, Vlasceanu D, Constantino SM, Rathje S,
+    Goldwert D, Fang K, Aglioti SM, Alfano M, Alvarado-Yepez AJ, Andersen A, Anseel F, Apps MAJ, Asadli C, Awuor FJ, Basaglia
+    P, Bélanger JJ, Berger S, Bertin P, Białek M, Bialobrzeska O, Blaya-Burgo M, Bleize DNM, Bø S, Boecker L, Boggio PS, Borau
+    S, Borau S, Bos B, Bouguettaya A, Brauer M, Brik T, Briker R, Brosch T, Buchel O, Buonauro D, Butalia R, Carvacho H, Chamberlain
+    SAE, Chan H-Y, Chow D, Chung D, Cian L, Cohen-Eick N, Contreras-Huerta LS, Contu D, Cristea V, Cutler J, D'Ottone S, De
+    Keersmaecker J, Delcourt S, Delouvée S, Diel K, Douglas BD, Drupp MA, Dubey S, Ekmanis J, Elbaek CT, Elsherif M, Engelhard
+    IM, Escher YA, Etienne TW, Farage L, Farias AR, Feuerriegel S, Findor A, Freira L, Friese M, Gains NP, Gallyamova A, Geiger
+    SJ, Genschow O, Gjoneska B, Gkinopoulos T, Goldberg B, Goldenberg A, Gradidge S, Grassini S, Gray K, Grelle S, Griffin
+    SM, Grigoryan L, Grigoryan A, Grigoryev D, Gruber J, Guilaran J, Hadar B, Hahnel UJJ, Halperin E, Harvey AJ, Haugestad
+    CAP, Herman AM, Hershfield HE, Himichi T, Hine DW, Hofmann W, Howe L, Huaman-Chulluncuy ET, Huang G, Ishii T, Ito A, Jia
+    F, Jost JT, Jovanović V, Jurgiel D, Kácha O, Kankaanpää R, Kantorowicz J, Kantorowicz-Reznichenko E, Mintz KK, Kaya I,
+    Kaya O, Khachatryan N, Klas A, Klein C, Klöckner CA, Koppel L, Kosachenko AI, Kothe EJ, Krebs R, Krosch AR, Krouwel APM,
+    Kyrychenko Y, Lagomarsino M, Cunningham JL, Lees J, Leung TY, Levy N, Lockwood PL, Longoni C, Ortega AL, Loschelder DD,
+    Lu JG, Luo Y, Luomba J, Lutz AE, Majer JM, Markowitz E, Marsh AA, Mascarenhas KL, Mbilingi B, Mbungu W, McHugh C, Meijers
+    MHC, Mercier H, Mhagama FL, Michalaki K, Mikus N, Milliron SG, Mitkidis P, Monge-Rodríguez FS, Mora YL, Morais MJ, Moreau
+    D, Motoki K, Moyano M, Mus M, Navajas J, Nguyen TL, Nguyen DM, Nguyen T, Niemi L, Nijssen SRR, Nilsonne G, Nitschke JP,
+    Nockur L, Okura R, Öner S, Özdoğru AA, Palumbo H, Panagopoulos C, Panasiti MS, Pärnamets P, Paruzel-Czachura M, Pavlov
+    YG, Payán-Gómez C, Pearson AR, da Costa LP, Petrowsky HM, Pfattheicher S, Pham NT, Ponizovskiy V, Pretus C, Rêgo GG, Reimann
+    R, Rhoads SA, Riano-Moreno J, Richter I, Röer JP, Rosa-Sullivan J, Ross RM, Sabherwal A, Saito T, Sarrasin O, Say N, Schmid
+    K, Schmitt MT, Schoenegger P, Scholz C, Schug MG, Schulreich S, Shreedhar G, Shuman E, Sivan S, Sjåstad H, Soliman M,
+    Soud K, Spampatti T, Sparkman G, Spasovski O, Stanley SK, Stern JA, Strahm N, Suko Y, Sul S, Syropoulos S, Taylor NC,
+    Tedaldi E, Tinghög G, Huynh LDT, Travaglino GA, Tsakiris M, Tüter İ, Tyrala M, Uluğ ÖM, Urbanek A, Valko D, van der Linden
+    S, van Schie K, van Stekelenburg A, Vanags E, Västfjäll D, Vesely S, Vintr J, Vranka M, Wanguche PO, Willer R, Wojcik
+    AD, Xu R, Yadav A, Zawisza M, Zhao X, Zhao J, Żuk D, Van Bavel JJ
   links: {}
   volume: '11'
   issue: '1'
@@ -2043,7 +2317,7 @@ publications:
   journal: Scandinavian Journal of Psychology
   doi: 10.1111/sjop.13087
   year: 2024
-  authors: Sennerstam V, et al
+  authors: Sennerstam V, Hedman-Lagerlöf E, Nilsonne G, Lekander M, Rück C, Wallert J, Axelsson E, Lindsäter E
   links: {}
   volume: '66'
   issue: '3'
@@ -2064,7 +2338,11 @@ publications:
   journal: Journal of Clinical Epidemiology
   doi: 10.1016/j.jclinepi.2025.111710
   year: 2025
-  authors: Nilsonne G, et al
+  authors: Nilsonne G, Wieschowski S, DeVito NJ, Salholz-Hillel M, Ahnström L, Bruckner T, Klas K, Suljic T, Yerunkar S, Olsson
+    N, Cruz C, Strzebonska K, Småbrekke L, Wasylewski MT, Bengtsson J, Ringsten M, Schuster A, Krawczyk T, Paraskevas T, Raittio
+    E, Herczeg L, Hesselberg J-O, Karlsson S, Borana R, Bruschettini M, Mulinari S, Lizárraga K, Siebert M, Hildebrand N,
+    Ramakrishnan S, Janiaud P, Zavalis E, Franzen D, Boesen K, Hemkens LG, Naudet F, Possmark S, Willén RM, Ioannidis JPA,
+    Strech D, Axfors C
   links:
     preprint: https://doi.org/10.1101/2024.02.04.24301363
   volume: '181'
@@ -2086,7 +2364,36 @@ publications:
   journal: BMC Biology.
   doi: 10.1186/s12915-024-02101-x
   year: 2025
-  authors: Gould E, et al
+  authors: Gould E, Fraser HS, Parker TH, Nakagawa S, Griffith SC, Vesk PA, Fidler F, Hamilton DG, Abbey-Lee RN, Abbott JK,
+    Aguirre LA, Alcaraz C, Aloni I, Altschul D, Arekar K, Atkins JW, Atkinson J, Baker CM, Barrett M, Bell K, Bello SK, Beltrán
+    I, Berauer BJ, Bertram MG, Billman PD, Blake CK, Blake S, Bliard L, Bonisoli-Alquati A, Bonnet T, Bordes CNM, Bose APH,
+    Botterill-James T, Boyd MA, Boyle SA, Bradfer-Lawrence T, Bradham J, Brand JA, Brengdahl MI, Bulla M, Bussière L, Camerlenghi
+    E, Campbell SE, Campos LLF, Caravaggi A, Cardoso P, Carroll CJW, Catanach TA, Chen X, Chik HYJ, Choy ES, Christie AP,
+    Chuang A, Chunco AJ, Clark BL, Contina A, Covernton GA, Cox MP, Cressman KA, Crotti M, Crouch CD, D'Amelio PB, de Sousa
+    AA, Döbert TF, Dobler R, Dobson AJ, Doherty TS, Drobniak SM, Duffy AG, Duncan AB, Dunn RP, Dunning J, Dutta T, Eberhart-Hertel
+    L, Elmore JA, Elsherif MM, English HM, Ensminger DC, Ernst UR, Ferguson SM, Fernandez-Juricic E, Ferreira-Arruda T, Fieberg
+    J, Finch EA, Fiorenza EA, Fisher DN, Fontaine A, Forstmeier W, Fourcade Y, Frank GS, Freund CA, Fuentes-Lillo E, Gandy
+    SL, Gannon DG, García-Cervigón AI, Garretson AC, Ge X, Geary WL, Géron C, Gilles M, Girndt A, Gliksman D, Goldspiel HB,
+    Gomes DGE, Good MK, Goslee SC, Gosnell JS, Grames EM, Gratton P, Grebe NM, Greenler SM, Griffioen M, Griffith DM, Griffith
+    FJ, Grossman JJ, Güncan A, Haesen S, Hagan JG, Hager HA, Harris JP, Harrison ND, Hasnain SS, Havird JC, Heaton AJ, Herrera-Chaustre
+    ML, Howard TJ, Hsu B-Y, Iannarilli F, Iranzo EC, Iverson ENK, Jimoh SO, Johnson DH, Johnsson M, Jorna J, Jucker T, Jung
+    M, Kačergytė I, Kaltz O, Ke A, Kelly CD, Keogan K, Keppeler FW, Killion AK, Kim D, Kochan DP, Korsten P, Kothari S, Kuppler
+    J, Kusch JM, Lagisz M, Lalla KM, Larkin DJ, Larson CL, Lauck KS, Lauterbur ME, Law A, Léandri-Breton D-J, Lembrechts JJ,
+    L'Herpiniere K, Lievens EJP, de Lima DO, Lindsay S, Luquet M, MacLeod R, Macphie KH, Magellan K, Mair MM, Malm LE, Mammola
+    S, Mandeville CP, Manhart M, Manrique-Garzon LM, Mäntylä E, Marchand P, Marshall BM, Martin CA, Martin DA, Martin JM,
+    Martinig AR, McCallum ES, McCauley M, McNew SM, Meiners SJ, Merkling T, Michelangeli M, Moiron M, Moreira B, Mortensen
+    J, Mos B, Muraina TO, Murphy PW, Nelli L, Niemelä P, Nightingale J, Nilsonne G, Nolazco S, Nooten SS, Novotny JL, Olin
+    AB, Organ CL, Ostevik KL, Palacio FX, Paquet M, Parker DJ, Pascall DJ, Pasquarella VJ, Paterson JH, Payo-Payo A, Pedersen
+    KM, Perez G, Perry KI, Pottier P, Proulx MJ, Proulx R, Pruett JL, Ramananjato V, Randimbiarison FT, Razafindratsima OH,
+    Rennison DJ, Riva F, Riyahi S, Roast MJ, Rocha FP, Roche DG, Román-Palacios C, Rosenberg MS, Ross J, Rowland FE, Rugemalila
+    D, Russell AL, Ruuskanen S, Saccone P, Sadeh A, Salazar SM, Sales K, Salmón P, Sánchez-Tójar A, Santos LP, Santostefano
+    F, Schilling HT, Schmidt M, Schmoll T, Schneider AC, Schrock AE, Schroeder J, Schtickzelle N, Schultz NL, Scott DA, Scroggie
+    MP, Shapiro JT, Sharma N, Shearer CL, Simón D, Sitvarin MI, Skupien FL, Slinn HL, Smith GP, Smith JA, Sollmann R, Whitney
+    KS, Still SM, Stuber EF, Sutton GF, Swallow B, Taff CC, Takola E, Tanentzap AJ, Tarjuelo R, Telford RJ, Thawley CJ, Thierry
+    H, Thomson J, Tidau S, Tompkins EM, Tortorelli CM, Trlica A, Turnell BR, Urban L, Van de Vondel S, van der Wal JEM, Van
+    Eeckhoven J, van Oordt F, Vanderwel KM, Vanderwel MC, Vanderwolf KJ, Vélez J, Vergara-Florez DC, Verrelli BC, Vieira MV,
+    Villamil N, Vitali V, Vollering J, Walker J, Walker XJ, Walter JA, Waryszak P, Weaver RJ, Wedegärtner REM, Weller DL,
+    Whelan S, White RL, Wolfson DW, Wood A, Yanco SW, Yen JDL, Youngflesh C, Zilio G, Zimmer C, Zimmerman GM, Zitomer RA
   links:
     preprint: https://doi.org/10.32942/X2GG62
   volume: '23'
@@ -2137,7 +2444,7 @@ preprints:
   journal: ''
   doi: 10.31219/osf.io/5w9kg
   year: 2023
-  authors: van der Hoven M, Asaduzzaman M, Evans N, Ike C, Kalichman M, Kniffert S, et al
+  authors: Hoven MV, Asaduzzaman M, Evans N, Ike C, Kalichman M, Kniffert S, Löfström E, van Loon M, Moran R, Nilsonne G
   links:
     preprint: https://doi.org/10.31219/osf.io/5w9kg
   publication_date: '2023-03-06'
@@ -2156,7 +2463,8 @@ preprints:
   journal: medRxiv
   doi: 10.1101/2024.02.04.24301363
   year: 2024
-  authors: Nilsonne G, et al
+  authors: Nilsonne G, Wieschowski S, DeVito NJ, Salholz-Hillel M, Ahnström L, Bruckner T, Klas K, Suljic T, Yerunkar S, Olsson
+    N
   links: {}
   publication_date: '2024-02-05'
   acceptance_date: '2025-01-31'
@@ -2180,7 +2488,7 @@ preprints:
   journal: ''
   doi: 10.1101/2024.10.26.620382
   year: 2024
-  authors: Custer RM, Lynch KM, Barisano G, Herting MM, Åkerstedt T, Nilsonne G, et al
+  authors: Custer RM, Lynch KM, Barisano G, Herting MM, Åkerstedt T, Nilsonne G, Ahmadi H, Choupan J
   links: {}
   publication_date: '2024-10-27'
   acceptance_date: '2024-10-27'

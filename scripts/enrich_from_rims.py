@@ -87,6 +87,19 @@ def enrich_publication(pub, rims_record):
     """Enrich a publication entry with RIMS data."""
     changes = []
     
+    # Authors - use RIMS if more complete
+    rims_authors = rims_record.get("Authors OR Creators / Principal investigators OR Author", "").strip()
+    yaml_authors = pub.get("authors", "")
+    if rims_authors:
+        # Count authors roughly (RIMS format: "Surname I, Surname I, ...")
+        rims_count = rims_authors.count(",") // 1  # rough, each author has surname + initials
+        yaml_count = yaml_authors.count(",") if yaml_authors else 0
+        # Use RIMS if: no YAML authors, or YAML has "et al" and RIMS is fuller
+        yaml_has_etal = "et al" in yaml_authors.lower() if yaml_authors else False
+        if not yaml_authors or (yaml_has_etal and len(rims_authors) > len(yaml_authors)):
+            pub["authors"] = rims_authors
+            changes.append("authors")
+    
     # Volume
     vol = rims_record.get("Volume", "").strip()
     if vol and not pub.get("volume"):

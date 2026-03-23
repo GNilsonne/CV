@@ -54,6 +54,74 @@ def tex_escape(text) -> str:
     return text
 
 
+def format_authors_vancouver(authors_str, max_authors=6) -> str:
+    """Format an author string in Vancouver style.
+    
+    Vancouver rules:
+    - List up to max_authors authors, then 'et al.' if more
+    - Format: Surname Initials (no periods), comma-separated
+    
+    Input is already in approximate Vancouver format from RIMS/LaTeX:
+    'Nilsonne G, Sun X, Nyström C, ...'
+    where each author is a single comma-separated element.
+    
+    Some inputs use "Surname Initials, Surname Initials" (one element per author),
+    others use "Surname, Initials, Surname, Initials" (two elements per author).
+    We detect which format by checking patterns.
+    """
+    if not authors_str:
+        return ""
+    authors_str = str(authors_str).strip()
+    
+    # If already contains "et al" with few listed, return as-is
+    if "et al" in authors_str.lower() and authors_str.count(",") < 15:
+        return authors_str
+    
+    # Split by comma
+    parts = [p.strip() for p in authors_str.split(",")]
+    
+    # Detect format: check if parts alternate between names and initials
+    # "Surname, I, Surname, I" format has short parts (1-3 chars) at odd positions
+    # "Surname I, Surname I" format has each part containing both name and initials
+    two_element_format = False
+    if len(parts) >= 4:
+        # Check if parts[1], parts[3], parts[5] etc. look like initials
+        initials_count = 0
+        check_positions = min(6, len(parts))
+        for j in range(1, check_positions, 2):
+            p = parts[j].strip()
+            if (len(p) <= 4 and p.replace("-", "").replace(" ", "").replace(".", "").isalpha()
+                    and p[0].isupper()):
+                initials_count += 1
+        if initials_count >= 2:
+            two_element_format = True
+    
+    if two_element_format:
+        # Group pairs: (Surname, Initials) -> "Surname Initials"
+        authors = []
+        i = 0
+        while i < len(parts):
+            if i + 1 < len(parts):
+                name = parts[i].strip()
+                initials = parts[i + 1].strip()
+                # Verify initials look right
+                if (len(initials) <= 4 and 
+                    initials.replace("-", "").replace(" ", "").replace(".", "").isalpha()):
+                    authors.append(f"{name} {initials}")
+                    i += 2
+                    continue
+            authors.append(parts[i].strip())
+            i += 1
+    else:
+        # Each comma-separated part is already a complete author
+        authors = [p.strip() for p in parts if p.strip()]
+    
+    if len(authors) > max_authors:
+        return ", ".join(authors[:6]) + ", et al"
+    else:
+        return ", ".join(authors)
+
+
 def format_links_latex(links) -> str:
     """Format links dict as LaTeX inline list."""
     if not links or not isinstance(links, dict):
@@ -99,6 +167,7 @@ def render_latex(data: dict, template_dir: str, template_name: str) -> str:
     env.filters["links"] = format_links_latex
     env.filters["notrailingdot"] = lambda s: str(s).rstrip(".") if s else ""
     env.filters["doi"] = lambda s: str(s).replace("_", r"\_") if s else ""
+    env.filters["vancouver_authors"] = format_authors_vancouver
 
     template = env.get_template(template_name)
     return template.render(**data)
