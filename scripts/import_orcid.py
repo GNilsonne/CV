@@ -165,8 +165,9 @@ def work_to_entry(parsed: dict) -> dict:
 
 def load_existing(path: Path) -> dict:
     if path.exists():
-        with open(path) as f:
-            return yaml.safe_load(f) or {}
+        with open(path, encoding="utf-8") as f:
+            content = f.read()
+        return yaml.load(content, Loader=yaml.SafeLoader) or {}
     return {}
 
 

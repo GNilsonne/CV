@@ -135,8 +135,9 @@ def main():
     parser.add_argument("--summary", action="store_true", help="Show count summary only")
     args = parser.parse_args()
 
-    with open(args.data) as f:
-        data = yaml.safe_load(f)
+    with open(args.data, encoding="utf-8") as f:
+        content = f.read()
+    data = yaml.load(content, Loader=yaml.SafeLoader)
 
     if args.summary:
         print(format_summary(data))

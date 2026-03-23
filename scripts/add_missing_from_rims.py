@@ -87,7 +87,8 @@ def rims_to_pub(row):
 def main():
     # Load YAML
     with open("cv_data.yaml", encoding="utf-8") as f:
-        data = yaml.safe_load(f)
+        content = f.read()
+    data = yaml.load(content, Loader=yaml.SafeLoader)
     
     # Collect all known DOIs and titles across all sections
     known_dois = set()

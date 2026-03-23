@@ -29,7 +29,8 @@ from difflib import SequenceMatcher
 
 def load_yaml(path):
     with open(path, encoding="utf-8") as f:
-        return yaml.safe_load(f)
+        content = f.read()
+    return yaml.load(content, Loader=yaml.SafeLoader)
 
 
 def save_yaml(data, path):

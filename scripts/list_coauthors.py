@@ -225,8 +225,9 @@ def main():
         print(f"Fetching co-authors from ORCID {args.from_orcid}...", file=sys.stderr)
         coauthors = coauthors_from_orcid(args.from_orcid, exclude_self)
     else:
-        with open(args.data) as f:
-            data = yaml.safe_load(f)
+        with open(args.data, encoding="utf-8") as f:
+            content = f.read()
+        data = yaml.load(content, Loader=yaml.SafeLoader)
         coauthors = coauthors_from_yaml(data, exclude_self)
 
     formatters = {"text": format_text, "csv": format_csv, "md": format_md}

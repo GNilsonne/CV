@@ -120,14 +120,16 @@ def main():
 
     # Load data
     with open("cv_data.yaml", encoding="utf-8") as f:
-        data = yaml.safe_load(f)
+        content = f.read()
+    data = yaml.load(content, Loader=yaml.SafeLoader)
 
     # Load VR config (top-10 selection, type overrides)
     vr_config_path = "vr_config.yaml"
     vr_config = {}
     if os.path.exists(vr_config_path):
         with open(vr_config_path, encoding="utf-8") as f:
-            vr_config = yaml.safe_load(f) or {}
+            content = f.read()
+        vr_config = yaml.load(content, Loader=yaml.SafeLoader) or {}
 
     # Type overrides: doi -> type
     type_overrides = {}

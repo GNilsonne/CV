@@ -842,7 +842,8 @@ def main():
     
     # Verify
     with open(out_path, encoding="utf-8") as f:
-        verify = yaml.safe_load(f)
+        content = f.read()
+    verify = yaml.load(content, Loader=yaml.SafeLoader)
     print("YAML verification passed ✓")
 
 
