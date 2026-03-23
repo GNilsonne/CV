@@ -15,6 +15,7 @@ cv_data.yaml  ──→  scripts/render_cv.py     ──→  output/cv.tex + cv.
 
 - Python 3.8+
 - `pyyaml` and `jinja2` (`pip install pyyaml jinja2`)
+- `python-docx` for Word output (`pip install python-docx`)
 - `pdflatex` for PDF output (install via MiKTeX on Windows or `texlive` on Linux/Mac)
 - LaTeX packages: `libertinus`, `enumitem`, `titlesec`, `xurl`, `hyperref`, `fancyhdr`, `lastpage`
 
@@ -94,8 +95,13 @@ python3 scripts/render_cv.py --no-pdf
 For Vetenskapsrådet (Swedish Research Council) grant applications:
 
 ```bash
-python3 scripts/render_vr.py
+# Word format (recommended — paste directly into Prisma)
+pip install python-docx    # one-time
+python3 scripts/render_vr_docx.py
+# Output: output/vr_publist.docx
 
+# LaTeX format (alternative)
+python3 scripts/render_vr.py
 # Output: output/vr_publist.tex
 ```
 
@@ -194,7 +200,9 @@ Templates are in `templates/` and use Jinja2 with non-standard delimiters:
 | Template | Purpose |
 |----------|---------|
 | `templates/cv.tex.j2` | Full academic CV (Libertinus font, 2cm margins) |
-| `templates/vr_publist.tex.j2` | VR publication list (Arial 11pt, 2.5cm margins) |
+| `templates/vr_publist.tex.j2` | VR publication list — LaTeX version (Arial 11pt, 2.5cm margins) |
+
+The Word version (`render_vr_docx.py`) builds the document programmatically without a template file.
 
 ## File overview
 
@@ -209,7 +217,8 @@ CV/
 │   └── csv20260323.csv        ← KI RIMS data export
 ├── scripts/
 │   ├── render_cv.py           ← YAML → CV LaTeX/PDF
-│   ├── render_vr.py           ← YAML → VR publication list
+│   ├── render_vr.py           ← YAML → VR publication list (LaTeX)
+│   ├── render_vr_docx.py     ← YAML → VR publication list (Word .docx)
 │   ├── list_outputs.py        ← Query open outputs by type
 │   ├── list_coauthors.py      ← Alphabetical co-author list
 │   ├── import_orcid.py        ← Pull from ORCID API
@@ -221,7 +230,9 @@ CV/
 ├── output/
 │   ├── cv.tex                 ← Generated CV LaTeX
 │   ├── cv.pdf                 ← Generated CV PDF
-│   ├── vr_publist.tex         ← Generated VR publication list
+│   ├── vr_publist.tex         ← Generated VR publication list (LaTeX)
+│   ├── vr_publist.docx        ← Generated VR publication list (Word)
+│   ├── coauthors.csv          ← Generated co-author list
 │   └── open_outputs.md        ← Generated output list
 ├── schema.md                  ← YAML field documentation
 ├── WORKFLOW.md                ← This file
@@ -238,9 +249,8 @@ CV/
 
 **"I need a VR publication list for a grant application"**
 1. Edit `vr_config.yaml` — select your top 10, write contributions, check type overrides
-2. Run `python3 scripts/render_vr.py`
-3. Compile `output/vr_publist.tex` with pdflatex
-4. Check it fits within 5 pages
+2. Run `python3 scripts/render_vr_docx.py` (Word) or `python3 scripts/render_vr.py` (LaTeX)
+3. Check it fits within 5 pages
 
 **"A funder asks for a list of my open datasets"**
 ```bash
