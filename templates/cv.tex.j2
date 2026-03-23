@@ -296,18 +296,6 @@
 <% endif %>
 
 %% ================================================================
-%% CONFERENCE PRESENTATIONS
-%% ================================================================
-<% if conference_presentations %>
-\section{Conference Presentations}
-\begin{enumerate}
-<% for pres in conference_presentations %>
-    \item <% if pres.authors %><< pres.authors|vancouver_authors|tex >>. <% endif %><< pres.title|notrailingdot|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
-<% endfor %>
-\end{enumerate}
-<% endif %>
-
-%% ================================================================
 %% CONFERENCE ABSTRACTS
 %% ================================================================
 <% if conference_abstracts %>
@@ -345,6 +333,18 @@
 \begin{enumerate}
 <% for pub in popular_science_writings %>
     \item << pub.title|notrailingdot|tex >>.<% if pub.year %> << pub.year >>.<% endif %><< pub.links|links >>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+%% ================================================================
+%% CONFERENCE PRESENTATIONS
+%% ================================================================
+<% if conference_presentations %>
+\section{Conference Presentations}
+\begin{enumerate}
+<% for pres in conference_presentations %>
+    \item <% if pres.authors %><< pres.authors|vancouver_authors|tex >>. <% endif %><< pres.title|notrailingdot|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
