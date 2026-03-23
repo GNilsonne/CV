@@ -1,0 +1,26 @@
+# VR Publication List Configuration
+# Edit this file to customize the VR publication list output.
+
+# =================================================================
+# Section 1: Selected outputs (top 10)
+# List the DOIs of your 10 most important publications in order.
+# These will appear in Section 1 with contribution descriptions.
+# =================================================================
+selected_outputs:
+  # - "10.xxxx/yyyy"  # Add DOIs here
+  # - "10.xxxx/zzzz"
+
+# For each selected output, describe your contribution (max 4 lines).
+selected_contributions:
+  # - doi: "10.xxxx/yyyy"
+  #   contribution: "I designed the study, performed the analyses, and wrote the manuscript."
+
+# =================================================================
+# Type overrides
+# By default, articles are classified as "original" unless the title
+# contains "review" or "meta-analysis". Override here if needed.
+# Types: original, review, conference, book, other
+# =================================================================
+type_overrides:
+  # - doi: "10.xxxx/yyyy"
+  #   type: "review"

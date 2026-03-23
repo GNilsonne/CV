@@ -1,0 +1,157 @@
+% VR Publication List Template
+% Generated from cv_data.yaml
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{helvet}  % Arial-like font
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{enumitem}
+\usepackage[hyphens]{url}
+\usepackage{xurl}
+\usepackage[colorlinks,breaklinks=true]{hyperref}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+
+\hypersetup{
+    urlcolor=blue!70!black,
+    linkcolor=blue!70!black,
+}
+
+% Single line spacing
+\linespread{1.0}
+
+% Page numbers
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage/\pageref{LastPage}}
+\renewcommand{\headrulewidth}{0pt}
+
+% Compact lists
+\setlist[enumerate]{leftmargin=2.5em, labelsep=0.5em, itemsep=0.5ex, parsep=0.3ex, topsep=0.5ex}
+\setlist[itemize]{leftmargin=2em, itemsep=0.3ex, parsep=0ex, topsep=0.3ex}
+
+\sloppy
+
+\begin{document}
+
+\begin{center}
+{\large\textbf{<< meta.name|tex >> -- Publication List}}
+\end{center}
+
+%% ================================================================
+%% 1. SELECTION OF RESEARCH OUTPUTS
+%% ================================================================
+
+\section*{1. Selection of research outputs}
+
+{\small\textit{The 10 publications most important for confirming competence as project leader and for the proposed research.}}
+
+\begin{enumerate}
+<% for pub in selected_outputs %>
+\item <% if pub.authors %><< pub.authors|vr_authors|vr_bold_name >>. <% endif %><< pub.title|notrailingdot|tex >>. <% if pub.journal %>\textit{<< pub.journal|notrailingdot|tex >>}<% endif %><% if pub.year %> << pub.year >><% endif %><% if pub.volume %>;<< pub.volume >><% endif %><% if pub.issue %>(<< pub.issue >>)<% endif %><% if pub.pages %>:<< pub.pages >><% elif pub.article_number %>:<< pub.article_number >><% endif %>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %>
+\par\textit{<< pub.vr_contribution|tex >>}
+<% endfor %>
+\end{enumerate}
+
+%% ================================================================
+%% 2. PEER-REVIEWED RESEARCH OUTPUTS 2017–2025
+%% ================================================================
+
+\section*{2. Relevant peer-reviewed research outputs 2017--2025}
+
+<% if peer_original_articles_2017 %>
+\subsection*{Original articles}
+\begin{enumerate}
+<% for pub in peer_original_articles_2017 %>
+\item <% if pub.authors %><< pub.authors|vr_authors|vr_bold_name >>. <% endif %><< pub.title|notrailingdot|tex >>. <% if pub.journal %>\textit{<< pub.journal|notrailingdot|tex >>}<% endif %><% if pub.year %> << pub.year >><% endif %><% if pub.volume %>;<< pub.volume >><% endif %><% if pub.issue %>(<< pub.issue >>)<% endif %><% if pub.pages %>:<< pub.pages >><% elif pub.article_number %>:<< pub.article_number >><% endif %>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+<% if peer_conference_2017 %>
+\subsection*{Conference contributions}
+\begin{enumerate}
+<% for pub in peer_conference_2017 %>
+\item <% if pub.authors %><< pub.authors|vr_authors|vr_bold_name >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.year %> << pub.year >>.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+<% if peer_reviews_2017 %>
+\subsection*{Research review articles}
+\begin{enumerate}
+<% for pub in peer_reviews_2017 %>
+\item <% if pub.authors %><< pub.authors|vr_authors|vr_bold_name >>. <% endif %><< pub.title|notrailingdot|tex >>. <% if pub.journal %>\textit{<< pub.journal|notrailingdot|tex >>}<% endif %><% if pub.year %> << pub.year >><% endif %><% if pub.volume %>;<< pub.volume >><% endif %><% if pub.issue %>(<< pub.issue >>)<% endif %><% if pub.pages %>:<< pub.pages >><% elif pub.article_number %>:<< pub.article_number >><% endif %>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+<% if peer_books_2017 %>
+\subsection*{Books and book chapters}
+\begin{enumerate}
+<% for pub in peer_books_2017 %>
+\item <% if pub.authors %><< pub.authors|vr_authors|vr_bold_name >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.year %> << pub.year >>.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+<% if peer_other_2017 %>
+\subsection*{Other outputs}
+\begin{enumerate}
+<% for pub in peer_other_2017 %>
+\item <% if pub.authors %><< pub.authors|vr_authors|vr_bold_name >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.year %> << pub.year >>.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+%% ================================================================
+%% 3. NON PEER-REVIEWED RESEARCH OUTPUTS 2017–2025
+%% ================================================================
+
+\section*{3. Relevant non peer-reviewed research outputs 2017--2025}
+
+<% if popular_science_2017 %>
+\subsection*{Publications including popular science books/presentations}
+\begin{enumerate}
+<% for pub in popular_science_2017 %>
+\item <% if pub.authors %><< pub.authors|vr_authors|vr_bold_name >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.journal %> \textit{<< pub.journal|tex >>}.<% endif %><% if pub.year %> << pub.year >>.<% endif %>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+<% if preprints_2017 %>
+\subsection*{Preprints}
+\begin{enumerate}
+<% for pub in preprints_2017 %>
+\item <% if pub.authors %><< pub.authors|vr_authors|vr_bold_name >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.journal %> \textit{<< pub.journal|tex >>}.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+<% if nonpeer_other_2017 %>
+\subsection*{Other outputs}
+\begin{enumerate}
+<% for pub in nonpeer_other_2017 %>
+\item <% if pub.authors %><< pub.authors|vr_authors|vr_bold_name >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.journal %> \textit{<< pub.journal|tex >>}.<% endif %><% if pub.year %> << pub.year >>.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+%% ================================================================
+%% 4. NUMBER OF PUBLICATIONS
+%% ================================================================
+
+\section*{4. Number of publications}
+
+\begin{itemize}
+\item Total number of peer-reviewed original articles: << counts.total_originals >>
+\item Total number of peer-reviewed research review articles: << counts.total_reviews >>
+\item Total number of other publications including patents: << counts.total_other >>
+\item Number of peer-reviewed original articles 2017--2025: << counts.originals_2017 >>
+\item Number of peer-reviewed research review articles 2017--2025: << counts.reviews_2017 >>
+\item Number of other publications including patents 2017--2025: << counts.other_2017 >>
+\end{itemize}
+
+\end{document}
