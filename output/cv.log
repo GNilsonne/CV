@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.11)  23 MAR 2026 13:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.11)  23 MAR 2026 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -415,7 +415,7 @@ LibertinusSerif-TLF.
 LaTeX Font Info:    Font shape `TS1/LibertinusSerif-TLF/m/n' will be
 (Font)              scaled to size 10.0pt on input line 59.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 117.
+(Font)              scaled to size 9.0pt on input line 118.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/b/n' will be
 (Font)              scaled to size 9.0pt on input line 119.
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
@@ -441,102 +441,73 @@ Underfull \hbox (badness 1509) in paragraph at lines 254--255
  []
 
 [2] [3]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.507     \\*R
-              egistered in Web of Science, ID: 1550920
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[4]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 460.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 460.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 6.0pt on input line 460.
+LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 460.
+ [4]
 LaTeX Font Info:    Font shape `T1/LibertinusSerif-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 644.
-
-Underfull \hbox (badness 10000) in paragraph at lines 664--665
+(Font)              scaled to size 10.0pt on input line 757.
+ [5]
+Underfull \hbox (badness 10000) in paragraph at lines 777--778
 []\T1/LibertinusSerif-TLF/m/n/10 Open Sci-ence Col-lab-o-ra-tion. Es-ti-mat-ing
  the re-pro-ducibil-ity of psy-cho-log-i-cal sci-ence. \T1/LibertinusSerif-TLF/
 m/it/10 Sci-ence\T1/LibertinusSerif-TLF/m/n/10 .
  []
 
-[5]
-Underfull \hbox (badness 2521) in paragraph at lines 698--699
+[6]
+Underfull \hbox (badness 2521) in paragraph at lines 811--812
 []\T1/LibertinusSerif-TLF/m/n/10 Ingre M, Nil-sonne G. Es-ti-mat-ing sta-tis-ti
 -cal power, pos-te-rior prob-a-bil-ity and pub-li-ca-tion bias of psy-
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 698--699
+Underfull \hbox (badness 1314) in paragraph at lines 811--812
 \T1/LibertinusSerif-TLF/m/n/10 cho-log-i-cal re-search us-ing the ob-served rep
 li-ca-tion rate. \T1/LibertinusSerif-TLF/m/it/10 Royal So-ci-ety Open Science\T
 1/LibertinusSerif-TLF/m/n/10 .;5(9):181190-181190.
  []
 
-[6]
-Underfull \hbox (badness 2671) in paragraph at lines 732--733
+
+Underfull \hbox (badness 2671) in paragraph at lines 845--846
 []\T1/LibertinusSerif-TLF/m/n/10 Pavlov YG, Adamian N, Ap-pel-hoff S, Ar-vaneh 
 M, Christo-pher Ben-well PD, Beste C, et al. #EEG-
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 732--733
+Underfull \hbox (badness 1953) in paragraph at lines 845--846
 \T1/LibertinusSerif-TLF/m/n/10 Many-Labs: In-ves-ti-gat-ing the Repli-ca-bil-it
 y of In-flu-en-tial EEG Ex-per-i-ments. \T1/LibertinusSerif-TLF/m/it/10 Cor-tex
 \T1/LibertinusSerif-TLF/m/n/10 . 2021;144:213-229.
  []
 
 [7]
-Underfull \hbox (badness 3009) in paragraph at lines 772--773
+Underfull \hbox (badness 3009) in paragraph at lines 885--886
 []\T1/LibertinusSerif-TLF/m/n/10 Hoogeveen S, Sarafoglou A, Aczel B, Aditya Y, 
 Alayan AJ, Allen PJ, et al. A many-analysts ap-
  []
 
-[8] [9]
-Underfull \hbox (badness 4366) in paragraph at lines 898--899
+[8] [9] [10]
+Underfull \hbox (badness 4366) in paragraph at lines 1011--1012
 []\T1/LibertinusSerif-TLF/m/n/10 Nilsonne G, Ahn-str�m L. Dig-i-ti-za-tion of d
 ata from pub-lished plots v1.0 v1. doi: [][]10.17504/pro-to-
  []
 
-[10]
-Underfull \hbox (badness 3884) in paragraph at lines 980--981
+
+Underfull \hbox (badness 3884) in paragraph at lines 1093--1094
 []\T1/LibertinusSerif-TLF/m/n/10 Nilsonne G, Ahn-str�m, L. Dig-i-ti-za-tion of 
 data from pub-lished plots v1. 0. doi: [][]10.17504/pro-to-
  []
 
-[11] [12]
-! You can't use `macro parameter character #' in horizontal mode.
-<recently read> ##
-                  
-l.1142 ...ljövård på vetenskaplig grund – \\#
-                                                  hurvetdudet?, MISTRA Counc...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-[13]
-! Misplaced alignment tab character &.
-<recently read> &
-                 
-l.1252 ...a öppna forskningsmolnet (EOSC), VR \\&
-                                                   SUHF, Stockholm, 2023-10-12.
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[14] [15]
+[11] [12] [13] [14] [15] [16]
 ! Extra }, or forgotten \endgroup.
 \filename@path ...lename@area {\filename@area #1/}
                                                   \def \reserved@a {\filenam...
-l.1354 ...ingar, Stockholm 2017. Program: \href\{h
+l.1467 ...ingar, Stockholm 2017. Program: \href\{h
                                                   ttp://www.suhf.se/storage/...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -549,57 +520,64 @@ Runaway argument?
 ! Paragraph ended before \filename@path was complete.
 <to be read again> 
                    \par 
-l.1355 
+l.1468 
        
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-[16] [17]
+[17] [18]
 
-! LaTeX Error: \begin{enumerate} on input line 1302 ended by \end{document}.
+! LaTeX Error: \begin{enumerate} on input line 1415 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1616 \end{document}
+l.1729 \end{document}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[18] (C:\Users\gusta\Documents\Github\CV\output\cv.aux)
+[19] (C:\Users\gusta\Documents\Github\CV\output\cv.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: BF4648B600B64691A7D048DEB1C79269;3603.
+
+
+Package rerunfilecheck Warning: File `cv.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `cv.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  BF4648B600B64691A7D048DEB1C79269;3603.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 1302 (\begingroup)
+### semi simple group (level 1) entered at line 1415 (\begingroup)
 ### bottom level
-(\end occurred when \ifmmode on line 1354 was incomplete) 
+(\end occurred when \ifmmode on line 1467 was incomplete) 
 Here is how much of TeX's memory you used:
- 11013 strings out of 474542
- 174338 string characters out of 5744446
- 1951978 words of memory out of 5000000
- 32647 multiletter control sequences out of 15000+600000
- 609368 words of font info for 56 fonts, out of 8000000 for 9000
+ 11005 strings out of 474542
+ 174246 string characters out of 5744446
+ 1949978 words of memory out of 5000000
+ 32631 multiletter control sequences out of 15000+600000
+ 621183 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,80p,574b,783s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,80p,574b,779s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gusta/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSerif-Bol
 d.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertin
 us-type1/LibertinusSerif-Italic.pfb><C:/Users/gusta/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb><C:/Users/gu
 sta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on C:\Users\gusta\Documents\Github\CV\output\cv.pdf (18 pages, 5
-68062 bytes).
+Output written on C:\Users\gusta\Documents\Github\CV\output\cv.pdf (19 pages, 5
+61294 bytes).
 PDF statistics:
- 1177 PDF objects out of 1200 (max. 8388607)
- 464 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1112 PDF objects out of 1200 (max. 8388607)
+ 465 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
