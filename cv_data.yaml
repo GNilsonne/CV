@@ -697,7 +697,7 @@ publications:
   open_access: Open Access
   rims_id: '504523'
 - title: 'Diurnal variation of circulating interleukin-6: a meta-analysis'
-  journal: PLOS ONE
+  journal: PLOS One
   doi: 10.1371/journal.pone.0165799
   year: 2016
   authors: Nilsonne G, Lekander M, Åkerstedt T, Axelsson J, Ingre M
@@ -1477,6 +1477,7 @@ publications:
     Mallik PR, Urry HL, Buchanan EM, Coles NA, Primbs MA, Basnight-Brown DM, IJzerman H, Forscher PS, Moshontz H
   links:
     preprint: https://doi.org/10.31234/osf.io/m4gpq
+    correction: https://doi.org/10.1038/s41562-022-01441-4
   volume: '5'
   issue: '8'
   pages: 1089-1110
@@ -1822,6 +1823,7 @@ publications:
     C
   links:
     preprint: https://doi.org/10.31234/osf.io/m4w9x
+    correction: https://doi.org/10.1192/bjo.2022.581
   volume: '8'
   issue: '5'
   pages: e159
@@ -2396,7 +2398,7 @@ publications:
 - title: 'Questioning the Reciprocal Effects Model of Academic Self-Concept and Achievement: A Reanalysis of a Meta-Analysis
     of Longitudinal Studies and a Simulation'
   authors: Sorjonen K, Ingre M, Melin B, Nilsonne G
-  journal: SAGE OPEN
+  journal: Sage Open
   doi: 10.1177/21582440241292826
   year: 2024
   volume: '14'
@@ -2417,7 +2419,7 @@ publications:
 - title: 'Still No Convincing Evidence for a Causal Effect of Academic Self-Concept on Achievement: A Reply to Núñez-Regueiro
     et al., 2025'
   authors: Sorjonen K, Melin B, Nilsonne G
-  journal: EDUCATIONAL PSYCHOLOGY REVIEW
+  journal: Educational Psychology Review
   doi: 10.1007/s10648-025-10083-7
   year: 2025
   volume: '37'
@@ -2436,7 +2438,7 @@ publications:
   open_access: Hybrid OA
 - title: Cross-lagged network models do not prove causality and may be evaluated through triangulation
   authors: Sorjonen K, Melin B, Nilsonne G
-  journal: ACTA PSYCHOLOGICA
+  journal: Acta Psychologica
   doi: 10.1016/j.actpsy.2025.105562
   year: 2025
   volume: '260'
@@ -2472,7 +2474,7 @@ publications:
   open_access: Gold OA
 - title: Low validity of lower ability test scores can mimic the Dunning-Kruger effect
   authors: Sorjonen K, Melin M, Lager E, Nilsonne G, Melin B
-  journal: INTELLIGENCE
+  journal: Intelligence
   doi: 10.1016/j.intell.2025.101985
   year: 2026
   volume: '114'
