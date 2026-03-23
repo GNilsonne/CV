@@ -170,7 +170,7 @@ def main():
     # Render LaTeX
     latex = render_latex(data, args.template_dir, args.template)
     tex_path = output_dir / "cv.tex"
-    tex_path.write_text(latex)
+    tex_path.write_text(latex, encoding="utf-8")
     print(f"Written: {tex_path}")
 
     # Compile PDF
@@ -192,7 +192,7 @@ def main():
     # Generate outputs list
     outputs_md = generate_outputs_list(data)
     outputs_path = output_dir / "open_outputs.md"
-    outputs_path.write_text(outputs_md)
+    outputs_path.write_text(outputs_md, encoding="utf-8")
     print(f"Written: {outputs_path}")
 
 
