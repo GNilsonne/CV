@@ -78,9 +78,12 @@
 <% if phd_supervision %>
 \section{Supervision of PhD Students}
 \begin{itemize}[nolistsep]
+    \item Supervised students:
+    \begin{itemize}[nolistsep]
 <% for s in phd_supervision %>
-    \item << s.description|tex >><% if s.link %> \href{<< s.link >>}{[link]}<% endif %>
+        \item << s.name|tex >>, << s.institution|tex >> << s.year >>, << s.role >>.<% if s.thesis %> Thesis: \emph{<< s.thesis|tex >>}.<% endif %><% if s.link %> \href{<< s.link >>}{[link]}<% endif %>
 <% endfor %>
+    \end{itemize}
 \end{itemize}
 <% endif %>
 

@@ -39,16 +39,31 @@ employment:
     2023-
 - description: Senior Advisor, Swedish National Data Service, 2024-
 phd_supervision:
-- description: 'Michael Ingre, Stockholm University 2017, co-supervisor. Thesis: P-hacking in academic research: a critical
-    review of the job strain model and of the association between night work and breast cancer in women. web: DiVA.'
+- name: Michael Ingre
+  institution: Stockholm University
+  year: '2017'
+  role: co-supervisor
+  thesis: 'P-hacking in academic research: a critical review of the job strain model and of the association between night
+    work and breast cancer in women'
   link: http://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-141136
-- description: 'Sandra Tamm, Karolinska Institutet 2019, co-supervisor. Thesis: A neuroimaging perspective on the emotional
-    sleepy brain. web: openarchive.ki.se.'
+- name: Sandra Tamm
+  institution: Karolinska Institutet
+  year: '2019'
+  role: co-supervisor
+  thesis: A neuroimaging perspective on the emotional sleepy brain
   link: https://openarchive.ki.se/xmlui/handle/10616/46632
-- description: 'Eva Hesselmark, Karolinska Institutet 2019, co-supervisor. Thesis: Pediatric acute neuropsychiatric syndrome
-    : diagnosis, biomarkers and treatment. web: openarchive.ki.se.'
+- name: Eva Hesselmark
+  institution: Karolinska Institutet
+  year: '2019'
+  role: co-supervisor
+  thesis: 'Pediatric acute neuropsychiatric syndrome : diagnosis, biomarkers and treatment'
   link: https://openarchive.ki.se/xmlui/handle/10616/46741
-- description: Hannibal Ölund Alonso, Karolinska Institutet, co-supervisor 2017-.
+- name: Hannibal Ölund Alonso
+  institution: Karolinska Institutet
+  year: 2017-
+  role: co-supervisor
+  thesis: ''
+  link: ''
 grants:
 - description: Swedish Heart and Lung Foundation, 2005-2009, five grants for a total of 24 months of PhD student scholarships
     (grants no. 20051024, 20060003, 20070042, 20070209, and 20090797)
