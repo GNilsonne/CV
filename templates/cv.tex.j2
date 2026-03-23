@@ -26,7 +26,7 @@
 \titlespacing*{\subsection}{0pt}{1ex plus .3ex minus .1ex}{0.5ex plus .1ex}
 
 % Compact lists — aligned left margins
-\setlist[enumerate]{leftmargin=3em, labelsep=0.5em, labelwidth=2em, align=right, itemsep=0.3ex, parsep=0ex, topsep=0.5ex}
+\setlist[enumerate]{leftmargin=3em, labelsep=0.5em, labelwidth=2em, align=right, label={[\arabic*]}, itemsep=0.3ex, parsep=0ex, topsep=0.5ex}
 \setlist[itemize]{leftmargin=3em, itemsep=0.3ex, parsep=0ex, topsep=0.5ex}
 \setlist[itemize,2]{leftmargin=1.5em, itemsep=0.2ex, parsep=0ex, topsep=0.3ex, before=\small}
 
@@ -54,7 +54,7 @@
 %% ================================================================
 <% if degrees %>
 \section{Degrees and Qualifications}
-\begin{itemize}[nolistsep]
+\begin{itemize}
 <% for deg in degrees %>
     \item << deg.description|autolink >><% if deg.link %> \href{<< deg.link >>}{[link]}<% endif %>
 <% endfor %>
@@ -66,7 +66,7 @@
 %% ================================================================
 <% if employment %>
 \section{Employment and Appointments}
-\begin{itemize}[nolistsep]
+\begin{itemize}
 <% for pos in employment %>
     \item << pos.description|autolink >>
 <% endfor %>
@@ -78,9 +78,9 @@
 %% ================================================================
 <% if phd_supervision %>
 \section{Supervision of PhD Students}
-\begin{itemize}[nolistsep]
+\begin{itemize}
     \item Supervised students:
-    \begin{itemize}[nolistsep]
+    \begin{itemize}
 <% for s in phd_supervision %>
         \item << s.name|tex >>, << s.institution|tex >> << s.year >>, << s.role >>.<% if s.thesis %> Thesis: \emph{<< s.thesis|tex >>}.<% endif %><% if s.link %> \href{<< s.link >>}{[link]}<% endif %>
 <% endfor %>
@@ -93,7 +93,7 @@
 %% ================================================================
 <% if grants %>
 \section{Research Grants}
-\begin{itemize}[nolistsep]
+\begin{itemize}
 <% for g in grants %>
     \item << g.description|autolink >><% if g.link %> \href{<< g.link >>}{[link]}<% endif %>
 <% endfor %>
@@ -105,11 +105,11 @@
 %% ================================================================
 <% if teaching %>
 \section{Teaching}
-\begin{itemize}[nolistsep]
+\begin{itemize}
 <% for t in teaching %>
     \item << t.description|autolink >>
 <% if t.subitems is defined and t.subitems %>
-    \begin{itemize}[nolistsep]
+    \begin{itemize}
 <% for sub in t.subitems %>
         \item << sub|autolink >>
 <% endfor %>
@@ -124,7 +124,7 @@
 %% ================================================================
 <% if awards %>
 \section{Awards}
-\begin{itemize}[nolistsep]
+\begin{itemize}
 <% for a in awards %>
     \item << a.description|autolink >><% if a.link %> \href{<< a.link >>}{[link]}<% endif %>
 <% endfor %>
@@ -136,7 +136,7 @@
 %% ================================================================
 <% if phd_committee %>
 \section{PhD Thesis Committee Member / Faculty Opponent}
-\begin{itemize}[nolistsep]
+\begin{itemize}
 <% for c in phd_committee %>
     \item << c.description|autolink >>
 <% endfor %>
@@ -148,11 +148,11 @@
 %% ================================================================
 <% if academic_commissions %>
 \section{Academic Commissions of Trust}
-\begin{itemize}[nolistsep]
+\begin{itemize}
 <% for c in academic_commissions %>
     \item << c.description|autolink >>
     <% if c.subitems %>
-    \begin{itemize}[nolistsep]
+    \begin{itemize}
     <% for sub in c.subitems %>
         \item << sub|autolink >>
     <% endfor %>
@@ -168,7 +168,7 @@
 %% ================================================================
 <% if other_commissions %>
 \section{Other Commissions of Trust}
-\begin{itemize}[nolistsep]
+\begin{itemize}
 <% for c in other_commissions %>
     \item << c.description|autolink >>
 <% endfor %>
@@ -181,7 +181,7 @@
 %% ================================================================
 <% if publications %>
 \section{Publications in Academic Journals}
-\begin{enumerate}[nolistsep, label={[\arabic*]}]
+\begin{enumerate}
 <% for pub in publications %>
     \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>. <% if pub.journal %>\textit{<< pub.journal|notrailingdot|tex >>}.<% endif %><% if pub.year %> << pub.year >><% endif %><% if pub.volume %>;<< pub.volume >><% endif %><% if pub.issue %>(<< pub.issue >>)<% endif %><% if pub.pages %>:<< pub.pages >><% elif pub.article_number %>:<< pub.article_number >><% endif %>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %><< pub.links|links >>
 <% endfor %>
@@ -193,7 +193,7 @@
 %% ================================================================
 <% if preprints %>
 \section{Preprints}
-\begin{enumerate}[nolistsep, label={[\arabic*]}]
+\begin{enumerate}
 <% for pub in preprints %>
     \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.journal %> \textit{<< pub.journal|tex >>}.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %><< pub.links|links >>
 <% endfor %>
@@ -205,7 +205,7 @@
 %% ================================================================
 <% if books %>
 \section{Books}
-\begin{enumerate}[nolistsep, label={[\arabic*]}]
+\begin{enumerate}
 <% for pub in books %>
     \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.year %> << pub.year >>.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %>
 <% endfor %>
@@ -217,7 +217,7 @@
 %% ================================================================
 <% if open_peer_reviews %>
 \section{Open Peer-Review Reports}
-\begin{enumerate}[nolistsep, label={[\arabic*]}]
+\begin{enumerate}
 <% for r in open_peer_reviews %>
     \item << r.description|autolink >>
 <% endfor %>
@@ -229,7 +229,7 @@
 %% ================================================================
 <% if reports %>
 \section{Reports}
-\begin{enumerate}[nolistsep, label={[\arabic*]}]
+\begin{enumerate}
 <% for pub in reports %>
     \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.year %> << pub.year >>.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %>
 <% endfor %>
@@ -241,7 +241,7 @@
 %% ================================================================
 <% if study_materials %>
 \section{Study Materials}
-\begin{enumerate}[nolistsep, label={[\arabic*]}]
+\begin{enumerate}
 <% for pub in study_materials %>
     \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %>
 <% endfor %>
@@ -253,7 +253,7 @@
 %% ================================================================
 <% if digital_research_objects %>
 \section{Other Digital Research Objects}
-\begin{enumerate}[nolistsep, label={[\arabic*]}]
+\begin{enumerate}
 <% for pub in digital_research_objects %>
     \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %>
 <% endfor %>
@@ -265,7 +265,7 @@
 %% ================================================================
 <% if scholarly_debate %>
 \section{Scholarly Debate}
-\begin{enumerate}[nolistsep, label={[\arabic*]}]
+\begin{enumerate}
 <% for pub in scholarly_debate %>
     \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.journal %> \textit{<< pub.journal|tex >>}.<% endif %><% if pub.year %> << pub.year >>.<% endif %><< pub.links|links >>
 <% endfor %>
@@ -277,7 +277,7 @@
 %% ================================================================
 <% if invited_talks %>
 \section{Invited Talks}
-\begin{enumerate}[nolistsep, label={[\arabic*]}]
+\begin{enumerate}
 <% for pres in invited_talks %>
     \item << pres.title|notrailingdot|tex >>.<% if pres.venue %> << pres.venue|autolink >><% if not pres.venue.endswith('.') %>.<% endif %><% endif %><% if pres.year and not pres.venue %> << pres.year >>.<% endif %><< pres.links|links >>
 <% endfor %>
@@ -289,7 +289,7 @@
 %% ================================================================
 <% if conference_presentations %>
 \section{Conference Presentations}
-\begin{enumerate}[nolistsep, label={[\arabic*]}]
+\begin{enumerate}
 <% for pres in conference_presentations %>
     \item <% if pres.authors %><< pres.authors|vancouver_authors|tex >>. <% endif %><< pres.title|notrailingdot|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
 <% endfor %>
@@ -301,7 +301,7 @@
 %% ================================================================
 <% if conference_abstracts %>
 \section{Other Indexed Conference Abstracts}
-\begin{enumerate}[nolistsep, label={[\arabic*]}]
+\begin{enumerate}
 <% for pres in conference_abstracts %>
     \item <% if pres.authors %><< pres.authors|vancouver_authors|tex >>. <% endif %><< pres.title|notrailingdot|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
 <% endfor %>
@@ -314,7 +314,7 @@
 
 <% if blogging %>
 \section{Blogging}
-\begin{enumerate}[nolistsep, label={[\arabic*]}]
+\begin{enumerate}
 <% for b in blogging %>
     \item << b.description|autolink >>
 <% endfor %>
@@ -323,7 +323,7 @@
 
 <% if popular_science_talks %>
 \section{Popular Science Talks}
-\begin{enumerate}[nolistsep, label={[\arabic*]}]
+\begin{enumerate}
 <% for pres in popular_science_talks %>
     \item << pres.title|notrailingdot|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
 <% endfor %>
@@ -332,7 +332,7 @@
 
 <% if popular_science_writings %>
 \section{Popular Science Writings and General Debate}
-\begin{enumerate}[nolistsep, label={[\arabic*]}]
+\begin{enumerate}
 <% for pub in popular_science_writings %>
     \item << pub.title|notrailingdot|tex >>.<% if pub.year %> << pub.year >>.<% endif %><< pub.links|links >>
 <% endfor %>
