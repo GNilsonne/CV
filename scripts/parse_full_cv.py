@@ -542,8 +542,22 @@ def parse_peer_reviews(tex):
     for raw in entries:
         # Strip outer braces from \item{...} pattern
         raw = raw.strip()
-        if raw.startswith("{") and raw.endswith("}"):
-            raw = raw[1:-1]
+        if raw.startswith("{"):
+            # Find matching closing brace
+            depth = 0
+            end = -1
+            for idx, ch in enumerate(raw):
+                if ch == "{":
+                    depth += 1
+                elif ch == "}":
+                    depth -= 1
+                    if depth == 0:
+                        end = idx
+                        break
+            if end > 0:
+                raw = raw[1:end]
+        # Remove any trailing \end{...} and leftovers
+        raw = re.sub(r"\\end\{[^}]*\}.*$", "", raw, flags=re.DOTALL)
         text = clean_tex(raw)
         if not text:
             continue
