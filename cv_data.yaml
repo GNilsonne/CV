@@ -2410,6 +2410,185 @@ publications:
     Evolution, Eucalyptus
   open_access: Open Access
   rims_id: '904181'
+- title: 'Open Access Week 16-24 October: Open access increases access to the research'
+  authors: Nilsonne G
+  journal: Lakartidningen
+  year: 2010
+  volume: '107'
+  issue: '41'
+  pages: '2491'
+  links: {}
+  rims_id: '547356'
+- title: 105. Effects of partial sleep deprivation on self-rated health and sickness
+  authors: Nilsonne G, Tamm S, d’Onofrio P, Schwarz J, Kecklund G, Åkerstedt T, Fischer H, Lekander M
+  journal: BRAIN BEHAVIOR AND IMMUNITY
+  doi: 10.1016/j.bbi.2013.07.117
+  year: 2013
+  volume: '32'
+  pages: e30
+  links: {}
+  rims_id: '640324'
+  issn: 0889-1591
+  publication_date: 2013-09
+  canonical_journal: BRAIN BEHAVIOR AND IMMUNITY
+  keywords: 32 Biomedical and Clinical Sciences, 5202 Biological Psychology, 3204 Immunology, 3209 Neurosciences, 52 Psychology,
+    Sleep Research, Behavioral and Social Science, 3 Good Health and Well Being
+  open_access: Closed Access
+- title: Open data important part of future research methodology
+  authors: Nilsonne G
+  journal: Lakartidningen
+  year: 2014
+  volume: '111'
+  issue: 44-45
+  pages: 1952-1953
+  links: {}
+  rims_id: '515113'
+- title: 146. Effects of low-dose LPS on resting-state fMRI network activity
+  authors: Lekander M, Karshikoff B, Nilsonne G, Ingvar M, Johansson E, Lundström J, Åkerstedt T, Höglund CO, Axelsson J
+  journal: BRAIN BEHAVIOR AND IMMUNITY
+  doi: 10.1016/j.bbi.2014.06.166
+  year: 2014
+  volume: '40'
+  pages: e42
+  links: {}
+  rims_id: '636982'
+  issn: 0889-1591
+  publication_date: 2014-09
+  canonical_journal: BRAIN BEHAVIOR AND IMMUNITY
+  keywords: 5202 Biological Psychology, 32 Biomedical and Clinical Sciences, 52 Psychology, Biomedical Imaging, Neurosciences,
+    Clinical Research, Clinical Trials and Supportive Activities, 1.1 Normal biological development and functioning
+  open_access: Closed Access
+- title: 'The bio terminology group recommends: Dare to nurture our professional language '
+  authors: Nilsonne G
+  journal: Lakartidningen
+  year: 2014
+  volume: '111'
+  issue: '8'
+  pages: '349'
+  links: {}
+  rims_id: '733252'
+- title: 'Interleukin-6: Diurnal variation and relation to sleep'
+  authors: Nilsonne G, Ingre M, Hedlund M, Axelsson J, Åkerstedt T, Lekander M
+  journal: BRAIN BEHAVIOR AND IMMUNITY
+  doi: 10.1016/j.bbi.2017.07.042
+  year: 2017
+  volume: '66'
+  pages: e8
+  links: {}
+  rims_id: '673378'
+  issn: 0889-1591
+  publication_date: 2017-11
+  canonical_journal: BRAIN BEHAVIOR AND IMMUNITY
+  keywords: 32 Biomedical and Clinical Sciences, 3201 Cardiovascular Medicine and Haematology, Sleep Research
+  open_access: Closed Access
+- title: 'Same data - different conclusions: Analytical flexibility in medical research can be considerable'
+  authors: Nilsonne G, Johannesson M, Dreber A
+  journal: Lakartidningen
+  year: 2023
+  volume: '120'
+  links: {}
+  rims_id: '661603'
+- title: 'Questioning the Reciprocal Effects Model of Academic Self-Concept and Achievement: A Reanalysis of a Meta-Analysis
+    of Longitudinal Studies and a Simulation'
+  authors: Sorjonen K, Ingre M, Melin B, Nilsonne G
+  journal: SAGE OPEN
+  doi: 10.1177/21582440241292826
+  year: 2024
+  volume: '14'
+  issue: '4'
+  article_number: '21582440241292826'
+  links:
+    preprint: https://doi.org/10.31234/osf.io/qd4bj
+  rims_id: '888225'
+  pages: '21582440241292826'
+  issn: 2158-2440
+  eissn: 2158-2440
+  publication_date: 2024-10
+  online_date: '2024-10-22'
+  canonical_journal: SAGE OPEN
+  keywords: academic achievement, academic self-concept, reciprocal effects model, re-meta-analysis, simulation, spurious
+    prospective effects
+  open_access: Gold OA
+- title: Registration and reporting of results from clinical trials in Nordic countries - there is scope for improvement
+  authors: Axfors C, Nilsonne G
+  journal: Lakartidningen
+  year: 2024
+  volume: '121'
+  links: {}
+  rims_id: '873748'
+- title: 'Still No Convincing Evidence for a Causal Effect of Academic Self-Concept on Achievement: A Reply to Núñez-Regueiro
+    et al., 2025'
+  authors: Sorjonen K, Melin B, Nilsonne G
+  journal: EDUCATIONAL PSYCHOLOGY REVIEW
+  doi: 10.1007/s10648-025-10083-7
+  year: 2025
+  volume: '37'
+  issue: '4'
+  article_number: '98'
+  links:
+    preprint: https://doi.org/10.31234/osf.io/fe89w_v1
+  rims_id: '1072750'
+  pages: '98'
+  issn: 1040-726X
+  eissn: 1573-336X
+  publication_date: '2025-10-18'
+  online_date: '2025-10-18'
+  canonical_journal: EDUCATIONAL PSYCHOLOGY REVIEW
+  keywords: Achievement, Causality, Non-causal data-generating processes, Reciprocal effects model (REM), Self-concept
+  open_access: Hybrid OA
+- title: Cross-lagged network models do not prove causality and may be evaluated through triangulation
+  authors: Sorjonen K, Melin B, Nilsonne G
+  journal: ACTA PSYCHOLOGICA
+  doi: 10.1016/j.actpsy.2025.105562
+  year: 2025
+  volume: '260'
+  pages: '105562'
+  links: {}
+  rims_id: '1059947'
+  pmid: '40945146'
+  issn: 0001-6918
+  eissn: 1873-6297
+  publication_date: 2025-10
+  online_date: '2025-09-12'
+  acceptance_date: '2025-09-08'
+  canonical_journal: ACTA PSYCHOLOGICA
+  keywords: Causality, Cross-lagged panel network (CLPN) models, Spurious effects, Symptoms of depression and anxiety, Triangulation,
+    Humans, Causality, Models, Statistical, Depression, Anxiety
+  open_access: Gold OA
+- title: 'Stakeholders’ perceptions of the synergy between intellectual property and open science: A cross-sectional survey'
+  authors: Sharma G, Fritz C, Baccigotti A, Stoev P, Alavi M, Škorić L, Papadopoulou Skarp F, Priess-Buchheit J, Nilsonne
+    G
+  journal: Open Research Europe
+  doi: 10.12688/openreseurope.20782.1
+  year: 2025
+  links: {}
+  rims_id: '1045967'
+  volume: '5'
+  pages: 229-229
+  issn: 2732-5121
+  eissn: 2732-5121
+  publication_date: '2025'
+  online_date: '2025-08-07'
+  canonical_journal: Open Research Europe
+  keywords: 48 Law and Legal Studies, 4806 Private Law and Civil Obligations, 8.3 Policy, ethics, and research governance
+  open_access: Gold OA
+- title: Low validity of lower ability test scores can mimic the Dunning-Kruger effect
+  authors: Sorjonen K, Melin M, Lager E, Nilsonne G, Melin B
+  journal: INTELLIGENCE
+  doi: 10.1016/j.intell.2025.101985
+  year: 2026
+  volume: '114'
+  article_number: '101985'
+  links: {}
+  rims_id: '1083623'
+  pages: 101985-101985
+  issn: 0160-2896
+  eissn: 1873-7935
+  publication_date: '2026'
+  canonical_journal: INTELLIGENCE
+  keywords: Ability vs. performance, Dunning-Kruger effect, Effect of disturbance, LOESS and linear regression, Under, and
+    overestimation
+  open_access: Closed Access
 preprints:
 - title: A multimodal brain imaging dataset on sleep deprivation in young and old humans
   journal: ''
@@ -2458,17 +2637,6 @@ preprints:
   links: {}
   publication_date: '2024-01-11'
   rims_id: '843716'
-- title: Results reporting for clinical trials led by medical universities and university hospitals in the Nordic countries
-    was often missing or delayed
-  journal: medRxiv
-  doi: 10.1101/2024.02.04.24301363
-  year: 2024
-  authors: Nilsonne G, Wieschowski S, DeVito NJ, Salholz-Hillel M, Ahnström L, Bruckner T, Klas K, Suljic T, Yerunkar S, Olsson
-    N
-  links: {}
-  publication_date: '2024-02-05'
-  acceptance_date: '2025-01-31'
-  rims_id: '844492'
 - title: 'In aqua veritas: Triangulation of cross-lagged effects for improved causal inference'
   journal: ''
   doi: 10.31234/osf.io/ztwy6
@@ -2519,6 +2687,118 @@ preprints:
   links: {}
   publication_date: '2024-11-28'
   rims_id: '895464'
+- title: TrialScout links published results to trial registrations using a large language model
+  authors: Ahnström L, Bruckner T, Aspromonti DA, Caquelin L, Cummins J, DeVito NJ, Axfors C, Ioannidis JPA, Nilsonne G
+  doi: 10.64898/2026.03.15.26348383
+  year: 2026
+  links: {}
+  rims_id: '1112467'
+  publication_date: '2026-03-17'
+  acceptance_date: '2026-03-17'
+- title: Assessing the Compliance and Timeliness of Results Reporting for Clinical Trials on Antimicrobial Agents
+  authors: Curtin M, Wiltshire A, Nilsonne G, Siebert M
+  doi: 10.64898/2025.12.23.25342922
+  year: 2025
+  pages: 2025.12.23.25342922
+  links: {}
+  rims_id: '1089851'
+  publication_date: '2025-12-31'
+  acceptance_date: '2025-12-31'
+- title: Unpacking the Possibilities of Intellectual Properties for Open Science
+  authors: Alavi M, Koch P, MacDonald L, Miller K, Nilsonne G, Priess-Buchheit J, Scherer J, Škorić L, Stoev P, Vrkic D, Wyber
+    S, Yovcheva N, Yucebalkan C
+  doi: 10.3897/arphapreprints.e181365
+  year: 2025
+  links: {}
+  rims_id: '1086793'
+  publication_date: '2025-12-05'
+  acceptance_date: '2025-12-05'
+- title: 'The EEGManyPipelines Dataset: Metascientific Data on 168 Independent Analyses of a Single EEG Dataset'
+  authors: Cesnaite E, vitale A, Pascarella A, Vinding MC, Algermissen J, Fischer NL, Puoliväli T, Gianelli C, Marshall CR,
+    Trübutschek D, Yang Y-F, Busch N, Nilsonne G
+  doi: 10.31222/osf.io/c4xwg_v1
+  year: 2025
+  links: {}
+  rims_id: '1086794'
+  publication_date: '2025-12-03'
+- title: Multiverse analyses of meta-analytic data reveal no prospective effects between peer relationships and internet addiction
+  authors: Sorjonen K, Melin B, Nilsonne G, Melin M
+  doi: 10.31234/osf.io/y6m4a_v1
+  year: 2025
+  links: {}
+  rims_id: '1073505'
+  publication_date: '2025-10-28'
+- title: 'Triangulation can be useful depending on what you wish to achieve: Further elaborations and a reply to Lucas et
+    al. (2024)'
+  authors: Sorjonen K, Nilsonne G, Melin B
+  doi: 10.31234/osf.io/6dq2j_v2
+  year: 2025
+  links: {}
+  rims_id: '1038977'
+  publication_date: '2025-07-15'
+- title: A reversed interpretation of the Dunning-Kruger effect based on disturbance
+  authors: Sorjonen K, Melin M, Lager E, Nilsonne G, Melin B
+  doi: 10.31234/osf.io/sqy69_v1
+  year: 2025
+  links: {}
+  rims_id: '1035026'
+  publication_date: '2025-06-24'
+- title: 'Inconclusive evidence for causal effects between beliefs in conspiracy theories: A reanalysis and comment on Williams
+    et al. (2025)'
+  authors: Sorjonen K, Nilsonne G, Olsson A, Melin B
+  doi: 10.31234/osf.io/6sf2k_v1
+  year: 2025
+  links: {}
+  rims_id: '1025255'
+  publication_date: '2025-04-18'
+- title: 'Interleukin-6 in Bipolar Disorder: A Systematic Review and Meta-analysis'
+  authors: Suditu I, Dittasiri N, Glasberg A, Alkattan D, Neumann S, Sorjonen K, Ahnström L, Bengtsson J, Olsson N, Lekander
+    M, Nilsonne G
+  doi: 10.31234/osf.io/kpdmy_v1
+  year: 2025
+  links: {}
+  rims_id: '1024636'
+  publication_date: '2025-03-18'
+- title: 'Cross-lagged network models do not prove causality: Results from simulations and analyses of symptoms of depression
+    and anxiety'
+  authors: Sorjonen K, Melin B, Nilsonne G
+  doi: 10.31234/osf.io/j3k68
+  year: 2025
+  links: {}
+  rims_id: '900853'
+  publication_date: '2025-01-02'
+- title: Digitization of data from published plots v1.0 v1
+  authors: Nilsonne G, Ahnström L
+  doi: 10.17504/protocols.io.n2bvj8wnngk5/v1
+  year: 2023
+  links: {}
+  rims_id: '838914'
+  publication_date: '2023-04-10'
+- title: 'Prospective associations between self-esteem and quality of social relations may be spurious: Reanalysis of a meta-analysis
+    of longitudinal studies'
+  authors: Sorjonen K, Ingre M, Melin B, Nilsonne G
+  doi: 10.31234/osf.io/kusft
+  year: 2022
+  links: {}
+  rims_id: '676772'
+  publication_date: '2022-12-26'
+- title: Psychological Science Accelerator Funding and Finance Committee Bylaws
+  authors: IJzerman H, Lewis NA, Azevedo F, Coles NA, Corral-Frías NS, Nilsonne G, Lazarevic LB, Schmidt K
+  doi: 10.31234/osf.io/en87j
+  year: 2022
+  links: {}
+  rims_id: '733239'
+  publication_date: '2022-10-28'
+- title: 'Disease threat does not predict attractiveness preference in a United Kingdom dataset: a replication attempt and
+    commentary on White et al., Psych Sci 2013'
+  authors: Nilsonne G, Renberg A, Tamm S, Lekander M
+  doi: 10.7287/peerj.preprints.804v1
+  year: 2015
+  volume: '3'
+  pages: e804v1
+  links: {}
+  rims_id: '703302'
+  publication_date: '2015-01-20'
 books:
 - title: 'Affective Regulation and the Neuroscience of Emotion: Festschrift in Honor of Arne Öhman'
   journal: ''
