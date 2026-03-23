@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.11)  23 MAR 2026 15:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.11)  23 MAR 2026 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -526,7 +526,7 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-[17] [18]
+[17]
 
 ! LaTeX Error: \begin{enumerate} on input line 1415 ended by \end{document}.
 
@@ -534,13 +534,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1729 \end{document}
+l.1612 \end{document}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[19] (C:\Users\gusta\Documents\Github\CV\output\cv.aux)
+[18] (C:\Users\gusta\Documents\Github\CV\output\cv.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -552,8 +552,8 @@ Package rerunfilecheck Warning: File `cv.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `cv.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  BF4648B600B64691A7D048DEB1C79269;3603.
+(rerunfilecheck)             Before: ACAB46025BAE3C9DFCD2EFE8CAD27A32;2863
+(rerunfilecheck)             After:  3FB4813F6A3346DB189DB716E8842D4C;3138.
  )
 (\end occurred inside a group at level 1)
 
@@ -561,23 +561,23 @@ Package rerunfilecheck Info: Checksums for `cv.out':
 ### bottom level
 (\end occurred when \ifmmode on line 1467 was incomplete) 
 Here is how much of TeX's memory you used:
- 11005 strings out of 474542
- 174246 string characters out of 5744446
+ 10971 strings out of 474542
+ 174030 string characters out of 5744446
  1949978 words of memory out of 5000000
- 32631 multiletter control sequences out of 15000+600000
+ 32651 multiletter control sequences out of 15000+600000
  621183 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,80p,574b,779s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,80p,574b,761s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gusta/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSerif-Bol
 d.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertin
 us-type1/LibertinusSerif-Italic.pfb><C:/Users/gusta/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb><C:/Users/gu
 sta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on C:\Users\gusta\Documents\Github\CV\output\cv.pdf (19 pages, 5
-61294 bytes).
+Output written on C:\Users\gusta\Documents\Github\CV\output\cv.pdf (18 pages, 5
+53908 bytes).
 PDF statistics:
- 1112 PDF objects out of 1200 (max. 8388607)
- 465 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1087 PDF objects out of 1200 (max. 8388607)
+ 411 named destinations out of 1000 (max. 500000)
+ 153 words of extra memory for PDF output out of 10000 (max. 10000000)
 
