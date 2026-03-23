@@ -25,8 +25,10 @@ except ImportError:
 
 
 def load_data(path: str) -> dict:
-    with open(path) as f:
-        return yaml.safe_load(f)
+    with open(path, encoding="utf-8") as f:
+        content = f.read()
+    # Use pure-Python loader to avoid C extension issues on Python 3.14+
+    return yaml.load(content, Loader=yaml.SafeLoader)
 
 
 def tex_escape(text: str) -> str:
