@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.11)  23 MAR 2026 10:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.11)  23 MAR 2026 11:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -415,46 +415,46 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 a/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/gusta/Ap
 pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/gusta/Ap
 pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-Underfull \hbox (badness 1762) in paragraph at lines 224--225
+Underfull \hbox (badness 1762) in paragraph at lines 222--223
 []\T1/lmr/m/n/10 Sahand Shar-ifzadeh, De-gree project in medicine, Karolin-ska 
 In-sti-tutet, 2016: The in-flu-
  []
 
 [2]
-Underfull \hbox (badness 2343) in paragraph at lines 250--251
+Underfull \hbox (badness 2343) in paragraph at lines 248--249
 \T1/lmr/m/n/10 con-nec-tiv-ity dur-ing to-tal sleep de-pri-va-tion: A func-tion
 al mag-netic res-o-nance study doi:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 []\T1/lmr/m/n/10 Open Data Cham-pion, SPARC Eu-rope, 2017. web: open-schol-ar-c
 ham-pi-
  []
 
 [3] [4]
-Underfull \hbox (badness 1418) in paragraph at lines 456--457
+Underfull \hbox (badness 1418) in paragraph at lines 454--455
 []\T1/lmr/m/n/10 Guest ed-i-tor of spe-cial is-sue of the Swedish Med-i-cal Jou
 r-nal on meta-science, "Medicinsk
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 456--457
+Underfull \hbox (badness 2512) in paragraph at lines 454--455
 \T1/lmr/m/n/10 forskn-ing i fågelper-spek-tiv", with Cathrine Ax-fors and Em-ma
 nuel Zavalis, 2023. web:
  []
 
-[5] [6] [7]
-Underfull \hbox (badness 1721) in paragraph at lines 601--602
+[5] [6]
+Underfull \hbox (badness 1721) in paragraph at lines 598--599
 \T1/lmr/m/n/10 health in a Swedish pri-mary care pop-u-la-tion. \T1/lmr/m/it/10
  Eu-ro-pean Jour-nal of In-flam-ma-tion \T1/lmr/m/n/10 2019.
  []
 
-[8]
+[7]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.625 ...netn\_a\_00186}{10.1162/netn\\_a\\_00186}
+l.622 ...netn\_a\_00186}{10.1162/netn\\_a\\_00186}
                                                    [\href{https://doi.org/10...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -462,7 +462,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.625 ...netn\_a\_00186}{10.1162/netn\\_a\\_00186}
+l.622 ...netn\_a\_00186}{10.1162/netn\\_a\\_00186}
                                                    [\href{https://doi.org/10...
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -470,82 +470,76 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[9{C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
+[8{C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
 c}{C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
+[9]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.688 ...jocn\_a\_02087}{10.1162/jocn\\_a\\_02087}
+                                                   [\href{https://doi.org/10...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.688 ...jocn\_a\_02087}{10.1162/jocn\\_a\\_02087}
+                                                   [\href{https://doi.org/10...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.698 ...imag\_a\_00103}{10.1162/imag\\_a\\_00103}
+                                                   [\href{https://doi.org/10...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.698 ...imag\_a\_00103}{10.1162/imag\\_a\\_00103}
+                                                   [\href{https://doi.org/10...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 [10]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.691 ...jocn\_a\_02087}{10.1162/jocn\\_a\\_02087}
-                                                   [\href{https://doi.org/10...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.691 ...jocn\_a\_02087}{10.1162/jocn\\_a\\_02087}
-                                                   [\href{https://doi.org/10...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.701 ...imag\_a\_00103}{10.1162/imag\\_a\\_00103}
-                                                   [\href{https://doi.org/10...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.701 ...imag\_a\_00103}{10.1162/imag\\_a\\_00103}
-                                                   [\href{https://doi.org/10...
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-[11]
-Underfull \hbox (badness 1320) in paragraph at lines 721--722
+Underfull \hbox (badness 1320) in paragraph at lines 718--719
 []\T1/lmr/m/n/10 Sennerstam V, et al. Ex-haus-tion Dis-or-der in Pri-mary Care:
  A Com-par-i-son With Ma-
  []
 
-[12]
-Underfull \hbox (badness 1484) in paragraph at lines 789--790
-[]\T1/lmr/m/n/10 {Smith R and Roberts I. Time for shar-ing data to be-come rou-
-tine: the seven ex-cuses
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 788--789
+[]\T1/lmr/m/n/10 Matthews PC. Fair-ness in sci-en-tific pub-lish-ing [ver-sion 
+2; ref-er-ees: 3 ap-proved]
  []
 
 
-Underfull \hbox (badness 3769) in paragraph at lines 789--790
-\T1/lmr/m/n/10 doi of re-view re-port 1: 10.5256/f1000research.11114.r18242. do
-i of re-view re-port 2:
+Underfull \hbox (badness 2351) in paragraph at lines 790--791
+[]\T1/lmr/m/n/10 Rowhani-Farid A, Bar-nett AG. Badges for shar-ing data and cod
+e at Bio-statis-tics: an
  []
 
 
-Underfull \hbox (badness 4328) in paragraph at lines 789--790
-\T1/lmr/m/n/10 and code at Bio-statis-tics: an ob-ser-va-tional study [ver-sion
- 1; ref-er-ees: 1 ap-proved]
+Underfull \hbox (badness 2717) in paragraph at lines 790--791
+\T1/lmr/m/n/10 ob-ser-va-tional study [ver-sion 1; ref-er-ees: 1 ap-proved] F10
+00Research 2018, 7:90. doi:
  []
 
-
-Underfull \hbox (badness 2165) in paragraph at lines 789--790
-\T1/lmr/m/n/10 F1000Research 2018, 7:90. doi: 10.12688/f1000research.13477.1. d
-oi of re-view re-port:
- []
-
-[13] [14] [15] [16]
+[12] [13] [14] [15]
 ! Extra }, or forgotten \endgroup.
 \filename@path ...lename@area {\filename@area #1/}
                                                   \def \reserved@a {\filenam...
-l.1213 ...ingar, Stockholm 2017. Program: \href\{h
+l.1212 ...ingar, Stockholm 2017. Program: \href\{h
                                                   ttp://www.suhf.se/storage/...
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -558,27 +552,27 @@ Runaway argument?
 ! Paragraph ended before \filename@path was complete.
 <to be read again> 
                    \par 
-l.1214 
+l.1213 
        
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-[17] [18] [19]
+[16] [17] [18]
 
-! LaTeX Error: \begin{enumerate} on input line 1161 ended by \end{document}.
+! LaTeX Error: \begin{enumerate} on input line 1160 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1473 \end{document}
+l.1472 \end{document}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[20] (C:\Users\gusta\Documents\Github\CV\output\cv.aux)
+[19] (C:\Users\gusta\Documents\Github\CV\output\cv.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -587,19 +581,25 @@ L3 programming layer <2024-01-22>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `cv.out' has not changed.
-(rerunfilecheck)             Checksum: BF4648B600B64691A7D048DEB1C79269;3603.
+
+Package rerunfilecheck Warning: File `cv.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `cv.out':
+(rerunfilecheck)             Before: 3448F6CE19077F035948626008B7CB8E;1806
+(rerunfilecheck)             After:  BF4648B600B64691A7D048DEB1C79269;3603.
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 1161 (\begingroup)
+### semi simple group (level 1) entered at line 1160 (\begingroup)
 ### bottom level
-(\end occurred when \ifmmode on line 1213 was incomplete) 
+(\end occurred when \ifmmode on line 1212 was incomplete) 
 Here is how much of TeX's memory you used:
- 10441 strings out of 474542
- 160086 string characters out of 5744446
+ 10429 strings out of 474542
+ 159943 string characters out of 5744446
  1947978 words of memory out of 5000000
- 32107 multiletter control sequences out of 15000+600000
+ 32095 multiletter control sequences out of 15000+600000
  589470 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,5n,79p,1065b,759s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -610,10 +610,10 @@ a/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Users/gusta/AppData
 Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/gusta/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/gusta/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on C:\Users\gusta\Documents\Github\CV\output\cv.pdf (20 pages, 3
-31371 bytes).
+Output written on C:\Users\gusta\Documents\Github\CV\output\cv.pdf (19 pages, 3
+28695 bytes).
 PDF statistics:
- 1058 PDF objects out of 1200 (max. 8388607)
+ 1021 PDF objects out of 1200 (max. 8388607)
  446 named destinations out of 1000 (max. 500000)
- 185 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 89 words of extra memory for PDF output out of 10000 (max. 10000000)
 
