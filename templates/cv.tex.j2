@@ -154,11 +154,15 @@
     <% if c.subitems %>
     \begin{itemize}
     <% for sub in c.subitems %>
+        <% if sub is mapping %>
+        \item << sub.name|autolink >><% if sub.wos %>\textsuperscript{\,\scriptsize WoS}<% endif %>
+        <% else %>
         \item << sub|autolink >>
+        <% endif %>
     <% endfor %>
     \end{itemize}
     <% endif %>
-    <% if c.footnote %>\\<< c.footnote|tex >><% endif %>
+    <% if c.footnote %>\par{\small << c.footnote|autolink >>}<% endif %>
 <% endfor %>
 \end{itemize}
 <% endif %>
@@ -171,6 +175,13 @@
 \begin{itemize}
 <% for c in other_commissions %>
     \item << c.description|autolink >>
+<% if c.subitems is defined and c.subitems %>
+    \begin{itemize}
+<% for sub in c.subitems %>
+        \item << sub|autolink >>
+<% endfor %>
+    \end{itemize}
+<% endif %>
 <% endfor %>
 \end{itemize}
 <% endif %>

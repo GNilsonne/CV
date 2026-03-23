@@ -250,33 +250,59 @@ academic_commissions:
 - description: Member of Karolinska Institutet Open Science Working Group, 2022-
 - description: 'Reviewer for scientific journals, books, and conferences:'
   subitems:
-  - International Journal of Cancer
-  - Cancer Epidemiology, Biomarkers, and Prevention*
-  - BMC Cancer
-  - British Journal of Cancer*
-  - Journal of Hematology and Oncology*
-  - Science Translational Medicine
-  - Brain, Behavior, and Immunity*
-  - PLOS One*
-  - Scandinavian journal of Psychology*
-  - F1000 Research* (open peer review reports listed below)
-  - Organization for Human Brain Mapping 2017
-  - American Psychologist*
-  - Sleep Medicine Reviews*
-  - Journal of Inflammation Research*
-  - Organization for Human Brain Mapping 2018
-  - Translational Psychiatry*
-  - SLEEP*
-  - Human Brain Mapping*
-  - Molecular Psychiatry*
-  - Meta-Psychology
-  - Systematic Reviews*
-  - 'Psychiatry Research: Neuroimaging*'
-  - European Sleep Medicine Textbook (Second Edition)*
-  - Royal Society Open Science*
-  - Meta-Psychology
-  - The Review of Psychology
-  footnote: '*Registered in Web of Science, ID: 1550920'
+  - name: International Journal of Cancer
+    wos: false
+  - name: Cancer Epidemiology, Biomarkers, and Prevention
+    wos: true
+  - name: BMC Cancer
+    wos: false
+  - name: British Journal of Cancer
+    wos: true
+  - name: Journal of Hematology and Oncology
+    wos: true
+  - name: Science Translational Medicine
+    wos: false
+  - name: Brain, Behavior, and Immunity
+    wos: true
+  - name: PLOS One
+    wos: true
+  - name: Scandinavian journal of Psychology
+    wos: true
+  - name: F1000 Research* (open peer review reports listed below)
+    wos: false
+  - name: Organization for Human Brain Mapping 2017
+    wos: false
+  - name: American Psychologist
+    wos: true
+  - name: Sleep Medicine Reviews
+    wos: true
+  - name: Journal of Inflammation Research
+    wos: true
+  - name: Organization for Human Brain Mapping 2018
+    wos: false
+  - name: Translational Psychiatry
+    wos: true
+  - name: SLEEP
+    wos: true
+  - name: Human Brain Mapping
+    wos: true
+  - name: Molecular Psychiatry
+    wos: true
+  - name: Meta-Psychology
+    wos: false
+  - name: Systematic Reviews
+    wos: true
+  - name: 'Psychiatry Research: Neuroimaging'
+    wos: true
+  - name: European Sleep Medicine Textbook (Second Edition)
+    wos: true
+  - name: Royal Society Open Science
+    wos: true
+  - name: Meta-Psychology
+    wos: false
+  - name: The Review of Psychology
+    wos: false
+  footnote: 'Verified in Web of Science (Reviewer Recognition Service, ID: 1550920)'
 - description: 'Reviewer for scientific grants:'
   subitems:
   - Horizon 2020 Marie Skłodowska Curie 2017
@@ -303,31 +329,36 @@ academic_commissions:
     lakartidningen.se/tag/tema-medicinsk-forskning-i-fagelperspektiv/: https://lakartidningen.se/tag/tema-medicinsk-forskning-i-fagelperspektiv/
 other_commissions:
 - description: Association of Swedish School Student Unions (Elevorganisationen i Sverige, now Sveriges Elevkårer)
-- description: Elevorganisationen Stockholms Län, board member and treasurer, 1999-2000
-- description: Elevorganisationen i Sverige, board member and coordinator for international cooperation, 2000-2001
-- description: Elevorganisationen Stockholms Län, auditor, 2001-2002
+  subitems:
+  - Elevorganisationen Stockholms Län, board member and treasurer, 1999-2000
+  - Elevorganisationen i Sverige, board member and coordinator for international cooperation, 2000-2001
+  - Elevorganisationen Stockholms Län, auditor, 2001-2002
 - description: Organizing Bureau of European School Student Unions (OBESSU)
-- description: Member of conference steering group "Languages in School", 2001
-- description: Member of Internal Auditors' Commission, 2001-2005
-- description: Advisor to the Board, 2005-2007
+  subitems:
+  - Member of conference steering group "Languages in School", 2001
+  - Member of Internal Auditors' Commission, 2001-2005
+  - Advisor to the Board, 2005-2007
 - description: Medical Students' Association at Karolinska Institutet (Medicinska Föreningen)
-- description: Medical Students' Section, secretary, 2003
-- description: Business committee, member 2003; president 2004
-- description: Council (Kårfullmäktige), member 2003-2004
-- description: Board, member 2004
+  subitems:
+  - Medical Students' Section, secretary, 2003
+  - Business committee, member 2003; president 2004
+  - Council (Kårfullmäktige), member 2003-2004
+  - Board, member 2004
 - description: Students' Association of the Swedish Medical Association (Medicine Studerandes Förbund, now Läkarförbundet
     Student)
-- description: Stockholm branch, board member 2003-2006
-- description: Stockholm branch, vice president 2005
-- description: National board, member 2003-2005
-- description: Swedish Medical Association collective bargaining delegation (Förhandlingsdelegationen), 2004-2006
+  subitems:
+  - Stockholm branch, board member 2003-2006
+  - Stockholm branch, vice president 2005
+  - National board, member 2003-2005
+  - Swedish Medical Association collective bargaining delegation (Förhandlingsdelegationen), 2004-2006
 - description: Högskolerestauranger AB, board member, 2005-2006
 - description: Stiftelsen Stockholms Studentbostäder (SSSB), board member, 2006
 - description: Swedish Association for Sexuality Education (RFSU)
-- description: RFSU Stockholm, board member, 2010
-- description: RFSU Stockholm, president, 2011
-- description: RFSU Stockholm, auditor, 2013-2018
-- description: RFSU Researchers' Network, founding member, 2013-2018
+  subitems:
+  - RFSU Stockholm, board member, 2010
+  - RFSU Stockholm, president, 2011
+  - RFSU Stockholm, auditor, 2013-2018
+  - RFSU Researchers' Network, founding member, 2013-2018
 - description: 'Nya Moderaterna: Medlem i arbetsgrupp för reformer, 2016-2017'
 - description: Swedish network for Evidence-Based Policy, founding member 2015, president 2018-
 - description: Advisory Board, DeSci Foundation
