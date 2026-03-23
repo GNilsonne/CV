@@ -156,7 +156,6 @@
 \end{itemize}
 <% endif %>
 
-\newpage
 \section*{Research Outputs}
 
 %% ================================================================
@@ -166,7 +165,7 @@
 \section{Publications in Academic Journals}
 \begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for pub in publications %>
-    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|tex >>. <% if pub.journal %>\textit{<< pub.journal|tex >>}<% endif %><% if pub.year %> << pub.year >><% endif %>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %><< pub.links|links >>
+    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>. <% if pub.journal %>\textit{<< pub.journal|tex >>}<% endif %><% if pub.year %> << pub.year >><% endif %>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %><< pub.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -178,7 +177,7 @@
 \section{Preprints}
 \begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for pub in preprints %>
-    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|tex >>.<% if pub.journal %> \textit{<< pub.journal|tex >>}.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %><< pub.links|links >>
+    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.journal %> \textit{<< pub.journal|tex >>}.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %><< pub.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -190,7 +189,7 @@
 \section{Books}
 \begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for pub in books %>
-    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|tex >>.<% if pub.year %> << pub.year >>.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %>
+    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.year %> << pub.year >>.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -214,7 +213,7 @@
 \section{Reports}
 \begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for pub in reports %>
-    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|tex >>.<% if pub.year %> << pub.year >>.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %>
+    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.year %> << pub.year >>.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -226,7 +225,7 @@
 \section{Study Materials}
 \begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for pub in study_materials %>
-    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|tex >>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %>
+    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -238,7 +237,7 @@
 \section{Other Digital Research Objects}
 \begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for pub in digital_research_objects %>
-    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|tex >>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %>
+    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -250,7 +249,7 @@
 \section{Scholarly Debate}
 \begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for pub in scholarly_debate %>
-    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|tex >>.<% if pub.journal %> \textit{<< pub.journal|tex >>}.<% endif %><% if pub.year %> << pub.year >>.<% endif %><< pub.links|links >>
+    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.journal %> \textit{<< pub.journal|tex >>}.<% endif %><% if pub.year %> << pub.year >>.<% endif %><< pub.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -262,7 +261,7 @@
 \section{Invited Talks}
 \begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for pres in invited_talks %>
-    \item << pres.title|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
+    \item << pres.title|notrailingdot|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -274,7 +273,7 @@
 \section{Conference Presentations}
 \begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for pres in conference_presentations %>
-    \item << pres.title|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
+    \item <% if pres.authors %><< pres.authors|tex >>. <% endif %><< pres.title|notrailingdot|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -286,7 +285,7 @@
 \section{Other Indexed Conference Abstracts}
 \begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for pres in conference_abstracts %>
-    \item << pres.title|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
+    \item <% if pres.authors %><< pres.authors|tex >>. <% endif %><< pres.title|notrailingdot|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -310,7 +309,7 @@
 \section{Popular Science Talks}
 \begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for pres in popular_science_talks %>
-    \item << pres.title|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
+    \item << pres.title|notrailingdot|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -319,7 +318,7 @@
 \section{Popular Science Writings and General Debate}
 \begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for pub in popular_science_writings %>
-    \item << pub.title|tex >>.<% if pub.year %> << pub.year >>.<% endif %><< pub.links|links >>
+    \item << pub.title|notrailingdot|tex >>.<% if pub.year %> << pub.year >>.<% endif %><< pub.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>

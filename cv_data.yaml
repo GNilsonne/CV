@@ -50,7 +50,6 @@ phd_supervision:
   link: https://openarchive.ki.se/xmlui/handle/10616/46741
 - description: Hannibal Ölund Alonso, Karolinska Institutet, co-supervisor 2017-.
 grants:
-- description: ''
 - description: Swedish Heart and Lung Foundation, 2005-2009, five grants for a total of 24 months of PhD student scholarships
     (grants no. 20051024, 20060003, 20070042, 20070209, and 20090797)
 - description: Swedish Society for Medicine, 2011, 12 months postdoctoral scholarship
@@ -1151,19 +1150,23 @@ books:
   year: 2011
   links: {}
 open_peer_reviews:
-- description: '{Smith R and Roberts I. Time for sharing data to become routine: the seven excuses for not doing so are all
+- description: 'Smith R and Roberts I. Time for sharing data to become routine: the seven excuses for not doing so are all
     invalid [version 1; referees: 2 approved, 1 approved with reservations] F1000Research 2016, 5:781. doi: 10.12688/f1000research.8422.1.
-    doi of review report: 10.5256/f1000research.9066.r14294} {Matthews PC. Fairness in scientific publishing [version 2; referees:
-    3 approved] F1000Research 2016, 5:2816. doi: 10.12688/f1000research.10318.2. doi of review report 1: 10.5256/f1000research.11114.r18242.
-    doi of review report 2: 10.5256/f1000research.11479.r19405} {Rowhani-Farid A, Barnett AG. Badges for sharing data and
-    code at Biostatistics: an observational study [version 1; referees: 1 approved] F1000Research 2018, 7:90. doi: 10.12688/f1000research.13477.1.
-    doi of review report: 10.5256/f1000research.14635.r30171.}'
+    doi of review report: 10.5256/f1000research.9066.r14294'
   links:
     10.12688/f1000research.8422.1: http://dx.doi.org/10.12688/f1000research.8422.1
     10.5256/f1000research.9066.r14294: http://dx.doi.org/10.5256/f1000research.9066.r14294
+- description: 'Matthews PC. Fairness in scientific publishing [version 2; referees: 3 approved] F1000Research 2016, 5:2816.
+    doi: 10.12688/f1000research.10318.2. doi of review report 1: 10.5256/f1000research.11114.r18242. doi of review report
+    2: 10.5256/f1000research.11479.r19405'
+  links:
     10.12688/f1000research.10318.2: http://dx.doi.org/10.12688/f1000research.10318.2
     10.5256/f1000research.11114.r18242: http://dx.doi.org/10.5256/f1000research.11114.r18242
     10.5256/f1000research.11479.r19405: http://dx.doi.org/10.5256/f1000research.11479.r19405
+- description: 'Rowhani-Farid A, Barnett AG. Badges for sharing data and code at Biostatistics: an observational study [version
+    1; referees: 1 approved] F1000Research 2018, 7:90. doi: 10.12688/f1000research.13477.1. doi of review report: 10.5256/f1000research.14635.r30171.}
+    \end{enumerate'
+  links:
     10.12688/f1000research.13477.1: http://doi.org/10.12688/f1000research.13477.1
     10.5256/f1000research.14635.r30171: http://doi.org/10.5256/f1000research.14635.r30171
 reports:
@@ -1220,9 +1223,6 @@ digital_research_objects:
   authors: Nilsonne G, Ahnström, L
   links: {}
 scholarly_debate:
-- title: ''
-  journal: ''
-  links: {}
 - title: Open access ökar forskningens tillgänglighet
   journal: Läkartidningen
   year: 2010
@@ -1820,12 +1820,15 @@ conference_presentations:
   year: 2003
   links: {}
 - title: Selenite induces apoptosis in malignant mesothelioma cells.
+  authors: Nilsonne G, Sun X, Nyström C, Rundlöf A-K, Björnstedt M, Dobra K
   year: 2004
   links: {}
 - title: Selenite induces apoptosis in therapy resistant malignant mesothelioma cells.
+  authors: Nilsonne G, Sun X, Rundlöf AK, Fernandes AP, Nyström C, Stein A, Kocic B, Björnstedt M, Hjerpe A, Dobra K
   year: 2005
   links: {}
 - title: Selenite induces apoptosis in therapy resistant malignant mesothelioma cells.
+  authors: Nilsonne G, Sun X, Rundlöf AK, Fernandes AP, Nyström C, Stein A, Kocic B, Björnstedt M, Hjerpe A, Dobra K
   year: 2005
   links: {}
 - title: 'Nilsonne G et al. Title not on record. Cell Signalling World: Signal Transduction Pathways as Therapeutic Targets,
@@ -1836,12 +1839,14 @@ conference_presentations:
   year: 2006
   links: {}
 - title: Targeting thioredoxin reductase - a possible new treatment for malignant mesothelioma.
+  authors: Nilsonne G, Stein A, Rundlöf AK, Fernandes AP, Björnstedt M, Hjerpe A, Dobra K
   year: 2006
   links: {}
 - title: Nilsonne G et al. Title not on record. KI Cancer Retreat, Djurönäset 2007. Poster presentation.
   year: 2007
   links: {}
 - title: Selenite-induced apoptosis signalling in differentially sensitive mesothelioma cell lines.
+  authors: Nilsonne G, Olm E, Szulkin A, Mundt F, Stein A, Kosic B, Rundlöf AK, Fernandes AP, Björnstedt M, Dobra K
   year: 2007
   links: {}
 - title: Nilsonne G et al. Title not on record. KI Cancer Retreat, Djurönäset 2008. Poster presentation.
@@ -1851,48 +1856,64 @@ conference_presentations:
   year: 2009
   links: {}
 - title: Effects of 25 mg Oxazepam on self-reported and psychophysiological measures of empathy.
+  authors: Nilsonne G, Tamm S, Golkar A, Gospic K, Olsson A, Ingvar M, Petrovic P
   year: 2012
   links: {}
 - title: Effects of 25 mg Oxazepam on self-reported and psychophysiological measures of empathy.
+  authors: Nilsonne G, Tamm S, Golkar A, Gospic K, Olsson A, Ingvar M, Petrovic P
   year: 2012
   links: {}
 - title: 'Effects of 25 mg Oxazepam on empathy: a behavioural study.'
+  authors: Nilsonne G, Tamm S, Golkar A, Gospic K, Olsson A, Ingvar M, Petrovic P
   year: 2012
   links: {}
 - title: Psychopathic traits and the representation of others’ emotional states.
+  authors: Nilsonne G, Sörman K, Tamm S, Golkar A, Gospic K, Olsson A, Kristiansson M, Ingvar M, Petrovic P
   year: 2013
   links: {}
 - title: Pharmacological modulation of empathy using Oxazepam.
+  authors: Nilsonne G, Tamm S, Golkar A, Gospic K, Olsson A, Ingvar M, Petrovic P
   year: 2013
   links: {}
 - title: Effect of partial sleep deprivation on self-rated health and sickness.
+  authors: Nilsonne G, Tamm S, d’Onofrio P, Schwarz J, Kecklund G, Åkerstedt T, Fischer H, Lekander M
   year: 2013
   links: {}
 - title: Detection of facial mimicry by electromyography during fMRI scanning.
+  authors: Nilsonne G, Tamm S, d’Onofrio P, Schwarz J, Kecklund G, Lekander M, Åkerstedt T, Fischer H
   year: 2013
   links: {}
 - title: Effect of partial sleep deprivation on empathic responding in an fMRI experiment.
+  authors: Nilsonne G, Tamm S, d’Onofrio P, Thuné H, Schwarz J, Petrovic P, Fischer H, Kecklund G, Åkerstedt T, and Lekander
+    M
   year: 2014
   links: {}
 - title: Effect of partial sleep deprivation on empathy for pain in an fMRI experiment.
+  authors: Nilsonne G, Tamm S, d’Onofrio P, Thuné H, Schwarz J, Petrovic P, Fischer H, Kecklund G, Åkerstedt T, and Lekander
+    M
   year: 2014
   links: {}
 - title: Sleep Deprivation and Emotion – fMRI studies.
+  authors: Nilsonne G
   year: 2014
   links: {}
 - title: Effects of Sleep Deprivation on Emotional Processing Related to Others’ Emotional Expression and Experience.
+  authors: Nilsonne G
   year: 2015
   links: {}
 - title: 'It hurts me too: an fMRI study on the effects of experimental sleep restriction on empathy for pain in younger and
     older adults'
+  authors: Tamm S, et al
   year: 2016
   links: {}
 - title: 'Öppna, slutna och dolda data: erfarenheter av en metaanalys och synpunkter från en forskares horisont.'
+  authors: Nilsonne G
   year: 2016
   links:
     slides: http://www.slideshare.net/kbredaktion/ppna-slutna-och-dolda-data-erfarenheter-av-en-metaanalys-och-synpunkter-frn-en-forskares-horisont-gustav-nilsonne
     video: https://www.youtube.com/watch?v=jEfRBOV_KEA\&index=14\&list=PLZVkEICvA5-HRSSr5kb-hswTHUVag5c8P
 - title: 'The hidden costs of nudging: Experimental evidence from reminders in fundraising'
+  authors: 'Nilsonne G, commentator on presentation by Gravert C:'
   year: 2016
   links: {}
 - title: 'Nilsonne G. Panelsamtal. Öppen Vetenskap – Möjligheter och utmaningar, Stockholm 2017. Program: \href{http://www.suhf.se/storage/ma/d3809593a7aa480e974101d18a93cbe9/15fb3e16f5'
@@ -1900,149 +1921,190 @@ conference_presentations:
   links: {}
 - title: 'Increased global fMRI signal variability after partial sleep deprivation: findings from the Stockholm Sleepy Brain
     study.'
+  authors: Nilsonne G, Tamm S, Schwarz J, Almeida R, Fischer H, Kecklund G, Lekander M, Fransson P, Åkerstedt T
   year: 2017
   links: {}
 - title: 'Interleukin-6: diurnal variation and relation to sleep.'
+  authors: Nilsonne G, Inge M, Hedlund M, Axelsson J, Åkerstedt T, Lekander M
   year: 2017
   links:
     slides: https://osf.io/kd53f/
 - title: 'Increased global fMRI signal variability after partial sleep deprivation: findings from the Stockholm Sleepy Brain
     study.'
+  authors: Nilsonne G, Tamm S, Schwarz J, Almeida R, Fischer H, Kecklund G, Lekander M, Fransson P, Åkerstedt T
   year: 2017
   links: {}
 - title: 'Workshop: IRB for open data.'
+  authors: Nilsonne G, Gilmore R
   year: 2017
   links: {}
 - title: 'Salvaging data: retrospective publication.'
+  authors: Nilsonne G
   year: 2017
   links: {}
 - title: Incentivizing open data with badges.
+  authors: Nilsonne G
   year: 2017
   links:
     slides: https://osf.io/r7xv2/
     video: https://www.youtube.com/watch?v=FztK2AG0W4Y&feature=youtu.be
 - title: The FAIR principles and global health research.
+  authors: Nilsonne G
   year: 2018
   links:
     slides: https://osf.io/2nxmr/
 - title: Dissipating and cumulating research fields - new concepts for promoting data salvage.
+  authors: Nilsonne G
   year: 2018
   links:
     slides: https://osf.io/u7z23/
 - title: Reproducerbarhet i psykologisk och psykiatrisk forskning - några exempel.
+  authors: Nilsonne G
   year: 2019
   links:
     slides: https://osf.io/5nt6s/
 - title: Reproducerbarhet i psykologisk och psykiatrisk forskning - några exempel.
+  authors: Nilsonne G
   year: 2019
   links:
     slides: https://osf.io/n6mhf/
 - title: Open data in research on humans – promises and challenges.
+  authors: Nilsonne G
   year: 2019
   links:
     slides: https://osf.io/ja4sr/
 - title: Anonymization and secondary use of individual participant data.
+  authors: Nilsonne G
   year: 2020
   links: {}
 - title: Data sharing for scientific integrity - examples and frameworks.
+  authors: Nilsonne G
   year: 2020
   links:
     slides: https://osf.io/sz3wn/
 - title: Ethics of FAIR in Neuroimaging.
+  authors: Nilsonne G
   year: 2021
   links:
     slides: 'https://osf.io/bswxp/ '
 - title: Data sharing for clinical research – challenges and opportunities
+  authors: Nilsonne G
   year: 2021
   links:
     slides: https://osf.io/4rgj3/
 - title: 'Data domain specialists and flagship projects: challenges and successes in crafting partner contributions to the
     Swedish National Data Service consortium'
+  authors: Nilsonne G
   year: 2022
   links: {}
 - title: Changing the publication system
+  authors: Nilsonne G
   year: 2022
   links: {}
 - title: Olika slutsatser från samma data - analytisk flexibilitet i medicinsk forskning
+  authors: Nilsonne G
   year: 2023
   links:
     slides: https://osf.io/fm7we
 - title: 'EEGManyPipelines: A large-scale, grass-root multi-analyst study of EEG analysis practices'
+  authors: Nilsonne G
   year: 2023
   links:
     slides: https://osf.io/zn2vf
 - title: Risk Of Significant Error - A checklist to assess the risk of errors in statistical reporting and datasets
+  authors: Natalie Hyltse, Rickard Carlsson, Nilsonne G
   year: 2023
   links: {}
 - title: Ensuring DeSci results are reproducible and trustworthy
+  authors: Nilsonne G
   year: 2023
   links:
     slides: https://osf.io/z5amvh
 - title: Research assessment as a lever to improve scientific practices
+  authors: Nilsonne G
   year: 2023
   links:
     video: https://vimeo.com/showcase/10628629/video/862484008
 - title: Clinical trials reporting at Nordic medical universities and university hospitals
+  authors: Nilsonne G
   year: 2023
   links:
     slides: https://osf.io/z2cyn
 - title: Coara – vad är det?
+  authors: Nilsonne G
   year: 2023
   links:
     slides: https://osf.io/2jw5n
 - title: Big team science reproducibility collaborations and transnational initiatives
+  authors: Nilsonne G
   year: 2023
   links:
     slides: https://osf.io/b7v3y
 - title: Risk Of Statistical Error - A checklist to assess the risk of errors in statistical reporting and datasets
+  authors: Natalie Hyltse, Rickard Carlsson, Nilsonne G
   year: 2023
   links: {}
 conference_abstracts:
 - title: Differential effects of selenite on malignant mesothelioma cells - a novel therapeutic approach related to the Trx-TrxR
     system and the redox state of the cells.
+  authors: Nilsonne G, Sun X, Nyström C, Rundlöf A-K, Nurminen M, Björnstedt M, Dobra K
   year: 2004
   links: {}
 - title: Effect of partial sleep deprivation on empathy for pain in an fMRI experiment.
+  authors: Tamm S, Nilsonne G, d'Onofrio P, Thuné H, Schwarz J, Petrovic P, Fischer H, Kecklund G, Åkerstedt T, Lekander M
   year: 2014
   links: {}
 - title: Effects of partial sleep deprivation on the neural mechanisms of face perception.
+  authors: Thuné H, Nilsonne G, Tamm S, Schwarz J, Kecklund G, Lekander M, Åkerstedt T, Fischer, H
   year: 2014
   links: {}
 - title: Women sleep better and have a stronger response to late night curtailed sleep than men, particularly in older individuals-effects
     on polysomnographical sleep.
+  authors: Åkerstedt T, Lekander M, Nilsonne G, Fischer H, Kecklund G, d'Onofrio P, Gruber G, Schwarz J
   year: 2016
   links: {}
 - title: S13. Can Psychological Treatment Slow Down Cellular Aging in Social Anxiety Disorder? An Intervention Study Evaluating
     Changes in Telomere Length and Telomerase Activity.
+  authors: Månsson K, Lindqvist D, Yang L, Wolkowitz O, Nilsonne G, Isung J, Svanborg C, Boraxbekk C-J, Fischer H, Lavebratt
+    C, Furmark T
   year: 2018
   links: {}
 - title: '0149 Gray Matter Volume Correlates Of Sleepiness: A Voxel-based Morphometry Study In Younger And Older Adults.'
+  authors: Åkerstedt T, Lekander M, Nilsonne G, Tamm S, d’Onofrio P, Kecklund G, Fischer H, Petrovic P, Månsson KN
   year: 149
   links: {}
 - title: 'Sleepy Brain 2: Multimodal brain imaging after a night of sleep deprivation.'
+  authors: Nilsonne G, Tamm S, Schwarz J, Kecklund G, Lekander M, Petrovic P, Åkerstedt T
   year: 2018
   links:
     slides: https://osf.io/vxmdj/
 popular_science_talks:
 - title: Sex och kärlek i hjärnan.
+  authors: 'Stockholm Pride/RFSU Stockholm 2011-08-05:'
   year: 2011
   links: {}
 - title: Varför behöver vi en ny sexualvaneundersökning?
+  authors: 'Sexuella Hälsans Dag (Svensk Förening för Sexologi) 2011-09-04:'
   year: 2011
   links: {}
 - title: Sex och kärlek i hjärnan
+  authors: 'RFSU Stockholm 2011-10-04:'
   year: 2011
   links: {}
 - title: Kärlek och sex i hjärnan
+  authors: 'Tom Tits Science café 2012-09-06:'
   year: 2012
   links: {}
 - title: Annat sex
+  authors: 'Karolinska Institutet/RFSU Stockholms sexualpolitiska BDSM-och fetischismgrupp 2012-09-07:'
   year: 2012
   links: {}
 - title: Empati - när, var, och hur?
+  authors: 'Svenska Läkaresällskapet 2012-12-11:'
   year: 2012
   links: {}
 - title: Informationsinfrastruktur för ett rationellt samhälle
+  authors: 'Kungliga Tekniska Högskolan 2012-11-17:'
   year: 2012
   links: {}
 - title: Sömn, sömnbrist och emotionell reglering.
@@ -2057,12 +2119,15 @@ popular_science_talks:
   year: 2015
   links: {}
 - title: Evidensbaserad policy
+  authors: 'Grön akademi (Gröna Studenter) 2015-10-17:'
   year: 2015
   links: {}
 - title: Vi måste randomisera oss
+  authors: 'Nätverket för evidensbaserad policy 2015-11-12:'
   year: 2015
   links: {}
 - title: Oxazepam and emotional responding
+  authors: 'Nätverket för psykedelisk vetenskap 2015:'
   year: 2015
   links: {}
 - title: 'Stockholm Pride/Vetenskap och Folkbildning 2015-07-27: Häng med en forskare'
@@ -2098,43 +2163,56 @@ popular_science_talks:
   year: 2017
   links: {}
 - title: Replikeringsproblemet och dess möjliga lösningar
+  authors: 'Vetenskap och Folkbildning 2018-05-19:'
   year: 2018
   links: {}
 - title: Replikeringsproblemet och dess möjliga lösningar
+  authors: 'Vetenskap och Folkbildning Malmö 2018-09-27:'
   year: 2018
   links: {}
 - title: Ett forskningsprojekt från ax till limpa.
+  authors: 'Forskningspartnerkurs i regi av Reumatikerförbundet, Riksförbundet HjärtLung samt Astma- och allergiförbundets
+    forskningsfond, Stockholm 2019-03-15:'
   year: 2019
   links:
     slides: https://osf.io/zx59b/
 - title: Demokratisera forskningen - till varje pris?
+  authors: 'Panelsamtal under Almedalsveckan i regi av Vetenskap & Allmänhet, Visby 2019-07-02:'
   year: 2019
   links:
     video: https://www.facebook.com/vetenskapoallm/videos/882241585458235/
 - title: A research project from start to finish.
+  authors: 'Exchange program, Reumatikerförbundet, Stockholm 2019-08-29:'
   year: 2019
   links: {}
 - title: Forskning och verklighet – vilka vetenskapliga påståenden kan vi lita på och varför?
+  authors: 'Orbadendagarna, Primärvården region Gävleborg, Orbaden 2019-09-11 & 2019-09-12:'
   year: 2019
   links:
     slides: https://osf.io/y65gr/
 - title: Gustav Nilsonne om replikerbarhet och open science
+  authors: 'Podcasten Dubbelblind 2021-06-28:'
   year: 2021
   links: {}
 - title: Forskning vi kan lita på - en förutsättning för rationellt beslutsfattande
+  authors: 'EA Stockholm 2022-04-01:'
   year: 2022
   links:
     slides: https://osf.io/cbtgq/
 - title: Falska forskningsfynd?
+  authors: 'Podcasten barnpsykologerna 2022-10-17:'
   year: 2022
   links: {}
 - title: Öppen vetenskap och forskningens pålitlighet
+  authors: 'Podcasten Psykologisk forskning, september 2022:'
   year: 2022
   links: {}
 - title: Meta-vetenskap med Gustav Nilsonne
+  authors: 'Podcasten Tyngre träningssnack 2023-05-17:'
   year: 2023
   links: {}
 - title: Vägen mot öppen tillgång till forskningsdata - hur går omställningen?
+  authors: 'Almedalsveckan 2024-07-21:'
   year: 2024
   links:
     video: https://www.youtube.com/watch?v=pa9PV9jw5-M

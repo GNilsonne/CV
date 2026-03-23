@@ -93,8 +93,9 @@ def parse_itemize_items(text):
 
 
 def parse_enumerate_entries(text):
-    """Split enumerate into individual \item blocks."""
-    items = re.split(r"\\item\s+", text)
+    """Split enumerate into individual \\item blocks."""
+    # Handle both \item{...} (no space) and \item ... (with space)
+    items = re.split(r"\\item\s*", text)
     return [it.strip() for it in items if it.strip()]
 
 
@@ -373,6 +374,31 @@ def parse_presentation(raw):
         title = clean_tex(raw[:200])
     
     entry["title"] = title
+    
+    # Extract authors - everything before the real title \textbf{...}
+    # Find position of the real title in raw
+    real_title_pos = -1
+    for m in re.finditer(r"\\textbf\{((?:[^{}]|\{[^{}]*\})*)\}", raw):
+        content = m.group(1)
+        if re.match(r"^\s*\\textit\{[^}]+\}\s*$", content):
+            continue
+        cleaned = clean_tex(content)
+        if len(cleaned) > 5:
+            real_title_pos = m.start()
+            break
+    if not real_title_pos or real_title_pos < 0:
+        # Try {\bf ...} position
+        bf_m = re.search(r"\{\\bf\s+", raw)
+        if bf_m:
+            real_title_pos = bf_m.start()
+    
+    if real_title_pos and real_title_pos > 5:
+        authors_raw = raw[:real_title_pos]
+        authors = clean_tex(authors_raw).rstrip(".").strip()
+        authors = re.sub(r"\s*\(\d{4}\)\s*$", "", authors).strip().rstrip(".")
+        if authors and len(authors) > 2:
+            entry["authors"] = authors
+
     # Extract year
     year_match = re.search(r"(\d{4})", raw)
     if year_match:
@@ -428,10 +454,11 @@ def parse_grants(tex):
         item = re.sub(r"%[^\n]*", "", item)
         text = clean_tex(item)
         link = extract_first_href_url(item)
-        g = {"description": text}
-        if link:
-            g["link"] = link
-        grants.append(g)
+        if text:
+            g = {"description": text}
+            if link:
+                g["link"] = link
+            grants.append(g)
     return grants
 
 
@@ -513,7 +540,13 @@ def parse_peer_reviews(tex):
     entries = parse_enumerate_entries(section)
     reviews = []
     for raw in entries:
+        # Strip outer braces from \item{...} pattern
+        raw = raw.strip()
+        if raw.startswith("{") and raw.endswith("}"):
+            raw = raw[1:-1]
         text = clean_tex(raw)
+        if not text:
+            continue
         hrefs = extract_href(raw)
         entry = {"description": text}
         links = {}
@@ -535,7 +568,10 @@ def parse_scholarly_debate(tex):
     for raw in entries:
         pub = parse_publication(raw)
         if not pub.get("title"):
-            pub["title"] = clean_tex(raw[:200])
+            fallback = clean_tex(raw[:200])
+            if not fallback:
+                continue
+            pub["title"] = fallback
         items.append(pub)
     return items
 
