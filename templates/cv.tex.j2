@@ -296,6 +296,18 @@
 <% endif %>
 
 %% ================================================================
+%% POPULAR SCIENCE WRITINGS (moved here for troubleshooting)
+%% ================================================================
+<% if popular_science_writings %>
+\section{Popular Science Writings and General Debate}
+\begin{enumerate}
+<% for pub in popular_science_writings %>
+    \item << pub.title|notrailingdot|tex >>.<% if pub.year %> << pub.year >>.<% endif %><< pub.links|links >>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+%% ================================================================
 %% CONFERENCE PRESENTATIONS
 %% ================================================================
 <% if conference_presentations %>
@@ -344,14 +356,5 @@
 \end{enumerate}
 <% endif %>
 #>
-
-<% if popular_science_writings %>
-\section{Popular Science Writings and General Debate}
-\begin{enumerate}
-<% for pub in popular_science_writings %>
-    \item << pub.title|notrailingdot|tex >>.<% if pub.year %> << pub.year >>.<% endif %><< pub.links|links >>
-<% endfor %>
-\end{enumerate}
-<% endif %>
 
 \end{document}
