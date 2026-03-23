@@ -56,7 +56,7 @@
 \section{Degrees and Qualifications}
 \begin{itemize}[nolistsep]
 <% for deg in degrees %>
-    \item << deg.description|tex >><% if deg.link %> \href{<< deg.link >>}{[link]}<% endif %>
+    \item << deg.description|autolink >><% if deg.link %> \href{<< deg.link >>}{[link]}<% endif %>
 <% endfor %>
 \end{itemize}
 <% endif %>
@@ -68,7 +68,7 @@
 \section{Employment and Appointments}
 \begin{itemize}[nolistsep]
 <% for pos in employment %>
-    \item << pos.description|tex >>
+    \item << pos.description|autolink >>
 <% endfor %>
 \end{itemize}
 <% endif %>
@@ -95,7 +95,7 @@
 \section{Research Grants}
 \begin{itemize}[nolistsep]
 <% for g in grants %>
-    \item << g.description|tex >><% if g.link %> \href{<< g.link >>}{[link]}<% endif %>
+    \item << g.description|autolink >><% if g.link %> \href{<< g.link >>}{[link]}<% endif %>
 <% endfor %>
 \end{itemize}
 <% endif %>
@@ -107,11 +107,11 @@
 \section{Teaching}
 \begin{itemize}[nolistsep]
 <% for t in teaching %>
-    \item << t.description|tex >>
+    \item << t.description|autolink >>
 <% if t.subitems is defined and t.subitems %>
     \begin{itemize}[nolistsep]
 <% for sub in t.subitems %>
-        \item << sub|tex >>
+        \item << sub|autolink >>
 <% endfor %>
     \end{itemize}
 <% endif %>
@@ -126,7 +126,7 @@
 \section{Awards}
 \begin{itemize}[nolistsep]
 <% for a in awards %>
-    \item << a.description|tex >><% if a.link %> \href{<< a.link >>}{[link]}<% endif %>
+    \item << a.description|autolink >><% if a.link %> \href{<< a.link >>}{[link]}<% endif %>
 <% endfor %>
 \end{itemize}
 <% endif %>
@@ -138,7 +138,7 @@
 \section{PhD Thesis Committee Member / Faculty Opponent}
 \begin{itemize}[nolistsep]
 <% for c in phd_committee %>
-    \item << c.description|tex >>
+    \item << c.description|autolink >>
 <% endfor %>
 \end{itemize}
 <% endif %>
@@ -150,11 +150,11 @@
 \section{Academic Commissions of Trust}
 \begin{itemize}[nolistsep]
 <% for c in academic_commissions %>
-    \item << c.description|tex >>
+    \item << c.description|autolink >>
     <% if c.subitems %>
     \begin{itemize}[nolistsep]
     <% for sub in c.subitems %>
-        \item << sub|tex >>
+        \item << sub|autolink >>
     <% endfor %>
     \end{itemize}
     <% endif %>
@@ -170,7 +170,7 @@
 \section{Other Commissions of Trust}
 \begin{itemize}[nolistsep]
 <% for c in other_commissions %>
-    \item << c.description|tex >>
+    \item << c.description|autolink >>
 <% endfor %>
 \end{itemize}
 <% endif %>
@@ -220,7 +220,7 @@
 \section{Open Peer-Review Reports}
 \begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for r in open_peer_reviews %>
-    \item << r.description|tex >>
+    \item << r.description|autolink >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -319,7 +319,7 @@
 \section{Blogging}
 \begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for b in blogging %>
-    \item << b.description|tex >>
+    \item << b.description|autolink >>
 <% endfor %>
 \end{enumerate}
 <% endif %>

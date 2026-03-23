@@ -54,6 +54,122 @@ def tex_escape(text) -> str:
     return text
 
 
+def autolink(text) -> str:
+    """Escape LaTeX special chars AND convert bare URLs/DOIs to \\href links.
+    
+    Recognises patterns like:
+      doi: 10.xxx/yyy
+      url: some.site/path
+      osf: osf.io/xxx
+      web: some.site/path
+      Web: some.site/path
+      archived: figshare, doi: 10.xxx
+      Course materials: osf.io/xxx
+      Program: ki.se/path  (but not just 'ki.se' without path)
+      http://... or https://...
+    """
+    import re
+    if text is None:
+        return ""
+    text = str(text)
+    if not text:
+        return ""
+    
+    # First, find all URL-like segments and protect them from tex_escape
+    # We'll work with the raw text, find linkable patterns, and build output
+    
+    # Pattern: "label: url_text" where label is doi/url/osf/web/Web/archived/etc.
+    # Also bare https?:// URLs
+    
+    # Collect segments: (start, end, raw_url, display_label)
+    segments = []
+    
+    # Match "doi: 10.xxxx" patterns
+    for m in re.finditer(r'\bdoi:\s*(10\.\S+)', text):
+        doi = m.group(1).rstrip('.,;)')
+        url = f'https://doi.org/{doi}'
+        segments.append((m.start(), m.start() + len('doi: ') + len(doi), url, f'doi: {doi}'))
+    
+    # Match "url: domain/path" patterns
+    for m in re.finditer(r'\burl:\s*(\S+)', text):
+        raw = m.group(1).rstrip('.,;)')
+        url = raw if raw.startswith('http') else f'https://{raw}'
+        segments.append((m.start(), m.start() + len('url: ') + len(raw), url, raw))
+    
+    # Match "osf: osf.io/xxx" patterns
+    for m in re.finditer(r'\bosf:\s*(\S+)', text):
+        raw = m.group(1).rstrip('.,;)')
+        url = raw if raw.startswith('http') else f'https://{raw}'
+        segments.append((m.start(), m.start() + len('osf: ') + len(raw), url, raw))
+    
+    # Match "web: domain/path" and "Web: domain/path" patterns
+    for m in re.finditer(r'\b[Ww]eb:\s*(\S+)', text):
+        raw = m.group(1).rstrip('.,;)')
+        url = raw if raw.startswith('http') else f'https://{raw}'
+        segments.append((m.start(), m.start() + len(m.group(0).split(raw)[0]) + len(raw), url, raw))
+    
+    # Match "Course materials: osf.io/xxx" patterns
+    for m in re.finditer(r'Course materials:\s*(\S+)', text):
+        raw = m.group(1).rstrip('.,;)')
+        url = raw if raw.startswith('http') else f'https://{raw}'
+        full_match = m.group(0)[:len('Course materials: ') + len(raw)]
+        segments.append((m.start(), m.start() + len(full_match), url, f'Course materials: {raw}'))
+    
+    # Match "Program: domain/path" patterns
+    for m in re.finditer(r'Program:\s*(\S+)', text):
+        raw = m.group(1).rstrip('.,;)')
+        if '/' in raw or '.' in raw:
+            url = raw if raw.startswith('http') else f'https://{raw}'
+            segments.append((m.start(), m.start() + len(m.group(0).split(raw)[0]) + len(raw), url, raw))
+    
+    # Match "archived: figshare, doi: 10.xxx" 
+    for m in re.finditer(r'archived:\s*figshare,\s*doi:\s*(10\.\S+)', text):
+        doi = m.group(1).rstrip('.,;)')
+        url = f'https://doi.org/{doi}'
+        segments.append((m.start(), m.start() + len(m.group(0)), url, f'archived: figshare, doi: {doi}'))
+    
+    # Match bare https?:// URLs not already inside \href
+    for m in re.finditer(r'https?://\S+', text):
+        raw = m.group(0).rstrip('.,;)')
+        # Skip if already captured
+        already = False
+        for s_start, s_end, _, _ in segments:
+            if m.start() >= s_start and m.end() <= s_end + 5:
+                already = True
+                break
+        if not already:
+            segments.append((m.start(), m.start() + len(raw), raw, raw))
+    
+    if not segments:
+        return tex_escape(text)
+    
+    # Sort by start position, remove overlaps
+    segments.sort(key=lambda x: x[0])
+    filtered = []
+    last_end = 0
+    for start, end, url, label in segments:
+        if start >= last_end:
+            filtered.append((start, end, url, label))
+            last_end = end
+    
+    # Build output
+    result = []
+    pos = 0
+    for start, end, url, label in filtered:
+        # Text before this segment: tex_escape
+        if start > pos:
+            result.append(tex_escape(text[pos:start]))
+        # The link itself: don't tex_escape the URL inside \href
+        display = tex_escape(label)
+        result.append(f'\\href{{{url}}}{{{display}}}')
+        pos = end
+    # Remaining text
+    if pos < len(text):
+        result.append(tex_escape(text[pos:]))
+    
+    return ''.join(result)
+
+
 def format_authors_vancouver(authors_str, max_authors=6) -> str:
     """Format an author string in Vancouver style.
     
@@ -165,6 +281,7 @@ def render_latex(data: dict, template_dir: str, template_name: str) -> str:
         comment_end_string="#>",
     )
     env.filters["tex"] = tex_escape
+    env.filters["autolink"] = autolink
     env.filters["links"] = format_links_latex
     env.filters["notrailingdot"] = lambda s: str(s).rstrip(".") if s else ""
     env.filters["doi"] = lambda s: str(s).replace("_", r"\_") if s else ""
