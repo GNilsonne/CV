@@ -1,19 +1,20 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[10pt,a4paper]{article}
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage[margin=2.5cm]{geometry}
-\usepackage{hyperref}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{xcolor}
+\usepackage[hyphens]{url}
+\usepackage{xurl}
+\usepackage[colorlinks,breaklinks=true]{hyperref}
 
 % Link styling
 \hypersetup{
-    colorlinks=true,
-    linkcolor=blue!70!black,
     urlcolor=blue!70!black,
+    linkcolor=blue!70!black,
     citecolor=blue!70!black,
 }
 
@@ -21,12 +22,15 @@
 \titleformat{\section}{\large\bfseries\scshape}{}{0em}{}[\titlerule]
 \titlespacing*{\section}{0pt}{1.5ex plus .5ex minus .2ex}{1ex plus .2ex}
 
-% Compact lists
-\setlist[enumerate]{leftmargin=2em, itemsep=0.3ex, parsep=0ex}
-\setlist[itemize]{leftmargin=2em, itemsep=0.3ex, parsep=0ex}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+\titlespacing*{\subsection}{0pt}{1ex plus .3ex minus .1ex}{0.5ex plus .1ex}
 
-% No page numbers on first page
-\thispagestyle{empty}
+% Compact lists
+\setlist[enumerate]{leftmargin=2em, itemsep=0.3ex, parsep=0ex, topsep=0.5ex}
+\setlist[itemize]{leftmargin=2em, itemsep=0.3ex, parsep=0ex, topsep=0.5ex}
+
+% Allow sloppy line breaking to prevent overfull hboxes with URLs
+\sloppy
 
 \begin{document}
 
@@ -34,79 +38,288 @@
 \begin{center}
     {\LARGE\bfseries << meta.name|tex >>}\\[0.5em]
     << meta.affiliation|tex >>\\
-    <% if meta.email %><< meta.email|tex >> $\cdot$ <% endif %>
+    <% if meta.email %>\href{mailto:<< meta.email >>}{<< meta.email|tex >>}<% endif %>\\
     ORCID: \href{https://orcid.org/<< meta.orcid >>}{<< meta.orcid >>}
+    <% if meta.profiles %>\\
+    <% if meta.profiles.github %>GitHub: \href{<< meta.profiles.github >>}{GNilsonne}<% endif %>
+    <% if meta.profiles.google_scholar %> $\cdot$ Google Scholar: \href{<< meta.profiles.google_scholar >>}{mXzy9UIAAAAJ}<% endif %>
+    <% endif %>
 \end{center}
 
-\vspace{1em}
+\vspace{0.5em}
 
+%% ================================================================
+%% DEGREES
+%% ================================================================
+<% if degrees %>
+\section{Degrees and Qualifications}
+\begin{itemize}[nolistsep]
+<% for deg in degrees %>
+    \item << deg.description|tex >><% if deg.link %> \href{<< deg.link >>}{[link]}<% endif %>
+<% endfor %>
+\end{itemize}
+<% endif %>
+
+%% ================================================================
+%% EMPLOYMENT
+%% ================================================================
+<% if employment %>
+\section{Employment and Appointments}
+\begin{itemize}[nolistsep]
+<% for pos in employment %>
+    \item << pos.description|tex >>
+<% endfor %>
+\end{itemize}
+<% endif %>
+
+%% ================================================================
+%% PHD SUPERVISION
+%% ================================================================
+<% if phd_supervision %>
+\section{Supervision of PhD Students}
+\begin{itemize}[nolistsep]
+<% for s in phd_supervision %>
+    \item << s.description|tex >><% if s.link %> \href{<< s.link >>}{[link]}<% endif %>
+<% endfor %>
+\end{itemize}
+<% endif %>
+
+%% ================================================================
+%% GRANTS
+%% ================================================================
+<% if grants %>
+\section{Research Grants}
+\begin{itemize}[nolistsep]
+<% for g in grants %>
+    \item << g.description|tex >><% if g.link %> \href{<< g.link >>}{[link]}<% endif %>
+<% endfor %>
+\end{itemize}
+<% endif %>
+
+%% ================================================================
+%% TEACHING
+%% ================================================================
+<% if teaching %>
+\section{Teaching}
+\begin{itemize}[nolistsep]
+<% for t in teaching %>
+    \item << t.description|tex >>
+<% endfor %>
+\end{itemize}
+<% endif %>
+
+%% ================================================================
+%% AWARDS
+%% ================================================================
+<% if awards %>
+\section{Awards}
+\begin{itemize}[nolistsep]
+<% for a in awards %>
+    \item << a.description|tex >><% if a.link %> \href{<< a.link >>}{[link]}<% endif %>
+<% endfor %>
+\end{itemize}
+<% endif %>
+
+%% ================================================================
+%% PHD COMMITTEE
+%% ================================================================
+<% if phd_committee %>
+\section{PhD Thesis Committee Member / Faculty Opponent}
+\begin{itemize}[nolistsep]
+<% for c in phd_committee %>
+    \item << c.description|tex >>
+<% endfor %>
+\end{itemize}
+<% endif %>
+
+%% ================================================================
+%% ACADEMIC COMMISSIONS
+%% ================================================================
+<% if academic_commissions %>
+\section{Academic Commissions of Trust}
+\begin{itemize}[nolistsep]
+<% for c in academic_commissions %>
+    \item << c.description|tex >>
+<% endfor %>
+\end{itemize}
+<% endif %>
+
+%% ================================================================
+%% OTHER COMMISSIONS
+%% ================================================================
+<% if other_commissions %>
+\section{Other Commissions of Trust}
+\begin{itemize}[nolistsep]
+<% for c in other_commissions %>
+    \item << c.description|tex >>
+<% endfor %>
+\end{itemize}
+<% endif %>
+
+\newpage
+\section*{Research Outputs}
+
+%% ================================================================
+%% PUBLICATIONS
+%% ================================================================
 <% if publications %>
-\section{Publications}
-
-\begin{enumerate}[label={[\arabic*]}]
+\section{Publications in Academic Journals}
+\begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for pub in publications %>
-    \item << pub.authors|tex >>
-    (<< pub.year >>).
-    << pub.title|tex >>.
-    <% if pub.journal %>\textit{<< pub.journal|tex >>}<% endif %><% if pub.volume %>, << pub.volume|tex >><% endif %><% if pub.issue %>(<< pub.issue|tex >>)<% endif %><% if pub.pages %>, << pub.pages|tex >><% endif %>.
-    <% if pub.doi %>\href{https://doi.org/<< pub.doi >>}{doi:<< pub.doi|tex >>}<% endif %><< pub.links|links >>
-
+    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|tex >>. <% if pub.journal %>\textit{<< pub.journal|tex >>}<% endif %><% if pub.year %> << pub.year >><% endif %>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %><< pub.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
 
+%% ================================================================
+%% PREPRINTS
+%% ================================================================
 <% if preprints %>
 \section{Preprints}
-
-\begin{enumerate}[label={[\arabic*]}]
+\begin{enumerate}[nolistsep, label={[\arabic*]}]
 <% for pub in preprints %>
-    \item << pub.authors|tex >>
-    (<< pub.year >>).
-    << pub.title|tex >>.
-    <% if pub.doi %>\href{https://doi.org/<< pub.doi >>}{doi:<< pub.doi|tex >>}<% endif %><< pub.links|links >>
-
+    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|tex >>.<% if pub.journal %> \textit{<< pub.journal|tex >>}.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %><< pub.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
 
-<% if book_chapters %>
-\section{Book Chapters}
-
-\begin{enumerate}[label={[\arabic*]}]
-<% for pub in book_chapters %>
-    \item << pub.authors|tex >>
-    (<< pub.year >>).
-    << pub.title|tex >>.
-    <% if pub.doi %>\href{https://doi.org/<< pub.doi >>}{doi:<< pub.doi|tex >>}<% endif %><< pub.links|links >>
-
+%% ================================================================
+%% BOOKS
+%% ================================================================
+<% if books %>
+\section{Books}
+\begin{enumerate}[nolistsep, label={[\arabic*]}]
+<% for pub in books %>
+    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|tex >>.<% if pub.year %> << pub.year >>.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %>
 <% endfor %>
 \end{enumerate}
 <% endif %>
 
-<% if presentations %>
-\section{Presentations}
-
-\begin{enumerate}[label={[\arabic*]}]
-<% for pres in presentations %>
-    \item << pres.title|tex >>.
-    <% if pres.event %><< pres.event|tex >><% endif %><% if pres.location %>, << pres.location|tex >><% endif %>
-    (<< pres.year >>).
-    <% if pres.type %>\textit{<< pres.type|tex >>}.<% endif %><< pres.links|links >>
-
+%% ================================================================
+%% OPEN PEER REVIEWS
+%% ================================================================
+<% if open_peer_reviews %>
+\section{Open Peer-Review Reports}
+\begin{enumerate}[nolistsep, label={[\arabic*]}]
+<% for r in open_peer_reviews %>
+    \item << r.description|tex >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
 
-<% if other_publications %>
-\section{Other Publications}
+%% ================================================================
+%% REPORTS
+%% ================================================================
+<% if reports %>
+\section{Reports}
+\begin{enumerate}[nolistsep, label={[\arabic*]}]
+<% for pub in reports %>
+    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|tex >>.<% if pub.year %> << pub.year >>.<% endif %><% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %>
+<% endfor %>
+\end{enumerate}
+<% endif %>
 
-\begin{enumerate}[label={[\arabic*]}]
-<% for pub in other_publications %>
-    \item << pub.authors|tex >>
-    (<< pub.year >>).
-    << pub.title|tex >>.
-    <% if pub.doi %>\href{https://doi.org/<< pub.doi >>}{doi:<< pub.doi|tex >>}<% endif %><< pub.links|links >>
+%% ================================================================
+%% STUDY MATERIALS
+%% ================================================================
+<% if study_materials %>
+\section{Study Materials}
+\begin{enumerate}[nolistsep, label={[\arabic*]}]
+<% for pub in study_materials %>
+    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|tex >>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %>
+<% endfor %>
+\end{enumerate}
+<% endif %>
 
+%% ================================================================
+%% DIGITAL RESEARCH OBJECTS
+%% ================================================================
+<% if digital_research_objects %>
+\section{Other Digital Research Objects}
+\begin{enumerate}[nolistsep, label={[\arabic*]}]
+<% for pub in digital_research_objects %>
+    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|tex >>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+%% ================================================================
+%% SCHOLARLY DEBATE
+%% ================================================================
+<% if scholarly_debate %>
+\section{Scholarly Debate}
+\begin{enumerate}[nolistsep, label={[\arabic*]}]
+<% for pub in scholarly_debate %>
+    \item <% if pub.authors %><< pub.authors|tex >>. <% endif %><< pub.title|tex >>.<% if pub.journal %> \textit{<< pub.journal|tex >>}.<% endif %><% if pub.year %> << pub.year >>.<% endif %><< pub.links|links >>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+%% ================================================================
+%% INVITED TALKS
+%% ================================================================
+<% if invited_talks %>
+\section{Invited Talks}
+\begin{enumerate}[nolistsep, label={[\arabic*]}]
+<% for pres in invited_talks %>
+    \item << pres.title|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+%% ================================================================
+%% CONFERENCE PRESENTATIONS
+%% ================================================================
+<% if conference_presentations %>
+\section{Conference Presentations}
+\begin{enumerate}[nolistsep, label={[\arabic*]}]
+<% for pres in conference_presentations %>
+    \item << pres.title|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+%% ================================================================
+%% CONFERENCE ABSTRACTS
+%% ================================================================
+<% if conference_abstracts %>
+\section{Other Indexed Conference Abstracts}
+\begin{enumerate}[nolistsep, label={[\arabic*]}]
+<% for pres in conference_abstracts %>
+    \item << pres.title|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+%% ================================================================
+%% POPULAR SCIENCE
+%% ================================================================
+\newpage
+\section*{Popular Science}
+
+<% if blogging %>
+\section{Blogging}
+\begin{enumerate}[nolistsep, label={[\arabic*]}]
+<% for b in blogging %>
+    \item << b.description|tex >>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+<% if popular_science_talks %>
+\section{Popular Science Talks}
+\begin{enumerate}[nolistsep, label={[\arabic*]}]
+<% for pres in popular_science_talks %>
+    \item << pres.title|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+
+<% if popular_science_writings %>
+\section{Popular Science Writings and General Debate}
+\begin{enumerate}[nolistsep, label={[\arabic*]}]
+<% for pub in popular_science_writings %>
+    \item << pub.title|tex >>.<% if pub.year %> << pub.year >>.<% endif %><< pub.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>

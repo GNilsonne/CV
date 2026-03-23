@@ -31,8 +31,11 @@ def load_data(path: str) -> dict:
     return yaml.load(content, Loader=yaml.SafeLoader)
 
 
-def tex_escape(text: str) -> str:
+def tex_escape(text) -> str:
     """Escape special LaTeX characters."""
+    if text is None:
+        return ""
+    text = str(text)
     if not text:
         return ""
     replacements = {
@@ -51,9 +54,9 @@ def tex_escape(text: str) -> str:
     return text
 
 
-def format_links_latex(links: dict) -> str:
+def format_links_latex(links) -> str:
     """Format links dict as LaTeX inline list."""
-    if not links:
+    if not links or not isinstance(links, dict):
         return ""
     labels = {
         "preprint": "preprint",
@@ -65,12 +68,17 @@ def format_links_latex(links: dict) -> str:
         "slides": "slides",
         "video": "video",
         "protocol": "protocol",
+        "web": "web",
+        "poster": "poster",
     }
     parts = []
+    seen_urls = set()
     for key, url in links.items():
-        if not url:
+        if not url or url in seen_urls:
             continue
+        seen_urls.add(url)
         label = labels.get(key, key)
+        # Don't escape URLs - they go inside \href
         parts.append(rf"\href{{{url}}}{{{label}}}")
     if parts:
         return " [" + " | ".join(parts) + "]"
@@ -144,7 +152,7 @@ def generate_outputs_list(data: dict) -> str:
     for link_type in sorted(outputs.keys(), key=lambda k: type_labels.get(k, k)):
         label = type_labels.get(link_type, link_type.title())
         lines.append(f"## {label}\n")
-        entries = sorted(outputs[link_type], key=lambda e: e["year"], reverse=True)
+        entries = sorted(outputs[link_type], key=lambda e: str(e["year"]), reverse=True)
         for e in entries:
             doi_link = f" (DOI: [{e['doi']}](https://doi.org/{e['doi']}))" if e["doi"] else ""
             lines.append(f"- [{e['title']}]({e['url']}) ({e['year']}){doi_link}")
