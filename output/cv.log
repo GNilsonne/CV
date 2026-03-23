@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.11)  23 MAR 2026 10:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.11)  23 MAR 2026 10:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -587,14 +587,8 @@ L3 programming layer <2024-01-22>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `cv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv.out':
-(rerunfilecheck)             Before: BB17287F441F847A41D339D8D4CDC8CF;3328
-(rerunfilecheck)             After:  BF4648B600B64691A7D048DEB1C79269;3603.
+Package rerunfilecheck Info: File `cv.out' has not changed.
+(rerunfilecheck)             Checksum: BF4648B600B64691A7D048DEB1C79269;3603.
  )
 (\end occurred inside a group at level 1)
 
@@ -602,10 +596,10 @@ Package rerunfilecheck Info: Checksums for `cv.out':
 ### bottom level
 (\end occurred when \ifmmode on line 1213 was incomplete) 
 Here is how much of TeX's memory you used:
- 10440 strings out of 474542
- 160074 string characters out of 5744446
+ 10441 strings out of 474542
+ 160086 string characters out of 5744446
  1947978 words of memory out of 5000000
- 32106 multiletter control sequences out of 15000+600000
+ 32107 multiletter control sequences out of 15000+600000
  589470 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,5n,79p,1065b,759s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -617,9 +611,9 @@ Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/gusta/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/gusta/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
 Output written on C:\Users\gusta\Documents\Github\CV\output\cv.pdf (20 pages, 3
-30907 bytes).
+31371 bytes).
 PDF statistics:
- 1055 PDF objects out of 1200 (max. 8388607)
+ 1058 PDF objects out of 1200 (max. 8388607)
  446 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
