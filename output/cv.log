@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.11)  23 MAR 2026 13:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.11)  23 MAR 2026 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -429,26 +429,13 @@ c}{C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinus-type
 /libertinus-type1/lbn1_cb34qf.enc}{C:/Users/gusta/AppData/Local/Programs/MiKTeX
 /fonts/enc/dvips/libertinus-type1/lbn1_rlktsf.enc}{C:/Users/gusta/AppData/Local
 /Programs/MiKTeX/fonts/enc/dvips/libertinus-type1/lbn1_sncvby.enc}]
-Underfull \hbox (badness 1028) in paragraph at lines 214--215
-[]\T1/LibertinusSerif-TLF/m/n/9 Open sci-ence and Re-pro-ducible re-search, PhD
- course, Karolin-ska In-sti-tutet 2017-2023. [][]ki.se[][]. [][]Course ma-te-ri
--als:
- []
-
-
-Underfull \hbox (badness 3514) in paragraph at lines 252--253
+Underfull \hbox (badness 2626) in paragraph at lines 252--253
 []\T1/LibertinusSerif-TLF/m/n/9 Jakob Berefelt, De-gree project in medicine, Ka
 rolin-ska In-sti-tutet, 2017: Ac-ti-va-tion of An-te-rior In-su-lar Cor-
  []
 
 
-Underfull \hbox (badness 1127) in paragraph at lines 252--253
-\T1/LibertinusSerif-TLF/m/n/9 tex and An-te-rior Me-dial Cin-gu-late Cor-tex As
--so-ci-ated with Di-rect Pain Per-cep-tion and Em-pa-thy for Pain. [][]doi:
- []
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 254--255
+Underfull \hbox (badness 1509) in paragraph at lines 254--255
 []\T1/LibertinusSerif-TLF/m/n/9 Fredrik Han-n-fors, De-gree project in medicine
 , Karolin-ska In-sti-tutet, 2017: As-so-ci-a-tions be-tween Em-pa-thy for
  []
@@ -602,7 +589,7 @@ Here is how much of TeX's memory you used:
  32647 multiletter control sequences out of 15000+600000
  609368 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,80p,574b,785s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,5n,80p,574b,783s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/gusta/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/libertinus-type1/LibertinusSerif-Bol
 d.pfb><C:/Users/gusta/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertin
@@ -610,9 +597,9 @@ us-type1/LibertinusSerif-Italic.pfb><C:/Users/gusta/AppData/Local/Programs/MiKT
 eX/fonts/type1/public/libertinus-type1/LibertinusSerif-Regular.pfb><C:/Users/gu
 sta/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
 Output written on C:\Users\gusta\Documents\Github\CV\output\cv.pdf (18 pages, 5
-68225 bytes).
+68062 bytes).
 PDF statistics:
- 1178 PDF objects out of 1200 (max. 8388607)
+ 1177 PDF objects out of 1200 (max. 8388607)
  464 named destinations out of 1000 (max. 500000)
  185 words of extra memory for PDF output out of 10000 (max. 10000000)
 
