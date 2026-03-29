@@ -320,6 +320,36 @@ def add_reference_para(doc, pub, number, bold_name="Nilsonne G"):
         doi_url = f"https://doi.org/{doi}"
         add_hyperlink(p, f"doi:{doi}", doi_url, font_size=Pt(9))
 
+    # Open resource links: [preprint | data | code | ...]
+    links = pub.get("links", {}) or {}
+    if links:
+        LINK_LABELS = {
+            "preprint": "preprint", "data": "data", "code": "code",
+            "materials": "materials", "preregistration": "prereg",
+            "narrative": "narrative", "slides": "slides", "video": "video",
+            "protocol": "protocol", "web": "web", "poster": "poster",
+            "correction": "correction", "pdf": "pdf", "diva": "DiVA",
+            "program": "program", "url": "link",
+        }
+        link_parts = []
+        seen_urls = set()
+        for key, url in links.items():
+            if not url or url in seen_urls:
+                continue
+            seen_urls.add(url)
+            label = LINK_LABELS.get(key, key)
+            link_parts.append((label, url))
+
+        if link_parts:
+            p.add_run(" [")
+            for i, (label, url) in enumerate(link_parts):
+                if i > 0:
+                    r = p.add_run(" | ")
+                    r.font.size = Pt(9)
+                add_hyperlink(p, label, url, font_size=Pt(9))
+            r = p.add_run("]")
+            r.font.size = Pt(9)
+
     return p
 
 
