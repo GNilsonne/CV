@@ -640,7 +640,7 @@ publications:
   open_access: Open Access
   rims_id: '508594'
   id: nilsonne_2015_leukocyte
-  pub_type: review
+  pub_type: original
 - title: Intrinsic functional connectivity of insular cortex and symptoms of sickness during acute experimental inflammation
   journal: Brain, Behavior, and Immunity
   doi: 10.1016/j.bbi.2015.12.018
@@ -784,7 +784,7 @@ publications:
   open_access: Open Access
   rims_id: '501172'
   id: nilsonne_2016_diurnal
-  pub_type: review
+  pub_type: original
 - title: 'Effects of 25 mg oxazepam on emotional mimicry and empathy for pain: a randomized controlled experiment'
   journal: Royal Society Open Science
   doi: 10.1098/rsos.160607
@@ -853,7 +853,7 @@ publications:
   open_access: Bronze OA
   rims_id: '496874'
   id: bejerot_2017_subcortical
-  pub_type: original
+  pub_type: review
 - title: 'Intrinsic brain connectivity after partial sleep deprivation in young and older adults: results from the Stockholm
     Sleepy Brain Study'
   journal: Scientific Reports
@@ -959,7 +959,7 @@ publications:
   open_access: Gold OA
   rims_id: '610702'
   id: lakens_2018_justify
-  pub_type: original
+  pub_type: review
 - title: A Practical Guide for Transparency in Psychological Science
   journal: 'Collabra: Psychology'
   doi: 10.1525/collabra.158
@@ -979,7 +979,7 @@ publications:
   open_access: Gold OA
   rims_id: '606962'
   id: klein_nd_practical
-  pub_type: original
+  pub_type: review
 - title: 'Data availability, reusability, and analytic reproducibility: Evaluating the impact of a mandatory open data policy
     at the journal Cognition'
   journal: Royal Society Open Science
@@ -1063,7 +1063,7 @@ publications:
   open_access: Gold OA
   rims_id: '733248'
   id: mcgrath_2018_data
-  pub_type: original
+  pub_type: review
 - title: 'Sleep restriction caused impaired emotional regulation without detectable brain activation changes - a functional
     magnetic resonance imaging study'
   journal: Royal Society Open Science
@@ -1333,7 +1333,7 @@ publications:
   open_access: Closed Access
   rims_id: '665756'
   id: nilsonne_2021_eeg
-  pub_type: original
+  pub_type: review
 - title: A comparison of models with weight, height, and BMI as predictors of mortality
   journal: Obesity Science and Practice
   doi: 10.1002/osp4.473
@@ -1424,7 +1424,7 @@ publications:
   open_access: Hybrid OA
   rims_id: '462171'
   id: pavlov_2021_eegmanylabs
-  pub_type: original
+  pub_type: review
 - title: 'Oxazepam and cognitive reappraisal: a randomised experiment'
   journal: Plos One
   doi: 10.1101/656355
@@ -1485,7 +1485,7 @@ publications:
   open_access: Bronze OA
   rims_id: '462363'
   id: gau_2021_brainhack
-  pub_type: original
+  pub_type: review
 - title: 'International Transfers of Health Research Data Following Schrems II: A Problem in Need of a Solution'
   journal: European Journal of Human Genetics
   doi: '10.1038/s41431-021-00893-y'
@@ -1559,7 +1559,7 @@ publications:
     N, Zarei M'
   links: {}
   id: tahmasian_2021_enigma
-  pub_type: original
+  pub_type: review
   year: 2021
 - title: 'A multi-country test of brief reappraisal interventions on emotions during the COVID-19 pandemic'
   journal: Nature Human Behavior
@@ -1650,7 +1650,7 @@ publications:
   open_access: Open Access
   rims_id: '464834'
   id: austin_2021_fostering
-  pub_type: original
+  pub_type: review
 - title: 'Dangers of residual confounding: A cautionary tale featuring cognitive ability, socioeconomic background, and education'
   journal: BMC Psychology
   doi: '10.1186/s40359-021-00653-z'
@@ -1778,7 +1778,7 @@ publications:
   open_access: Hybrid OA
   rims_id: '615487'
   id: helgesson_nd_editors
-  pub_type: review
+  pub_type: original
 - title: 'Microscopy-BIDS: an extension to the Brain Imaging Data Structure for Microscopy Data'
   journal: Frontiers in Neuroscience
   doi: 10.3389/fnins.2022.871228
@@ -2048,7 +2048,7 @@ publications:
   open_access: Hybrid OA
   rims_id: '733238'
   id: drude_2022_planning
-  pub_type: original
+  pub_type: review
 - title: 'Uncertain inference in random intercept cross-lagged panel models: An example involving need for cognition and anxiety
     and depression symptoms'
   journal: Personality and Individual Differences
@@ -2146,11 +2146,11 @@ publications:
   rims_id: '446095'
   id: sorjonen_2023_dangers
   pub_type: original
-- title: 'Melin B. Further arguments that ability tilt correlations are spurious: A reply to Coyle (2022)'
+- title: 'Further arguments that ability tilt correlations are spurious: A reply to Coyle (2022)'
   journal: Intelligence
   doi: 10.1016/j.intell.2022.101706
   year: 2022
-  authors: Sorjonen K, Ingre M, Nilsonne G,
+  authors: Sorjonen K, Ingre M, Nilsonne G, Melin B.
   links:
     preprint: 'https://doi.org/10.31234/osf.io/7vhnz'
   volume: '98'
@@ -2170,7 +2170,7 @@ publications:
   authors: Nilsonne G, Johannesson M, Dreber A
   links: {}
   id: nilsonne_2023_olika
-  pub_type: original
+  pub_type: review
 - title: Replacing academic journals
   journal: Royal Society Open Science
   doi: 10.1098/rsos.230206
@@ -2193,7 +2193,7 @@ publications:
   open_access: Open Access
   rims_id: '692627'
   id: brembs_2023_replacing
-  pub_type: original
+  pub_type: review
 - title: 'Unmasking artifactual links: A reanalysis reveals No direct causal relationship between self-esteem and quality
     of social relations'
   journal: Heliyon
@@ -2225,7 +2225,7 @@ publications:
   open_access: Hybrid OA
   rims_id: '835423'
   id: trübutschek_2024_eegmanypipelines
-  pub_type: original
+  pub_type: review
 - title: 'Spurious heritability of ability tilts: A comment on Coyle et al. (2023)'
   journal: Personality and Individual Differences
   doi: 10.31234/osf.io/kds5c
@@ -2340,14 +2340,14 @@ publications:
   open_access: Open Access
   rims_id: '884107'
   id: poldrack_2024_past
-  pub_type: original
+  pub_type: review
 - title: Understanding the provenance and quality of methods is essential for responsible reuse of FAIR data
   journal: Nature Medicine
   year: 2024
   authors: Weissgerber TL, Gazda MA, Nilsonne G, et al
   links: {}
   id: weissgerber_2024_understanding
-  pub_type: original
+  pub_type: review
   doi: '10.1038/s41591-024-02879-x'
 - title: 'Inconclusive evidence for an increasing effect of maternal supportiveness on childhood intelligence in Dunkel et
     al. (2023): A simulated reanalysis'
@@ -2398,7 +2398,7 @@ publications:
   authors: Axfors C, Nilsonne G
   links: {}
   id: axfors_2024_registrering
-  pub_type: original
+  pub_type: review
 - title: 'Subjective Evidence Evaluation Survey For Multi-Analyst Studies'
   journal: Royal Society Open Science
   doi: 10.1098/rsos.240125
@@ -2453,7 +2453,7 @@ publications:
   open_access: Green OA
   rims_id: '880846'
   id: mushtaq_2024_one
-  pub_type: original
+  pub_type: review
 - title: 'The International Climate Psychology Collaboration: Climate change-related data collected from 63 countries'
   journal: Scientific Data
   doi: '10.1038/s41597-024-03865-1'
@@ -2518,7 +2518,7 @@ publications:
   authors: Shrike BT, Nilsonne G, Weisser V, Aimbetov R
   links: {}
   id: shrike_nd_longevity
-  pub_type: original
+  pub_type: review
 - title: 'Exhaustion Disorder in Primary Care: A Comparison With Major Depressive Disorder and Adjustment Disorder'
   journal: Scandinavian Journal of Psychology
   doi: 10.1111/sjop.13087
