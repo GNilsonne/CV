@@ -318,7 +318,7 @@ def add_reference_para(doc, pub, number, bold_name="Nilsonne G"):
     if doi:
         p.add_run(" ")
         doi_url = f"https://doi.org/{doi}"
-        add_hyperlink(p, f"doi:{doi}", doi_url, font_size=Pt(9))
+        add_hyperlink(p, f"doi:{doi}", doi_url, font_size=Pt(11))
 
     # Open resource links: [preprint | data | code | ...]
     links = pub.get("links", {}) or {}
@@ -344,11 +344,9 @@ def add_reference_para(doc, pub, number, bold_name="Nilsonne G"):
             p.add_run(" [")
             for i, (label, url) in enumerate(link_parts):
                 if i > 0:
-                    r = p.add_run(" | ")
-                    r.font.size = Pt(9)
-                add_hyperlink(p, label, url, font_size=Pt(9))
-            r = p.add_run("]")
-            r.font.size = Pt(9)
+                    p.add_run(" | ")
+                add_hyperlink(p, label, url, font_size=Pt(11))
+            p.add_run("]")
 
     return p
 
