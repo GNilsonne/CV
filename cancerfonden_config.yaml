@@ -1,0 +1,34 @@
+# Configuration for Swedish Cancer Society (Cancerfonden) publication list
+# ========================================================================
+
+# 10 most important publications for this project (list IDs in order)
+# IDs are bibtex-style: firstauthor_year_firstword (see cv_data.yaml)
+# Gustav: populate these with the 10 pubs most relevant to your cancer application
+selected_publications: []
+#  - nilsonne_2006_selenite
+#  - sorjonen_2023_unmasking
+
+# Unpublished manuscripts (max 3) — provide file paths to PDFs
+# These will be noted in the output but must be attached separately
+unpublished_manuscripts: []
+#  - title: "Title of manuscript"
+#    authors: "Author A, Author B, Nilsonne G"
+#    status: "Under review at Journal X"
+#    file: "manuscripts/manuscript1.pdf"
+
+# Other scientific merits (max 1500 characters)
+# Invited lectures, leadership roles, positions of trust, memberships, etc.
+# Leave null to auto-generate from YAML data; or write custom text here.
+other_scientific_merits: null
+
+# PhD supervision — leave null to auto-generate from YAML data
+# Or provide custom text (max 1000 characters per field)
+supervision_main_completed: null    # main supervisor, completed
+supervision_main_ongoing: null      # main supervisor, ongoing
+supervision_co_completed: null      # co-supervisor, completed
+supervision_co_ongoing: null        # co-supervisor, ongoing
+
+# Publication type overrides: override pub_type for specific IDs
+type_overrides: []
+#  - id: "sorjonen_2023_distorted"
+#    type: "original"
