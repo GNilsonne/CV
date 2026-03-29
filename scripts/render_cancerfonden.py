@@ -318,7 +318,7 @@ def add_reference_para(doc, pub, number, bold_name="Nilsonne G"):
     if doi:
         p.add_run(" ")
         doi_url = f"https://doi.org/{doi}"
-        add_hyperlink(p, f"doi:{doi}", doi_url, font_size=Pt(11))
+        add_hyperlink(p, doi, doi_url, font_size=Pt(11))
 
     # Open resource links: [preprint | data | code | ...]
     links = pub.get("links", {}) or {}
