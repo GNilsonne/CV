@@ -216,12 +216,34 @@ def add_heading(doc, text, level=1):
 
 
 def add_reference_para(doc, pub, number, bold_name="Nilsonne G"):
-    """Add a numbered reference with applicant name bolded and journal italicised."""
+    """Add a numbered reference with hanging indent: number in left margin,
+    text block aligned. Applicant name bolded, journal italicised."""
     p = doc.add_paragraph()
-    p.paragraph_format.space_after = Pt(2)
+    p.paragraph_format.space_after = Pt(4)
     p.paragraph_format.space_before = Pt(1)
 
-    p.add_run(f"{number}. ")
+    # Hanging indent: left_indent sets the text block position,
+    # first_line_indent (negative) pulls the number back into the margin.
+    indent = Cm(1.0)
+    p.paragraph_format.left_indent = indent
+    p.paragraph_format.first_line_indent = -indent
+
+    # Number (sits in the margin thanks to negative first-line indent)
+    num_run = p.add_run(f"{number}.\t")
+    num_run.font.size = Pt(11)
+
+    # Set a tab stop at the indent position so \t aligns the text
+    from docx.oxml.ns import qn as _qn
+    pPr = p._element.get_or_add_pPr()
+    tabs = pPr.find(_qn("w:tabs"))
+    if tabs is None:
+        tabs = pPr.makeelement(_qn("w:tabs"), {})
+        pPr.append(tabs)
+    tab = tabs.makeelement(_qn("w:tab"), {
+        _qn("w:val"): "left",
+        _qn("w:pos"): str(int(indent.emu / 914400 * 1440)),  # convert to twips
+    })
+    tabs.append(tab)
 
     # Authors with bold name
     authors = format_authors_vancouver(pub.get("authors", ""))
@@ -410,13 +432,7 @@ def main():
         else:
             originals_2018.append(pub)
 
-    # "Other articles" in 2018-2026: preprints, scholarly debate, etc.
-    for item in sorted(preprints, key=lambda p: -(p.get("year", 0) or 0)):
-        if in_year_range(item):
-            other_articles_2018.append(item)
-    for item in sorted(scholarly_debate, key=lambda p: -(p.get("year", 0) or 0)):
-        if in_year_range(item):
-            other_articles_2018.append(item)
+    # Note: "Other articles" (preprints, scholarly debate) excluded from Cancerfonden output
 
     # Selected 10 most important (by id)
     selected_ids = config.get("selected_publications", []) or []
@@ -487,11 +503,7 @@ def main():
         for i, pub in enumerate(reviews_2018, 1):
             add_reference_para(doc, pub, i)
 
-    # Other articles
-    if other_articles_2018:
-        add_heading(doc, "Other articles", level=3)
-        for i, pub in enumerate(other_articles_2018, 1):
-            add_reference_para(doc, pub, i)
+    # Other articles section omitted per Cancerfonden requirements
 
     # Save docx
     os.makedirs("output", exist_ok=True)
@@ -551,8 +563,7 @@ def main():
     lines.append("--- PUBLICATION LIST SUMMARY (2018-2026) ---")
     lines.append(f"Peer-reviewed original articles: {len(originals_2018)}")
     lines.append(f"Review articles:                 {len(reviews_2018)}")
-    lines.append(f"Other articles:                  {len(other_articles_2018)}")
-    lines.append(f"TOTAL in list:                   {len(originals_2018) + len(reviews_2018) + len(other_articles_2018)}")
+    lines.append(f"TOTAL in list:                   {len(originals_2018) + len(reviews_2018)}")
 
     txt_output = "\n".join(lines)
     txt_path = os.path.join("output", "cancerfonden_cv_fields.txt")
