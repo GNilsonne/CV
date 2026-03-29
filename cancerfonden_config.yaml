@@ -4,9 +4,7 @@
 # 10 most important publications for this project (list IDs in order)
 # IDs are bibtex-style: firstauthor_year_firstword (see cv_data.yaml)
 # Gustav: populate these with the 10 pubs most relevant to your cancer application
-selected_publications: []
-#  - nilsonne_2006_selenite
-#  - sorjonen_2023_unmasking
+selected_publications: [nilsonne_2006_selenite]
 
 # Unpublished manuscripts (max 3) — provide file paths to PDFs
 # These will be noted in the output but must be attached separately
