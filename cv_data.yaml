@@ -1548,7 +1548,7 @@ publications:
   pub_type: original
 - title: 'ENIGMA-Sleep: Challenges, opportunities, and the road map'
   journal: Journal of Sleep Research
-  doi: gjtqz6
+  doi: 10.1111/jsr.13347
   authors: 'Tahmasian M, Aleman A, Andreassen OA, Arab Z, Baillet M, Benedetti F, Bresser T, Bright J, Chee MWL, Chylinski
     D, Cheng W, Deantoni M, Dresler M, Eickhoff SB, Eickhoff CR, Elvsåshagen T, Feng J, Foster‐Dingley JC, Ganjgahi H, Grabe
     HJ, Groenewold NA, Ho TC, Hong SB, Houenou J, Irungu B, Jahanshad N, Khazaie H, Kim H, Koshmanova E, Kocevska D, Kochunov
@@ -1558,8 +1558,9 @@ publications:
     Someren EV, Vandewalle G, Egroo MV, Völzke H, Walter M, Wassing R, Weber FD, Weihs A, Westlye LT, Wright MJ, Wu M-J, Zak
     N, Zarei M'
   links: {}
-  id: tahmasian_nd_enigma
+  id: tahmasian_2021_enigma
   pub_type: original
+  year: 2021
 - title: 'A multi-country test of brief reappraisal interventions on emotions during the COVID-19 pandemic'
   journal: Nature Human Behavior
   doi: '10.1038/s41562-021-01173-x'
@@ -2201,6 +2202,7 @@ publications:
   links: {}
   id: sorjonen_2023_unmasking
   pub_type: original
+  doi: 10.1016/j.heliyon.2023.e20397
 - title: 'EEGManyPipelines: A Large-scale, Grassroots Multi-analyst Study of Electroencephalography Analysis Practices in
     the Wild'
   journal: Journal of Cognitive Neuroscience
@@ -2235,7 +2237,7 @@ publications:
   pub_type: original
 - title: 'Distorted meta-analytic findings on peer influence: A reanalysis'
   journal: Heliyon
-  doi: 110.1016/j.heliyon.2023.e21458
+  doi: 10.1016/j.heliyon.2023.e21458
   year: 2023
   authors: Sorjonen K, Nilsonne G, Melin B
   links:
@@ -2346,6 +2348,7 @@ publications:
   links: {}
   id: weissgerber_2024_understanding
   pub_type: original
+  doi: '10.1038/s41591-024-02879-x'
 - title: 'Inconclusive evidence for an increasing effect of maternal supportiveness on childhood intelligence in Dunkel et
     al. (2023): A simulated reanalysis'
   journal: Intelligence
@@ -2498,13 +2501,17 @@ publications:
   pub_type: original
 - title: Altered Empathy Processing in Frontotemporal Dementia
   journal: JAMA Network Open
-  doi: 10.1101/2024.03.21.586051
+  doi: 10.1001/jamanetworkopen.2024.48601
   year: 2024
-  authors: Lindberg O, et al
+  authors: 'Lindberg O, Li T-Q, Lind C, Vestberg S, Almkvist O, Stiernstedt M, Ericson A, Bogdanovic N, Hansson O, Harper
+    L, Westman E, Graff C, Tsevis T, Mannfolk P, Fischer H, Nilsonne G, Petrovic P, Nyberg L, Wahlund L-O, Santillo AF'
   links:
-    preprint: 'https://doi.org/10.1001/jamanetworkopen.2024.48601'
+    preprint: 'https://doi.org/10.1101/2024.03.21.586051'
   id: lindberg_2024_altered
   pub_type: original
+  volume: '7'
+  issue: '12'
+  pages: e2448601
 - title: 'Longevity biomarkers: applications and limitations'
   journal: ResearchHub
   doi: 10.55277/ResearchHub.rb3ck05l

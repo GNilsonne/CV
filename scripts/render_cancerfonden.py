@@ -34,9 +34,40 @@ try:
     from docx.shared import Pt, Cm, RGBColor
     from docx.enum.text import WD_ALIGN_PARAGRAPH
     from docx.oxml.ns import qn
+    from docx.oxml import OxmlElement
 except ImportError:
     print("Error: python-docx not installed. Run: pip install python-docx", file=sys.stderr)
     sys.exit(1)
+
+
+def add_hyperlink(paragraph, text, url, font_size=Pt(11), color=RGBColor(0, 0, 238)):
+    """Add a clickable hyperlink to a paragraph in a Word document."""
+    part = paragraph.part
+    r_id = part.relate_to(url, "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink", is_external=True)
+
+    hyperlink = OxmlElement("w:hyperlink")
+    hyperlink.set(qn("r:id"), r_id)
+
+    run_elem = OxmlElement("w:r")
+    rPr = OxmlElement("w:rPr")
+
+    c = OxmlElement("w:color")
+    c.set(qn("w:val"), str(color) if color else "0000EE")
+    rPr.append(c)
+
+    u = OxmlElement("w:u")
+    u.set(qn("w:val"), "single")
+    rPr.append(u)
+
+    if font_size:
+        sz = OxmlElement("w:sz")
+        sz.set(qn("w:val"), str(int(font_size.pt * 2)))
+        rPr.append(sz)
+
+    run_elem.append(rPr)
+    run_elem.text = text
+    hyperlink.append(run_elem)
+    paragraph._element.append(hyperlink)
 
 
 # ---------------------------------------------------------------------------
@@ -281,6 +312,13 @@ def add_reference_para(doc, pub, number, bold_name="Nilsonne G"):
         detail += f", {pub['year']}"
     detail += "."
     p.add_run(detail)
+
+    # DOI as hyperlink
+    doi = pub.get("doi", "") or ""
+    if doi:
+        p.add_run(" ")
+        doi_url = f"https://doi.org/{doi}"
+        add_hyperlink(p, f"doi:{doi}", doi_url, font_size=Pt(9))
 
     return p
 
