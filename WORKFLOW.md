@@ -138,7 +138,30 @@ The VR template follows VR requirements:
 - Applicant name **bolded** in all author lists
 - Reverse chronological order within each category
 
-### 4. List specific output types
+### 4. Generate Wallenberg Foundation materials
+
+For Marcus and Amalia Wallenberg Foundation applications:
+
+```bash
+python3 scripts/render_wallenberg.py
+# Outputs:
+#   output/wallenberg_cv.docx             — CV (initial sections only, no publications)
+#   output/wallenberg_selected_pubs.docx  — 10 selected publications
+```
+
+**Before generating**, edit `wallenberg_config.yaml` to list your 10 selected publications by ID:
+```yaml
+selected_publications:
+  - nilsonne_2006_selenite
+  - nilsonne_2017_intrinsic
+  # ... up to 10
+```
+
+Publication IDs can be found in `cv_data.yaml` under the `id` field of each publication entry.
+
+The CV document includes: Degrees, Employment, PhD Supervision, Grants, Teaching, Awards, PhD Committee, Academic Commissions, and Other Commissions. It deliberately excludes publications and all subsequent sections.
+
+### 5. List specific output types
 
 ```bash
 python3 scripts/list_outputs.py --type data      # All open datasets
@@ -151,7 +174,7 @@ python3 scripts/list_outputs.py --summary         # Summary counts
 python3 scripts/list_outputs.py --type data --format csv > my_datasets.csv
 ```
 
-### 5. List co-authors
+### 6. List co-authors
 
 ```bash
 python3 scripts/list_coauthors.py                    # Alphabetical list
@@ -210,6 +233,7 @@ The Word version (`render_vr_docx.py`) builds the document programmatically with
 CV/
 ├── cv_data.yaml               ← YOUR DATA (single source of truth)
 ├── vr_config.yaml             ← VR publication list configuration
+├── wallenberg_config.yaml     ← Wallenberg Foundation configuration
 ├── CV_GN.tex                  ← Original LaTeX CV (kept for reference)
 ├── templates/
 │   ├── cv.tex.j2              ← CV template
@@ -219,6 +243,7 @@ CV/
 │   ├── render_cv.py           ← YAML → CV LaTeX/PDF
 │   ├── render_vr.py           ← YAML → VR publication list (LaTeX)
 │   ├── render_vr_docx.py     ← YAML → VR publication list (Word .docx)
+│   ├── render_wallenberg.py    ← YAML → Wallenberg CV + selected pubs (Word .docx)
 │   ├── list_outputs.py        ← Query open outputs by type
 │   ├── list_coauthors.py      ← Alphabetical co-author list
 │   ├── import_orcid.py        ← Pull from ORCID API
@@ -232,6 +257,8 @@ CV/
 │   ├── cv.pdf                 ← Generated CV PDF
 │   ├── vr_publist.tex         ← Generated VR publication list (LaTeX)
 │   ├── vr_publist.docx        ← Generated VR publication list (Word)
+│   ├── wallenberg_cv.docx     ← Generated Wallenberg CV (Word)
+│   ├── wallenberg_selected_pubs.docx ← Generated Wallenberg selected publications (Word)
 │   ├── coauthors.csv          ← Generated co-author list
 │   └── open_outputs.md        ← Generated output list
 ├── schema.md                  ← YAML field documentation
@@ -262,6 +289,11 @@ python3 scripts/list_outputs.py --type data --format csv > datasets_for_funder.c
 2. Update the filename in `enrich_from_rims.py` and `add_missing_from_rims.py`
 3. Run both scripts
 4. Review and commit
+
+**"I need materials for a Wallenberg Foundation application"**
+1. Edit `wallenberg_config.yaml` — list your 10 selected publication IDs
+2. Run `python3 scripts/render_wallenberg.py`
+3. Two Word documents are produced: CV (initial sections) and selected publications
 
 **"How open is my research?"**
 ```bash

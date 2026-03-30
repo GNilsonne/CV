@@ -1,0 +1,10 @@
+# Configuration for Marcus and Amalia Wallenberg Foundation application
+# =====================================================================
+
+# 10 selected publications (list IDs from cv_data.yaml in desired order)
+# IDs are bibtex-style: firstauthor_year_firstword (see cv_data.yaml publications)
+# Gustav: replace these with your 10 most relevant publications
+selected_publications: []
+#  - nilsonne_2006_selenite
+#  - nilsonne_2017_intrinsic
+#  - ...
