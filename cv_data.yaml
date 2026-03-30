@@ -64,6 +64,12 @@ phd_supervision:
   role: 'co-supervisor'
   thesis: ''
   link: ''
+- name: Fredh Netterström Wedin
+  institution: Karolinska Institutet
+  year: '2026-'
+  role: 'co-supervisor'
+  thesis: ''
+  link: ''
 grants:
 - description: 'Swedish Heart and Lung Foundation, 2005-2009, five grants for a total of 24 months of PhD student scholarships
     (grants no. 20051024, 20060003, 20070042, 20070209, and 20090797)'
