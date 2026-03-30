@@ -267,7 +267,7 @@ def add_reference_para(doc, pub, number, bold_name="Nilsonne G"):
     doi = pub.get("doi", "") or ""
     if doi:
         p.add_run(" ")
-        add_hyperlink(p, f"doi:{doi}", f"https://doi.org/{doi}")
+        add_hyperlink(p, doi, f"https://doi.org/{doi}")
 
     return p
 
@@ -300,8 +300,7 @@ def build_cv(data, doc):
         profile_parts = []
         if profiles.get("ki_profile"):
             profile_parts.append(("KI profile", profiles["ki_profile"]))
-        if profiles.get("su_profile"):
-            profile_parts.append(("SU profile", profiles["su_profile"]))
+        # SU profile omitted — no longer current
         if profiles.get("google_scholar"):
             profile_parts.append(("Google Scholar", profiles["google_scholar"]))
         if profile_parts:
