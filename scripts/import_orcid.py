@@ -258,7 +258,7 @@ def main():
 
     CustomDumper.add_representer(dict, represent_dict)
 
-    with open(output_path, "w") as f:
+    with open(output_path, "w", encoding="utf-8") as f:
         yaml.dump(existing, f, Dumper=CustomDumper, default_flow_style=False,
                   allow_unicode=True, sort_keys=False, width=120)
 
