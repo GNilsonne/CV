@@ -267,10 +267,10 @@ def main():
             doi_map[doi] = (section, len(existing[section]) - 1)
         new_count += 1
 
-    # Sort each section by date (descending); entries without a date go last
+    # Sort each section by date (ascending, oldest first); entries without a date go last
     for section in SECTION_MAP.values():
         if section in existing and existing[section]:
-            existing[section].sort(key=lambda e: e.get("date") or "0000-00-00", reverse=True)
+            existing[section].sort(key=lambda e: (0 if e.get("date") else 1, e.get("date") or "9999-99-99"))
 
     # Write YAML
     class CustomDumper(yaml.SafeDumper):
