@@ -119,6 +119,21 @@ def parse_work(work: dict) -> dict:
 
     pub_date = work.get("publication-date") or {}
     year = int((pub_date.get("year") or {}).get("value", 0))
+    month = int((pub_date.get("month") or {}).get("value", 0))
+    day = int((pub_date.get("day") or {}).get("value", 0))
+
+    # Build YYYY-MM-DD date string from available components
+    date_str = ""
+    if year:
+        date_str = f"{year:04d}"
+        if month:
+            date_str += f"-{month:02d}"
+            if day:
+                date_str += f"-{day:02d}"
+            else:
+                date_str += "-01"  # default to 1st of month
+        else:
+            date_str += "-01-01"  # default to Jan 1st
 
     doi = ""
     for eid in (work.get("external-ids") or {}).get("external-id", []):
@@ -132,6 +147,7 @@ def parse_work(work: dict) -> dict:
         "title": title,
         "type": wtype,
         "year": year,
+        "date": date_str,
         "journal": journal,
         "doi": doi,
         "authors": authors,
@@ -156,6 +172,8 @@ def work_to_entry(parsed: dict) -> dict:
     }
     if parsed["year"]:
         entry["year"] = parsed["year"]
+    if parsed["date"]:
+        entry["date"] = parsed["date"]
     if parsed["doi"]:
         entry["doi"] = parsed["doi"]
     if parsed["journal"]:
@@ -227,8 +245,14 @@ def main():
         doi = parsed.get("doi", "").lower()
 
         if doi and doi in doi_map:
+            section, idx = doi_map[doi]
+            # Always backfill date if missing
+            if parsed["date"] and not existing[section][idx].get("date"):
+                existing[section][idx]["date"] = parsed["date"]
+                if parsed["year"] and not existing[section][idx].get("year"):
+                    existing[section][idx]["year"] = parsed["year"]
+                updated_count += 1
             if args.update_authors and parsed["authors"]:
-                section, idx = doi_map[doi]
                 old_authors = existing[section][idx].get("authors", "")
                 if old_authors != parsed["authors"]:
                     existing[section][idx]["authors"] = parsed["authors"]
@@ -243,10 +267,10 @@ def main():
             doi_map[doi] = (section, len(existing[section]) - 1)
         new_count += 1
 
-    # Sort each section by year (descending); entries without a year go last
+    # Sort each section by date (descending); entries without a date go last
     for section in SECTION_MAP.values():
         if section in existing and existing[section]:
-            existing[section].sort(key=lambda e: (e.get("year") or 0, e.get("title", "")), reverse=True)
+            existing[section].sort(key=lambda e: e.get("date") or "0000-00-00", reverse=True)
 
     # Write YAML
     class CustomDumper(yaml.SafeDumper):
@@ -257,7 +281,13 @@ def main():
             return dumper.represent_mapping("tag:yaml.org,2002:map", {})
         return dumper.represent_mapping("tag:yaml.org,2002:map", data.items())
 
+    def represent_date(dumper, data):
+        return dumper.represent_scalar("tag:yaml.org,2002:str", str(data))
+
     CustomDumper.add_representer(dict, represent_dict)
+
+    import datetime
+    CustomDumper.add_representer(datetime.date, represent_date)
 
     with open(output_path, "w", encoding="utf-8") as f:
         yaml.dump(existing, f, Dumper=CustomDumper, default_flow_style=False,

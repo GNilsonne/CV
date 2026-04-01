@@ -370,25 +370,6 @@ other_commissions:
 - description: Advisory Board, DeSci Foundation
 - description: Advisory Board, NEKO Health
 publications:
-- title: Low validity of lower ability test scores can mimic the Dunning-Kruger effect
-  authors: Sorjonen K, Melin M, Lager E, Nilsonne G, Melin B
-  journal: Intelligence
-  doi: 10.1016/j.intell.2025.101985
-  year: 2026
-  volume: '114'
-  article_number: '101985'
-  links: {}
-  rims_id: '1083623'
-  pages: 101985-101985
-  issn: 0160-2896
-  eissn: 1873-7935
-  publication_date: '2026'
-  canonical_journal: INTELLIGENCE
-  keywords: Ability vs. performance, Dunning-Kruger effect, Effect of disturbance, LOESS and linear regression, Under, and
-    overestimation
-  open_access: Closed Access
-  id: sorjonen_2026_low
-  pub_type: original
 - title: Investigating the analytical robustness of the social and behavioural sciences
   authors: Balazs Aczel, Barnabas Szaszi, Harry T. Clelland, Marton Kovacs, Felix Holzmeister, Don van Ravenzwaaij, Hannah
     Schulz-Kümpel, Sabine Hoffmann, Gustav Nilsonne, Livia Kosa, Zoltan A. Torma, Yousuf Abdelfatah, Christopher L. Aberson,
@@ -463,18 +444,27 @@ publications:
   doi: 10.1038/s41586-025-09844-9
   journal: Nature
   links: {}
-- title: 'The Spurious Prospective Associations Model (SPAM): Explaining longitudinal associations due to statistical artifacts'
-  authors: Kimmo Sorjonen, Bo Melin, Gustav Nilsonne
-  year: 2025
-  doi: 10.1371/journal.pone.0331609
-  journal: PLOS One
+  date: '2026-04-02'
+- title: Low validity of lower ability test scores can mimic the Dunning-Kruger effect
+  authors: Sorjonen K, Melin M, Lager E, Nilsonne G, Melin B
+  journal: Intelligence
+  doi: 10.1016/j.intell.2025.101985
+  year: 2026
+  volume: '114'
+  article_number: '101985'
   links: {}
-- title: 'Still spurious: A comment on attempts to revive cognitive ability tilts'
-  authors: Kimmo Sorjonen, Bo Melin, Gustav Nilsonne
-  year: 2025
-  doi: 10.1371/journal.pone.0326486
-  journal: PLOS One
-  links: {}
+  rims_id: '1083623'
+  pages: 101985-101985
+  issn: 0160-2896
+  eissn: 1873-7935
+  publication_date: '2026'
+  canonical_journal: INTELLIGENCE
+  keywords: Ability vs. performance, Dunning-Kruger effect, Effect of disturbance, LOESS and linear regression, Under, and
+    overestimation
+  open_access: Closed Access
+  id: sorjonen_2026_low
+  pub_type: original
+  date: '2026-01-01'
 - title: 'Still No Convincing Evidence for a Causal Effect of Academic Self-Concept on Achievement: A Reply to Núñez-Regueiro
     et al., 2025'
   authors: Sorjonen K, Melin B, Nilsonne G
@@ -497,6 +487,43 @@ publications:
   open_access: Hybrid OA
   id: sorjonen_2025_still
   pub_type: original
+  date: '2025-12-01'
+- title: 'Still spurious: A comment on attempts to revive cognitive ability tilts'
+  authors: Kimmo Sorjonen, Bo Melin, Gustav Nilsonne
+  year: 2025
+  doi: 10.1371/journal.pone.0326486
+  journal: PLOS One
+  links: {}
+  date: '2025-10-24'
+- title: Cross-lagged network models do not prove causality and may be evaluated through triangulation
+  authors: Sorjonen K, Melin B, Nilsonne G
+  journal: Acta Psychologica
+  doi: 10.1016/j.actpsy.2025.105562
+  year: 2025
+  volume: '260'
+  pages: '105562'
+  links: {}
+  rims_id: '1059947'
+  pmid: '40945146'
+  issn: 0001-6918
+  eissn: 1873-6297
+  publication_date: 2025-10
+  online_date: '2025-09-12'
+  acceptance_date: '2025-09-08'
+  canonical_journal: ACTA PSYCHOLOGICA
+  keywords: Causality, Cross-lagged panel network (CLPN) models, Spurious effects, Symptoms of depression and anxiety, Triangulation,
+    Humans, Causality, Models, Statistical, Depression, Anxiety
+  open_access: Gold OA
+  id: sorjonen_2025_cross
+  pub_type: original
+  date: '2025-10-01'
+- title: 'The Spurious Prospective Associations Model (SPAM): Explaining longitudinal associations due to statistical artifacts'
+  authors: Kimmo Sorjonen, Bo Melin, Gustav Nilsonne
+  year: 2025
+  doi: 10.1371/journal.pone.0331609
+  journal: PLOS One
+  links: {}
+  date: '2025-09-02'
 - title: 'Stakeholders’ perceptions of the synergy between intellectual property and open science: A cross-sectional survey'
   authors: Sharma G, Fritz C, Baccigotti A, Stoev P, Alavi M, Škorić L, Papadopoulou Skarp F, Priess-Buchheit J, Nilsonne
     G
@@ -516,6 +543,59 @@ publications:
   open_access: Gold OA
   id: sharma_2025_stakeholders
   pub_type: original
+  date: '2025-08-07'
+- title: 'Exhaustion Disorder in Primary Care: A Comparison With Major Depressive Disorder and Adjustment Disorder'
+  journal: Scandinavian Journal of Psychology
+  doi: 10.1111/sjop.13087
+  year: 2024
+  authors: Sennerstam V, Hedman-Lagerlöf E, Nilsonne G, Lekander M, Rück C, Wallert J, Axelsson E, Lindsäter E
+  links: {}
+  volume: '66'
+  issue: '3'
+  pages: 315-326
+  pmid: '39648299'
+  issn: 0036-5564
+  eissn: 1467-9450
+  publication_date: 2025-06
+  online_date: '2024-12-08'
+  acceptance_date: '2024-11-26'
+  canonical_journal: SCANDINAVIAN JOURNAL OF PSYCHOLOGY
+  keywords: adjustment disorder, depression, exhaustion disorder, psychological burnout, psychological stress, Humans, Major
+    Depressive Disorder, Male, Female, Adult, Middle Aged, Adjustment Disorders, Fatigue, Sweden, Primary Health Care, Aged
+  open_access: Open Access
+  rims_id: '895973'
+  id: sennerstam_2024_exhaustion
+  pub_type: original
+  date: '2025-06-01'
+- title: Results reporting for clinical trials led by medical universities and university hospitals in the Nordic countries
+    was often missing or delayed
+  journal: Journal of Clinical Epidemiology
+  doi: 10.1016/j.jclinepi.2025.111710
+  year: 2025
+  authors: Nilsonne G, Wieschowski S, DeVito NJ, Salholz-Hillel M, Ahnström L, Bruckner T, Klas K, Suljic T, Yerunkar S, Olsson
+    N, Cruz C, Strzebonska K, Småbrekke L, Wasylewski MT, Bengtsson J, Ringsten M, Schuster A, Krawczyk T, Paraskevas T, Raittio
+    E, Herczeg L, Hesselberg J-O, Karlsson S, Borana R, Bruschettini M, Mulinari S, Lizárraga K, Siebert M, Hildebrand N,
+    Ramakrishnan S, Janiaud P, Zavalis E, Franzen D, Boesen K, Hemkens LG, Naudet F, Possmark S, Willén RM, Ioannidis JPA,
+    Strech D, Axfors C
+  links:
+    preprint: https://doi.org/10.1101/2024.02.04.24301363
+  volume: '181'
+  pages: 111710-111710
+  pmid: '39900256'
+  issn: 0895-4356
+  eissn: 1878-5921
+  publication_date: 2025-05
+  online_date: 2025-02
+  acceptance_date: '2025-01-29'
+  canonical_journal: JOURNAL OF CLINICAL EPIDEMIOLOGY
+  keywords: Clinical trials, Evidence-based medicine, Metascience, Missing results, Publication bias, Trial registration,
+    Humans, Clinical Trials as Topic, Cross-Sectional Studies, Hospitals, University, Registries, Scandinavian and Nordic
+    Countries, Schools, Medical, Universities
+  open_access: Hybrid OA
+  rims_id: '903207'
+  id: nilsonne_2025_results
+  pub_type: original
+  date: '2025-05-01'
 - title: 'Same data, different analysts: variation in effect sizes due to analytical decisions in ecology and evolutionary
     biology'
   journal: BMC Biology.
@@ -569,94 +649,30 @@ publications:
   rims_id: '904181'
   id: gould_2025_same
   pub_type: original
-- title: Results reporting for clinical trials led by medical universities and university hospitals in the Nordic countries
-    was often missing or delayed
-  journal: Journal of Clinical Epidemiology
-  doi: 10.1016/j.jclinepi.2025.111710
-  year: 2025
-  authors: Nilsonne G, Wieschowski S, DeVito NJ, Salholz-Hillel M, Ahnström L, Bruckner T, Klas K, Suljic T, Yerunkar S, Olsson
-    N, Cruz C, Strzebonska K, Småbrekke L, Wasylewski MT, Bengtsson J, Ringsten M, Schuster A, Krawczyk T, Paraskevas T, Raittio
-    E, Herczeg L, Hesselberg J-O, Karlsson S, Borana R, Bruschettini M, Mulinari S, Lizárraga K, Siebert M, Hildebrand N,
-    Ramakrishnan S, Janiaud P, Zavalis E, Franzen D, Boesen K, Hemkens LG, Naudet F, Possmark S, Willén RM, Ioannidis JPA,
-    Strech D, Axfors C
-  links:
-    preprint: https://doi.org/10.1101/2024.02.04.24301363
-  volume: '181'
-  pages: 111710-111710
-  pmid: '39900256'
-  issn: 0895-4356
-  eissn: 1878-5921
-  publication_date: 2025-05
-  online_date: 2025-02
-  acceptance_date: '2025-01-29'
-  canonical_journal: JOURNAL OF CLINICAL EPIDEMIOLOGY
-  keywords: Clinical trials, Evidence-based medicine, Metascience, Missing results, Publication bias, Trial registration,
-    Humans, Clinical Trials as Topic, Cross-Sectional Studies, Hospitals, University, Registries, Scandinavian and Nordic
-    Countries, Schools, Medical, Universities
-  open_access: Hybrid OA
-  rims_id: '903207'
-  id: nilsonne_2025_results
-  pub_type: original
-- title: Cross-lagged network models do not prove causality and may be evaluated through triangulation
-  authors: Sorjonen K, Melin B, Nilsonne G
-  journal: Acta Psychologica
-  doi: 10.1016/j.actpsy.2025.105562
-  year: 2025
-  volume: '260'
-  pages: '105562'
+  date: '2025-02-06'
+- title: 'Longevity biomarkers: applications and limitations'
+  journal: ResearchHub
+  doi: 10.55277/ResearchHub.rb3ck05l
+  authors: Shrike BT, Nilsonne G, Weisser V, Aimbetov R
   links: {}
-  rims_id: '1059947'
-  pmid: '40945146'
-  issn: 0001-6918
-  eissn: 1873-6297
-  publication_date: 2025-10
-  online_date: '2025-09-12'
-  acceptance_date: '2025-09-08'
-  canonical_journal: ACTA PSYCHOLOGICA
-  keywords: Causality, Cross-lagged panel network (CLPN) models, Spurious effects, Symptoms of depression and anxiety, Triangulation,
-    Humans, Causality, Models, Statistical, Depression, Anxiety
-  open_access: Gold OA
-  id: sorjonen_2025_cross
-  pub_type: original
-- title: Understanding the provenance and quality of methods is essential for responsible reuse of FAIR data
-  journal: Nature Medicine
-  year: 2024
-  authors: Weissgerber TL, Gazda MA, Nilsonne G, et al
-  links: {}
-  id: weissgerber_2024_understanding
+  id: shrike_nd_longevity
   pub_type: review
-  doi: 10.1038/s41591-024-02879-x
-- title: The past, present, and future of the brain imaging data structure (BIDS)
-  journal: Imaging Neuroscience
-  doi: 10.1162/imag_a_00103
+  date: '2025-01-21'
+  year: 2025
+- title: Altered Empathy Processing in Frontotemporal Dementia
+  journal: JAMA Network Open
+  doi: 10.1001/jamanetworkopen.2024.48601
   year: 2024
-  authors: Poldrack RA, Markiewicz CJ, Appelhoff S, Ashar YK, Auer T, Baillet S, Bansal S, Beltrachini L, Benar CG, Bertazzoli
-    G, Bhogawar S, Blair RW, Bortoletto M, Boudreau M, Brooks TL, Calhoun VD, Castelli FM, Clement P, Cohen AL, Cohen-Adad
-    J, D'Ambrosio S, de Hollander G, de la Iglesia-Vayá M, de la Vega A, Delorme A, Devinsky O, Draschkow D, Duff EP, DuPre
-    E, Earl E, Esteban O, Feingold FW, Flandin G, Galassi A, Gallitto G, Ganz M, Gau R, Gholam J, Ghosh SS, Giacomel A, Gillman
-    AG, Gleeson P, Gramfort A, Guay S, Guidali G, Halchenko YO, Handwerker DA, Hardcastle N, Herholz P, Hermes D, Honey CJ,
-    Innis RB, Ioanas H-I, Jahn A, Karakuzu A, Keator DB, Kiar G, Kincses B, Laird AR, Lau JC, Lazari A, Legarreta JH, Li A,
-    Li X, Love BC, Lu H, Marcantoni E, Maumet C, Mazzamuto G, Meisler SL, Mikkelsen M, Mutsaerts H, Nichols TE, Nikolaidis
-    A, Nilsonne G, Niso G, Norgaard M, Okell TW, Oostenveld R, Ort E, Park PJ, Pawlik M, Pernet CR, Pestilli F, Petr J, Phillips
-    C, Poline J-B, Pollonini L, Raamana PR, Ritter P, Rizzo G, Robbins KA, Rockhill AP, Rogers C, Rokem A, Rorden C, Routier
-    A, Saborit-Torres JM, Salo T, Schirner M, Smith RE, Spisak T, Sprenger J, Swann NC, Szinte M, Takerkart S, Thirion B,
-    Thomas AG, Torabian S, Varoquaux G, Voytek B, Welzel J, Wilson M, Yarkoni T, Gorgolewski KJ
+  authors: Lindberg O, Li T-Q, Lind C, Vestberg S, Almkvist O, Stiernstedt M, Ericson A, Bogdanovic N, Hansson O, Harper L,
+    Westman E, Graff C, Tsevis T, Mannfolk P, Fischer H, Nilsonne G, Petrovic P, Nyberg L, Wahlund L-O, Santillo AF
   links:
-    preprint: https://doi.org/10.48550/arXiv.2309.05768
-  volume: '2'
-  pages: 1-19
-  pmid: '39308505'
-  issn: 2837-6056
-  eissn: 2837-6056
-  publication_date: '2024-03-01'
-  online_date: '2024-03-08'
-  acceptance_date: '2024-01-09'
-  canonical_journal: Imaging Neuroscience
-  keywords: data organization, neuroimaging, neuroinformatics, standards
-  open_access: Open Access
-  rims_id: '884107'
-  id: poldrack_2024_past
-  pub_type: review
+    preprint: https://doi.org/10.1101/2024.03.21.586051
+  id: lindberg_2024_altered
+  pub_type: original
+  volume: '7'
+  issue: '12'
+  pages: e2448601
+  date: '2024-12-03'
 - title: 'The International Climate Psychology Collaboration: Climate change-related data collected from 63 countries'
   journal: Scientific Data
   doi: 10.1038/s41597-024-03865-1
@@ -702,39 +718,7 @@ publications:
   rims_id: '885401'
   id: doell_2024_international
   pub_type: original
-- title: Subjective Evidence Evaluation Survey For Multi-Analyst Studies
-  journal: Royal Society Open Science
-  doi: 10.1098/rsos.240125
-  year: 2024
-  authors: Sarafoglou A, Hoogeveen S, van den Bergh D, Aczel B, Albers CJ, Althoff T, Botvinik-Nezer R, Busch NA, Cataldo
-    AM, Devezer B, van Dongen NNN, Dreber A, Fried EI, Hoekstra R, Hoffman S, Holzmeister F, Huber J, Huntington-Klein N,
-    Ioannidis J, Johannesson M, Kirchler M, Loken E, Mangin J-F, Matzke D, Menkveld AJ, Nilsonne G, van Ravenzwaaij D, Schweinsberg
-    M, Schulz-Kuempel H, Shanks DR, Simons DJ, Spellman BA, Stoevenbelt AH, Szaszi B, Trübutschek D, Tuerlinckx F, Uhlmann
-    EL, Vanpaemel W, Wicherts J, Wagenmakers E-J
-  links:
-    preprint: https://doi.org/10.31234/osf.io/mxje3
-  volume: '11'
-  issue: '7'
-  pages: '240125'
-  pmid: '39050728'
-  issn: 2054-5703
-  eissn: 2054-5703
-  publication_date: 2024-07
-  online_date: '2024-07-24'
-  acceptance_date: '2024-04-22'
-  canonical_journal: ROYAL SOCIETY OPEN SCIENCE
-  keywords: crowdsourcing analysis, metascience, open science, scientific transparency, team science
-  open_access: Open Access
-  rims_id: '879131'
-  id: sarafoglou_2024_subjective
-  pub_type: original
-- title: Registrering och rapportering av kliniska studier kan bli bättre
-  journal: Läkartidningen
-  year: 2024
-  authors: Axfors C, Nilsonne G
-  links: {}
-  id: axfors_2024_registrering
-  pub_type: review
+  date: '2024-10-01'
 - title: 'Questioning the Reciprocal Effects Model of Academic Self-Concept and Achievement: A Reanalysis of a Meta-Analysis
     of Longitudinal Studies and a Simulation'
   authors: Sorjonen K, Ingre M, Melin B, Nilsonne G
@@ -758,6 +742,7 @@ publications:
   open_access: Gold OA
   id: sorjonen_2024_questioning
   pub_type: review
+  date: '2024-10-01'
 - title: One hundred years of EEG for brain and behaviour research
   journal: Nature Human Behaviour
   doi: 10.1038/s41562-024-01941-5
@@ -786,64 +771,34 @@ publications:
   rims_id: '880846'
   id: mushtaq_2024_one
   pub_type: review
-- title: 'Exhaustion Disorder in Primary Care: A Comparison With Major Depressive Disorder and Adjustment Disorder'
-  journal: Scandinavian Journal of Psychology
-  doi: 10.1111/sjop.13087
+  date: '2024-08-22'
+- title: Subjective Evidence Evaluation Survey For Multi-Analyst Studies
+  journal: Royal Society Open Science
+  doi: 10.1098/rsos.240125
   year: 2024
-  authors: Sennerstam V, Hedman-Lagerlöf E, Nilsonne G, Lekander M, Rück C, Wallert J, Axelsson E, Lindsäter E
-  links: {}
-  volume: '66'
-  issue: '3'
-  pages: 315-326
-  pmid: '39648299'
-  issn: 0036-5564
-  eissn: 1467-9450
-  publication_date: 2025-06
-  online_date: '2024-12-08'
-  acceptance_date: '2024-11-26'
-  canonical_journal: SCANDINAVIAN JOURNAL OF PSYCHOLOGY
-  keywords: adjustment disorder, depression, exhaustion disorder, psychological burnout, psychological stress, Humans, Major
-    Depressive Disorder, Male, Female, Adult, Middle Aged, Adjustment Disorders, Fatigue, Sweden, Primary Health Care, Aged
+  authors: Sarafoglou A, Hoogeveen S, van den Bergh D, Aczel B, Albers CJ, Althoff T, Botvinik-Nezer R, Busch NA, Cataldo
+    AM, Devezer B, van Dongen NNN, Dreber A, Fried EI, Hoekstra R, Hoffman S, Holzmeister F, Huber J, Huntington-Klein N,
+    Ioannidis J, Johannesson M, Kirchler M, Loken E, Mangin J-F, Matzke D, Menkveld AJ, Nilsonne G, van Ravenzwaaij D, Schweinsberg
+    M, Schulz-Kuempel H, Shanks DR, Simons DJ, Spellman BA, Stoevenbelt AH, Szaszi B, Trübutschek D, Tuerlinckx F, Uhlmann
+    EL, Vanpaemel W, Wicherts J, Wagenmakers E-J
+  links:
+    preprint: https://doi.org/10.31234/osf.io/mxje3
+  volume: '11'
+  issue: '7'
+  pages: '240125'
+  pmid: '39050728'
+  issn: 2054-5703
+  eissn: 2054-5703
+  publication_date: 2024-07
+  online_date: '2024-07-24'
+  acceptance_date: '2024-04-22'
+  canonical_journal: ROYAL SOCIETY OPEN SCIENCE
+  keywords: crowdsourcing analysis, metascience, open science, scientific transparency, team science
   open_access: Open Access
-  rims_id: '895973'
-  id: sennerstam_2024_exhaustion
+  rims_id: '879131'
+  id: sarafoglou_2024_subjective
   pub_type: original
-- title: 'EEGManyPipelines: A Large-scale, Grassroots Multi-analyst Study of Electroencephalography Analysis Practices in
-    the Wild'
-  journal: Journal of Cognitive Neuroscience
-  doi: 10.1162/jocn_a_02087
-  year: 2024
-  authors: Trübutschek D, Yang Y-F, Gianelli C, Cesnaite E, Fischer NL, Vinding MC, Marshall TR, Algermissen J, Pascarella
-    A, Puoliväli T, Vitale A, Busch NA, Nilsonne G
-  links:
-    preprint: https://doi.org/10.31222/osf.io/jq342
-  volume: '36'
-  issue: '2'
-  pages: 217-224
-  pmid: '38010291'
-  issn: 0898-929X
-  eissn: 1530-8898
-  publication_date: '2024-02-01'
-  online_date: '2024-02-01'
-  canonical_journal: JOURNAL OF COGNITIVE NEUROSCIENCE
-  keywords: Humans, Reproducibility of Results, Electroencephalography, Research Design
-  open_access: Hybrid OA
-  rims_id: '835423'
-  id: trübutschek_2024_eegmanypipelines
-  pub_type: review
-- title: Altered Empathy Processing in Frontotemporal Dementia
-  journal: JAMA Network Open
-  doi: 10.1001/jamanetworkopen.2024.48601
-  year: 2024
-  authors: Lindberg O, Li T-Q, Lind C, Vestberg S, Almkvist O, Stiernstedt M, Ericson A, Bogdanovic N, Hansson O, Harper L,
-    Westman E, Graff C, Tsevis T, Mannfolk P, Fischer H, Nilsonne G, Petrovic P, Nyberg L, Wahlund L-O, Santillo AF
-  links:
-    preprint: https://doi.org/10.1101/2024.03.21.586051
-  id: lindberg_2024_altered
-  pub_type: original
-  volume: '7'
-  issue: '12'
-  pages: e2448601
+  date: '2024-07-01'
 - title: A formal model accounting for measurement reliability shows attenuated effect of higher education on intelligence
     in longitudinal data
   journal: Royal Society Open Science
@@ -867,6 +822,180 @@ publications:
   rims_id: '866365'
   id: eriksson_2024_formal
   pub_type: original
+  date: '2024-05-01'
+- title: Understanding the provenance and quality of methods is essential for responsible reuse of FAIR data
+  journal: Nature Medicine
+  year: 2024
+  authors: Weissgerber TL, Gazda MA, Nilsonne G, et al
+  links: {}
+  id: weissgerber_2024_understanding
+  pub_type: review
+  doi: 10.1038/s41591-024-02879-x
+  date: '2024-05-01'
+- title: 'Inconclusive evidence for an increasing effect of maternal supportiveness on childhood intelligence in Dunkel et
+    al. (2023): A simulated reanalysis'
+  journal: Intelligence
+  doi: 10.1016/j.intell.2024.101815
+  year: 2023
+  authors: Sorjonen K, Melin B, Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/945hb
+  volume: '104'
+  pages: 101815-101815
+  issn: 0160-2896
+  eissn: 1873-7935
+  publication_date: '2024'
+  canonical_journal: INTELLIGENCE
+  keywords: Cross-lagged panel model, Intelligence, Latent change score model, Maternal supportiveness, Reanalysis, Regression
+    to the mean, Residual confounding, Simulation
+  open_access: Closed Access
+  rims_id: '857789'
+  id: sorjonen_2023_inconclusive
+  pub_type: original
+  date: '2024-05-01'
+- title: 'Breastfeeding, cognitive ability, and residual confounding: A comment on Pereyra-Elìas et al. (2022)'
+  journal: PLoS ONE
+  doi: 10.1371/journal.pone.0297216
+  year: 2022
+  authors: Sorjonen K, Nilsonne G, Ingre M, Melin B
+  links:
+    preprint: https://doi.org/10.31234/osf.io/gkftq
+  volume: '19'
+  issue: '3'
+  pages: e0297216-e0297216
+  pmid: '38536796'
+  issn: 1932-6203
+  eissn: 1932-6203
+  publication_date: '2024'
+  online_date: '2024-03-27'
+  acceptance_date: '2023-12-29'
+  canonical_journal: PLOS ONE
+  keywords: Child, Female, Humans, Breast Feeding, Educational Status, Cognition, Family, Employment
+  open_access: Open Access
+  rims_id: '854390'
+  id: sorjonen_2022_breastfeeding
+  pub_type: original
+  date: '2024-03-27'
+- title: The past, present, and future of the brain imaging data structure (BIDS)
+  journal: Imaging Neuroscience
+  doi: 10.1162/imag_a_00103
+  year: 2024
+  authors: Poldrack RA, Markiewicz CJ, Appelhoff S, Ashar YK, Auer T, Baillet S, Bansal S, Beltrachini L, Benar CG, Bertazzoli
+    G, Bhogawar S, Blair RW, Bortoletto M, Boudreau M, Brooks TL, Calhoun VD, Castelli FM, Clement P, Cohen AL, Cohen-Adad
+    J, D'Ambrosio S, de Hollander G, de la Iglesia-Vayá M, de la Vega A, Delorme A, Devinsky O, Draschkow D, Duff EP, DuPre
+    E, Earl E, Esteban O, Feingold FW, Flandin G, Galassi A, Gallitto G, Ganz M, Gau R, Gholam J, Ghosh SS, Giacomel A, Gillman
+    AG, Gleeson P, Gramfort A, Guay S, Guidali G, Halchenko YO, Handwerker DA, Hardcastle N, Herholz P, Hermes D, Honey CJ,
+    Innis RB, Ioanas H-I, Jahn A, Karakuzu A, Keator DB, Kiar G, Kincses B, Laird AR, Lau JC, Lazari A, Legarreta JH, Li A,
+    Li X, Love BC, Lu H, Marcantoni E, Maumet C, Mazzamuto G, Meisler SL, Mikkelsen M, Mutsaerts H, Nichols TE, Nikolaidis
+    A, Nilsonne G, Niso G, Norgaard M, Okell TW, Oostenveld R, Ort E, Park PJ, Pawlik M, Pernet CR, Pestilli F, Petr J, Phillips
+    C, Poline J-B, Pollonini L, Raamana PR, Ritter P, Rizzo G, Robbins KA, Rockhill AP, Rogers C, Rokem A, Rorden C, Routier
+    A, Saborit-Torres JM, Salo T, Schirner M, Smith RE, Spisak T, Sprenger J, Swann NC, Szinte M, Takerkart S, Thirion B,
+    Thomas AG, Torabian S, Varoquaux G, Voytek B, Welzel J, Wilson M, Yarkoni T, Gorgolewski KJ
+  links:
+    preprint: https://doi.org/10.48550/arXiv.2309.05768
+  volume: '2'
+  pages: 1-19
+  pmid: '39308505'
+  issn: 2837-6056
+  eissn: 2837-6056
+  publication_date: '2024-03-01'
+  online_date: '2024-03-08'
+  acceptance_date: '2024-01-09'
+  canonical_journal: Imaging Neuroscience
+  keywords: data organization, neuroimaging, neuroinformatics, standards
+  open_access: Open Access
+  rims_id: '884107'
+  id: poldrack_2024_past
+  pub_type: review
+  date: '2024-03-08'
+- title: 'Addressing Climate Change with Behavioral Science: A Global Intervention Tournament in 63 Countries'
+  journal: Science Advances
+  doi: 10.1126/sciadv.adj5778
+  authors: Vlasceanu M, Doell KC, Bak-Coleman JB, Todorova B, Berkebile-Weinberg MM, Grayson SJ, Patel Y, Goldwert D, Pei
+    Y, Chakroff A, Pronizius E, van den Broek KL, Vlasceanu D, Constantino S, Morais MJ, Schumann P, Rathje S, Fang K, Aglioti
+    SM, Alfano M, Alvarado-Yepez AJ, Andersen A, Anseel F, Apps MAJ, Asadli C, Awuor FJ, Azevedo F, Basaglia P, Bélanger JJ,
+    Berger S, Bertin P, Białek M, Bialobrzeska O, Blaya-Burgo M, Bleize DNM, Bø S, Boecker L, Boggio PS, Borau S, Bos B, Bouguettaya
+    A, Brauer M, Brick C, Brik T, Briker R, Brosch T, Buchel O, Buonauro D, Butalia R, Carvacho H, Chamberlain SAE, Chan H-Y,
+    Chow D, Chung D, Cian L, Cohen-Eick N, Contreras-Huerta LS, Contu D, Cristea V, Cutler J, D'Ottone S, De Keersmaecker
+    J, Delcourt S, Delouvée S, Diel K, Douglas BD, Drupp MA, Dubey S, Ekmanis J, Elbaek CT, Elsherif M, Engelhard IM, Escher
+    YA, Etienne TW, Farage L, Farias AR, Feuerriegel S, Findor A, Freira L, Friese M, Gains NP, Gallyamova A, Geiger SJ, Genschow
+    O, Gjoneska B, Gkinopoulos T, Goldberg B, Goldenberg A, Gradidge S, Grassini S, Gray K, Grelle S, Griffin SM, Grigoryan
+    L, Grigoryan A, Grigoryev D, Gruber J, Guilaran J, Hadar B, Hahnel UJJ, Halperin E, Harvey AJ, Haugestad CAP, Herman AM,
+    Hershfield HE, Himichi T, Hine DW, Hofmann W, Howe L, Huaman-Chulluncuy ET, Huang G, Ishii T, Ito A, Jia F, Jost JT, Jovanović
+    V, Jurgiel D, Kácha O, Kankaanpää R, Kantorowicz J, Kantorowicz-Reznichenko E, Kaplan Mintz K, Kaya I, Kaya O, Khachatryan
+    N, Klas A, Klein C, Klöckner CA, Koppel L, Kosachenko AI, Kothe EJ, Krebs R, Krosch AR, Krouwel APM, Kyrychenko Y, Lagomarsino
+    M, Lamm C, Lange F, Lee Cunningham J, Lees J, Leung TY, Levy N, Lockwood PL, Longoni C, López Ortega A, Loschelder DD,
+    Lu JG, Luo Y, Luomba J, Lutz AE, Majer JM, Markowitz E, Marsh AA, Mascarenhas KL, Mbilingi B, Mbungu W, McHugh C, Meijers
+    MHC, Mercier H, Mhagama FL, Michalakis K, Mikus N, Milliron S, Mitkidis P, Monge-Rodríguez FS, Mora YL, Moreau D, Motoki
+    K, Moyano M, Mus M, Navajas J, Nguyen TL, Nguyen DM, Nguyen T, Niemi L, Nijssen SRR, Nilsonne G, Nitschke JP, Nockur L,
+    Okura R, Öner S, Özdoğru AA, Palumbo H, Panagopoulos C, Panasiti MS, Pärnamets P, Paruzel-Czachura M, Pavlov YG, Payán-Gómez
+    C, Pearson AR, Pereira da Costa L, Petrowsky HM, Pfattheicher S, Pham NT, Ponizovskiy V, Pretus C, Rêgo GG, Reimann R,
+    Rhoads SA, Riano-Moreno J, Richter I, Röer JP, Rosa-Sullivan J, Ross RM, Sabherwal A, Saito T, Sarrasin O, Say N, Schmid
+    K, Schmitt MT, Schoenegger P, Scholz C, Schug MG, Schulreich S, Shreedhar G, Shuman E, Sivan S, Sjåstad H, Soliman M,
+    Soud K, Spampatti T, Sparkman G, Spasovski O, Stanley SK, Stern JA, Strahm N, Suko Y, Sul S, Syropoulos S, Taylor NC,
+    Tedaldi E, Tinghög G, Huynh LDT, Travaglino GA, Tsakiris M, Tüter İ, Tyrala M, Uluğ ÖM, Urbanek A, Valko D, van der Linden
+    S, van Schie K, van Stekelenburg A, Vanags E, Västfjäll D, Vesely S, Vintr J, Vranka M, Wanguche PO, Willer R, Wojcik
+    AD, Xu R, Yadav A, Zawisza M, Zhao X, Zhao J, Żuk D, Van Bavel JJ
+  links:
+    preprint: https://doi.org/10.31234/osf.io/cr5at
+  volume: '10'
+  issue: '6'
+  pages: eadj5778
+  pmid: '38324680'
+  issn: 2375-2548
+  eissn: 2375-2548
+  publication_date: '2024-02-09'
+  online_date: '2024-02-07'
+  canonical_journal: SCIENCE ADVANCES
+  keywords: Humans, Climate Change, Intention, Policy, Behavioral Sciences
+  open_access: Open Access
+  rims_id: '845842'
+  id: vlasceanu_nd_addressing
+  pub_type: original
+  date: '2024-02-09'
+  year: 2024
+- title: 'EEGManyPipelines: A Large-scale, Grassroots Multi-analyst Study of Electroencephalography Analysis Practices in
+    the Wild'
+  journal: Journal of Cognitive Neuroscience
+  doi: 10.1162/jocn_a_02087
+  year: 2024
+  authors: Trübutschek D, Yang Y-F, Gianelli C, Cesnaite E, Fischer NL, Vinding MC, Marshall TR, Algermissen J, Pascarella
+    A, Puoliväli T, Vitale A, Busch NA, Nilsonne G
+  links:
+    preprint: https://doi.org/10.31222/osf.io/jq342
+  volume: '36'
+  issue: '2'
+  pages: 217-224
+  pmid: '38010291'
+  issn: 0898-929X
+  eissn: 1530-8898
+  publication_date: '2024-02-01'
+  online_date: '2024-02-01'
+  canonical_journal: JOURNAL OF COGNITIVE NEUROSCIENCE
+  keywords: Humans, Reproducibility of Results, Electroencephalography, Research Design
+  open_access: Hybrid OA
+  rims_id: '835423'
+  id: trübutschek_2024_eegmanypipelines
+  pub_type: review
+  date: '2024-02-01'
+- title: Registrering och rapportering av kliniska studier kan bli bättre
+  journal: Läkartidningen
+  year: 2024
+  authors: Axfors C, Nilsonne G
+  links: {}
+  id: axfors_2024_registrering
+  pub_type: review
+  date: '2024-01-01'
+- title: 'Distorted meta-analytic findings on peer influence: A reanalysis'
+  journal: Heliyon
+  doi: 10.1016/j.heliyon.2023.e21458
+  year: 2023
+  authors: Sorjonen K, Nilsonne G, Melin B
+  links:
+    preprint: https://doi.org/10.31234/osf.io/szkt8
+  id: sorjonen_2023_distorted
+  pub_type: review
+  date: '2023-11-01'
 - title: 'Unmasking artifactual links: A reanalysis reveals No direct causal relationship between self-esteem and quality
     of social relations'
   journal: Heliyon
@@ -876,26 +1005,129 @@ publications:
   id: sorjonen_2023_unmasking
   pub_type: original
   doi: 10.1016/j.heliyon.2023.e20397
-- title: 'Uncertain inference in random intercept cross-lagged panel models: An example involving need for cognition and anxiety
-    and depression symptoms'
+  date: '2023-10-01'
+- title: 'Spurious heritability of ability tilts: A comment on Coyle et al. (2023)'
   journal: Personality and Individual Differences
-  doi: 10.1016/j.paid.2022.111925
+  doi: 10.31234/osf.io/kds5c
   year: 2023
-  authors: Sorjonen K, Nilsonne G, Melin B, Ingre M
+  authors: Sorjonen K, Melin B, Nilsonne G
   links:
-    preprint: https://doi.org/10.31234/osf.io/2a5gp
-  volume: '201'
-  pages: 111925-111925
-  issn: 0191-8869
-  eissn: 1873-3549
-  publication_date: 2023-02
-  canonical_journal: PERSONALITY AND INDIVIDUAL DIFFERENCES
-  keywords: Anxiety and depression symptoms, Need for cognition, Random intercept cross-lagged panel model, (RI-CLPM), Spurious
-    effects, Stable trait autoregressive trait state, (STARTS) model
-  open_access: Hybrid OA
-  rims_id: '611590'
-  id: sorjonen_2023_uncertain
+    preprint: https://doi.org/10.31234/osf.io/kds5c
+  id: sorjonen_2023_spurious
   pub_type: original
+  date: '2023-09-18'
+- title: A many-analysts approach to the relation between religiosity and well-being
+  journal: Religion, Brain & Behavior
+  doi: 10.1080/2153599X.2022.2070255
+  year: 2022
+  authors: Hoogeveen S, Sarafoglou A, Aczel B, Aditya Y, Alayan AJ, Allen PJ, Altay S, Alzahawi S, Amir Y, Anthony F-V, Appiah
+    OK, Atkinson QD, Baimel A, Balkaya-Ince M, Balsamo M, Banker S, Bartos F, Becerra M, Beffara B, Beitner J, Bendixen T,
+    Berkessel JB, Berniunas R, Billet MI, Billingsley J, Bortolini T, Breitsohl H, Bret A, Brown FL, Brown J, Brumbaugh CC,
+    Buczny J, Bulbulia J, Caballero S, Carlucci L, Carmichael CL, Cattaneo MEGV, Charles SJ, Claessens S, Panagopoulos MC,
+    Costa AB, Crone DL, Czoschke S, Czymara C, D'Urso ED, Dahlstrom O, Dalla Rosa A, Danielsson H, De Ron J, de Vries YA,
+    Dean KK, Dik BJ, Disabato DJ, Doherty JK, Draws T, Drouhot L, Dujmovic M, Dunham Y, Ebert T, Edelsbrunner PA, Eerland
+    A, Elbaek CT, Farahmand S, Farahmand H, Farias M, Feliccia AA, Fischer K, Fischer R, Fisher-Thompson D, Francis Z, Frick
+    S, Frisch LK, Geraldes D, Gerdin E, Geven L, Ghasemi O, Gielens E, Gligoric V, Hagel K, Hajdu N, Hamilton HR, Hamzah I,
+    Hanel PHP, Hawk CE, Himawan KK, Holding BC, Homman LE, Ingendahl M, Inkila H, Inman ML, Islam C-G, Isler O, Izydorczyk
+    D, Jaeger B, Johnson KA, Jong J, Karl JA, Kaszubowski E, Katz BA, Keefer LA, Kelchtermans S, Kelly JM, Klein RA, Kleinberg
+    B, Knowles ML, Kolczynska M, Koller D, Krasko J, Kritzler S, Krypotos A-M, Kyritsis T, Landes TL, Laukenmann R, Forsyth
+    GAL, Lazar A, Lehman BJ, Levy N, Lo RF, Lodder P, Lorenz J, Lowicki P, Ly AL, Maassen E, Magyar-Russell GM, Maier M, Marsh
+    DR, Martinez N, Martinie M, Martoyo I, Mason SE, Mauritsen AL, McAleer P, McCauley T, McCullough M, McKay R, McMahon CM,
+    McNamara AA, Means KK, Mercier B, Mitkidis P, Monin B, Moon JW, Moreau D, Morgan J, Murphy J, Muscatt G, Nagel C, Nagy
+    T, Nalborczyk L, Nilsonne G, Noack P, Norenzayan A, Nuijten MB, Olsson-Collentine A, Oviedo L, Pavlov YG, Pawelski JO,
+    Pearson HI, Pedder H, Peetz HK, Pinus M, Pirutinsky S, Polito V, Porubanova M, Poulin MJ, Prenoveau JM, Prince MA, Protzko
+    J, Pryor C, Purzycki BG, Qiu L, Putter JQ, Rabelo A, Radell ML, Ramsay JE, Reid G, Roberts AJ, Luna LMR, Ross RM, Roszak
+    P, Roy N, Saarelainen S-MK, Sasaki JY, Schaumans C, Schivinski B, Schmitt MC, Schnitker SA, Schnuerch M, Schreiner MR,
+    Schuttengruber V, Sebben S, Segerstrom SC, Seryczynska B, Shjoedt U, Simsek M, Sleegers WWA, Smith ER, Sowden WJ, Spath
+    M, Sporlein C, Stedden W, Stoevenbelt AH, Stuber S, Sulik J, Suwartono C, Syropoulos S, Szaszi B, Szecsi P, Tappin BM,
+    Tay L, Thibault RT, Thompson B, Thurn CM, Torralba J, Tuthill SD, Ullein A-M, Van Aert RCM, van Assen MALM, Van Cappellen
+    P, van den Akker OR, Van der Cruyssen I, Van der Noll J, van Dongen NNN, Van Lissa CJ, van Mulukom V, van Ravenzwaaij
+    D, van Zyl CJJ, Vaughn LA, Verschuere B, Vianello M, Vilanova F, Vishkin A, Vogel V, Vogelsmeier LVDE, Watanabe S, White
+    CJM, Wiebels K, Wiechert S, Willett ZZ, Witkowiak M, Witvliet CVO, Wiwad D, Wuyts R, Xygalatas D, Yang X, Yeo DJ, Yilmaz
+    O, Zarzeczna N, Zhao Y, Zijlmans J, van Elk M, Wagenmakers E-J
+  links: {}
+  volume: '13'
+  issue: '3'
+  pages: 237-283
+  issn: 2153-599X
+  eissn: 2153-5981
+  publication_date: '2023-07-03'
+  online_date: '2022-07-06'
+  canonical_journal: RELIGION BRAIN & BEHAVIOR
+  keywords: Health, many analysts, open science, religion
+  open_access: Green OA
+  rims_id: '609816'
+  id: hoogeveen_2022_many
+  pub_type: original
+  date: '2023-07-03'
+- title: Replacing academic journals
+  journal: Royal Society Open Science
+  doi: 10.1098/rsos.230206
+  year: 2023
+  authors: Brembs B, Huneman P, Schönbrodt F, Nilsonne G, Susi T, Siems R, Perakakis P, Trachana V, Ma L, Rodriguez-Cuadrado
+    S
+  links:
+    preprint: https://doi.org/10.5281/zenodo.7974116
+  volume: '10'
+  issue: '7'
+  pages: '230206'
+  pmid: '38107166'
+  issn: 2054-5703
+  eissn: 2054-5703
+  publication_date: 2023-07
+  online_date: '2023-07-19'
+  acceptance_date: '2023-06-21'
+  canonical_journal: ROYAL SOCIETY OPEN SCIENCE
+  keywords: affordability, functionality‌, infrastructure, publishing, replicability, scholarly
+  open_access: Open Access
+  rims_id: '692627'
+  id: brembs_2023_replacing
+  pub_type: review
+  date: '2023-07-01'
+- title: 'Dangers of including outcome at baseline as a covariate in latent change score models: Results from simulations
+    and empirical re-analyses'
+  journal: Heliyon
+  doi: 10.1016/j.heliyon.2023.e15746
+  year: 2023
+  authors: Sorjonen K, Ingre M, Nilsonne G, Melin B
+  links:
+    preprint: https://doi.org/10.31234/osf.io/2sxja
+  volume: '9'
+  issue: '5'
+  pages: e15746-e15746
+  pmid: '37153390'
+  issn: 2405-8440
+  eissn: 2405-8440
+  publication_date: 2023-05
+  online_date: '2023-04-24'
+  acceptance_date: '2023-04-20'
+  canonical_journal: HELIYON
+  keywords: Adjustment for baseline, Latent change score modeling, Matrix reasoning, Mutualism theory of cognitive development,
+    Re-analyses, Regression to the mean, Vocabulary
+  open_access: Open Access
+  rims_id: '446095'
+  id: sorjonen_2023_dangers
+  pub_type: original
+  date: '2023-05-01'
+- title: 'Further arguments that ability tilt correlations are spurious: A reply to Coyle (2022)'
+  journal: Intelligence
+  doi: 10.1016/j.intell.2022.101706
+  year: 2022
+  authors: Sorjonen K, Ingre M, Nilsonne G, Melin B.
+  links:
+    preprint: https://doi.org/10.31234/osf.io/7vhnz
+  volume: '98'
+  pages: 101706-101706
+  issn: 0160-2896
+  eissn: 1873-7935
+  publication_date: '2023'
+  canonical_journal: INTELLIGENCE
+  keywords: Keywords, Ability tilt, Affirming the consequent, Differential investment, Modus Tollens, Spurious correlations
+  open_access: Closed Access
+  rims_id: '612201'
+  id: sorjonen_2022_melin
+  pub_type: original
+  date: '2023-05-01'
 - title: The Psychological Science Accelerator’s COVID-19 rapid-response dataset
   journal: Scientific Data
   doi: 10.1038/s41597-022-01811-7
@@ -949,38 +1181,28 @@ publications:
   rims_id: '447807'
   id: buchanan_2023_psychological
   pub_type: original
-- title: 'Spurious heritability of ability tilts: A comment on Coyle et al. (2023)'
+  date: '2023-02-11'
+- title: 'Uncertain inference in random intercept cross-lagged panel models: An example involving need for cognition and anxiety
+    and depression symptoms'
   journal: Personality and Individual Differences
-  doi: 10.31234/osf.io/kds5c
+  doi: 10.1016/j.paid.2022.111925
   year: 2023
-  authors: Sorjonen K, Melin B, Nilsonne G
+  authors: Sorjonen K, Nilsonne G, Melin B, Ingre M
   links:
-    preprint: https://doi.org/10.31234/osf.io/kds5c
-  id: sorjonen_2023_spurious
+    preprint: https://doi.org/10.31234/osf.io/2a5gp
+  volume: '201'
+  pages: 111925-111925
+  issn: 0191-8869
+  eissn: 1873-3549
+  publication_date: 2023-02
+  canonical_journal: PERSONALITY AND INDIVIDUAL DIFFERENCES
+  keywords: Anxiety and depression symptoms, Need for cognition, Random intercept cross-lagged panel model, (RI-CLPM), Spurious
+    effects, Stable trait autoregressive trait state, (STARTS) model
+  open_access: Hybrid OA
+  rims_id: '611590'
+  id: sorjonen_2023_uncertain
   pub_type: original
-- title: Replacing academic journals
-  journal: Royal Society Open Science
-  doi: 10.1098/rsos.230206
-  year: 2023
-  authors: Brembs B, Huneman P, Schönbrodt F, Nilsonne G, Susi T, Siems R, Perakakis P, Trachana V, Ma L, Rodriguez-Cuadrado
-    S
-  links:
-    preprint: https://doi.org/10.5281/zenodo.7974116
-  volume: '10'
-  issue: '7'
-  pages: '230206'
-  pmid: '38107166'
-  issn: 2054-5703
-  eissn: 2054-5703
-  publication_date: 2023-07
-  online_date: '2023-07-19'
-  acceptance_date: '2023-06-21'
-  canonical_journal: ROYAL SOCIETY OPEN SCIENCE
-  keywords: affordability, functionality‌, infrastructure, publishing, replicability, scholarly
-  open_access: Open Access
-  rims_id: '692627'
-  id: brembs_2023_replacing
-  pub_type: review
+  date: '2023-02-01'
 - title: Olika slutsatser från samma data
   journal: Läkartidningen
   year: 2023
@@ -988,77 +1210,7 @@ publications:
   links: {}
   id: nilsonne_2023_olika
   pub_type: review
-- title: 'Inconclusive evidence for an increasing effect of maternal supportiveness on childhood intelligence in Dunkel et
-    al. (2023): A simulated reanalysis'
-  journal: Intelligence
-  doi: 10.1016/j.intell.2024.101815
-  year: 2023
-  authors: Sorjonen K, Melin B, Nilsonne G
-  links:
-    preprint: https://doi.org/10.31234/osf.io/945hb
-  volume: '104'
-  pages: 101815-101815
-  issn: 0160-2896
-  eissn: 1873-7935
-  publication_date: '2024'
-  canonical_journal: INTELLIGENCE
-  keywords: Cross-lagged panel model, Intelligence, Latent change score model, Maternal supportiveness, Reanalysis, Regression
-    to the mean, Residual confounding, Simulation
-  open_access: Closed Access
-  rims_id: '857789'
-  id: sorjonen_2023_inconclusive
-  pub_type: original
-- title: 'Distorted meta-analytic findings on peer influence: A reanalysis'
-  journal: Heliyon
-  doi: 10.1016/j.heliyon.2023.e21458
-  year: 2023
-  authors: Sorjonen K, Nilsonne G, Melin B
-  links:
-    preprint: https://doi.org/10.31234/osf.io/szkt8
-  id: sorjonen_2023_distorted
-  pub_type: review
-- title: 'Dangers of including outcome at baseline as a covariate in latent change score models: Results from simulations
-    and empirical re-analyses'
-  journal: Heliyon
-  doi: 10.1016/j.heliyon.2023.e15746
-  year: 2023
-  authors: Sorjonen K, Ingre M, Nilsonne G, Melin B
-  links:
-    preprint: https://doi.org/10.31234/osf.io/2sxja
-  volume: '9'
-  issue: '5'
-  pages: e15746-e15746
-  pmid: '37153390'
-  issn: 2405-8440
-  eissn: 2405-8440
-  publication_date: 2023-05
-  online_date: '2023-04-24'
-  acceptance_date: '2023-04-20'
-  canonical_journal: HELIYON
-  keywords: Adjustment for baseline, Latent change score modeling, Matrix reasoning, Mutualism theory of cognitive development,
-    Re-analyses, Regression to the mean, Vocabulary
-  open_access: Open Access
-  rims_id: '446095'
-  id: sorjonen_2023_dangers
-  pub_type: original
-- title: Spurious correlations in research on ability tilt
-  journal: Personality and Individual Differences
-  doi: 10.1016/j.paid.2021.111268
-  year: 2022
-  authors: Sorjonen K, Nilsonne G, Ingre M, Melin B
-  links:
-    preprint: https://doi.org/10.31234/osf.io/cg8hd
-  volume: '185'
-  pages: 111268-111268
-  issn: 0191-8869
-  eissn: 1873-3549
-  publication_date: 2022-02
-  canonical_journal: PERSONALITY AND INDIVIDUAL DIFFERENCES
-  keywords: Ability tilt, Differential investment, Spurious correlations, Statistical expectations
-  open_access: Hybrid OA
-  rims_id: '611594'
-  id: sorjonen_2022_spurious
-  pub_type: original
+  date: '2023-01-01'
 - title: 'Regression to the mean in latent change score models: an example involving breastfeeding and intelligence'
   journal: BMC Pediatrics
   doi: 10.1186/s12887-022-03349-4
@@ -1083,29 +1235,7 @@ publications:
   rims_id: '453356'
   id: sorjonen_2022_regression
   pub_type: original
-- title: 'Questioning the vulnerability model: Prospective associations between low self-esteem and subsequent degree of depression
-    may be spurious'
-  journal: Journal of Affective Disorders
-  doi: 10.1016/j.jad.2022.08.003
-  year: 2022
-  authors: Sorjonen K, Nilsonne G, Ingre M, Melin B
-  links:
-    preprint: https://doi.org/10.31234/osf.io/4kcma
-  volume: '315'
-  pages: 259-266
-  pmid: '35952930'
-  issn: 0165-0327
-  eissn: 1573-2517
-  publication_date: '2022-10-15'
-  online_date: '2022-08-08'
-  acceptance_date: '2022-08-01'
-  canonical_journal: JOURNAL OF AFFECTIVE DISORDERS
-  keywords: Cross-lagged panel model, Depression ratings, Latent change score model, Regression toward the mean, Self-esteem,
-    Vulnerability model, Causality, Depression, Humans, Longitudinal Studies, Self Concept, Sexual Behavior
-  open_access: Hybrid OA
-  rims_id: '451581'
-  id: sorjonen_2022_questioning
-  pub_type: original
+  date: '2022-12-01'
 - title: Planning preclinical confirmatory multicenter trials to strengthen translation from basic to clinical research –
     a multi-stakeholder workshop report
   journal: Translational Medicine Communications
@@ -1130,37 +1260,31 @@ publications:
   rims_id: '733238'
   id: drude_2022_planning
   pub_type: review
-- title: 'Microscopy-BIDS: an extension to the Brain Imaging Data Structure for Microscopy Data'
-  journal: Frontiers in Neuroscience
-  doi: 10.3389/fnins.2022.871228
+  date: '2022-11-07'
+- title: 'Questioning the vulnerability model: Prospective associations between low self-esteem and subsequent degree of depression
+    may be spurious'
+  journal: Journal of Affective Disorders
+  doi: 10.1016/j.jad.2022.08.003
   year: 2022
-  authors: Bourget M-H, Kamentsky L, Ghosh S, Mazzamuto G, Lazari A, Markiewicz CJ, Oostenveld R, Niso G, Halchenko YO, Lipp
-    I, Takerkart S, Toussaint P-J, Khan AR, Nilsonne G, Castelli FM, BIDS Maintainers, Cohen-Adad J
-  links: {}
-  volume: '16'
-  pages: '871228'
-  pmid: '35516811'
-  issn: 1662-4548
-  eissn: 1662-453X
-  publication_date: '2022'
-  online_date: '2022-04-19'
-  acceptance_date: '2022-03-01'
-  canonical_journal: FRONTIERS IN NEUROSCIENCE
-  keywords: data sharing, data structure, microscopy, open science, specification, standardization
-  open_access: Open Access
-  rims_id: '453607'
-  id: bourget_2022_microscopy
-  pub_type: original
-- title: 'Lord’s paradox in latent change score modeling: an example involving facilitating longitudinal effects between intelligence
-    and academic achievement'
-  journal: Personality and Individual Differences
-  doi: 10.1016/j.paid.2021.111520
-  year: 2022
-  authors: Sorjonen K, Melin B, Nilsonne G
+  authors: Sorjonen K, Nilsonne G, Ingre M, Melin B
   links:
-    preprint: https://doi.org/10.31234/osf.io/q8bpa
-  id: sorjonen_2022_lord
+    preprint: https://doi.org/10.31234/osf.io/4kcma
+  volume: '315'
+  pages: 259-266
+  pmid: '35952930'
+  issn: 0165-0327
+  eissn: 1573-2517
+  publication_date: '2022-10-15'
+  online_date: '2022-08-08'
+  acceptance_date: '2022-08-01'
+  canonical_journal: JOURNAL OF AFFECTIVE DISORDERS
+  keywords: Cross-lagged panel model, Depression ratings, Latent change score model, Regression toward the mean, Self-esteem,
+    Vulnerability model, Causality, Depression, Humans, Longitudinal Studies, Self Concept, Sexual Behavior
+  open_access: Hybrid OA
+  rims_id: '451581'
+  id: sorjonen_2022_questioning
   pub_type: original
+  date: '2022-10-01'
 - title: 'In COVID-19 health messaging, loss framing increases anxiety with little-to-no concomitant benefits: Experimental
     evidence from 84 countries'
   journal: Affective science
@@ -1228,24 +1352,7 @@ publications:
   rims_id: '450463'
   id: dorison_2022_covid
   pub_type: original
-- title: 'Further arguments that ability tilt correlations are spurious: A reply to Coyle (2022)'
-  journal: Intelligence
-  doi: 10.1016/j.intell.2022.101706
-  year: 2022
-  authors: Sorjonen K, Ingre M, Nilsonne G, Melin B.
-  links:
-    preprint: https://doi.org/10.31234/osf.io/7vhnz
-  volume: '98'
-  pages: 101706-101706
-  issn: 0160-2896
-  eissn: 1873-7935
-  publication_date: '2023'
-  canonical_journal: INTELLIGENCE
-  keywords: Keywords, Ability tilt, Affirming the consequent, Differential investment, Modus Tollens, Spurious correlations
-  open_access: Closed Access
-  rims_id: '612201'
-  id: sorjonen_2022_melin
-  pub_type: original
+  date: '2022-09-01'
 - title: 'Exhaustion Disorder: A Scoping Review of Research on a Recently Introduced Stress-Related Diagnosis'
   journal: BJPsych Open
   doi: 10.1192/bjo.2022.559
@@ -1269,6 +1376,7 @@ publications:
   rims_id: '449246'
   id: lindsäter_2022_exhaustion
   pub_type: review
+  date: '2022-09-01'
 - title: Examining the generalizability of research findings from archival data
   journal: Proceedings of the National Academy of Sciences
   doi: 10.1073/pnas.2120377119
@@ -1278,93 +1386,31 @@ publications:
   links: {}
   id: delios_2022_examining
   pub_type: original
-- title: 'Curiosity might not help after all: Predicted trajectories for need for cognition and anxiety and depression symptoms
-    based on findings by Zainal and Newman (2022)'
-  journal: Journal of Affective Disorders
-  doi: 10.1016/j.jad.2022.01.109
-  year: 2022
-  authors: Sorjonen K, Nilsonne G, Ingre M, Melin B
+  date: '2022-07-26'
+- title: 'Discrepancy review: A feasibility study of a novel peer review intervention to reduce undisclosed discrepancies
+    between registrations and publications'
+  journal: Royal Society Open Science
+  doi: 10.1098/rsos.220142
+  year: 2014
+  authors: TARG Meta-Research Group & Collaborators
   links:
-    preprint: https://doi.org/10.31234/osf.io/dh2zm
-  volume: '302'
-  pages: 412-414
-  pmid: '35114284'
-  issn: 0165-0327
-  eissn: 1573-2517
-  publication_date: '2022-04-01'
-  online_date: '2022-01-31'
-  acceptance_date: '2022-01-29'
-  canonical_journal: JOURNAL OF AFFECTIVE DISORDERS
-  keywords: Anxiety, Anxiety Disorders, Cognition, Depression, Exploratory Behavior, Humans
-  open_access: Closed Access
-  rims_id: '455752'
-  id: sorjonen_2022_curiosity
-  pub_type: original
-- title: 'Breastfeeding, cognitive ability, and residual confounding: A comment on Pereyra-Elìas et al. (2022)'
-  journal: PLoS ONE
-  doi: 10.1371/journal.pone.0297216
-  year: 2022
-  authors: Sorjonen K, Nilsonne G, Ingre M, Melin B
-  links:
-    preprint: https://doi.org/10.31234/osf.io/gkftq
-  volume: '19'
-  issue: '3'
-  pages: e0297216-e0297216
-  pmid: '38536796'
-  issn: 1932-6203
-  eissn: 1932-6203
-  publication_date: '2024'
-  online_date: '2024-03-27'
-  acceptance_date: '2023-12-29'
-  canonical_journal: PLOS ONE
-  keywords: Child, Female, Humans, Breast Feeding, Educational Status, Cognition, Family, Employment
+    preprint: https://doi.org/10.1101/2022.01.18.22269507
+  volume: '9'
+  issue: '7'
+  pages: '220142'
+  pmid: '35911195'
+  issn: 2054-5703
+  eissn: 2054-5703
+  publication_date: 2022-07
+  online_date: '2022-07-27'
+  acceptance_date: '2022-07-07'
+  canonical_journal: ROYAL SOCIETY OPEN SCIENCE
+  keywords: meta-research, outcome switching, peer review, pre-registration, selective reporting, trial registration
   open_access: Open Access
-  rims_id: '854390'
-  id: sorjonen_2022_breastfeeding
+  rims_id: '451790'
+  id: targ_2014_discrepancy
   pub_type: original
-- title: A many-analysts approach to the relation between religiosity and well-being
-  journal: Religion, Brain & Behavior
-  doi: 10.1080/2153599X.2022.2070255
-  year: 2022
-  authors: Hoogeveen S, Sarafoglou A, Aczel B, Aditya Y, Alayan AJ, Allen PJ, Altay S, Alzahawi S, Amir Y, Anthony F-V, Appiah
-    OK, Atkinson QD, Baimel A, Balkaya-Ince M, Balsamo M, Banker S, Bartos F, Becerra M, Beffara B, Beitner J, Bendixen T,
-    Berkessel JB, Berniunas R, Billet MI, Billingsley J, Bortolini T, Breitsohl H, Bret A, Brown FL, Brown J, Brumbaugh CC,
-    Buczny J, Bulbulia J, Caballero S, Carlucci L, Carmichael CL, Cattaneo MEGV, Charles SJ, Claessens S, Panagopoulos MC,
-    Costa AB, Crone DL, Czoschke S, Czymara C, D'Urso ED, Dahlstrom O, Dalla Rosa A, Danielsson H, De Ron J, de Vries YA,
-    Dean KK, Dik BJ, Disabato DJ, Doherty JK, Draws T, Drouhot L, Dujmovic M, Dunham Y, Ebert T, Edelsbrunner PA, Eerland
-    A, Elbaek CT, Farahmand S, Farahmand H, Farias M, Feliccia AA, Fischer K, Fischer R, Fisher-Thompson D, Francis Z, Frick
-    S, Frisch LK, Geraldes D, Gerdin E, Geven L, Ghasemi O, Gielens E, Gligoric V, Hagel K, Hajdu N, Hamilton HR, Hamzah I,
-    Hanel PHP, Hawk CE, Himawan KK, Holding BC, Homman LE, Ingendahl M, Inkila H, Inman ML, Islam C-G, Isler O, Izydorczyk
-    D, Jaeger B, Johnson KA, Jong J, Karl JA, Kaszubowski E, Katz BA, Keefer LA, Kelchtermans S, Kelly JM, Klein RA, Kleinberg
-    B, Knowles ML, Kolczynska M, Koller D, Krasko J, Kritzler S, Krypotos A-M, Kyritsis T, Landes TL, Laukenmann R, Forsyth
-    GAL, Lazar A, Lehman BJ, Levy N, Lo RF, Lodder P, Lorenz J, Lowicki P, Ly AL, Maassen E, Magyar-Russell GM, Maier M, Marsh
-    DR, Martinez N, Martinie M, Martoyo I, Mason SE, Mauritsen AL, McAleer P, McCauley T, McCullough M, McKay R, McMahon CM,
-    McNamara AA, Means KK, Mercier B, Mitkidis P, Monin B, Moon JW, Moreau D, Morgan J, Murphy J, Muscatt G, Nagel C, Nagy
-    T, Nalborczyk L, Nilsonne G, Noack P, Norenzayan A, Nuijten MB, Olsson-Collentine A, Oviedo L, Pavlov YG, Pawelski JO,
-    Pearson HI, Pedder H, Peetz HK, Pinus M, Pirutinsky S, Polito V, Porubanova M, Poulin MJ, Prenoveau JM, Prince MA, Protzko
-    J, Pryor C, Purzycki BG, Qiu L, Putter JQ, Rabelo A, Radell ML, Ramsay JE, Reid G, Roberts AJ, Luna LMR, Ross RM, Roszak
-    P, Roy N, Saarelainen S-MK, Sasaki JY, Schaumans C, Schivinski B, Schmitt MC, Schnitker SA, Schnuerch M, Schreiner MR,
-    Schuttengruber V, Sebben S, Segerstrom SC, Seryczynska B, Shjoedt U, Simsek M, Sleegers WWA, Smith ER, Sowden WJ, Spath
-    M, Sporlein C, Stedden W, Stoevenbelt AH, Stuber S, Sulik J, Suwartono C, Syropoulos S, Szaszi B, Szecsi P, Tappin BM,
-    Tay L, Thibault RT, Thompson B, Thurn CM, Torralba J, Tuthill SD, Ullein A-M, Van Aert RCM, van Assen MALM, Van Cappellen
-    P, van den Akker OR, Van der Cruyssen I, Van der Noll J, van Dongen NNN, Van Lissa CJ, van Mulukom V, van Ravenzwaaij
-    D, van Zyl CJJ, Vaughn LA, Verschuere B, Vianello M, Vilanova F, Vishkin A, Vogel V, Vogelsmeier LVDE, Watanabe S, White
-    CJM, Wiebels K, Wiechert S, Willett ZZ, Witkowiak M, Witvliet CVO, Wiwad D, Wuyts R, Xygalatas D, Yang X, Yeo DJ, Yilmaz
-    O, Zarzeczna N, Zhao Y, Zijlmans J, van Elk M, Wagenmakers E-J
-  links: {}
-  volume: '13'
-  issue: '3'
-  pages: 237-283
-  issn: 2153-599X
-  eissn: 2153-5981
-  publication_date: '2023-07-03'
-  online_date: '2022-07-06'
-  canonical_journal: RELIGION BRAIN & BEHAVIOR
-  keywords: Health, many analysts, open science, religion
-  open_access: Green OA
-  rims_id: '609816'
-  id: hoogeveen_2022_many
-  pub_type: original
+  date: '2022-07-01'
 - title: A global experiment on motivating social distancing during the COVID-19 pandemic
   journal: Proceedings of the National Academy of Sciences
   doi: 10.1073/pnas.2111091119
@@ -1387,97 +1433,103 @@ publications:
   rims_id: '453146'
   id: psychological_2022_global
   pub_type: original
-- title: 'Same data, different conclusions: Radical dispersion in empirical results when independent analysts operationalize
-    and test the same hypothesis'
-  journal: Organizational Behavior and Human Decision Processes
-  doi: 10.1016/j.obhdp.2021.02.003
-  year: 2021
-  authors: Schweinsberg M, Feldman M, Staub N, van den Akker OR, van Aert RCM, van Assen MALM, Liu Y, Althoff T, Heer J, Kale
-    A, Mohamed Z, Amireh H, Prasad VV, Bernstein A, Robinson E, Snellman K, Sommer SA, Otner SMG, Robinson D, Madan N, Silberzahn
-    R, Goldstein P, Tierney W, Murase T, Mandl B, Viganola D, Strobl C, Schaumans CBC, Kelchtermans S, Naseeb C, Garrison
-    SM, Yarkoni T, Chan CSR, Adie P, Alaburda P, Albers C, Alspaugh S, Alstott J, Nelson AA, de la Rubia EA, Arzi A, Bahnik
-    S, Baik J, Balling LW, Banker S, Baranger DAA, Barr DJ, Barros-Rivera B, Bauer M, Blaise E, Boelen L, Carbonell KB, Briers
-    RA, Burkhard O, Canela M-A, Castrillo L, Catlett T, Chen O, Clark M, Cohn B, Coppock A, Cuguero-Escofet N, Curran PG,
-    Cyrus-Lai W, Dai D, Dalla Riva GV, Danielsson H, Russo RDFSM, de Silva N, Derungs C, Dondelinger F, de Souza CD, Dube
-    BT, Dubova M, Dunn BM, Edelsbrunner PA, Finley S, Fox N, Gnambs T, Gong Y, Grand E, Greenawalt B, Han D, Hanel PHP, Hong
-    AB, Hood D, Hsueh J, Huang L, Hui KN, Hultman KA, Javaid A, Jiang LJ, Jong J, Kamdar J, Kane D, Kappler G, Kaszubowski
-    E, Kavanagh CM, Khabsa M, Kleinberg B, Kouros J, Krause H, Krypotos A-M, Lavbic D, Lee RL, Leffel T, Lim WY, Liverani
-    S, Loh B, Lonsmann D, Low JW, Lu A, MacDonald K, Madan CR, Madsen LH, Maimone C, Mangold A, Marshall A, Matskewich HE,
-    Mavon K, McLain KL, McNamara AA, McNeill M, Mertens U, Miller D, Moore B, Moore A, Nantz E, Nasrullah Z, Nejkovic V, Nell
-    CS, Nelson AA, Nilsonne G, Nolan R, O'Brien CE, O'Neil P, O'Shea K, Olita T, Otterbacher J, Palsetia D, Pereira B, Pozdniakov
-    I, Protzko J, Reyt J-N, Riddle T, Ali AARO, Ropovik I, Rosenberg JM, Rothen S, Schulte-Mecklenbeck M, Sharma N, Shotwell
-    G, Skarzynski M, Stedden W, Stodden V, Stoffel MA, Stoltzman S, Subbaiah S, Tatman R, Thibodeau PH, Tomkins S, Valdivia
-    A, van de Woestijne GB, Viana L, Villeseche F, Wadsworth WD, Wanders F, Watts K, Wells JD, Whelpley CE, Won A, Wu L, Yip
-    A, Youngflesh C, Yu J-C, Zandian A, Zhang L, Zibman C, Uhlmann EL
+  date: '2022-05-31'
+- title: 'Microscopy-BIDS: an extension to the Brain Imaging Data Structure for Microscopy Data'
+  journal: Frontiers in Neuroscience
+  doi: 10.3389/fnins.2022.871228
+  year: 2022
+  authors: Bourget M-H, Kamentsky L, Ghosh S, Mazzamuto G, Lazari A, Markiewicz CJ, Oostenveld R, Niso G, Halchenko YO, Lipp
+    I, Takerkart S, Toussaint P-J, Khan AR, Nilsonne G, Castelli FM, BIDS Maintainers, Cohen-Adad J
+  links: {}
+  volume: '16'
+  pages: '871228'
+  pmid: '35516811'
+  issn: 1662-4548
+  eissn: 1662-453X
+  publication_date: '2022'
+  online_date: '2022-04-19'
+  acceptance_date: '2022-03-01'
+  canonical_journal: FRONTIERS IN NEUROSCIENCE
+  keywords: data sharing, data structure, microscopy, open science, specification, standardization
+  open_access: Open Access
+  rims_id: '453607'
+  id: bourget_2022_microscopy
+  pub_type: original
+  date: '2022-04-19'
+- title: Editors publishing in their own journals – a systematic review of prevalence and a discussion of normative aspects
+  journal: Learned Publishing
+  doi: 10.1002/leap.1449
+  authors: Helgesson G, Radun I, Radun J, Nilsonne G
   links:
-    preprint: http://repository.essex.ac.uk/id/eprint/29938
-  volume: '165'
-  pages: 228-249
-  issn: 0749-5978
-  eissn: 1095-9920
-  publication_date: 2021-07
-  canonical_journal: ORGANIZATIONAL BEHAVIOR AND HUMAN DECISION PROCESSES
-  keywords: Crowdsourcing data analysis, Scientific transparency, Research reliability, Scientific robustness, Researcher
-    degrees of freedom, Analysis-contingent results
+    preprint: https://doi.org/10.31222/osf.io/dc6je
+  volume: '35'
+  issue: '2'
+  pages: 229-240
+  issn: 0953-1513
+  eissn: 1741-4857
+  publication_date: 2022-04
+  online_date: '2022-02-23'
+  canonical_journal: LEARNED PUBLISHING
+  keywords: authorship, bias, conflict of interest, editors, editorial boards, publication ethics
   open_access: Hybrid OA
-  rims_id: '611637'
-  id: schweinsberg_2021_same
+  rims_id: '615487'
+  id: helgesson_nd_editors
   pub_type: original
-- title: 'Oxazepam and cognitive reappraisal: A randomised experiment'
-  authors: Gustav Nilsonne, Sandra Tamm, Armita Golkar, Andreas Olsson, Karolina Sörman, Katarina Howner, Marianne Kristiansson,
-    Martin Ingvar, Predrag Petrovic
-  year: 2021
-  doi: 10.1371/journal.pone.0249065
-  journal: PLOS ONE
-  links: {}
-- title: 'International Transfers of Health Research Data Following Schrems II: A Problem in Need of a Solution'
-  journal: European Journal of Human Genetics
-  doi: 10.1038/s41431-021-00893-y
-  year: 2021
-  authors: Hallinan D, Bernier A, Cambon-Thomsen A, Crawley F P, Dimitrova D, Medeiros C, Nilsonne G, Parker S, Pickering
-    B, Rennes S
+  date: '2022-04-01'
+  year: 2022
+- title: 'Curiosity might not help after all: Predicted trajectories for need for cognition and anxiety and depression symptoms
+    based on findings by Zainal and Newman (2022)'
+  journal: Journal of Affective Disorders
+  doi: 10.1016/j.jad.2022.01.109
+  year: 2022
+  authors: Sorjonen K, Nilsonne G, Ingre M, Melin B
   links:
-    preprint: http://doi.org/10.2139/ssrn.3688392
-  volume: '29'
-  issue: '10'
-  pages: 1502-1509
-  pmid: '33953344'
-  issn: 1018-4813
-  eissn: 1476-5438
-  publication_date: 2021-10
-  online_date: '2021-05-06'
-  acceptance_date: '2021-04-06'
-  canonical_journal: EUROPEAN JOURNAL OF HUMAN GENETICS
-  keywords: COVID-19, European Union, Humans, Information Dissemination, Pandemics, Privacy, Research, SARS-CoV-2, Social
-    Media, United States
-  open_access: Open Access
-  rims_id: '462248'
-  id: hallinan_2021_international
+    preprint: https://doi.org/10.31234/osf.io/dh2zm
+  volume: '302'
+  pages: 412-414
+  pmid: '35114284'
+  issn: 0165-0327
+  eissn: 1573-2517
+  publication_date: '2022-04-01'
+  online_date: '2022-01-31'
+  acceptance_date: '2022-01-29'
+  canonical_journal: JOURNAL OF AFFECTIVE DISORDERS
+  keywords: Anxiety, Anxiety Disorders, Cognition, Depression, Exploratory Behavior, Humans
+  open_access: Closed Access
+  rims_id: '455752'
+  id: sorjonen_2022_curiosity
   pub_type: original
-- title: 'Fostering global data sharing: highlighting the recommendations of the Research Data Alliance COVID-19 working group'
-  journal: Wellcome Open Research
-  doi: 10.12688/wellcomeopenres.16378.2
-  year: 2021
-  authors: Austin CC, Bernier A, Bezuidenhout L, Bicarregui J, Biro T, Cambon-Thomsen A, Russo Carroll S, Cournia Z, Dabrowski
-    PW, Diallo G, Duflot T, Garcia L, Gesing S, Gonzalez-Beltran A, Gururaj A, Harrower N, Lin D, Medeiros C, Méndez E, Meyers
-    N, Mietchen D, Nagrani R, Nilsonne G, Parker S, Pickering B, Pienta A, Polydoratou P, Psomopoulos F, Rennes S, Rowe R,
-    Sansone S-A, Shanahan H, Sitz L, Stocks J, Tovani-Palone MR, Uhlmansiek M
-  links: {}
-  volume: '5'
-  pages: 267-267
-  pmid: '33501381'
-  issn: 2398-502X
-  eissn: 2398-502X
-  publication_date: '2020'
-  online_date: '2021-05-26'
-  acceptance_date: '2021-04-08'
-  canonical_journal: Wellcome Open Research
-  keywords: COVID-19, Clinical Research, Epidemiology, FAIR and CARE principles, Omics, Open science, Sharing research outputs
-    in pandemics caused by infectious diseases, Social Science
-  open_access: Open Access
-  rims_id: '464834'
-  id: austin_2021_fostering
-  pub_type: review
+  date: '2022-04-01'
+- title: Spurious correlations in research on ability tilt
+  journal: Personality and Individual Differences
+  doi: 10.1016/j.paid.2021.111268
+  year: 2022
+  authors: Sorjonen K, Nilsonne G, Ingre M, Melin B
+  links:
+    preprint: https://doi.org/10.31234/osf.io/cg8hd
+  volume: '185'
+  pages: 111268-111268
+  issn: 0191-8869
+  eissn: 1873-3549
+  publication_date: 2022-02
+  canonical_journal: PERSONALITY AND INDIVIDUAL DIFFERENCES
+  keywords: Ability tilt, Differential investment, Spurious correlations, Statistical expectations
+  open_access: Hybrid OA
+  rims_id: '611594'
+  id: sorjonen_2022_spurious
+  pub_type: original
+  date: '2022-02-01'
+- title: 'Lord’s paradox in latent change score modeling: an example involving facilitating longitudinal effects between intelligence
+    and academic achievement'
+  journal: Personality and Individual Differences
+  doi: 10.1016/j.paid.2021.111520
+  year: 2022
+  authors: Sorjonen K, Melin B, Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/q8bpa
+  id: sorjonen_2022_lord
+  pub_type: original
+  date: '2022-01-01'
 - title: 'ENIGMA-Sleep: Challenges, opportunities, and the road map'
   journal: Journal of Sleep Research
   doi: 10.1111/jsr.13347
@@ -1493,28 +1545,7 @@ publications:
   id: tahmasian_2021_enigma
   pub_type: review
   year: 2021
-- title: EEG-based model and antidepressant response
-  journal: Nature Biotechnology
-  doi: 10.1038/s41587-020-00768-5
-  year: 2021
-  authors: Nilsonne G, Harrell F
-  links:
-    preprint: https://doi.org/10.31234/osf.io/hqxzd
-  volume: '39'
-  issue: '1'
-  pages: 27-27
-  pmid: '33318651'
-  issn: 1087-0156
-  eissn: 1546-1696
-  publication_date: 2021-01
-  online_date: '2020-12-14'
-  acceptance_date: '2020-11-10'
-  canonical_journal: NATURE BIOTECHNOLOGY
-  keywords: Antidepressive Agents, Depression, Major Depressive Disorder, Electroencephalography, Humans
-  open_access: Closed Access
-  rims_id: '665756'
-  id: nilsonne_2021_eeg
-  pub_type: review
+  date: '2021-12-01'
 - title: 'Dangers of residual confounding: A cautionary tale featuring cognitive ability, socioeconomic background, and education'
   journal: BMC Psychology
   doi: 10.1186/s40359-021-00653-z
@@ -1538,37 +1569,32 @@ publications:
   rims_id: '458964'
   id: sorjonen_2021_dangers
   pub_type: original
-- title: 'Cortical Thickness and Resting State Cardiac Function Across the Lifespan: A Cross-Sectional Pooled Mega Analysis'
-  journal: Psychophysiology
-  doi: 10.1111/psyp.13688
-  year: 2021
-  authors: Koenig J, Abler B, Agartz I, Åkerstedt T, Andreassen OA, Anthony M, Bär K-J, Bertsch K, Brown RC, Brunner R, Carnevali
-    L, Critchley HD, Cullen KR, de Geus EJC, de la Cruz F, Dziobek I, Ferger MD, Fischer H, Flor H, Gaebler M, Gianaros PJ,
-    Giummarra MJ, Greening SG, Guendelman S, Heathers JAJ, Herpertz SC, Hu MX, Jentschke S, Kaess M, Kaufmann T, Klimes-Dougan
-    B, Koelsch S, Krauch M, Kumral D, Lamers F, Lee T-H, Lekander M, Lin F, Lotze M, Makovac E, Mancini M, Mancke F, Månsson
-    KNT, Manuck SB, Mather M, Meeten F, Min J, Mueller B, Muench V, Nees F, Nga L, Nilsonne G, Ordonez Acuna D, Osnes B, Ottaviani
-    C, Penninx BWJH, Ponzio A, Poudel GR, Reinelt J, Ren P, Sakaki M, Schumann A, Sørensen L, Specht K, Straub J, Tamm S,
-    Thai M, Thayer JF, Ubani B, van der Mee DJ, van Velzen LS, Ventura-Bort C, Villringer A, Watson DR, Wei L, Wendt J, Schreiner
-    MW, Westlye LT, Weymar M, Winkelmann T, Wu G-R, Yoo HJ, Quintana DS
+  date: '2021-12-01'
+- title: The new Accounting for Expected Adjusted Effect test (AEAE test) has higher positive predictive value than a zero-order
+    significance test
+  journal: BMC Research Notes
+  doi: 10.1186/s13104-021-05545-4
+  authors: Sorjonen K, Nilsonne G, Melin B, Ingre M
   links:
-    preprint: https://doi.org/10.31219/osf.io/btjpw
-  volume: '58'
-  issue: '7'
-  pages: e13688
-  pmid: '33037836'
-  issn: 0048-5772
-  eissn: 1469-8986
-  publication_date: 2021-07
-  online_date: '2020-10-10'
-  acceptance_date: '2020-07-27'
-  canonical_journal: PSYCHOPHYSIOLOGY
-  keywords: aging, autonomic nervous system, cortical thickness, heart rate, heart rate variability, sex, Adult, Autonomic
-    Nervous System, Brain Cortical Thickness, Cross-Sectional Studies, Female, Heart Rate, Humans, Longevity, Male, Meta-Analysis
-    as Topic, Prefrontal Cortex, Vagus Nerve
-  open_access: Hybrid OA
-  rims_id: '467475'
-  id: koenig_2021_cortical
+    preprint: http://doi.org/10.31234/osf.io/fp8g3
+  volume: '14'
+  issue: '1'
+  pages: '129'
+  pmid: '33827666'
+  issn: 1756-0500
+  eissn: 1756-0500
+  publication_date: '2021-04-07'
+  online_date: '2021-04-07'
+  acceptance_date: '2021-03-26'
+  canonical_journal: BMC Research Notes
+  keywords: Accounting for expected effect, Confounding, Negative predictive value, Positive predictive value, Prior probability,
+    Regression analysis, Reliability, Simulation, Predictive Value of Tests, Reproducibility of Results, Sensitivity and Specificity
+  open_access: Open Access
+  rims_id: '462948'
+  id: sorjonen_nd_new
   pub_type: original
+  date: '2021-12-01'
+  year: 2021
 - title: Consensus-based guidance for conducting and reporting multi-analyst studies
   journal: ELife
   doi: 10.7554/eLife.72185
@@ -1596,34 +1622,60 @@ publications:
   rims_id: '457765'
   id: aczel_2021_consensus
   pub_type: original
-- title: 'Brainhack: Developing a culture of open, inclusive, community-driven neuroscience'
-  journal: Neuron
-  doi: 10.1016/j.neuron.2021.04.001
+  date: '2021-11-09'
+- title: '#EEGManyLabs: Investigating the Replicability of Influential EEG Experiments'
+  journal: Cortex
+  doi: 10.1016/j.cortex.2021.03.013
   year: 2021
-  authors: Gau R, Noble S, Heuer K, Bottenhorn KL, Bilgin IP, Yang Y-F, Huntenburg JM, Bayer JMM, Bethlehem RAI, Rhoads SA,
-    Vogelbacher C, Borghesani V, Levitis E, Wang H-T, Van Den Bossche S, Kobeleva X, Legarreta JH, Guay S, Atay SM, Varoquaux
-    GP, Huijser DC, Sandström MS, Herholz P, Nastase SA, Badhwar A, Dumas G, Schwab S, Moia S, Dayan M, Bassil Y, Brooks PP,
-    Mancini M, Shine JM, O'Connor D, Xie X, Poggiali D, Friedrich P, Heinsfeld AS, Riedl L, Toro R, Caballero-Gaudes C, Eklund
-    A, Garner KG, Nolan CR, Demeter DV, Barrios FA, Merchant JS, McDevitt EA, Oostenveld R, Craddock RC, Rokem A, Doyle A,
-    Ghosh SS, Nikolaidis A, Stanley OW, Uruñuela E, Brainhack Community
+  authors: Pavlov YG, Adamian N, Appelhoff S, Arvaneh M, Christopher Benwell PD, Beste C, Bland A, Bradford DE, Bublatzky
+    F, Busch N, Clayson PE, Cruse D, Czeszumski A, Almenberg AD, Dumas G, Ehinger BV, Ganis G, He X, Hinojosa JA, Huber-Huber
+    C, Inzlicht M, Jack BN, Johannesson M, Jones R, Kaltwasser L, Karimi-Rouzbahani H, Keil A, König P, Kouara L, Kulke L,
+    Ladouceur C, Langer N, Liesefeld HR, Luque D, MacNamara A, Mudrik L, Muthuraman M, Neal L, Nilsonne G, Galán JGN, Ocklenburg
+    S, Oostenveld R, Pernet DC, Pourtois G, Ruzzoli M, Sass S, Schaefer A, Senderecka M, Snyder JS, Tamnes CK, Tognoli E,
+    Vugt MK van, Verona E, Vloeberghs R, Welke D, Wessel J, Zakharov I, Mushtaq F
   links:
-    preprint: http://doi.org/10.31234/osf.io/rytjq
-  volume: '109'
-  issue: '11'
-  pages: 1769-1775
-  pmid: '33932337'
-  issn: 0896-6273
-  eissn: 1097-4199
-  publication_date: '2021-06-02'
-  online_date: '2021-04-30'
-  acceptance_date: '2021-04-01'
-  canonical_journal: NEURON
-  keywords: Brainhack, best practices, collaboration, community building, hackathon, inclusivity, neuroscience, open science,
-    reproducibility, training, Communication, Congresses as Topic, Internet, Neurosciences, Practice Guidelines as Topic
-  open_access: Bronze OA
-  rims_id: '462363'
-  id: gau_2021_brainhack
+    preprint: https://doi.org/10.31234/osf.io/528nr
+  volume: '144'
+  pages: 213-229
+  pmid: '33965167'
+  issn: 0010-9452
+  eissn: 1973-8102
+  publication_date: 2021-11
+  online_date: '2021-04-02'
+  acceptance_date: '2021-03-09'
+  canonical_journal: CORTEX
+  keywords: Cognitive neuroscience, EEG, ERP, Many labs, Open science, Replication, Cognition, Electroencephalography, Humans,
+    Neurosciences, Reproducibility of Results
+  open_access: Hybrid OA
+  rims_id: '462171'
+  id: pavlov_2021_eegmanylabs
   pub_type: review
+  date: '2021-11-01'
+- title: 'International Transfers of Health Research Data Following Schrems II: A Problem in Need of a Solution'
+  journal: European Journal of Human Genetics
+  doi: 10.1038/s41431-021-00893-y
+  year: 2021
+  authors: Hallinan D, Bernier A, Cambon-Thomsen A, Crawley F P, Dimitrova D, Medeiros C, Nilsonne G, Parker S, Pickering
+    B, Rennes S
+  links:
+    preprint: http://doi.org/10.2139/ssrn.3688392
+  volume: '29'
+  issue: '10'
+  pages: 1502-1509
+  pmid: '33953344'
+  issn: 1018-4813
+  eissn: 1476-5438
+  publication_date: 2021-10
+  online_date: '2021-05-06'
+  acceptance_date: '2021-04-06'
+  canonical_journal: EUROPEAN JOURNAL OF HUMAN GENETICS
+  keywords: COVID-19, European Union, Humans, Information Dissemination, Pandemics, Privacy, Research, SARS-CoV-2, Social
+    Media, United States
+  open_access: Open Access
+  rims_id: '462248'
+  id: hallinan_2021_international
+  pub_type: original
+  date: '2021-10-01'
 - title: A multi-country test of brief reappraisal interventions on emotions during the COVID-19 pandemic
   journal: Nature Human Behavior
   doi: 10.1038/s41562-021-01173-x
@@ -1690,33 +1742,273 @@ publications:
   rims_id: '460066'
   id: wang_2021_multi
   pub_type: original
-- title: '#EEGManyLabs: Investigating the Replicability of Influential EEG Experiments'
-  journal: Cortex
-  doi: 10.1016/j.cortex.2021.03.013
+  date: '2021-08-02'
+- title: 'Same data, different conclusions: Radical dispersion in empirical results when independent analysts operationalize
+    and test the same hypothesis'
+  journal: Organizational Behavior and Human Decision Processes
+  doi: 10.1016/j.obhdp.2021.02.003
   year: 2021
-  authors: Pavlov YG, Adamian N, Appelhoff S, Arvaneh M, Christopher Benwell PD, Beste C, Bland A, Bradford DE, Bublatzky
-    F, Busch N, Clayson PE, Cruse D, Czeszumski A, Almenberg AD, Dumas G, Ehinger BV, Ganis G, He X, Hinojosa JA, Huber-Huber
-    C, Inzlicht M, Jack BN, Johannesson M, Jones R, Kaltwasser L, Karimi-Rouzbahani H, Keil A, König P, Kouara L, Kulke L,
-    Ladouceur C, Langer N, Liesefeld HR, Luque D, MacNamara A, Mudrik L, Muthuraman M, Neal L, Nilsonne G, Galán JGN, Ocklenburg
-    S, Oostenveld R, Pernet DC, Pourtois G, Ruzzoli M, Sass S, Schaefer A, Senderecka M, Snyder JS, Tamnes CK, Tognoli E,
-    Vugt MK van, Verona E, Vloeberghs R, Welke D, Wessel J, Zakharov I, Mushtaq F
+  authors: Schweinsberg M, Feldman M, Staub N, van den Akker OR, van Aert RCM, van Assen MALM, Liu Y, Althoff T, Heer J, Kale
+    A, Mohamed Z, Amireh H, Prasad VV, Bernstein A, Robinson E, Snellman K, Sommer SA, Otner SMG, Robinson D, Madan N, Silberzahn
+    R, Goldstein P, Tierney W, Murase T, Mandl B, Viganola D, Strobl C, Schaumans CBC, Kelchtermans S, Naseeb C, Garrison
+    SM, Yarkoni T, Chan CSR, Adie P, Alaburda P, Albers C, Alspaugh S, Alstott J, Nelson AA, de la Rubia EA, Arzi A, Bahnik
+    S, Baik J, Balling LW, Banker S, Baranger DAA, Barr DJ, Barros-Rivera B, Bauer M, Blaise E, Boelen L, Carbonell KB, Briers
+    RA, Burkhard O, Canela M-A, Castrillo L, Catlett T, Chen O, Clark M, Cohn B, Coppock A, Cuguero-Escofet N, Curran PG,
+    Cyrus-Lai W, Dai D, Dalla Riva GV, Danielsson H, Russo RDFSM, de Silva N, Derungs C, Dondelinger F, de Souza CD, Dube
+    BT, Dubova M, Dunn BM, Edelsbrunner PA, Finley S, Fox N, Gnambs T, Gong Y, Grand E, Greenawalt B, Han D, Hanel PHP, Hong
+    AB, Hood D, Hsueh J, Huang L, Hui KN, Hultman KA, Javaid A, Jiang LJ, Jong J, Kamdar J, Kane D, Kappler G, Kaszubowski
+    E, Kavanagh CM, Khabsa M, Kleinberg B, Kouros J, Krause H, Krypotos A-M, Lavbic D, Lee RL, Leffel T, Lim WY, Liverani
+    S, Loh B, Lonsmann D, Low JW, Lu A, MacDonald K, Madan CR, Madsen LH, Maimone C, Mangold A, Marshall A, Matskewich HE,
+    Mavon K, McLain KL, McNamara AA, McNeill M, Mertens U, Miller D, Moore B, Moore A, Nantz E, Nasrullah Z, Nejkovic V, Nell
+    CS, Nelson AA, Nilsonne G, Nolan R, O'Brien CE, O'Neil P, O'Shea K, Olita T, Otterbacher J, Palsetia D, Pereira B, Pozdniakov
+    I, Protzko J, Reyt J-N, Riddle T, Ali AARO, Ropovik I, Rosenberg JM, Rothen S, Schulte-Mecklenbeck M, Sharma N, Shotwell
+    G, Skarzynski M, Stedden W, Stodden V, Stoffel MA, Stoltzman S, Subbaiah S, Tatman R, Thibodeau PH, Tomkins S, Valdivia
+    A, van de Woestijne GB, Viana L, Villeseche F, Wadsworth WD, Wanders F, Watts K, Wells JD, Whelpley CE, Won A, Wu L, Yip
+    A, Youngflesh C, Yu J-C, Zandian A, Zhang L, Zibman C, Uhlmann EL
   links:
-    preprint: https://doi.org/10.31234/osf.io/528nr
-  volume: '144'
-  pages: 213-229
-  pmid: '33965167'
-  issn: 0010-9452
-  eissn: 1973-8102
-  publication_date: 2021-11
-  online_date: '2021-04-02'
-  acceptance_date: '2021-03-09'
-  canonical_journal: CORTEX
-  keywords: Cognitive neuroscience, EEG, ERP, Many labs, Open science, Replication, Cognition, Electroencephalography, Humans,
-    Neurosciences, Reproducibility of Results
+    preprint: http://repository.essex.ac.uk/id/eprint/29938
+  volume: '165'
+  pages: 228-249
+  issn: 0749-5978
+  eissn: 1095-9920
+  publication_date: 2021-07
+  canonical_journal: ORGANIZATIONAL BEHAVIOR AND HUMAN DECISION PROCESSES
+  keywords: Crowdsourcing data analysis, Scientific transparency, Research reliability, Scientific robustness, Researcher
+    degrees of freedom, Analysis-contingent results
   open_access: Hybrid OA
-  rims_id: '462171'
-  id: pavlov_2021_eegmanylabs
+  rims_id: '611637'
+  id: schweinsberg_2021_same
+  pub_type: original
+  date: '2021-07-01'
+- title: 'Cortical Thickness and Resting State Cardiac Function Across the Lifespan: A Cross-Sectional Pooled Mega Analysis'
+  journal: Psychophysiology
+  doi: 10.1111/psyp.13688
+  year: 2021
+  authors: Koenig J, Abler B, Agartz I, Åkerstedt T, Andreassen OA, Anthony M, Bär K-J, Bertsch K, Brown RC, Brunner R, Carnevali
+    L, Critchley HD, Cullen KR, de Geus EJC, de la Cruz F, Dziobek I, Ferger MD, Fischer H, Flor H, Gaebler M, Gianaros PJ,
+    Giummarra MJ, Greening SG, Guendelman S, Heathers JAJ, Herpertz SC, Hu MX, Jentschke S, Kaess M, Kaufmann T, Klimes-Dougan
+    B, Koelsch S, Krauch M, Kumral D, Lamers F, Lee T-H, Lekander M, Lin F, Lotze M, Makovac E, Mancini M, Mancke F, Månsson
+    KNT, Manuck SB, Mather M, Meeten F, Min J, Mueller B, Muench V, Nees F, Nga L, Nilsonne G, Ordonez Acuna D, Osnes B, Ottaviani
+    C, Penninx BWJH, Ponzio A, Poudel GR, Reinelt J, Ren P, Sakaki M, Schumann A, Sørensen L, Specht K, Straub J, Tamm S,
+    Thai M, Thayer JF, Ubani B, van der Mee DJ, van Velzen LS, Ventura-Bort C, Villringer A, Watson DR, Wei L, Wendt J, Schreiner
+    MW, Westlye LT, Weymar M, Winkelmann T, Wu G-R, Yoo HJ, Quintana DS
+  links:
+    preprint: https://doi.org/10.31219/osf.io/btjpw
+  volume: '58'
+  issue: '7'
+  pages: e13688
+  pmid: '33037836'
+  issn: 0048-5772
+  eissn: 1469-8986
+  publication_date: 2021-07
+  online_date: '2020-10-10'
+  acceptance_date: '2020-07-27'
+  canonical_journal: PSYCHOPHYSIOLOGY
+  keywords: aging, autonomic nervous system, cortical thickness, heart rate, heart rate variability, sex, Adult, Autonomic
+    Nervous System, Brain Cortical Thickness, Cross-Sectional Studies, Female, Heart Rate, Humans, Longevity, Male, Meta-Analysis
+    as Topic, Prefrontal Cortex, Vagus Nerve
+  open_access: Hybrid OA
+  rims_id: '467475'
+  id: koenig_2021_cortical
+  pub_type: original
+  date: '2021-07-01'
+- title: Spontaneous eye-movements during eyes-open rest reduce resting-state-network modularity by increasing visual-sensorimotor
+    connectivity
+  journal: Network Neuroscience
+  doi: 10.1162/netn_a_00186
+  year: 2020
+  authors: Koba C, Notaro G, Tamm S, Nilsonne G, Hasson U
+  links:
+    preprint: https://doi.org/10.1101/2020.05.18.100669
+  volume: '5'
+  issue: '2'
+  pages: 451-476
+  pmid: '34189373'
+  issn: 2472-1751
+  eissn: 2472-1751
+  publication_date: '2021'
+  online_date: '2021-06-03'
+  acceptance_date: '2021-01-28'
+  canonical_journal: NETWORK NEUROSCIENCE
+  keywords: Eye-movements, Eye-orbit, Modularity, Networks, Resting-state
+  open_access: Open Access
+  rims_id: '460920'
+  id: koba_2020_spontaneous
+  pub_type: original
+  date: '2021-06-09'
+- title: 'Brainhack: Developing a culture of open, inclusive, community-driven neuroscience'
+  journal: Neuron
+  doi: 10.1016/j.neuron.2021.04.001
+  year: 2021
+  authors: Gau R, Noble S, Heuer K, Bottenhorn KL, Bilgin IP, Yang Y-F, Huntenburg JM, Bayer JMM, Bethlehem RAI, Rhoads SA,
+    Vogelbacher C, Borghesani V, Levitis E, Wang H-T, Van Den Bossche S, Kobeleva X, Legarreta JH, Guay S, Atay SM, Varoquaux
+    GP, Huijser DC, Sandström MS, Herholz P, Nastase SA, Badhwar A, Dumas G, Schwab S, Moia S, Dayan M, Bassil Y, Brooks PP,
+    Mancini M, Shine JM, O'Connor D, Xie X, Poggiali D, Friedrich P, Heinsfeld AS, Riedl L, Toro R, Caballero-Gaudes C, Eklund
+    A, Garner KG, Nolan CR, Demeter DV, Barrios FA, Merchant JS, McDevitt EA, Oostenveld R, Craddock RC, Rokem A, Doyle A,
+    Ghosh SS, Nikolaidis A, Stanley OW, Uruñuela E, Brainhack Community
+  links:
+    preprint: http://doi.org/10.31234/osf.io/rytjq
+  volume: '109'
+  issue: '11'
+  pages: 1769-1775
+  pmid: '33932337'
+  issn: 0896-6273
+  eissn: 1097-4199
+  publication_date: '2021-06-02'
+  online_date: '2021-04-30'
+  acceptance_date: '2021-04-01'
+  canonical_journal: NEURON
+  keywords: Brainhack, best practices, collaboration, community building, hackathon, inclusivity, neuroscience, open science,
+    reproducibility, training, Communication, Congresses as Topic, Internet, Neurosciences, Practice Guidelines as Topic
+  open_access: Bronze OA
+  rims_id: '462363'
+  id: gau_2021_brainhack
   pub_type: review
+  date: '2021-06-01'
+- title: 'Fostering global data sharing: highlighting the recommendations of the Research Data Alliance COVID-19 working group'
+  journal: Wellcome Open Research
+  doi: 10.12688/wellcomeopenres.16378.2
+  year: 2021
+  authors: Austin CC, Bernier A, Bezuidenhout L, Bicarregui J, Biro T, Cambon-Thomsen A, Russo Carroll S, Cournia Z, Dabrowski
+    PW, Diallo G, Duflot T, Garcia L, Gesing S, Gonzalez-Beltran A, Gururaj A, Harrower N, Lin D, Medeiros C, Méndez E, Meyers
+    N, Mietchen D, Nagrani R, Nilsonne G, Parker S, Pickering B, Pienta A, Polydoratou P, Psomopoulos F, Rennes S, Rowe R,
+    Sansone S-A, Shanahan H, Sitz L, Stocks J, Tovani-Palone MR, Uhlmansiek M
+  links: {}
+  volume: '5'
+  pages: 267-267
+  pmid: '33501381'
+  issn: 2398-502X
+  eissn: 2398-502X
+  publication_date: '2020'
+  online_date: '2021-05-26'
+  acceptance_date: '2021-04-08'
+  canonical_journal: Wellcome Open Research
+  keywords: COVID-19, Clinical Research, Epidemiology, FAIR and CARE principles, Omics, Open science, Sharing research outputs
+    in pandemics caused by infectious diseases, Social Science
+  open_access: Open Access
+  rims_id: '464834'
+  id: austin_2021_fostering
+  pub_type: review
+  date: '2021-05-26'
+- title: 'Oxazepam and cognitive reappraisal: A randomised experiment'
+  authors: Gustav Nilsonne, Sandra Tamm, Armita Golkar, Andreas Olsson, Karolina Sörman, Katarina Howner, Marianne Kristiansson,
+    Martin Ingvar, Predrag Petrovic
+  year: 2021
+  doi: 10.1371/journal.pone.0249065
+  journal: PLOS ONE
+  links: {}
+  date: '2021-04-22'
+- title: A comparison of models with weight, height, and BMI as predictors of mortality
+  journal: Obesity Science and Practice
+  doi: 10.1002/osp4.473
+  year: 2020
+  authors: Sorjonen K, Nilsonne G, Falkstedt D, Hemmingson T, Ingre M
+  links:
+    preprint: https://doi.org/10.31234/osf.io/xamzc
+  volume: '7'
+  issue: '2'
+  pages: 168-175
+  pmid: '33841886'
+  issn: 2055-2238
+  eissn: 2055-2238
+  publication_date: 2021-04
+  online_date: '2020-12-17'
+  acceptance_date: '2020-11-28'
+  canonical_journal: Obesity Science & Practice
+  keywords: BMI, conscripts, height, mortality, prediction, weight
+  open_access: Open Access
+  rims_id: '462862'
+  id: sorjonen_2020_comparison
+  pub_type: original
+  date: '2021-04-01'
+- title: EEG-based model and antidepressant response
+  journal: Nature Biotechnology
+  doi: 10.1038/s41587-020-00768-5
+  year: 2021
+  authors: Nilsonne G, Harrell F
+  links:
+    preprint: https://doi.org/10.31234/osf.io/hqxzd
+  volume: '39'
+  issue: '1'
+  pages: 27-27
+  pmid: '33318651'
+  issn: 1087-0156
+  eissn: 1546-1696
+  publication_date: 2021-01
+  online_date: '2020-12-14'
+  acceptance_date: '2020-11-10'
+  canonical_journal: NATURE BIOTECHNOLOGY
+  keywords: Antidepressive Agents, Depression, Major Depressive Disorder, Electroencephalography, Humans
+  open_access: Closed Access
+  rims_id: '665756'
+  id: nilsonne_2021_eeg
+  pub_type: review
+  date: '2021-01-14'
+- title: Creative destruction in science
+  journal: Organizational Behavior and Human Decision Processes
+  doi: 10.1016/j.obhdp.2020.07.002
+  year: 2020
+  authors: Tierney W, Hardy JH, Ebersole CR, Leavitt K, Viganola D, Clemente EG, Gordon M, Dreber A, Johannesson M, Pfeiffer
+    T, Hiring Decisions Forecasting Collaboration, Uhlmann EL
+  links: {}
+  volume: '161'
+  pages: 291-309
+  issn: 0749-5978
+  eissn: 1095-9920
+  publication_date: 2020-11
+  canonical_journal: ORGANIZATIONAL BEHAVIOR AND HUMAN DECISION PROCESSES
+  keywords: Replication, Theory pruning, Theory testing, Direct replication, Conceptual replication, Falsification, Hiring
+    decisions, Gender discrimination, Work-family conflict, Cultural differences, Work values, Protestant work ethic
+  open_access: Hybrid OA
+  rims_id: '611638'
+  id: tierney_2020_creativeb
+  pub_type: original
+  date: '2020-11-01'
+- title: 'A creative destruction approach to replication: Implicit work and sex morality across cultures'
+  journal: Journal of Experimental Social Psychology.
+  doi: 10.1016/j.obhdp.2020.07.002
+  year: 2020
+  authors: Tierney W, Hardy J, Ebersole C, Viganola D, Clemente E, Gordon M, Hoogeveen S, Haaf J, Dreber A, Johannesson M,
+    Pfeiffer T, Huang J L, Vaugh L A, DeMarree K G, Igou E, Chapman H, Gantman A, Vanaman M, Wylie J, Storbeck J, Andreychik
+    M R, McPhetres J Culture and Work Forecasting Collaboration, Uhlmann E L
+  links: {}
+  volume: '161'
+  pages: 291-309
+  issn: 0749-5978
+  eissn: 1095-9920
+  publication_date: 2020-11
+  canonical_journal: ORGANIZATIONAL BEHAVIOR AND HUMAN DECISION PROCESSES
+  keywords: Replication, Theory pruning, Theory testing, Direct replication, Conceptual replication, Falsification, Hiring
+    decisions, Gender discrimination, Work-family conflict, Cultural differences, Work values, Protestant work ethic
+  open_access: Hybrid OA
+  rims_id: '611638'
+  id: tierney_2020_creative
+  pub_type: original
+  date: '2020-11-01'
+- title: A combined fMRI and EMG study of emotional contagion following partial sleep deprivation in young and older humans
+  journal: Scientific Reports
+  doi: 10.1038/s41598-020-74489-9
+  year: 2020
+  authors: Tamm S, Schwarz J, Thuné H, Kecklund G, Petrovic P, Åkerstedt T, Fischer H, Lekander M, Nilsonne G
+  links:
+    preprint: https://doi.org/10.31234/osf.io/k6acx
+  volume: '10'
+  issue: '1'
+  pages: '17944'
+  pmid: '33087746'
+  issn: 2045-2322
+  eissn: 2045-2322
+  publication_date: '2020-10-21'
+  online_date: '2020-10-21'
+  acceptance_date: '2020-09-30'
+  canonical_journal: SCIENTIFIC REPORTS
+  keywords: Adult, Age Factors, Aged, Aging, Amygdala, Anger, Cognition, Electromyography, Emotions, Face, Female, Happiness,
+    Humans, Magnetic Resonance Imaging, Male, Sleep Deprivation, Young Adult
+  open_access: Open Access
+  rims_id: '467171'
+  id: tamm_2020_combined
+  pub_type: original
+  date: '2020-10-21'
 - title: Variability in the analysis of a single neuroimaging dataset by many teams
   journal: Nature
   doi: 10.1038/s41586-020-2314-9
@@ -1759,29 +2051,7 @@ publications:
   rims_id: '470837'
   id: botviniknezer_2020_variability
   pub_type: original
-- title: Spontaneous eye-movements during eyes-open rest reduce resting-state-network modularity by increasing visual-sensorimotor
-    connectivity
-  journal: Network Neuroscience
-  doi: 10.1162/netn_a_00186
-  year: 2020
-  authors: Koba C, Notaro G, Tamm S, Nilsonne G, Hasson U
-  links:
-    preprint: https://doi.org/10.1101/2020.05.18.100669
-  volume: '5'
-  issue: '2'
-  pages: 451-476
-  pmid: '34189373'
-  issn: 2472-1751
-  eissn: 2472-1751
-  publication_date: '2021'
-  online_date: '2021-06-03'
-  acceptance_date: '2021-01-28'
-  canonical_journal: NETWORK NEUROSCIENCE
-  keywords: Eye-movements, Eye-orbit, Modularity, Networks, Resting-state
-  open_access: Open Access
-  rims_id: '460920'
-  id: koba_2020_spontaneous
-  pub_type: original
+  date: '2020-06-04'
 - title: 'Gray matter volume correlates of sleepiness: a voxel–based morphometry study in younger and older adults'
   journal: Nature and Science of Sleep
   doi: 10.2147/NSS.S240493
@@ -1804,6 +2074,33 @@ publications:
   rims_id: '470455'
   id: åkerstedt_2020_gray
   pub_type: original
+  date: '2020-05-01'
+- title: 'Crowdsourcing hypothesis tests: Making transparent how design choices shape research results'
+  journal: Psychological Bulletin
+  doi: 10.1037/bul0000220
+  authors: Landy JF, Jia ML, Ding IL, Viganola D, Tierney W, Dreber A, Johannesson M, Pfeiffer T, Ebersole CR, Gronau QF,
+    Ly A, van den Bergh D, Marsman M, Derks K, Wagenmakers E-J, Proctor A, Bartels DM, Bauman CW, Brady WJ, Cheung F, Cimpian
+    A, Dohle S, Donnellan MB, Hahn A, Hall MP, Jiménez-Leal W, Johnson DJ, Lucas RE, Monin B, Montealegre A, Mullen E, Pang
+    J, Ray J, Reinero DA, Reynolds J, Sowden W, Storage D, Su R, Tworek CM, Van Bavel JJ, Walco D, Wills J, Xu X, Yam KC,
+    Yang X, Cunningham WA, Schweinsberg M, Urwitz M, The Crowdsourcing Hypothesis Tests Collaboration, Uhlmann EL
+  links:
+    preprint: http://repository.essex.ac.uk/id/eprint/25784
+  volume: '146'
+  issue: '5'
+  pages: 451-479
+  pmid: '31944796'
+  issn: 0033-2909
+  eissn: 1939-1455
+  publication_date: 2020-05
+  online_date: '2020-01-16'
+  canonical_journal: PSYCHOLOGICAL BULLETIN
+  keywords: Adult, Crowdsourcing, Humans, Psychology, Random Allocation, Research Design
+  open_access: Green OA
+  rims_id: '474222'
+  id: landy_nd_crowdsourcing
+  pub_type: original
+  date: '2020-05-01'
+  year: 2020
 - title: Exploring the Consistency and Value of Humour Style Clusters
   journal: Comprehensive Results in Social Psychology
   doi: 10.1080/23743603.2020.1756239
@@ -1825,113 +2122,7 @@ publications:
   rims_id: '733245'
   id: evans_2020_exploring
   pub_type: original
-- title: Creative destruction in science
-  journal: Organizational Behavior and Human Decision Processes
-  doi: 10.1016/j.obhdp.2020.07.002
-  year: 2020
-  authors: Tierney W, Hardy JH, Ebersole CR, Leavitt K, Viganola D, Clemente EG, Gordon M, Dreber A, Johannesson M, Pfeiffer
-    T, Hiring Decisions Forecasting Collaboration, Uhlmann EL
-  links: {}
-  volume: '161'
-  pages: 291-309
-  issn: 0749-5978
-  eissn: 1095-9920
-  publication_date: 2020-11
-  canonical_journal: ORGANIZATIONAL BEHAVIOR AND HUMAN DECISION PROCESSES
-  keywords: Replication, Theory pruning, Theory testing, Direct replication, Conceptual replication, Falsification, Hiring
-    decisions, Gender discrimination, Work-family conflict, Cultural differences, Work values, Protestant work ethic
-  open_access: Hybrid OA
-  rims_id: '611638'
-  id: tierney_2020_creativeb
-  pub_type: original
-- title: 'A creative destruction approach to replication: Implicit work and sex morality across cultures'
-  journal: Journal of Experimental Social Psychology.
-  doi: 10.1016/j.obhdp.2020.07.002
-  year: 2020
-  authors: Tierney W, Hardy J, Ebersole C, Viganola D, Clemente E, Gordon M, Hoogeveen S, Haaf J, Dreber A, Johannesson M,
-    Pfeiffer T, Huang J L, Vaugh L A, DeMarree K G, Igou E, Chapman H, Gantman A, Vanaman M, Wylie J, Storbeck J, Andreychik
-    M R, McPhetres J Culture and Work Forecasting Collaboration, Uhlmann E L
-  links: {}
-  volume: '161'
-  pages: 291-309
-  issn: 0749-5978
-  eissn: 1095-9920
-  publication_date: 2020-11
-  canonical_journal: ORGANIZATIONAL BEHAVIOR AND HUMAN DECISION PROCESSES
-  keywords: Replication, Theory pruning, Theory testing, Direct replication, Conceptual replication, Falsification, Hiring
-    decisions, Gender discrimination, Work-family conflict, Cultural differences, Work values, Protestant work ethic
-  open_access: Hybrid OA
-  rims_id: '611638'
-  id: tierney_2020_creative
-  pub_type: original
-- title: A comparison of models with weight, height, and BMI as predictors of mortality
-  journal: Obesity Science and Practice
-  doi: 10.1002/osp4.473
-  year: 2020
-  authors: Sorjonen K, Nilsonne G, Falkstedt D, Hemmingson T, Ingre M
-  links:
-    preprint: https://doi.org/10.31234/osf.io/xamzc
-  volume: '7'
-  issue: '2'
-  pages: 168-175
-  pmid: '33841886'
-  issn: 2055-2238
-  eissn: 2055-2238
-  publication_date: 2021-04
-  online_date: '2020-12-17'
-  acceptance_date: '2020-11-28'
-  canonical_journal: Obesity Science & Practice
-  keywords: BMI, conscripts, height, mortality, prediction, weight
-  open_access: Open Access
-  rims_id: '462862'
-  id: sorjonen_2020_comparison
-  pub_type: original
-- title: A combined fMRI and EMG study of emotional contagion following partial sleep deprivation in young and older humans
-  journal: Scientific Reports
-  doi: 10.1038/s41598-020-74489-9
-  year: 2020
-  authors: Tamm S, Schwarz J, Thuné H, Kecklund G, Petrovic P, Åkerstedt T, Fischer H, Lekander M, Nilsonne G
-  links:
-    preprint: https://doi.org/10.31234/osf.io/k6acx
-  volume: '10'
-  issue: '1'
-  pages: '17944'
-  pmid: '33087746'
-  issn: 2045-2322
-  eissn: 2045-2322
-  publication_date: '2020-10-21'
-  online_date: '2020-10-21'
-  acceptance_date: '2020-09-30'
-  canonical_journal: SCIENTIFIC REPORTS
-  keywords: Adult, Age Factors, Aged, Aging, Amygdala, Anger, Cognition, Electromyography, Emotions, Face, Female, Happiness,
-    Humans, Magnetic Resonance Imaging, Male, Sleep Deprivation, Young Adult
-  open_access: Open Access
-  rims_id: '467171'
-  id: tamm_2020_combined
-  pub_type: original
-- title: Sleep restriction caused impaired emotional regulation without detectable brain activation changes - a functional
-    magnetic resonance imaging study
-  journal: Royal Society Open Science
-  doi: 10.1098/rsos.181704
-  year: 2019
-  authors: Tamm S, Nilsonne G, Schwarz J, Golkar A, Kecklund G, Petrovic P, Fischer H, Åkerstedt T, Lekander M
-  links:
-    preprint: http://doi.org/10.1101/436048
-  volume: '6'
-  issue: '3'
-  pages: 181704-181704
-  pmid: '31032025'
-  issn: 2054-5703
-  eissn: 2054-5703
-  publication_date: 2019-03
-  online_date: '2019-03-27'
-  acceptance_date: '2019-02-21'
-  canonical_journal: ROYAL SOCIETY OPEN SCIENCE
-  keywords: emotional regulation, fMRI, reappraisal, sleep
-  open_access: Open Access
-  rims_id: '480184'
-  id: tamm_2019_sleep
-  pub_type: original
+  date: '2020-01-02'
 - title: Improvement in indices of cellular protection after psychological treatment for social anxiety disorder
   journal: Translational Psychiatry
   doi: 10.1038/s41398-019-0668-2
@@ -1955,6 +2146,50 @@ publications:
   rims_id: '474783'
   id: månsson_2019_improvement
   pub_type: original
+  date: '2019-12-19'
+- title: Sleep restriction caused impaired emotional regulation without detectable brain activation changes - a functional
+    magnetic resonance imaging study
+  journal: Royal Society Open Science
+  doi: 10.1098/rsos.181704
+  year: 2019
+  authors: Tamm S, Nilsonne G, Schwarz J, Golkar A, Kecklund G, Petrovic P, Fischer H, Åkerstedt T, Lekander M
+  links:
+    preprint: http://doi.org/10.1101/436048
+  volume: '6'
+  issue: '3'
+  pages: 181704-181704
+  pmid: '31032025'
+  issn: 2054-5703
+  eissn: 2054-5703
+  publication_date: 2019-03
+  online_date: '2019-03-27'
+  acceptance_date: '2019-02-21'
+  canonical_journal: ROYAL SOCIETY OPEN SCIENCE
+  keywords: emotional regulation, fMRI, reappraisal, sleep
+  open_access: Open Access
+  rims_id: '480184'
+  id: tamm_2019_sleep
+  pub_type: original
+  date: '2019-03-29'
+- title: 'Company employees as experimental participants in traffic safety research: prevalence and implications'
+  journal: 'Transportation Research Part F: Psychology and Behaviour'
+  doi: 10.1016/j.trf.2018.10.008
+  year: 2018
+  authors: Radun I, Nilsonne G, Radun J, Helgesson G, Kecklund G
+  links:
+    preprint: http://hdl.handle.net/10616/46553
+  volume: '60'
+  pages: 81-92
+  issn: 1369-8478
+  eissn: 1873-5517
+  publication_date: 2019-01
+  canonical_journal: TRANSPORTATION RESEARCH PART F-TRAFFIC PSYCHOLOGY AND BEHAVIOUR
+  keywords: Public-private partnership, Experimenter effect, Good subject effect, Publication bias
+  open_access: Closed Access
+  rims_id: '611162'
+  id: radun_2018_company
+  pub_type: original
+  date: '2019-01-01'
 - title: Cross-sectional associations between inflammation, sickness behaviour, health anxiety and self-rated health in a
     Swedish primary care population
   journal: European Journal of Inflammation
@@ -1974,6 +2209,102 @@ publications:
   rims_id: '607675'
   id: lodin_2019_cross
   pub_type: original
+  date: '2019-01-01'
+- title: 'Data sharing in qualitative research: opportunities and concerns'
+  journal: MedEdPublish
+  doi: 10.15694/mep.2018.0000255.1
+  year: 2018
+  authors: McGrath C, Nilsonne G
+  links:
+    preprint: https://doi.org/10.31219/osf.io/ewyjb
+  volume: '7'
+  pages: 255-255
+  issn: 2312-7996
+  eissn: 2312-7996
+  online_date: '2018-11-13'
+  canonical_journal: MedEdPublish
+  keywords: 3901 Curriculum and Pedagogy, 39 Education, 3904 Specialist Studies In Education, 8.3 Policy, ethics, and research
+    governance
+  open_access: Gold OA
+  rims_id: '733248'
+  id: mcgrath_2018_data
+  pub_type: review
+  date: '2018-11-13'
+- title: Estimating statistical power, posterior probability and publication bias of psychological research using the observed
+    replication rate
+  journal: Royal Society Open Science
+  doi: 10.1098/rsos.181190
+  authors: Ingre M, Nilsonne G
+  links:
+    preprint: https://doi.org/10.6084/m9.figshare.5573113
+    data: https://github.com/micing/publication_bias_psychology
+    code: https://github.com/micing/publication_bias_psychology
+  volume: '5'
+  issue: '9'
+  pages: 181190-181190
+  pmid: '30839704'
+  issn: 2054-5703
+  eissn: 2054-5703
+  publication_date: 2018-09
+  online_date: '2018-09-12'
+  acceptance_date: '2018-08-03'
+  canonical_journal: ROYAL SOCIETY OPEN SCIENCE
+  keywords: falsification, prior probability, selection bias
+  open_access: Open Access
+  rims_id: '481472'
+  id: ingre_nd_estimating
+  pub_type: original
+  date: '2018-09-01'
+  year: 2018
+- title: 'Data availability, reusability, and analytic reproducibility: Evaluating the impact of a mandatory open data policy
+    at the journal Cognition'
+  journal: Royal Society Open Science
+  doi: 10.1098/rsos.180448
+  authors: Hardwicke TE, Mathur M, MacDonald K, Nilsonne G, Banks GC, Kidwell MC, Hofelich Mohr A, Clayton E, Yoon EJ, Tessler
+    MH, Lenne RL, Altman S, Long B, Frank MC
+  links:
+    preprint: https://doi.org/10.17605/OSF.IO/39CFB
+  volume: '5'
+  issue: '8'
+  pages: 180448-180448
+  pmid: '30225032'
+  issn: 2054-5703
+  eissn: 2054-5703
+  publication_date: 2018-08
+  online_date: '2018-08-15'
+  acceptance_date: '2018-06-25'
+  canonical_journal: ROYAL SOCIETY OPEN SCIENCE
+  keywords: interrupted time series, journal policy, meta-science, open data, open science, reproducibility
+  open_access: Open Access
+  rims_id: '485531'
+  id: hardwicke_nd_data
+  pub_type: original
+  date: '2018-08-01'
+  year: 2018
+- title: Effects of late night short sleep on in-home polysomnography – relation to adult age and sex
+  journal: Journal of Sleep Research
+  doi: 10.1111/jsr.12626
+  year: 2017
+  authors: Åkerstedt T, Lekander M, Nilsonne G, Tamm S, d'Onofrio P, Kecklund G, Fischer H, Schwarz J
+  links: {}
+  volume: '27'
+  issue: '4'
+  pages: e12626
+  pmid: '29082633'
+  issn: 0962-1105
+  eissn: 1365-2869
+  publication_date: 2018-08
+  online_date: '2017-10-30'
+  acceptance_date: '2017-09-17'
+  canonical_journal: JOURNAL OF SLEEP RESEARCH
+  keywords: extended waking, rapid eye movements, sleep deprivation, sleep loss, Adult, Age Factors, Aged, Female, Homeostasis,
+    Humans, Male, Polysomnography, Sex Characteristics, Sex Factors, Sleep, Sleep Wake Disorders, Sleep, REM, Sleep, Slow-Wave,
+    Wakefulness, Young Adult
+  open_access: Hybrid OA
+  rims_id: '492996'
+  id: åkerstedt_2017_effects
+  pub_type: original
+  date: '2018-08-01'
 - title: 'Justify Your Alpha: A Response to “Redefine Statistical Significance”'
   journal: Nature Human Behaviour
   doi: 10.1038/s41562-018-0311-x
@@ -2004,43 +2335,29 @@ publications:
   rims_id: '610702'
   id: lakens_2018_justify
   pub_type: review
-- title: 'Data sharing in qualitative research: opportunities and concerns'
-  journal: MedEdPublish
-  doi: 10.15694/mep.2018.0000255.1
-  year: 2018
-  authors: McGrath C, Nilsonne G
+  date: '2018-02-26'
+- title: A Practical Guide for Transparency in Psychological Science
+  journal: 'Collabra: Psychology'
+  doi: 10.1525/collabra.158
+  authors: Klein O, Hardwicke TE, Aust F, Breuer J, Danielsson H, Hofelich Mohr A, IJzerman H, Nilsonne G, Vanpaemel W, Frank
+    MC
   links:
-    preprint: https://doi.org/10.31219/osf.io/ewyjb
-  volume: '7'
-  pages: 255-255
-  issn: 2312-7996
-  eissn: 2312-7996
-  online_date: '2018-11-13'
-  canonical_journal: MedEdPublish
-  keywords: 3901 Curriculum and Pedagogy, 39 Education, 3904 Specialist Studies In Education, 8.3 Policy, ethics, and research
-    governance
+    preprint: https://doi.org/10.17605/OSF.IO/RTYGM
+  volume: '4'
+  issue: '1'
+  article_number: '20'
+  issn: 2474-7394
+  eissn: 2474-7394
+  publication_date: '2018-06-29'
+  online_date: '2018-06-29'
+  canonical_journal: COLLABRA-PSYCHOLOGY
+  keywords: transparency, open science, tutorial
   open_access: Gold OA
-  rims_id: '733248'
-  id: mcgrath_2018_data
+  rims_id: '606962'
+  id: klein_nd_practical
   pub_type: review
-- title: 'Company employees as experimental participants in traffic safety research: prevalence and implications'
-  journal: 'Transportation Research Part F: Psychology and Behaviour'
-  doi: 10.1016/j.trf.2018.10.008
+  date: '2018-01-01'
   year: 2018
-  authors: Radun I, Nilsonne G, Radun J, Helgesson G, Kecklund G
-  links:
-    preprint: http://hdl.handle.net/10616/46553
-  volume: '60'
-  pages: 81-92
-  issn: 1369-8478
-  eissn: 1873-5517
-  publication_date: 2019-01
-  canonical_journal: TRANSPORTATION RESEARCH PART F-TRAFFIC PSYCHOLOGY AND BEHAVIOUR
-  keywords: Public-private partnership, Experimenter effect, Good subject effect, Publication bias
-  open_access: Closed Access
-  rims_id: '611162'
-  id: radun_2018_company
-  pub_type: original
 - title: 'The effect of sleep restriction on empathy for pain: An fMRI study in younger and older adults'
   journal: Scientific Reports
   doi: 10.1038/s41598-017-12098-9
@@ -2066,30 +2383,7 @@ publications:
   rims_id: '493812'
   id: tamm_2017_effect
   pub_type: original
-- title: Subcortical brain volume differences in participants with attention deficit hyperactivity disorder in children and
-    adults
-  journal: Lancet Psychiatry
-  doi: 10.1016/S2215-0366(17)30160-8
-  year: 2017
-  authors: Bejerot S, Nilsonne G, Humble M
-  links:
-    data: http://dx.doi.org/10.5281/zenodo.345161
-    code: http://dx.doi.org/10.5281/zenodo.345161
-  volume: '4'
-  issue: '6'
-  pages: 437-437
-  pmid: '28495546'
-  issn: 2215-0366
-  eissn: 2215-0374
-  publication_date: 2017-06
-  online_date: '2017-05-08'
-  acceptance_date: '2017-03-27'
-  canonical_journal: LANCET PSYCHIATRY
-  keywords: Adult, Attention Deficit Disorder with Hyperactivity, Brain, Child, Humans, Magnetic Resonance Imaging
-  open_access: Bronze OA
-  rims_id: '496874'
-  id: bejerot_2017_subcortical
-  pub_type: review
+  date: '2017-09-25'
 - title: 'Intrinsic brain connectivity after partial sleep deprivation in young and older adults: results from the Stockholm
     Sleepy Brain Study'
   journal: Scientific Reports
@@ -2118,29 +2412,54 @@ publications:
   rims_id: '494498'
   id: nilsonne_2017_intrinsic
   pub_type: original
-- title: Effects of late night short sleep on in-home polysomnography – relation to adult age and sex
-  journal: Journal of Sleep Research
-  doi: 10.1111/jsr.12626
+  date: '2017-08-25'
+- title: Subcortical brain volume differences in participants with attention deficit hyperactivity disorder in children and
+    adults
+  journal: Lancet Psychiatry
+  doi: 10.1016/S2215-0366(17)30160-8
   year: 2017
-  authors: Åkerstedt T, Lekander M, Nilsonne G, Tamm S, d'Onofrio P, Kecklund G, Fischer H, Schwarz J
-  links: {}
-  volume: '27'
-  issue: '4'
-  pages: e12626
-  pmid: '29082633'
-  issn: 0962-1105
-  eissn: 1365-2869
-  publication_date: 2018-08
-  online_date: '2017-10-30'
-  acceptance_date: '2017-09-17'
-  canonical_journal: JOURNAL OF SLEEP RESEARCH
-  keywords: extended waking, rapid eye movements, sleep deprivation, sleep loss, Adult, Age Factors, Aged, Female, Homeostasis,
-    Humans, Male, Polysomnography, Sex Characteristics, Sex Factors, Sleep, Sleep Wake Disorders, Sleep, REM, Sleep, Slow-Wave,
-    Wakefulness, Young Adult
-  open_access: Hybrid OA
-  rims_id: '492996'
-  id: åkerstedt_2017_effects
+  authors: Bejerot S, Nilsonne G, Humble M
+  links:
+    data: http://dx.doi.org/10.5281/zenodo.345161
+    code: http://dx.doi.org/10.5281/zenodo.345161
+  volume: '4'
+  issue: '6'
+  pages: 437-437
+  pmid: '28495546'
+  issn: 2215-0366
+  eissn: 2215-0374
+  publication_date: 2017-06
+  online_date: '2017-05-08'
+  acceptance_date: '2017-03-27'
+  canonical_journal: LANCET PSYCHIATRY
+  keywords: Adult, Attention Deficit Disorder with Hyperactivity, Brain, Child, Humans, Magnetic Resonance Imaging
+  open_access: Bronze OA
+  rims_id: '496874'
+  id: bejerot_2017_subcortical
+  pub_type: review
+  date: '2017-06-01'
+- title: Circulating interleukin-6 in Parkinson Disease
+  journal: JAMA Neurology
+  doi: 10.1001/jamaneurol.2017.0037
+  year: 2017
+  authors: Nilsonne G, Lekander M
+  links:
+    data: http://dx.doi.org/10.5281/zenodo.182505
+    code: http://dx.doi.org/10.5281/zenodo.182505
+  volume: '74'
+  issue: '5'
+  pages: 607-608
+  pmid: '28288266'
+  issn: 2168-6149
+  eissn: 2168-6157
+  publication_date: '2017-05-01'
+  canonical_journal: JAMA NEUROLOGY
+  keywords: Humans, Interleukin-6, Parkinson Disease
+  open_access: Closed Access
+  rims_id: '498451'
+  id: nilsonne_2017_circulating
   pub_type: original
+  date: '2017-05-01'
 - title: 'Effects of 25 mg oxazepam on emotional mimicry and empathy for pain: a randomized controlled experiment'
   journal: Royal Society Open Science
   doi: 10.1098/rsos.160607
@@ -2165,98 +2484,32 @@ publications:
   rims_id: '497574'
   id: nilsonne_2017_effects
   pub_type: original
-- title: Circulating interleukin-6 in Parkinson Disease
-  journal: JAMA Neurology
-  doi: 10.1001/jamaneurol.2017.0037
-  year: 2017
-  authors: Nilsonne G, Lekander M
-  links:
-    data: http://dx.doi.org/10.5281/zenodo.182505
-    code: http://dx.doi.org/10.5281/zenodo.182505
-  volume: '74'
-  issue: '5'
-  pages: 607-608
-  pmid: '28288266'
-  issn: 2168-6149
-  eissn: 2168-6157
-  publication_date: '2017-05-01'
-  canonical_journal: JAMA NEUROLOGY
-  keywords: Humans, Interleukin-6, Parkinson Disease
-  open_access: Closed Access
-  rims_id: '498451'
-  id: nilsonne_2017_circulating
-  pub_type: original
-- title: Response to a comment on “Estimating the reproducibility of psychological science”
-  journal: Science
-  doi: 10.1126/science.aad9163
-  year: 2016
-  authors: Anderson CJ, Bahník Š, Barnett-Cowan M, Bosco FA, Chandler J, Chartier CR, Cheung F, Christopherson CD, Cordes
-    A, Cremata EJ, Della Penna N, Estel V, Fedor A, Fitneva SA, Frank MC, Grange JA, Hartshorne JK, Hasselman F, Henninger
-    F, Jonas KJ, Lai CK, Levitan CA, Miller JK, Moore KS, Meixner JM, Munafò MR, Neijenhuijs KI, Nilsonne G, Nosek BA, Plessow
-    F, Prenoveau JM, Ricker AA, Schmidt K, Spies JR, Stieger S, Strohminger N, Sullivan GB, van Aert RCM, van Assen MALM,
-    van der Hulst M, Vanpaemel W, Vianello M, Voracek M, Zuni K
-  links: {}
-  volume: '351'
-  issue: '6277'
-  pages: 1037-1037
-  pmid: '26941312'
-  issn: 0036-8075
-  eissn: 1095-9203
-  publication_date: '2016-03-04'
-  canonical_journal: SCIENCE
-  keywords: Behavioral Research, Psychology, Publishing, Research
-  open_access: Green OA
-  rims_id: '506801'
-  id: anderson_2016_response
-  pub_type: original
-- title: Reliability and construct validity of the Psychopathic Personality Inventory-Revised in a Swedish non-criminal sample
-    – a multimethod approach including psychophysiological correlates of empathy for pain
+  date: '2017-03-01'
+- title: 'Diurnal variation of circulating interleukin-6: a meta-analysis'
   journal: PLOS One
-  doi: 10.1371/journal.pone.0156570
+  doi: 10.1371/journal.pone.0165799
   year: 2016
-  authors: Sörman K, Nilsonne G, Howner K, Tamm S, Caman S, Wang H, Edens J, Gustavsson P, Lilienfeld S, Ingvar M, Petrovic
-    P, Fischer H, Kristiansson M
+  authors: Nilsonne G, Lekander M, Åkerstedt T, Axelsson J, Ingre M
   links:
-    data: http://dx.doi.org/10.5061/dryad.qh8c9
+    preprint: http://dx.doi.org/10.1101/042507
+    data: http://dx.doi.org/10.5281/zenodo.163325
+    code: http://dx.doi.org/10.5281/zenodo.163325
   volume: '11'
-  issue: '6'
-  pages: e0156570-e0156570
-  pmid: '27300292'
+  issue: '11'
+  pages: e0165799-e0165799
+  pmid: '27832117'
   issn: 1932-6203
   eissn: 1932-6203
   publication_date: '2016'
-  online_date: '2016-06-14'
-  acceptance_date: '2016-05-17'
+  online_date: '2016-11-10'
+  acceptance_date: '2016-10-18'
   canonical_journal: PLOS ONE
-  keywords: Adolescent, Adult, Aged, Antisocial Personality Disorder, Empathy, Female, Humans, Male, Middle Aged, Personality
-    Inventory, Reproducibility of Results, Self Report, Sweden, Young Adult
+  keywords: Circadian Rhythm, Humans, Interleukin-6, Models, Biological, Sleep
   open_access: Open Access
-  rims_id: '504523'
-  id: sörman_2016_reliability
+  rims_id: '501172'
+  id: nilsonne_2016_diurnal
   pub_type: original
-- title: Post-traumatic stress disorder and interleukin 6
-  journal: Lancet Psychiatry
-  doi: 10.1016/S2215-0366(16)00022-5
-  year: 2016
-  authors: Nilsonne G, Hilgard J, Lekander M, Arnberg F
-  links:
-    preprint: http://hdl.handle.net/10616/44992
-    data: http://dx.doi.org/10.5281/zenodo.44726
-    code: http://dx.doi.org/10.5281/zenodo.44726
-  volume: '3'
-  issue: '3'
-  pages: 200-201
-  pmid: '26946386'
-  issn: 2215-0366
-  eissn: 2215-0374
-  publication_date: 2016-03
-  acceptance_date: '2016-01-14'
-  canonical_journal: LANCET PSYCHIATRY
-  keywords: Humans, Interleukin-6, Stress Disorders, Post-Traumatic
-  open_access: Bronze OA
-  rims_id: '506764'
-  id: nilsonne_2016_post
-  pub_type: original
+  date: '2016-11-10'
 - title: Intrinsic functional connectivity of insular cortex and symptoms of sickness during acute experimental inflammation
   journal: Brain, Behavior, and Immunity
   doi: 10.1016/j.bbi.2015.12.018
@@ -2283,6 +2536,57 @@ publications:
   rims_id: '508247'
   id: lekander_2016_intrinsic
   pub_type: original
+  date: '2016-08-01'
+- title: Reliability and construct validity of the Psychopathic Personality Inventory-Revised in a Swedish non-criminal sample
+    – a multimethod approach including psychophysiological correlates of empathy for pain
+  journal: PLOS One
+  doi: 10.1371/journal.pone.0156570
+  year: 2016
+  authors: Sörman K, Nilsonne G, Howner K, Tamm S, Caman S, Wang H, Edens J, Gustavsson P, Lilienfeld S, Ingvar M, Petrovic
+    P, Fischer H, Kristiansson M
+  links:
+    data: http://dx.doi.org/10.5061/dryad.qh8c9
+  volume: '11'
+  issue: '6'
+  pages: e0156570-e0156570
+  pmid: '27300292'
+  issn: 1932-6203
+  eissn: 1932-6203
+  publication_date: '2016'
+  online_date: '2016-06-14'
+  acceptance_date: '2016-05-17'
+  canonical_journal: PLOS ONE
+  keywords: Adolescent, Adult, Aged, Antisocial Personality Disorder, Empathy, Female, Humans, Male, Middle Aged, Personality
+    Inventory, Reproducibility of Results, Self Report, Sweden, Young Adult
+  open_access: Open Access
+  rims_id: '504523'
+  id: sörman_2016_reliability
+  pub_type: original
+  date: '2016-06-14'
+- title: Response to a comment on “Estimating the reproducibility of psychological science”
+  journal: Science
+  doi: 10.1126/science.aad9163
+  year: 2016
+  authors: Anderson CJ, Bahník Š, Barnett-Cowan M, Bosco FA, Chandler J, Chartier CR, Cheung F, Christopherson CD, Cordes
+    A, Cremata EJ, Della Penna N, Estel V, Fedor A, Fitneva SA, Frank MC, Grange JA, Hartshorne JK, Hasselman F, Henninger
+    F, Jonas KJ, Lai CK, Levitan CA, Miller JK, Moore KS, Meixner JM, Munafò MR, Neijenhuijs KI, Nilsonne G, Nosek BA, Plessow
+    F, Prenoveau JM, Ricker AA, Schmidt K, Spies JR, Stieger S, Strohminger N, Sullivan GB, van Aert RCM, van Assen MALM,
+    van der Hulst M, Vanpaemel W, Vianello M, Voracek M, Zuni K
+  links: {}
+  volume: '351'
+  issue: '6277'
+  pages: 1037-1037
+  pmid: '26941312'
+  issn: 0036-8075
+  eissn: 1095-9203
+  publication_date: '2016-03-04'
+  canonical_journal: SCIENCE
+  keywords: Behavioral Research, Psychology, Publishing, Research
+  open_access: Green OA
+  rims_id: '506801'
+  id: anderson_2016_response
+  pub_type: original
+  date: '2016-03-04'
 - title: 'Health at the ballot box: Disease threat does not predict attractiveness preference in British politicians'
   journal: Royal Society Open Science
   doi: 10.1098/rsos.160049
@@ -2306,30 +2610,31 @@ publications:
   rims_id: '505923'
   id: nilsonne_2016_health
   pub_type: original
-- title: 'Diurnal variation of circulating interleukin-6: a meta-analysis'
-  journal: PLOS One
-  doi: 10.1371/journal.pone.0165799
+  date: '2016-03-01'
+- title: Post-traumatic stress disorder and interleukin 6
+  journal: Lancet Psychiatry
+  doi: 10.1016/S2215-0366(16)00022-5
   year: 2016
-  authors: Nilsonne G, Lekander M, Åkerstedt T, Axelsson J, Ingre M
+  authors: Nilsonne G, Hilgard J, Lekander M, Arnberg F
   links:
-    preprint: http://dx.doi.org/10.1101/042507
-    data: http://dx.doi.org/10.5281/zenodo.163325
-    code: http://dx.doi.org/10.5281/zenodo.163325
-  volume: '11'
-  issue: '11'
-  pages: e0165799-e0165799
-  pmid: '27832117'
-  issn: 1932-6203
-  eissn: 1932-6203
-  publication_date: '2016'
-  online_date: '2016-11-10'
-  acceptance_date: '2016-10-18'
-  canonical_journal: PLOS ONE
-  keywords: Circadian Rhythm, Humans, Interleukin-6, Models, Biological, Sleep
-  open_access: Open Access
-  rims_id: '501172'
-  id: nilsonne_2016_diurnal
+    preprint: http://hdl.handle.net/10616/44992
+    data: http://dx.doi.org/10.5281/zenodo.44726
+    code: http://dx.doi.org/10.5281/zenodo.44726
+  volume: '3'
+  issue: '3'
+  pages: 200-201
+  pmid: '26946386'
+  issn: 2215-0366
+  eissn: 2215-0374
+  publication_date: 2016-03
+  acceptance_date: '2016-01-14'
+  canonical_journal: LANCET PSYCHIATRY
+  keywords: Humans, Interleukin-6, Stress Disorders, Post-Traumatic
+  open_access: Bronze OA
+  rims_id: '506764'
+  id: nilsonne_2016_post
   pub_type: original
+  date: '2016-03-01'
 - title: 'Leukocyte telomere length and hippocampus volume: a meta-analysis'
   journal: F1000Research
   doi: 10.12688/f1000research.7198.1
@@ -2352,6 +2657,7 @@ publications:
   rims_id: '508594'
   id: nilsonne_2015_leukocyte
   pub_type: original
+  date: '2015-10-15'
 - title: Estimating the reproducibility of psychological science
   journal: Science
   doi: 10.1126/science.aac4716
@@ -2373,29 +2679,7 @@ publications:
   rims_id: '511087'
   id: open_2015_estimating
   pub_type: original
-- title: 'Discrepancy review: A feasibility study of a novel peer review intervention to reduce undisclosed discrepancies
-    between registrations and publications'
-  journal: Royal Society Open Science
-  doi: 10.1098/rsos.220142
-  year: 2014
-  authors: TARG Meta-Research Group & Collaborators
-  links:
-    preprint: https://doi.org/10.1101/2022.01.18.22269507
-  volume: '9'
-  issue: '7'
-  pages: '220142'
-  pmid: '35911195'
-  issn: 2054-5703
-  eissn: 2054-5703
-  publication_date: 2022-07
-  online_date: '2022-07-27'
-  acceptance_date: '2022-07-07'
-  canonical_journal: ROYAL SOCIETY OPEN SCIENCE
-  keywords: meta-research, outcome switching, peer review, pre-registration, selective reporting, trial registration
-  open_access: Open Access
-  rims_id: '451790'
-  id: targ_2014_discrepancy
-  pub_type: original
+  date: '2015-08-28'
 - title: Diagnostic and Prognostic Value of Soluble Syndecan-1 for Pleural Malignancies
   journal: BioMed Research International
   doi: 10.1155/2014/419853
@@ -2419,6 +2703,7 @@ publications:
   rims_id: '519439'
   id: mundt_2014_diagnostic
   pub_type: original
+  date: '2014-01-01'
 - title: Variation in Drug Sensitivity of Malignant Mesothelioma Cell Lines with Substantial Effects of Selenite and Bortezomib,
     Highlights Need for Individualized Therapy
   journal: PLOS One
@@ -2444,6 +2729,7 @@ publications:
   rims_id: '528310'
   id: szulkin_2013_variation
   pub_type: original
+  date: '2013-01-01'
 - title: Microenvironment-dependent phenotypic changes in a SCID mouse model for malignant mesothelioma
   journal: Frontiers in Oncology
   doi: 10.3389/fonc.2013.00203
@@ -2465,6 +2751,7 @@ publications:
   rims_id: '527515'
   id: darairamqvist_2013_microenvironment
   pub_type: original
+  date: '2013-01-01'
 - title: Hyaluronan and N-ERC/Mesothelin as Key Biomarkers in a Specific Two-Step Model to Predict Pleural Malignant Mesothelioma
   journal: PLOS One
   doi: 10.1371/journal.pone.0072030
@@ -2490,6 +2777,7 @@ publications:
   rims_id: '527260'
   id: mundt_2013_hyaluronan
   pub_type: original
+  date: '2013-01-01'
 - title: Selenite Induces Posttranscriptional Blockade of HLA-E Expression and Sensitizes Tumor Cells to CD94/NKG2A-Positive
     NK cells
   journal: Journal of Immunology
@@ -2515,6 +2803,7 @@ publications:
   rims_id: '542116'
   id: enqvist_2011_selenite
   pub_type: original
+  date: '2011-01-01'
 - title: 'Learning in a simple biological system: a pilot study of classical conditioning of human macrophages in vitro'
   journal: Behavioral and brain functions
   doi: 10.1186/1744-9081-7-47
@@ -2537,9 +2826,11 @@ publications:
   rims_id: '540662'
   id: nilsonne_2011_learning
   pub_type: original
+  date: '2011-01-01'
 - title: '[Open Access Week 16-24 October: Open access increases access to the research]'
   authors: Nilsonne, G
   year: 2010
+  date: '2010-01-01'
   journal: Lakartidningen
   links: {}
 - title: Syndecan-1 and FGF-2, but Not FGF Receptor-1, Share a Common Transport Route and Co-Localize with Heparanase in the
@@ -2566,6 +2857,7 @@ publications:
   rims_id: '555560'
   id: zong_2009_syndecan
   pub_type: original
+  date: '2009-01-01'
 - title: Phenotype-dependent apoptosis signalling in mesothelioma cells after selenite exposure
   journal: Journal of Experimental & Clinical Cancer Research
   doi: 10.1186/1756-9966-28-92
@@ -2590,6 +2882,7 @@ publications:
   rims_id: '557248'
   id: nilsonne_2009_phenotype
   pub_type: original
+  date: '2009-01-01'
 - title: Quantification of alternative mRNA species and identification of thioredoxin reductase 1 isoforms in human tumor
     cells
   journal: Differentiation
@@ -2612,6 +2905,7 @@ publications:
   rims_id: '571485'
   id: rundlöf_2007_quantification
   pub_type: original
+  date: '2007-01-01'
 - title: Selenite induces apoptosis in sarcomatoid malignant mesothelioma cells through oxidative stress
   journal: Free Radical Biology and Medicine
   doi: 10.1016/j.freeradbiomed.2006.04.031
@@ -2635,190 +2929,7 @@ publications:
   rims_id: '574166'
   id: nilsonne_2006_selenite
   pub_type: original
-- title: The new Accounting for Expected Adjusted Effect test (AEAE test) has higher positive predictive value than a zero-order
-    significance test
-  journal: BMC Research Notes
-  doi: 10.1186/s13104-021-05545-4
-  authors: Sorjonen K, Nilsonne G, Melin B, Ingre M
-  links:
-    preprint: http://doi.org/10.31234/osf.io/fp8g3
-  volume: '14'
-  issue: '1'
-  pages: '129'
-  pmid: '33827666'
-  issn: 1756-0500
-  eissn: 1756-0500
-  publication_date: '2021-04-07'
-  online_date: '2021-04-07'
-  acceptance_date: '2021-03-26'
-  canonical_journal: BMC Research Notes
-  keywords: Accounting for expected effect, Confounding, Negative predictive value, Positive predictive value, Prior probability,
-    Regression analysis, Reliability, Simulation, Predictive Value of Tests, Reproducibility of Results, Sensitivity and Specificity
-  open_access: Open Access
-  rims_id: '462948'
-  id: sorjonen_nd_new
-  pub_type: original
-- title: 'Longevity biomarkers: applications and limitations'
-  journal: ResearchHub
-  doi: 10.55277/ResearchHub.rb3ck05l
-  authors: Shrike BT, Nilsonne G, Weisser V, Aimbetov R
-  links: {}
-  id: shrike_nd_longevity
-  pub_type: review
-- title: Estimating statistical power, posterior probability and publication bias of psychological research using the observed
-    replication rate
-  journal: Royal Society Open Science
-  doi: 10.1098/rsos.181190
-  authors: Ingre M, Nilsonne G
-  links:
-    preprint: https://doi.org/10.6084/m9.figshare.5573113
-    data: https://github.com/micing/publication_bias_psychology
-    code: https://github.com/micing/publication_bias_psychology
-  volume: '5'
-  issue: '9'
-  pages: 181190-181190
-  pmid: '30839704'
-  issn: 2054-5703
-  eissn: 2054-5703
-  publication_date: 2018-09
-  online_date: '2018-09-12'
-  acceptance_date: '2018-08-03'
-  canonical_journal: ROYAL SOCIETY OPEN SCIENCE
-  keywords: falsification, prior probability, selection bias
-  open_access: Open Access
-  rims_id: '481472'
-  id: ingre_nd_estimating
-  pub_type: original
-- title: Editors publishing in their own journals – a systematic review of prevalence and a discussion of normative aspects
-  journal: Learned Publishing
-  doi: 10.1002/leap.1449
-  authors: Helgesson G, Radun I, Radun J, Nilsonne G
-  links:
-    preprint: https://doi.org/10.31222/osf.io/dc6je
-  volume: '35'
-  issue: '2'
-  pages: 229-240
-  issn: 0953-1513
-  eissn: 1741-4857
-  publication_date: 2022-04
-  online_date: '2022-02-23'
-  canonical_journal: LEARNED PUBLISHING
-  keywords: authorship, bias, conflict of interest, editors, editorial boards, publication ethics
-  open_access: Hybrid OA
-  rims_id: '615487'
-  id: helgesson_nd_editors
-  pub_type: original
-- title: 'Data availability, reusability, and analytic reproducibility: Evaluating the impact of a mandatory open data policy
-    at the journal Cognition'
-  journal: Royal Society Open Science
-  doi: 10.1098/rsos.180448
-  authors: Hardwicke TE, Mathur M, MacDonald K, Nilsonne G, Banks GC, Kidwell MC, Hofelich Mohr A, Clayton E, Yoon EJ, Tessler
-    MH, Lenne RL, Altman S, Long B, Frank MC
-  links:
-    preprint: https://doi.org/10.17605/OSF.IO/39CFB
-  volume: '5'
-  issue: '8'
-  pages: 180448-180448
-  pmid: '30225032'
-  issn: 2054-5703
-  eissn: 2054-5703
-  publication_date: 2018-08
-  online_date: '2018-08-15'
-  acceptance_date: '2018-06-25'
-  canonical_journal: ROYAL SOCIETY OPEN SCIENCE
-  keywords: interrupted time series, journal policy, meta-science, open data, open science, reproducibility
-  open_access: Open Access
-  rims_id: '485531'
-  id: hardwicke_nd_data
-  pub_type: original
-- title: 'Crowdsourcing hypothesis tests: Making transparent how design choices shape research results'
-  journal: Psychological Bulletin
-  doi: 10.1037/bul0000220
-  authors: Landy JF, Jia ML, Ding IL, Viganola D, Tierney W, Dreber A, Johannesson M, Pfeiffer T, Ebersole CR, Gronau QF,
-    Ly A, van den Bergh D, Marsman M, Derks K, Wagenmakers E-J, Proctor A, Bartels DM, Bauman CW, Brady WJ, Cheung F, Cimpian
-    A, Dohle S, Donnellan MB, Hahn A, Hall MP, Jiménez-Leal W, Johnson DJ, Lucas RE, Monin B, Montealegre A, Mullen E, Pang
-    J, Ray J, Reinero DA, Reynolds J, Sowden W, Storage D, Su R, Tworek CM, Van Bavel JJ, Walco D, Wills J, Xu X, Yam KC,
-    Yang X, Cunningham WA, Schweinsberg M, Urwitz M, The Crowdsourcing Hypothesis Tests Collaboration, Uhlmann EL
-  links:
-    preprint: http://repository.essex.ac.uk/id/eprint/25784
-  volume: '146'
-  issue: '5'
-  pages: 451-479
-  pmid: '31944796'
-  issn: 0033-2909
-  eissn: 1939-1455
-  publication_date: 2020-05
-  online_date: '2020-01-16'
-  canonical_journal: PSYCHOLOGICAL BULLETIN
-  keywords: Adult, Crowdsourcing, Humans, Psychology, Random Allocation, Research Design
-  open_access: Green OA
-  rims_id: '474222'
-  id: landy_nd_crowdsourcing
-  pub_type: original
-- title: 'Addressing Climate Change with Behavioral Science: A Global Intervention Tournament in 63 Countries'
-  journal: Science Advances
-  doi: 10.1126/sciadv.adj5778
-  authors: Vlasceanu M, Doell KC, Bak-Coleman JB, Todorova B, Berkebile-Weinberg MM, Grayson SJ, Patel Y, Goldwert D, Pei
-    Y, Chakroff A, Pronizius E, van den Broek KL, Vlasceanu D, Constantino S, Morais MJ, Schumann P, Rathje S, Fang K, Aglioti
-    SM, Alfano M, Alvarado-Yepez AJ, Andersen A, Anseel F, Apps MAJ, Asadli C, Awuor FJ, Azevedo F, Basaglia P, Bélanger JJ,
-    Berger S, Bertin P, Białek M, Bialobrzeska O, Blaya-Burgo M, Bleize DNM, Bø S, Boecker L, Boggio PS, Borau S, Bos B, Bouguettaya
-    A, Brauer M, Brick C, Brik T, Briker R, Brosch T, Buchel O, Buonauro D, Butalia R, Carvacho H, Chamberlain SAE, Chan H-Y,
-    Chow D, Chung D, Cian L, Cohen-Eick N, Contreras-Huerta LS, Contu D, Cristea V, Cutler J, D'Ottone S, De Keersmaecker
-    J, Delcourt S, Delouvée S, Diel K, Douglas BD, Drupp MA, Dubey S, Ekmanis J, Elbaek CT, Elsherif M, Engelhard IM, Escher
-    YA, Etienne TW, Farage L, Farias AR, Feuerriegel S, Findor A, Freira L, Friese M, Gains NP, Gallyamova A, Geiger SJ, Genschow
-    O, Gjoneska B, Gkinopoulos T, Goldberg B, Goldenberg A, Gradidge S, Grassini S, Gray K, Grelle S, Griffin SM, Grigoryan
-    L, Grigoryan A, Grigoryev D, Gruber J, Guilaran J, Hadar B, Hahnel UJJ, Halperin E, Harvey AJ, Haugestad CAP, Herman AM,
-    Hershfield HE, Himichi T, Hine DW, Hofmann W, Howe L, Huaman-Chulluncuy ET, Huang G, Ishii T, Ito A, Jia F, Jost JT, Jovanović
-    V, Jurgiel D, Kácha O, Kankaanpää R, Kantorowicz J, Kantorowicz-Reznichenko E, Kaplan Mintz K, Kaya I, Kaya O, Khachatryan
-    N, Klas A, Klein C, Klöckner CA, Koppel L, Kosachenko AI, Kothe EJ, Krebs R, Krosch AR, Krouwel APM, Kyrychenko Y, Lagomarsino
-    M, Lamm C, Lange F, Lee Cunningham J, Lees J, Leung TY, Levy N, Lockwood PL, Longoni C, López Ortega A, Loschelder DD,
-    Lu JG, Luo Y, Luomba J, Lutz AE, Majer JM, Markowitz E, Marsh AA, Mascarenhas KL, Mbilingi B, Mbungu W, McHugh C, Meijers
-    MHC, Mercier H, Mhagama FL, Michalakis K, Mikus N, Milliron S, Mitkidis P, Monge-Rodríguez FS, Mora YL, Moreau D, Motoki
-    K, Moyano M, Mus M, Navajas J, Nguyen TL, Nguyen DM, Nguyen T, Niemi L, Nijssen SRR, Nilsonne G, Nitschke JP, Nockur L,
-    Okura R, Öner S, Özdoğru AA, Palumbo H, Panagopoulos C, Panasiti MS, Pärnamets P, Paruzel-Czachura M, Pavlov YG, Payán-Gómez
-    C, Pearson AR, Pereira da Costa L, Petrowsky HM, Pfattheicher S, Pham NT, Ponizovskiy V, Pretus C, Rêgo GG, Reimann R,
-    Rhoads SA, Riano-Moreno J, Richter I, Röer JP, Rosa-Sullivan J, Ross RM, Sabherwal A, Saito T, Sarrasin O, Say N, Schmid
-    K, Schmitt MT, Schoenegger P, Scholz C, Schug MG, Schulreich S, Shreedhar G, Shuman E, Sivan S, Sjåstad H, Soliman M,
-    Soud K, Spampatti T, Sparkman G, Spasovski O, Stanley SK, Stern JA, Strahm N, Suko Y, Sul S, Syropoulos S, Taylor NC,
-    Tedaldi E, Tinghög G, Huynh LDT, Travaglino GA, Tsakiris M, Tüter İ, Tyrala M, Uluğ ÖM, Urbanek A, Valko D, van der Linden
-    S, van Schie K, van Stekelenburg A, Vanags E, Västfjäll D, Vesely S, Vintr J, Vranka M, Wanguche PO, Willer R, Wojcik
-    AD, Xu R, Yadav A, Zawisza M, Zhao X, Zhao J, Żuk D, Van Bavel JJ
-  links:
-    preprint: https://doi.org/10.31234/osf.io/cr5at
-  volume: '10'
-  issue: '6'
-  pages: eadj5778
-  pmid: '38324680'
-  issn: 2375-2548
-  eissn: 2375-2548
-  publication_date: '2024-02-09'
-  online_date: '2024-02-07'
-  canonical_journal: SCIENCE ADVANCES
-  keywords: Humans, Climate Change, Intention, Policy, Behavioral Sciences
-  open_access: Open Access
-  rims_id: '845842'
-  id: vlasceanu_nd_addressing
-  pub_type: original
-- title: A Practical Guide for Transparency in Psychological Science
-  journal: 'Collabra: Psychology'
-  doi: 10.1525/collabra.158
-  authors: Klein O, Hardwicke TE, Aust F, Breuer J, Danielsson H, Hofelich Mohr A, IJzerman H, Nilsonne G, Vanpaemel W, Frank
-    MC
-  links:
-    preprint: https://doi.org/10.17605/OSF.IO/RTYGM
-  volume: '4'
-  issue: '1'
-  article_number: '20'
-  issn: 2474-7394
-  eissn: 2474-7394
-  publication_date: '2018-06-29'
-  online_date: '2018-06-29'
-  canonical_journal: COLLABRA-PSYCHOLOGY
-  keywords: transparency, open science, tutorial
-  open_access: Gold OA
-  rims_id: '606962'
-  id: klein_nd_practical
-  pub_type: review
+  date: '2006-01-01'
 preprints:
 - title: TrialScout links published results to trial registrations using a large language model
   authors: Ahnström L, Bruckner T, Aspromonti DA, Caquelin L, Cummins J, DeVito NJ, Axfors C, Ioannidis JPA, Nilsonne G
@@ -2828,62 +2939,7 @@ preprints:
   rims_id: '1112467'
   publication_date: '2026-03-17'
   acceptance_date: '2026-03-17'
-- title: Unpacking the Possibilities of Intellectual Properties for Open Science
-  authors: Alavi M, Koch P, MacDonald L, Miller K, Nilsonne G, Priess-Buchheit J, Scherer J, Škorić L, Stoev P, Vrkic D, Wyber
-    S, Yovcheva N, Yucebalkan C
-  doi: 10.3897/arphapreprints.e181365
-  year: 2025
-  links: {}
-  rims_id: '1086793'
-  publication_date: '2025-12-05'
-  acceptance_date: '2025-12-05'
-- title: 'Triangulation can be useful depending on what you wish to achieve: Further elaborations and a reply to Lucas et
-    al. (2024)'
-  authors: Sorjonen K, Nilsonne G, Melin B
-  doi: 10.31234/osf.io/6dq2j_v2
-  year: 2025
-  links: {}
-  rims_id: '1038977'
-  publication_date: '2025-07-15'
-- title: 'The EEGManyPipelines Dataset: Metascientific Data on 168 Independent Analyses of a Single EEG Dataset'
-  authors: Cesnaite E, vitale A, Pascarella A, Vinding MC, Algermissen J, Fischer NL, Puoliväli T, Gianelli C, Marshall CR,
-    Trübutschek D, Yang Y-F, Busch N, Nilsonne G
-  doi: 10.31222/osf.io/c4xwg_v1
-  year: 2025
-  links: {}
-  rims_id: '1086794'
-  publication_date: '2025-12-03'
-- title: Multiverse analyses of meta-analytic data reveal no prospective effects between peer relationships and internet addiction
-  authors: Sorjonen K, Melin B, Nilsonne G, Melin M
-  doi: 10.31234/osf.io/y6m4a_v1
-  year: 2025
-  links: {}
-  rims_id: '1073505'
-  publication_date: '2025-10-28'
-- title: 'Interleukin-6 in Bipolar Disorder: A Systematic Review and Meta-analysis'
-  authors: Suditu I, Dittasiri N, Glasberg A, Alkattan D, Neumann S, Sorjonen K, Ahnström L, Bengtsson J, Olsson N, Lekander
-    M, Nilsonne G
-  doi: 10.31234/osf.io/kpdmy_v1
-  year: 2025
-  links: {}
-  rims_id: '1024636'
-  publication_date: '2025-03-18'
-- title: 'Inconclusive evidence for causal effects between beliefs in conspiracy theories: A reanalysis and comment on Williams
-    et al. (2025)'
-  authors: Sorjonen K, Nilsonne G, Olsson A, Melin B
-  doi: 10.31234/osf.io/6sf2k_v1
-  year: 2025
-  links: {}
-  rims_id: '1025255'
-  publication_date: '2025-04-18'
-- title: 'Cross-lagged network models do not prove causality: Results from simulations and analyses of symptoms of depression
-    and anxiety'
-  authors: Sorjonen K, Melin B, Nilsonne G
-  doi: 10.31234/osf.io/j3k68
-  year: 2025
-  links: {}
-  rims_id: '900853'
-  publication_date: '2025-01-02'
+  date: '2026-03-17'
 - title: Assessing the Compliance and Timeliness of Results Reporting for Clinical Trials on Antimicrobial Agents
   authors: Curtin M, Wiltshire A, Nilsonne G, Siebert M
   doi: 10.64898/2025.12.23.25342922
@@ -2893,6 +2949,43 @@ preprints:
   rims_id: '1089851'
   publication_date: '2025-12-31'
   acceptance_date: '2025-12-31'
+  date: '2025-12-31'
+- title: Unpacking the Possibilities of Intellectual Properties for Open Science
+  authors: Alavi M, Koch P, MacDonald L, Miller K, Nilsonne G, Priess-Buchheit J, Scherer J, Škorić L, Stoev P, Vrkic D, Wyber
+    S, Yovcheva N, Yucebalkan C
+  doi: 10.3897/arphapreprints.e181365
+  year: 2025
+  links: {}
+  rims_id: '1086793'
+  publication_date: '2025-12-05'
+  acceptance_date: '2025-12-05'
+  date: '2025-12-05'
+- title: 'The EEGManyPipelines Dataset: Metascientific Data on 168 Independent Analyses of a Single EEG Dataset'
+  authors: Cesnaite E, vitale A, Pascarella A, Vinding MC, Algermissen J, Fischer NL, Puoliväli T, Gianelli C, Marshall CR,
+    Trübutschek D, Yang Y-F, Busch N, Nilsonne G
+  doi: 10.31222/osf.io/c4xwg_v1
+  year: 2025
+  links: {}
+  rims_id: '1086794'
+  publication_date: '2025-12-03'
+  date: '2025-12-03'
+- title: Multiverse analyses of meta-analytic data reveal no prospective effects between peer relationships and internet addiction
+  authors: Sorjonen K, Melin B, Nilsonne G, Melin M
+  doi: 10.31234/osf.io/y6m4a_v1
+  year: 2025
+  links: {}
+  rims_id: '1073505'
+  publication_date: '2025-10-28'
+  date: '2025-10-28'
+- title: 'Triangulation can be useful depending on what you wish to achieve: Further elaborations and a reply to Lucas et
+    al. (2024)'
+  authors: Sorjonen K, Nilsonne G, Melin B
+  doi: 10.31234/osf.io/6dq2j_v2
+  year: 2025
+  links: {}
+  rims_id: '1038977'
+  publication_date: '2025-07-15'
+  date: '2025-07-15'
 - title: A reversed interpretation of the Dunning-Kruger effect based on disturbance
   authors: Sorjonen K, Melin M, Lager E, Nilsonne G, Melin B
   doi: 10.31234/osf.io/sqy69_v1
@@ -2900,6 +2993,34 @@ preprints:
   links: {}
   rims_id: '1035026'
   publication_date: '2025-06-24'
+  date: '2025-06-24'
+- title: 'Inconclusive evidence for causal effects between beliefs in conspiracy theories: A reanalysis and comment on Williams
+    et al. (2025)'
+  authors: Sorjonen K, Nilsonne G, Olsson A, Melin B
+  doi: 10.31234/osf.io/6sf2k_v1
+  year: 2025
+  links: {}
+  rims_id: '1025255'
+  publication_date: '2025-04-18'
+  date: '2025-04-18'
+- title: 'Interleukin-6 in Bipolar Disorder: A Systematic Review and Meta-analysis'
+  authors: Suditu I, Dittasiri N, Glasberg A, Alkattan D, Neumann S, Sorjonen K, Ahnström L, Bengtsson J, Olsson N, Lekander
+    M, Nilsonne G
+  doi: 10.31234/osf.io/kpdmy_v1
+  year: 2025
+  links: {}
+  rims_id: '1024636'
+  publication_date: '2025-03-18'
+  date: '2025-03-18'
+- title: 'Cross-lagged network models do not prove causality: Results from simulations and analyses of symptoms of depression
+    and anxiety'
+  authors: Sorjonen K, Melin B, Nilsonne G
+  doi: 10.31234/osf.io/j3k68
+  year: 2025
+  links: {}
+  rims_id: '900853'
+  publication_date: '2025-01-02'
+  date: '2025-01-02'
 - title: 'Triangulation can be useful depending on what you wish to achieve: A reply to Lucas et al. (2024)'
   journal: ''
   doi: 10.31234/osf.io/6dq2j
@@ -2908,6 +3029,53 @@ preprints:
   links: {}
   publication_date: '2024-11-28'
   rims_id: '895464'
+  date: '2024-11-28'
+- title: 'Inconclusive evidence for a prospective effect of academic self-concept on achievement: A simulated reanalysis and
+    comment on Marsh et al. (2024)'
+  journal: ''
+  doi: 10.31234/osf.io/3cjtr
+  year: 2024
+  authors: Sorjonen K, Melin B, Nilsonne G
+  links: {}
+  publication_date: '2024-11-22'
+  rims_id: '896128'
+  date: '2024-11-22'
+- title: 'The Spurious Prospective Associations Model (SPAM): Explaining longitudinal associations due to statistical artifacts'
+  journal: PsyArXiv
+  authors: Sorjonen K, Melin B, Nilsonne G
+  links: {}
+  doi: 10.31234/osf.io/aj6mn
+  date: '2024-11-01'
+  year: 2024
+- title: 'Effects of one-night partial sleep deprivation on perivascular space volume fraction: Findings from the Stockholm
+    Sleepy Brain Study'
+  journal: ''
+  doi: 10.1101/2024.10.26.620382
+  year: 2024
+  authors: Custer RM, Lynch KM, Barisano G, Herting MM, Åkerstedt T, Nilsonne G, Ahmadi H, Choupan J
+  links: {}
+  publication_date: '2024-10-27'
+  acceptance_date: '2024-10-27'
+  rims_id: '887852'
+  date: '2024-10-27'
+- title: A taxonomy of treatment effects in data with two waves of measurement and a promotion of triangulation
+  journal: ''
+  doi: 10.31234/osf.io/q47s6
+  authors: Sorjonen K, Arshamian A, Lager E, Nilsonne G,Melin B
+  links: {}
+  publication_date: '2024-07-12'
+  rims_id: '875173'
+  date: '2024-07-12'
+  year: 2024
+- title: 'In aqua veritas: Triangulation of cross-lagged effects for improved causal inference'
+  journal: ''
+  doi: 10.31234/osf.io/ztwy6
+  authors: Sorjonen K, Arshamian A, Lager E, Nilsonne G,Melin B
+  links: {}
+  publication_date: '2024-05-14'
+  rims_id: '868219'
+  date: '2024-05-14'
+  year: 2024
 - title: Results reporting for clinical trials led by medical universities and university hospitals in the Nordic countries
     was often missing or delayed
   authors: Gustav Nilsonne, Susanne Wieschowski, Nicholas J. DeVito, Maia Salholz-Hillel, Love Ahnström, Till Bruckner, Katarzyna
@@ -2919,25 +3087,7 @@ preprints:
   year: 2024
   doi: 10.1101/2024.02.04.24301363
   links: {}
-- title: 'Inconclusive evidence for a prospective effect of academic self-concept on achievement: A simulated reanalysis and
-    comment on Marsh et al. (2024)'
-  journal: ''
-  doi: 10.31234/osf.io/3cjtr
-  year: 2024
-  authors: Sorjonen K, Melin B, Nilsonne G
-  links: {}
-  publication_date: '2024-11-22'
-  rims_id: '896128'
-- title: 'Effects of one-night partial sleep deprivation on perivascular space volume fraction: Findings from the Stockholm
-    Sleepy Brain Study'
-  journal: ''
-  doi: 10.1101/2024.10.26.620382
-  year: 2024
-  authors: Custer RM, Lynch KM, Barisano G, Herting MM, Åkerstedt T, Nilsonne G, Ahmadi H, Choupan J
-  links: {}
-  publication_date: '2024-10-27'
-  acceptance_date: '2024-10-27'
-  rims_id: '887852'
+  date: '2024-02-05'
 - title: 'Spurious effects in random-intercept cross-lagged panel models: Results from simulations and reanalyses of data
     on self-esteem and problematic eating behaviors used by Beckers et al. (2023)'
   journal: ''
@@ -2947,6 +3097,15 @@ preprints:
   links: {}
   publication_date: '2024-01-11'
   rims_id: '843716'
+  date: '2024-01-11'
+- title: Digitization of data from published plots v1.0 v1
+  authors: Nilsonne G, Ahnström L
+  doi: 10.17504/protocols.io.n2bvj8wnngk5/v1
+  year: 2023
+  links: {}
+  rims_id: '838914'
+  publication_date: '2023-04-10'
+  date: '2023-04-10'
 - title: 'Seven challenges for research integrity education: current status and recommendations'
   journal: ''
   doi: 10.31219/osf.io/5w9kg
@@ -2956,13 +3115,7 @@ preprints:
     preprint: https://doi.org/10.31219/osf.io/5w9kg
   publication_date: '2023-03-06'
   rims_id: '854395'
-- title: Digitization of data from published plots v1.0 v1
-  authors: Nilsonne G, Ahnström L
-  doi: 10.17504/protocols.io.n2bvj8wnngk5/v1
-  year: 2023
-  links: {}
-  rims_id: '838914'
-  publication_date: '2023-04-10'
+  date: '2023-03-06'
 - title: 'Prospective associations between self-esteem and quality of social relations may be spurious: Reanalysis of a meta-analysis
     of longitudinal studies'
   authors: Sorjonen K, Ingre M, Melin B, Nilsonne G
@@ -2971,11 +3124,13 @@ preprints:
   links: {}
   rims_id: '676772'
   publication_date: '2022-12-26'
+  date: '2022-12-26'
 - title: Pathways towards community-based, transparent, and systematic quality control of research objects
   authors: Gustav Nilsonne
   year: 2022
   doi: 10.52843/cassyni.q2hj8l
   links: {}
+  date: '2022-09-19'
 - title: 'Discrepancy review: A feasibility study of a novel peer review intervention to reduce undisclosed discrepancies
     between registrations and publications'
   authors: Robert T. Thibault, Tom E. Hardwicke, Robbie W. A. Clark, Charlotte R. Pennington, Gustav Nilsonne, Aoife O'Mahony,
@@ -2983,12 +3138,23 @@ preprints:
   year: 2022
   doi: 10.1101/2022.01.18.22269507
   links: {}
+  date: '2022-01-21'
+- title: Empirical evidence for a three-level model of emotional contagion, empathy and emotional regulation
+  journal: ''
+  doi: 10.31234/osf.io/ake34
+  authors: Nilsonne G, Schwarz J, Kecklund G, Petrovic P, Fischer H, Åkerstedt T, Lekander M, Tamm S
+  links: {}
+  publication_date: '2021-02-05'
+  rims_id: '640316'
+  date: '2021-02-05'
+  year: 2021
 - title: Spontaneous eye-movements during eyes-open rest reduce resting-state-network modularity by increasing visual-sensorimotor
     connectivity
   authors: Cemal Koba, Giuseppe Notaro, Sandra Tamm, Gustav Nilsonne, Uri Hasson
   year: 2020
   doi: 10.1101/2020.05.18.100669
   links: {}
+  date: '2020-05-20'
 - title: 'A tale of two “opens”: Intersections between Free and Open Source Software and Open Scholarship'
   journal: SocArXiv
   year: 2020
@@ -2998,6 +3164,17 @@ preprints:
     T, Stojanovski J, Uribe-Tirado A, Vos R, Worthington S, Yarkoni T
   links: {}
   doi: 10.31235/osf.io/2kxq8
+  date: '2020-03-06'
+- title: 'A cocktail fallacy in research with composite variables: a commentary on job strain and effort–reward imbalance
+    (ERI) theories with updated meta-analyses on health outcomes'
+  journal: ''
+  doi: 10.31234/osf.io/9hyxj
+  authors: Ingre M, Sorjonen K, Nilsonne G
+  links: {}
+  publication_date: '2019-02-24'
+  rims_id: '676806'
+  date: '2019-02-24'
+  year: 2019
 - title: 'Intrinsic brain connectivity after partial sleep deprivation in young and older adults: results from the Stockholm
     Sleepy Brain study'
   authors: Gustav Nilsonne, Sandra Tamm, Johanna Schwarz, Rita Almeida, Håkan Fischer, Göran Kecklund, Mats Lekander, Peter
@@ -3005,6 +3182,7 @@ preprints:
   year: 2016
   doi: 10.1101/073494
   links: {}
+  date: '2016-09-05'
 - title: 'Disease threat does not predict attractiveness preference in a United Kingdom dataset: a replication attempt and
     commentary on White et al., Psych Sci 2013'
   authors: Nilsonne G, Renberg A, Tamm S, Lekander M
@@ -3015,37 +3193,12 @@ preprints:
   links: {}
   rims_id: '703302'
   publication_date: '2015-01-20'
-- title: 'The Spurious Prospective Associations Model (SPAM): Explaining longitudinal associations due to statistical artifacts'
-  journal: PsyArXiv
-  authors: Sorjonen K, Melin B, Nilsonne G
-  links: {}
-  doi: 10.31234/osf.io/aj6mn
+  date: '2015-01-20'
 - title: 'Still spurious: A comment on attempts to revive cognitive ability tilts'
   journal: ''
   doi: 10.31234/osf.io/tbhx6
   authors: Sorjonen K, Melin B, Nilsonne G
   links: {}
-- title: 'In aqua veritas: Triangulation of cross-lagged effects for improved causal inference'
-  journal: ''
-  doi: 10.31234/osf.io/ztwy6
-  authors: Sorjonen K, Arshamian A, Lager E, Nilsonne G,Melin B
-  links: {}
-  publication_date: '2024-05-14'
-  rims_id: '868219'
-- title: Empirical evidence for a three-level model of emotional contagion, empathy and emotional regulation
-  journal: ''
-  doi: 10.31234/osf.io/ake34
-  authors: Nilsonne G, Schwarz J, Kecklund G, Petrovic P, Fischer H, Åkerstedt T, Lekander M, Tamm S
-  links: {}
-  publication_date: '2021-02-05'
-  rims_id: '640316'
-- title: A taxonomy of treatment effects in data with two waves of measurement and a promotion of triangulation
-  journal: ''
-  doi: 10.31234/osf.io/q47s6
-  authors: Sorjonen K, Arshamian A, Lager E, Nilsonne G,Melin B
-  links: {}
-  publication_date: '2024-07-12'
-  rims_id: '875173'
 - title: A multimodal brain imaging dataset on sleep deprivation in young and old humans
   journal: Karolinska Open Archive
   authors: Nilsonne G, Tamm S, d’Onofrio P, Thuné HÅ, Schwarz J, Lavebratt C, Liu, JJ, Månsson KNT, Sundelin T, Axelsson J,
@@ -3053,14 +3206,6 @@ preprints:
   links:
     url: http://hdl.handle.net/10616/45181
     data: https://openneuro.org/dataset/ds000201/
-- title: 'A cocktail fallacy in research with composite variables: a commentary on job strain and effort–reward imbalance
-    (ERI) theories with updated meta-analyses on health outcomes'
-  journal: ''
-  doi: 10.31234/osf.io/9hyxj
-  authors: Ingre M, Sorjonen K, Nilsonne G
-  links: {}
-  publication_date: '2019-02-24'
-  rims_id: '676806'
 books:
 - title: 'Affective Regulation and the Neuroscience of Emotion: Festschrift in Honor of Arne Öhman'
   journal: ''
@@ -4441,15 +4586,24 @@ blogging:
   links:
     10.6084/m9.figshare.5027384.v1: https://doi.org/10.6084/m9.figshare.5027384.v1
 other_publications:
+- title: 'Oxazepam and cognitive reappraisal: a randomised experiment'
+  authors: Gustav Nilsonne, Sandra Tamm, Armita Golkar, Andreas Olsson, Karolina Sörman, Katarina Howner, Marianne Kristiansson,
+    Martin Ingvar, Predrag Petrovic
+  year: 2019
+  date: '2019-06-02'
+  doi: 10.1101/656355
+  links: {}
 - title: Targeting thioredoxin reductase - a possible new treatment for malignant mesothelioma
   authors: Nilsonne, G, Stein, A, Rundlof, AK, Fernandes, AP, Bjornstedt, M, Hjerpe, A, Dobra, K
   year: 2006
+  date: '2006-01-01'
   journal: Lung Cancer
   links: {}
 - title: DIFFERENTIAL EFFECTS OF SELENITE ON MALIGNANT MESOTHELIOMA CELLS- A NOVEL THERAPEUTIC APPROACH RELATED TO THE Trx-TrxR
     SYSTEM AND THE REDOX STATE OF THE CELLS
   authors: Nilsonne, G, Sun, XJ, Nystrom, C, Rundlof, AK, Nurminen, M, Bjornstedt, M, Dobra, K
   year: 2004
+  date: '2004-01-01'
   journal: Anticancer Res.
   links: {}
 book_chapters:
@@ -4458,9 +4612,11 @@ book_chapters:
   year: 2023
   doi: 10.53962/w0d6-9kwa
   links: {}
+  date: '2023-03-26'
 - title: 'Figure: Open science concepts'
   authors: Gustav Nilsonne
   year: 2022
   doi: 10.53962/z783-40a1
   links: {}
+  date: '2022-07-21'
 presentations: []
