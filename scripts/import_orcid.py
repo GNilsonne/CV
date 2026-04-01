@@ -153,8 +153,9 @@ def work_to_entry(parsed: dict) -> dict:
     entry = {
         "title": parsed["title"],
         "authors": parsed["authors"] or "Nilsonne G, et al.",
-        "year": parsed["year"],
     }
+    if parsed["year"]:
+        entry["year"] = parsed["year"]
     if parsed["doi"]:
         entry["doi"] = parsed["doi"]
     if parsed["journal"]:
@@ -242,10 +243,10 @@ def main():
             doi_map[doi] = (section, len(existing[section]) - 1)
         new_count += 1
 
-    # Sort each section by year (descending)
+    # Sort each section by year (descending); entries without a year go last
     for section in SECTION_MAP.values():
         if section in existing and existing[section]:
-            existing[section].sort(key=lambda e: e.get("year", 0), reverse=True)
+            existing[section].sort(key=lambda e: (e.get("year") or 0, e.get("title", "")), reverse=True)
 
     # Write YAML
     class CustomDumper(yaml.SafeDumper):
