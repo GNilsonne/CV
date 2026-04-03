@@ -325,7 +325,7 @@ def add_reference_para(doc, pub, number, bold_name="Nilsonne G"):
     if links:
         LINK_LABELS = {
             "preprint": "preprint", "data": "data", "code": "code",
-            "materials": "materials", "preregistration": "prereg",
+            "materials": "materials", "preregistration": "preregistration",
             "narrative": "narrative", "slides": "slides", "video": "video",
             "protocol": "protocol", "web": "web", "poster": "poster",
             "correction": "correction", "pdf": "pdf", "diva": "DiVA",

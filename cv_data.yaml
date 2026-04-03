@@ -76,31 +76,30 @@ grants:
 - description: Swedish Society for Medicine, 2011, 12 months postdoctoral scholarship
 - description: Svensk Förening för Sömnforskning och Sömnmedicin, 2013, scholarship, 10 000 SEK
 - description: Fredrik och Ingrid Thurings stiftelse, 2014, project grant, 125 000 SEK, grant no. 2014-00037
-- description: 'Riksbankens Jubileumsfond, 2015, 3-year project grant, 4 053 000 SEK, grant no. P15-0310:1 web: swecris'
+- description: Riksbankens Jubileumsfond, 2015, 3-year project grant, 4 053 000 SEK, grant no. P15-0310:1
   link: https://www.vr.se/english/swecris.html#/project/P15-0310:1_RJ
 - description: Fredrik och Ingrid Thurings stiftelse, 2015, project grant, 50 000 SEK, grant no. 2015-00170
 - description: Swedish Medical Association, 2016, project grant, 50 000 SEK
 - description: Rut och Arvid Wolff memorial foundation 2019, 121 500 SEK, grant no. 2019-01734
 - description: Karolinska Institutet Research Foundation Grant, 2020, 86 000 SEK, grant no. 2020-01412
 - description: Rut och Arvid Wolff memorial foundation, 2020, 121 500 SEK, grant no. 2020-02419
-- description: 'Riksbankens Jubileumsfond, 2021, 3-year project grant, 4 159 000 SEK, grant no. P21-0384 web: swecris'
+- description: Riksbankens Jubileumsfond, 2021, 3-year project grant, 4 159 000 SEK, grant no. P21-0384
   link: https://www.vr.se/english/swecris.html#/project/P21-0384_RJ
 - description: Region Stockholm, 2021, 3-year project grant, 2 000 000 SEK, grant no. FoUI-967372
-- description: 'Horizon Europe, 2022, affiliated partner in project "Skills4EOSC", 3-year project grant, 4.5 person-months.
-    web: CORDIS'
+- description: Horizon Europe, 2022, affiliated partner in project "Skills4EOSC", 3-year project grant, 4.5 person-months.
   link: https://cordis.europa.eu/project/id/101058527
 - description: FTX Future Fund, 2022, 50 000 USD, committed but never disbursed
-- description: 'Horizon Europe Marie Skłodowska-Curie Action "NAPS", host/supervisor to 2-year postdoc grant. web: CORDIS'
+- description: Horizon Europe Marie Skłodowska-Curie Action "NAPS", host/supervisor to 2-year postdoc grant.
   link: https://cordis.europa.eu/project/id/101111182
-- description: 'Horizon Europe, 2023, partner in project "Improving Reproducibility in Science (iRISE)", 3-year project grant,
-    21 person-months. web: CORDIS'
+- description: Horizon Europe, 2023, partner in project "Improving Reproducibility in Science (iRISE)", 3-year project grant,
+    21 person-months.
   link: https://cordis.europa.eu/project/id/101094853
-- description: 'Horizon Europe Marie Skłodowska-Curie Action "ICTR", host/supervisor to 2-year postdoc grant. web: CORDIS'
+- description: Horizon Europe Marie Skłodowska-Curie Action "ICTR", host/supervisor to 2-year postdoc grant.
   link: https://cordis.europa.eu/project/id/101152904
-- description: 'Horizon Europe, 2024, partner in project "IP4OS Unpacking the possibilities of Intellectual Properties for
-    Open Science", 2-year project grant, 27 person-months. web: CORDIS'
+- description: Horizon Europe, 2024, partner in project "IP4OS Unpacking the possibilities of Intellectual Properties for
+    Open Science", 2-year project grant, 27 person-months.
   link: https://cordis.europa.eu/project/id/101188026
-- description: 'Svenska sällskapet för medicinsk forskning, 2025, host/supervisor to 3-year postdoc grant. web: SSMF'
+- description: Svenska sällskapet för medicinsk forskning, 2025, host/supervisor to 3-year postdoc grant.
   link: https://www.ssmf.se/forskare/oreste-affatato/
 - description: Vinnova, 2025, 1-year project grant, 994 152 SEK. swecris
   link: https://www.vr.se/english/swecris.html#/project/2025-00509_Vinnova
@@ -178,12 +177,11 @@ teaching:
   - Ash Mechlaoui, Degree project in medicine, Karolinska Institutet, 2024
   - Sofie Emilson, Degree project in medicine, Karolinska Institutet, 2024
 awards:
-- description: 'Open Data Champion, SPARC Europe, 2017. web: openscholarchampions.eu/opendata/champion/dataforevidence/'
+- description: Open Data Champion, SPARC Europe, 2017.
   link: https://openscholarchampions.eu/opendata/champion/dataforevidence/
-- description: 'Natur & Kulturs populärvetenskapliga arbetsstipendium, 2018. web: nok.se'
+- description: Natur & Kulturs populärvetenskapliga arbetsstipendium, 2018.
   link: https://www.nok.se/priser-och-stipendier/stipendier/popularvetenskapliga-arbetsstipendier/natur--kulturs-popularvetenskapliga-pris-2018/
-- description: 'British Neuroscience Association Credibility in Neuroscience Prize, 2023, awarded to the EEGManyLabs project.
-    web: www.bna.org.uk/mediacentre/news/credibility-prize-2023/'
+- description: British Neuroscience Association Credibility in Neuroscience Prize, 2023, awarded to the EEGManyLabs project.
   link: https://www.bna.org.uk/mediacentre/news/credibility-prize-2023/
 phd_committee:
 - description: 'University of Copenhagen, Tarang Sharma: Effects of selective serotonin reuptake inhibitors (SSRIs) and serotonin-norepinephrine

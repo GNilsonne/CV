@@ -247,7 +247,7 @@ def format_links_latex(links) -> str:
         "data": "data",
         "code": "code",
         "materials": "materials",
-        "preregistration": "prereg",
+        "preregistration": "preregistration",
         "narrative": "narrative",
         "slides": "slides",
         "video": "video",
