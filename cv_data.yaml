@@ -3214,23 +3214,20 @@ books:
   links: {}
 open_peer_reviews:
 - description: 'Smith R and Roberts I. Time for sharing data to become routine: the seven excuses for not doing so are all
-    invalid [version 1; referees: 2 approved, 1 approved with reservations] F1000Research 2016, 5:781. doi: 10.12688/f1000research.8422.1.
-    doi of review report: 10.5256/f1000research.9066.r14294'
-  links:
-    10.12688/f1000research.8422.1: http://dx.doi.org/10.12688/f1000research.8422.1
-    10.5256/f1000research.9066.r14294: http://dx.doi.org/10.5256/f1000research.9066.r14294
-- description: 'Matthews PC. Fairness in scientific publishing [version 2; referees: 3 approved] F1000Research 2016, 5:2816.
-    doi: 10.12688/f1000research.10318.2. doi of review report 1: 10.5256/f1000research.11114.r18242. doi of review report
-    2: 10.5256/f1000research.11479.r19405'
-  links:
-    10.12688/f1000research.10318.2: http://dx.doi.org/10.12688/f1000research.10318.2
-    10.5256/f1000research.11114.r18242: http://dx.doi.org/10.5256/f1000research.11114.r18242
-    10.5256/f1000research.11479.r19405: http://dx.doi.org/10.5256/f1000research.11479.r19405
+    invalid [version 1; referees: 2 approved, 1 approved with reservations] F1000Research 2016, 5:781.'
+  paper_doi: 10.12688/f1000research.8422.1
+  report_dois:
+  - 10.5256/f1000research.9066.r14294
+- description: 'Matthews PC. Fairness in scientific publishing [version 2; referees: 3 approved] F1000Research 2016, 5:2816.'
+  paper_doi: 10.12688/f1000research.10318.2
+  report_dois:
+  - 10.5256/f1000research.11114.r18242
+  - 10.5256/f1000research.11479.r19405
 - description: 'Rowhani-Farid A, Barnett AG. Badges for sharing data and code at Biostatistics: an observational study [version
-    1; referees: 1 approved] F1000Research 2018, 7:90. doi: 10.12688/f1000research.13477.1. doi of review report: 10.5256/f1000research.14635.r30171.'
-  links:
-    10.12688/f1000research.13477.1: http://doi.org/10.12688/f1000research.13477.1
-    10.5256/f1000research.14635.r30171: http://doi.org/10.5256/f1000research.14635.r30171
+    1; referees: 1 approved] F1000Research 2018, 7:90.'
+  paper_doi: 10.12688/f1000research.13477.1
+  report_dois:
+  - 10.5256/f1000research.14635.r30171
 reports:
 - title: 'Omskärelse av pojkar och män: risker och potentiella hälsovinster'
   journal: ''
