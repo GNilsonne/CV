@@ -1409,6 +1409,7 @@ publications:
   issn: 1932-6203
   publication_date: '2021-04-22'
   open_access: Open Access
+  id: nilsonne_2021_oxazepam
 - title: 'Fostering global data sharing: highlighting the recommendations of the Research Data Alliance COVID-19 working group'
   journal: Wellcome Open Research
   doi: 10.12688/wellcomeopenres.16378.2
@@ -2789,6 +2790,7 @@ publications:
   issn: 1932-6203
   publication_date: '2025-09-02'
   open_access: Open Access
+  id: sorjonen_2025_spurious
 - title: Cross-lagged network models do not prove causality and may be evaluated through triangulation
   authors: Sorjonen K, Melin B, Nilsonne G
   journal: Acta Psychologica
@@ -2825,6 +2827,7 @@ publications:
   issn: 1932-6203
   publication_date: '2025-10-24'
   open_access: Open Access
+  id: sorjonen_2025_still_spurious
 - title: 'Still No Convincing Evidence for a Causal Effect of Academic Self-Concept on Achievement: A Reply to Núñez-Regueiro
     et al., 2025'
   authors: Sorjonen K, Melin B, Nilsonne G
@@ -2949,6 +2952,7 @@ publications:
   issn: 0028-0836
   publication_date: '2026-04-02'
   open_access: Closed Access
+  id: aczel_2026_investigating
 preprints:
 - title: 'Disease threat does not predict attractiveness preference in a United Kingdom dataset: a replication attempt and
     commentary on White et al., Psych Sci 2013'
@@ -2961,6 +2965,7 @@ preprints:
   rims_id: '703302'
   publication_date: '2015-01-20'
   date: '2015-01-20'
+  id: nilsonne_2015_disease
 - title: 'A cocktail fallacy in research with composite variables: a commentary on job strain and effort–reward imbalance
     (ERI) theories with updated meta-analyses on health outcomes'
   journal: ''
@@ -2971,6 +2976,7 @@ preprints:
   rims_id: '676806'
   date: '2019-02-24'
   year: 2019
+  id: ingre_2019_cocktail
 - title: 'A tale of two “opens”: Intersections between Free and Open Source Software and Open Scholarship'
   journal: SocArXiv
   year: 2020
@@ -2981,6 +2987,7 @@ preprints:
   links: {}
   doi: 10.31235/osf.io/2kxq8
   date: '2020-03-06'
+  id: tennant_2020_tale
 - title: Empirical evidence for a three-level model of emotional contagion, empathy and emotional regulation
   journal: ''
   doi: 10.31234/osf.io/ake34
@@ -2990,12 +2997,14 @@ preprints:
   rims_id: '640316'
   date: '2021-02-05'
   year: 2021
+  id: nilsonne_2021_empirical
 - title: Pathways towards community-based, transparent, and systematic quality control of research objects
   authors: Gustav Nilsonne
   year: 2022
   doi: 10.52843/cassyni.q2hj8l
   links: {}
   date: '2022-09-19'
+  id: nilsonne_2022_pathways
 - title: 'Prospective associations between self-esteem and quality of social relations may be spurious: Reanalysis of a meta-analysis
     of longitudinal studies'
   authors: Sorjonen K, Ingre M, Melin B, Nilsonne G
@@ -3005,6 +3014,7 @@ preprints:
   rims_id: '676772'
   publication_date: '2022-12-26'
   date: '2022-12-26'
+  id: sorjonen_2022_prospective
 - title: 'Seven challenges for research integrity education: current status and recommendations'
   journal: ''
   doi: 10.31219/osf.io/5w9kg
@@ -3015,6 +3025,7 @@ preprints:
   publication_date: '2023-03-06'
   rims_id: '854395'
   date: '2023-03-06'
+  id: hoven_2023_seven
 - title: Digitization of data from published plots v1.0 v1
   authors: Nilsonne G, Ahnström L
   doi: 10.17504/protocols.io.n2bvj8wnngk5/v1
@@ -3023,6 +3034,7 @@ preprints:
   rims_id: '838914'
   publication_date: '2023-04-10'
   date: '2023-04-10'
+  id: nilsonne_2023_digitization
 - title: 'Spurious effects in random-intercept cross-lagged panel models: Results from simulations and reanalyses of data
     on self-esteem and problematic eating behaviors used by Beckers et al. (2023)'
   journal: ''
@@ -3033,6 +3045,7 @@ preprints:
   publication_date: '2024-01-11'
   rims_id: '843716'
   date: '2024-01-11'
+  id: sorjonen_2023_spurious_ricl
 - title: 'In aqua veritas: Triangulation of cross-lagged effects for improved causal inference'
   journal: ''
   doi: 10.31234/osf.io/ztwy6
@@ -3042,6 +3055,7 @@ preprints:
   rims_id: '868219'
   date: '2024-05-14'
   year: 2024
+  id: sorjonen_2024_aqua
 - title: A taxonomy of treatment effects in data with two waves of measurement and a promotion of triangulation
   journal: ''
   doi: 10.31234/osf.io/q47s6
@@ -3051,6 +3065,7 @@ preprints:
   rims_id: '875173'
   date: '2024-07-12'
   year: 2024
+  id: sorjonen_2024_taxonomy
 - title: 'Effects of one-night partial sleep deprivation on perivascular space volume fraction: Findings from the Stockholm
     Sleepy Brain Study'
   journal: ''
@@ -3062,6 +3077,7 @@ preprints:
   acceptance_date: '2024-10-27'
   rims_id: '887852'
   date: '2024-10-27'
+  id: custer_2024_effects
 - title: 'Inconclusive evidence for a prospective effect of academic self-concept on achievement: A simulated reanalysis and
     comment on Marsh et al. (2024)'
   journal: ''
@@ -3072,6 +3088,7 @@ preprints:
   publication_date: '2024-11-22'
   rims_id: '896128'
   date: '2024-11-22'
+  id: sorjonen_2024_inconclusive
 - title: 'Triangulation can be useful depending on what you wish to achieve: A reply to Lucas et al. (2024)'
   journal: ''
   doi: 10.31234/osf.io/6dq2j
@@ -3081,6 +3098,7 @@ preprints:
   publication_date: '2024-11-28'
   rims_id: '895464'
   date: '2024-11-28'
+  id: sorjonen_2024_triangulation
 - title: 'Cross-lagged network models do not prove causality: Results from simulations and analyses of symptoms of depression
     and anxiety'
   authors: Sorjonen K, Melin B, Nilsonne G
@@ -3090,6 +3108,7 @@ preprints:
   rims_id: '900853'
   publication_date: '2025-01-02'
   date: '2025-01-02'
+  id: sorjonen_2025_cross_lagged_network
 - title: 'Interleukin-6 in Bipolar Disorder: A Systematic Review and Meta-analysis'
   authors: Suditu I, Dittasiri N, Glasberg A, Alkattan D, Neumann S, Sorjonen K, Ahnström L, Bengtsson J, Olsson N, Lekander
     M, Nilsonne G
@@ -3099,6 +3118,7 @@ preprints:
   rims_id: '1024636'
   publication_date: '2025-03-18'
   date: '2025-03-18'
+  id: suditu_2025_interleukin
 - title: 'Inconclusive evidence for causal effects between beliefs in conspiracy theories: A reanalysis and comment on Williams
     et al. (2025)'
   authors: Sorjonen K, Nilsonne G, Olsson A, Melin B
@@ -3108,6 +3128,7 @@ preprints:
   rims_id: '1025255'
   publication_date: '2025-04-18'
   date: '2025-04-18'
+  id: sorjonen_2025_inconclusive
 - title: A reversed interpretation of the Dunning-Kruger effect based on disturbance
   authors: Sorjonen K, Melin M, Lager E, Nilsonne G, Melin B
   doi: 10.31234/osf.io/sqy69_v1
@@ -3116,6 +3137,7 @@ preprints:
   rims_id: '1035026'
   publication_date: '2025-06-24'
   date: '2025-06-24'
+  id: sorjonen_2025_reversed
 - title: 'Triangulation can be useful depending on what you wish to achieve: Further elaborations and a reply to Lucas et
     al. (2024)'
   authors: Sorjonen K, Nilsonne G, Melin B
@@ -3125,6 +3147,7 @@ preprints:
   rims_id: '1038977'
   publication_date: '2025-07-15'
   date: '2025-07-15'
+  id: sorjonen_2025_triangulation
 - title: Multiverse analyses of meta-analytic data reveal no prospective effects between peer relationships and internet addiction
   authors: Sorjonen K, Melin B, Nilsonne G, Melin M
   doi: 10.31234/osf.io/y6m4a_v1
@@ -3133,6 +3156,7 @@ preprints:
   rims_id: '1073505'
   publication_date: '2025-10-28'
   date: '2025-10-28'
+  id: sorjonen_2025_multiverse
 - title: 'The EEGManyPipelines Dataset: Metascientific Data on 168 Independent Analyses of a Single EEG Dataset'
   authors: Cesnaite E, vitale A, Pascarella A, Vinding MC, Algermissen J, Fischer NL, Puoliväli T, Gianelli C, Marshall CR,
     Trübutschek D, Yang Y-F, Busch N, Nilsonne G
@@ -3142,6 +3166,7 @@ preprints:
   rims_id: '1086794'
   publication_date: '2025-12-03'
   date: '2025-12-03'
+  id: cesnaite_2025_eegmanypipelines
 - title: Unpacking the Possibilities of Intellectual Properties for Open Science
   authors: Alavi M, Koch P, MacDonald L, Miller K, Nilsonne G, Priess-Buchheit J, Scherer J, Škorić L, Stoev P, Vrkic D, Wyber
     S, Yovcheva N, Yucebalkan C
@@ -3152,6 +3177,7 @@ preprints:
   publication_date: '2025-12-05'
   acceptance_date: '2025-12-05'
   date: '2025-12-05'
+  id: alavi_2025_unpacking
 - title: Assessing the Compliance and Timeliness of Results Reporting for Clinical Trials on Antimicrobial Agents
   authors: Curtin M, Wiltshire A, Nilsonne G, Siebert M
   doi: 10.64898/2025.12.23.25342922
@@ -3162,6 +3188,7 @@ preprints:
   publication_date: '2025-12-31'
   acceptance_date: '2025-12-31'
   date: '2025-12-31'
+  id: curtin_2025_assessing
 - title: TrialScout links published results to trial registrations using a large language model
   authors: Ahnström L, Bruckner T, Aspromonti DA, Caquelin L, Cummins J, DeVito NJ, Axfors C, Ioannidis JPA, Nilsonne G
   doi: 10.64898/2026.03.15.26348383
@@ -3171,6 +3198,7 @@ preprints:
   publication_date: '2026-03-17'
   acceptance_date: '2026-03-17'
   date: '2026-03-17'
+  id: ahnstrom_2026_trialscout
 - title: A multimodal brain imaging dataset on sleep deprivation in young and old humans
   journal: Karolinska Open Archive
   authors: Nilsonne G, Tamm S, d’Onofrio P, Thuné HÅ, Schwarz J, Lavebratt C, Liu, JJ, Månsson KNT, Sundelin T, Axelsson J,
@@ -3178,6 +3206,7 @@ preprints:
   links:
     url: http://hdl.handle.net/10616/45181
     data: https://openneuro.org/dataset/ds000201/
+  id: nilsonne_multimodal
 books:
 - title: 'Affective Regulation and the Neuroscience of Emotion: Festschrift in Honor of Arne Öhman'
   journal: ''
@@ -3263,18 +3292,21 @@ scholarly_debate:
   authors: Nilsonne G
   links:
     web: http://www.lakartidningen.se/OldWebArticlePdf/1/15188/2491.pdf
+  id: nilsonne_2010_open
 - title: Läkarstudenters minskande empati under utbildningen ifrågasätts
   journal: Läkartidningen
   year: 2010
   authors: Nilsonne G
   links:
     web: http://ww2.lakartidningen.se/07engine.php?articleId=14714
+  id: nilsonne_2010_lakarstudenters
 - title: '[Open Access Week 16-24 October: Open access increases access to the research]'
   authors: Nilsonne, G
   year: 2010
   date: '2010-01-01'
   journal: Lakartidningen
   links: {}
+  id: nilsonne_2010_open_access_en
 - title: Om bevisföring i klinisk medicin och i allmänhet
   journal: Folkvett
   year: 2011
@@ -3283,95 +3315,111 @@ scholarly_debate:
     web: http://www.vof.se/folkvett/ar-2011/nr-1/om-bevisforing-klinisk-medicin-och-allmanhet/
     diva: http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1055191\&dswid=-9257
     pdf: http://www.diva-portal.org/smash/get/diva2:1055191/FULLTEXT01.pdf
+  id: nilsonne_2011_bevisforing
 - title: Towards an ecosystem for open data
   journal: BMJ blogs
   year: 2014
   authors: Nilsonne G
   links:
     web: http://blogs.bmj.com/bmj/2014/10/24/gustav-nilsonne-towards-an-ecosystem-for-open-data/
+  id: nilsonne_2014_towards
 - title: Våga vårda vårt fackspråk
   journal: Läkartidningen
   year: 2014
   authors: Nilsonne G
   links:
     web: http://www.lakartidningen.se/Aktuellt/Kultur/Kultur/2014/02/Vaga-varda-vart-facksprak/
+  id: nilsonne_2014_vaga
 - title: Öppna data viktig pusselbit i framtidens forskningsmetod
   journal: Läkartidningen
   year: 2014
   authors: Nilsonne G
   links:
     web: http://www.lakartidningen.se/Opinion/Debatt/2014/10/Oppna-data-viktig-pusselbit-i-framtidens-forskningsmetod/
+  id: nilsonne_2014_oppna
 - title: Clinical trials, replication, and crowdsourcing
   journal: Open Science Collaboration blog
   year: 2014
   authors: Nilsonne G
   links:
     web: http://osc.centerforopenscience.org/2014/11/19/clinical-trials-replication-crowdsourcing/
+  id: nilsonne_2014_clinical
 - title: Fusk bekämpas bäst med öppna forskningsdata
   journal: Curie
   year: 2015
   authors: Nilsonne G
   links:
     web: http://www.tidningencurie.se/22/kronikor/kronikor/2015-06-30-gustav-nilsonne-fusk-bekampas-bast-med-oppna-forskningsdata.html
+  id: nilsonne_2015_fusk
 - title: Mindre än hälften av psykologistudier kunde reproduceras
   journal: Läkartidningen
   year: 2015
   authors: Nilsonne G
   links:
     web: http://www.lakartidningen.se/Klinik-och-vetenskap/Nya-ron/2015/09/Mindre-an-halften-av-psykologistudier-kunde-upprepas/
+  id: nilsonne_2015_mindre
 - title: Bias i metaanalys kan leda till överskattade effekter
   journal: Läkartidningen
   year: 2016
   authors: Nilsonne G
   links:
     web: http://lakartidningen.se/Klinik-och-vetenskap/Nya-ron/2015/11/Samband-mellan-inflammation-och-PTSD-granskad-i-metaanalys/
+  id: nilsonne_2016_bias
 - title: Öppna data kan öka kunskapsmassan och motverka fusk
   journal: Läkartidningen
   year: 2016
   authors: Nilsonne G. Willén R
   links:
     web: http://www.lakartidningen.se/Klinik-och-vetenskap/Kommentar/2016/10/Oppna-data-kan-oka-kunskapsmassan-och-motverka-fusk/
+  id: nilsonne_2016_oppna
 - title: Vetenskapsrådet bör agera mer kraftfullt
   journal: Svenska Dagbladet
   year: 2016
   authors: Nilsonne G
   links:
     web: http://www.svd.se/vetenskapsradet-bor-agera-mer-kraftfullt/om/debatt
+  id: nilsonne_2016_vetenskapsradet
 - title: Upprop för välgrundad forskning och vård
   journal: KI-bladet
   year: 2016
   authors: Kanstrup M, Moberg K, Gustafsson S, Gornitzki C, Nilsonne G, Galanti MR
   links: {}
+  id: kanstrup_2016_upprop
 - title: Psykologin i framkant för öppen vetenskap
   journal: Psykologtidningen
   year: 2017
   authors: Willén R, Nilsonne G
   links:
     web: http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1172689
+  id: willen_2017_psykologin
 - title: Ingen motsättning mellan demokrati och evidens
   journal: Skola och Samhälle
   year: 2017
   authors: Dietrichson E, Nilsonne G, Palm A
   links:
     web: http://www.skolaochsamhalle.se/flode/skola/elias-dietrichson-med-flera-ingen-motsattning-mellan-demokrati-och-evidens/
+  id: dietrichson_2017_ingen
 - title: Öppen tillgång ger författare starkare ställning
   journal: Universitetsläraren
   year: 2017
   authors: Nilsonne G
   links:
     web: https://universitetslararen.se/2017/06/01/oppen-tillgang-ger-forfattare-starkare-stallning/
+  id: nilsonne_2017_oppen
 - title: 'Open science: providing skills and inspiring change'
   journal: Stockholm University Press blog
   year: 2017
   authors: Nilsonne G
   links:
     web: https://blog.stockholmuniversitypress.se/2017/06/26/open-science-providing-skills-and-inspiring-change/
+  id: nilsonne_2017_open
 - title: 'Replik: Befria forskningen från tidskrifternas tvångströja'
   journal: Curie
   year: 2018
   authors: Nilsonne G
   links:
     web: https://www.tidningencurie.se/debatt/replik-befria-forskningen-fran-tidskriftspubliceringens-tvangstroja/
+  id: nilsonne_2018_replik
 - title: BIDS and the NeuroImaging Data Model (NIDM)
   journal: F1000Research
   doi: 10.7490/f1000research.1117293.1
@@ -3382,29 +3430,34 @@ scholarly_debate:
   links:
     web: https://doi.org/10.7490/f1000research.1117293.1
     doi: 10.7490/f1000research.1117293.1
+  id: appelhoff_2019_bids
 - title: Dyrköpt avtal med Elsevier
   journal: Curie
   year: 2019
   authors: Nilsonne G
   links:
     web: https://www.tidningencurie.se/debatt/dyrkopt-avtal-med-elsevier/
+  id: nilsonne_2019_dyrkopt
 - title: Stor variation i resultat när olika forskare analyserade samma data
   journal: Läkartidningen
   year: 2020
   authors: Nilsonne G
   links:
     web: https://lakartidningen.se/klinik-och-vetenskap-1/nya-ron/2020/06/stor-variation-i-resultat-nar-olika-forskare-analyserade-samma-data/
+  id: nilsonne_2020_stor
 - title: Rekommendationer om Covid-19-data från Research Data Alliance (RDA)
   journal: SND nyhetsbrev
   year: 2020
   authors: Nilsonne G
   links:
     web: https://www.anpdm.com/article/4340584A7644435E41724642514071/26886017/6186063
+  id: nilsonne_2020_rekommendationer
 - title: How to reclaim ownership of scholarly publishing
   journal: Research Europe
   year: 2022
   authors: Brembs B, Nilsonne G, Susi T
   links: {}
+  id: brembs_2022_reclaim
 - title: Creating a market to replace publisher monopolies
   journal: sOApbox
   year: 2022
@@ -3412,18 +3465,21 @@ scholarly_debate:
     S
   links:
     web: https://www.coalition-s.org/blog/creating-a-market-to-replace-publisher-monopolies/
+  id: brembs_2022_creating
 - title: Sverige får inte missa tåget när EU satsar på öppen vetenskap
   journal: Curie
   year: 2022
   authors: Widmark W, Anderberg S, Holmgren S, Lindvall J, Nilsonne G
   links:
     web: https://www.tidningencurie.se/debatt/sverige-far-inte-missa-taget-nar-eu-satsar-pa-oppen-vetenskap/
+  id: widmark_2022_sverige
 - title: Forskningsbibliotek viktiga för Europasatsning på öppna data
   journal: Biblioteksbladet
   year: 2022
   authors: Widmark W, Anderberg S, Holmgren S, Lindvall J, Nilsonne G
   links:
     web: https://www.biblioteksbladet.se/ideer/debatt/forskningsbibliotek-viktiga-for-europasatsning-pa-oppen-data/
+  id: widmark_2022_forskningsbibliotek
 - title: Dags att överge traditionella tidskrifter
   journal: Svenska Dagbladet
   year: 2022
@@ -3431,59 +3487,69 @@ scholarly_debate:
   links:
     web: https://www.svd.se/a/eEr1JK/gustav-nilsonne-dags-att-overge-traditionella-tidskrifter
     slides: https://osf.io/8t2cz/
+  id: nilsonne_2022_dags
 - title: Dags att förnya hur forskning bedöms
   journal: Curie
   year: 2022
   authors: Nilsonne G, Jönsson JI, Söderbergh Widding A
   links:
     web: https://www.tidningencurie.se/debatt/dags-att-fornya-hur-forskning-bedoms
+  id: nilsonne_2022_dags_fornya
 - title: 'Bakvägsidentifiering av forskningsdata med personuppgifter: riskbedömning och riskminskande åtgärder'
   journal: 'Svepet: medlemsblad för Svensk epidemiologisk förening (SVEP)'
   year: 2022
   authors: Nilsonne G
   links:
     diva: http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1673731
+  id: nilsonne_2022_bakvagsidentifiering
 - title: Replikeringskrisen hotar vetenskapens trovärdighet
   journal: Folkvett
   year: 2023
   authors: Nilsonne G
   links:
     web: https://www.vof.se/wp-content/uploads/2023/05/3-replikeringskrisen.pdf
+  id: nilsonne_2023_replikeringskrisen
 - title: Ofullständig rapportering av studier försämrar kunskapsläget
   journal: Läkartidningen
   year: 2023
   authors: Axfors C, Nilsonne G
   links:
     web: https://lakartidningen.se/opinion/debatt/2023/03/ofullstandig-rapportering-av-studier-forsamrar-kunskapslaget
+  id: axfors_2023_ofullstandig
 - title: Open Science Community Sverige
   journal: Svenska Dagbladet
   year: 2023
   links:
     diva: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1746618
+  id: oscs_2023_open_science_community
 - title: Utmaningar för den forskande läkaren
   journal: Läkartidningen
   year: 2023
   authors: Nilsonne G, Axfors C, Zavalis E
   links:
     web: https://lakartidningen.se/klinik-och-vetenskap-1/artiklar-1/temainledning/2023/05/utmaningar-for-den-forskande-lakaren/
+  id: nilsonne_2023_utmaningar
 - title: ”Vetenskapliga tidskrifter har spelat ut sin roll”
   journal: Svenska Dagbladet
   year: 2023
   authors: Nilsonne G,
   links:
     web: https://www.svd.se/a/Kn2da5/de-vetenskapliga-tidskrifterna-har-spelat-ut-sin-roll-skriver-gustav-nilsonne
+  id: nilsonne_2023_vetenskapliga
 - title: Uppföljning av öppen vetenskap – hur gör vi?
   journal: SND Nätverks-nytt
   year: 2023
   authors: Nilsonne G,
   links:
     web: https://www.anpdm.com/article/4340584A7644435E41724642514071/32864910/7424591
+  id: nilsonne_2023_uppfoljning
 - title: Riktlinjer för öppen vetenskap en besvikelse
   journal: Upsala Nya Tidning
   year: 2023
   authors: Nilsonne G,
   links:
     web: https://unt.se/debatt/artikel/kungliga-biblioteket-missar-malet-universiteten-blir-forlorare/lw778xwr
+  id: nilsonne_2023_riktlinjer
 - title: 'EOSC as an Enabler of Research Assessment Reform: Position Paper from Task Force on Research Careers, Recognition,
     and Credit'
   journal: ''
@@ -3492,23 +3558,27 @@ scholarly_debate:
   authors: Nilsonne G, O'Neill G, Dahle S, Gaillard V, Priess-Buchheit J, Schmidt B, Psomopoulos F
   links:
     data: https://doi.org/10.5281/zenodo.10417069
+  id: nilsonne_2023_eosc
 - title: Delning av forskningsdata – att göra humanistisk forskning nåbar för fler
   journal: ''
   year: 2024
   authors: Tikkanen KW, Nilsonne G
   links:
     web: https://humtank.se/svensk-nationell-datatjanst-delning-av-forskningsdata-att-gora-humanistisk-forskning-nabar-for-fler/
+  id: tikkanen_2024_delning
 - title: An open letter regarding Scientific Reports
   journal: ''
   year: 2024
   authors: Bishop D, et al
   links:
     web: https://deevybee.blogspot.com/2024/10/an-open-letter-regarding-scientific.html
+  id: bishop_2024_open
 - title: Registration and reporting of results from clinical trials in Nordic countries - there is scope for improvement
   year: 2024
   authors: Axfors C, Nilsonne G
   journal: Lakartidningen
   links: {}
+  id: axfors_2024_registration
 invited_talks:
 - title: Open Access från en forskares horisont.
   year: 2011
@@ -4571,12 +4641,14 @@ other_publications:
   date: '2004-01-01'
   journal: Anticancer Res.
   links: {}
+  id: nilsonne_2004_differential
 - title: Targeting thioredoxin reductase - a possible new treatment for malignant mesothelioma
   authors: Nilsonne, G, Stein, A, Rundlof, AK, Fernandes, AP, Bjornstedt, M, Hjerpe, A, Dobra, K
   year: 2006
   date: '2006-01-01'
   journal: Lung Cancer
   links: {}
+  id: nilsonne_2006_targeting
 - title: 'Oxazepam and cognitive reappraisal: a randomised experiment'
   authors: Gustav Nilsonne, Sandra Tamm, Armita Golkar, Andreas Olsson, Karolina Sörman, Katarina Howner, Marianne Kristiansson,
     Martin Ingvar, Predrag Petrovic
@@ -4584,6 +4656,7 @@ other_publications:
   date: '2019-06-02'
   doi: 10.1101/656355
   links: {}
+  id: nilsonne_2019_oxazepam
 book_chapters:
 - title: 'Figure: Open science concepts'
   authors: Gustav Nilsonne
@@ -4591,10 +4664,12 @@ book_chapters:
   doi: 10.53962/z783-40a1
   links: {}
   date: '2022-07-21'
+  id: nilsonne_2022_figure
 - title: 'Figure: Publication bias'
   authors: Gustav Nilsonne
   year: 2023
   doi: 10.53962/w0d6-9kwa
   links: {}
   date: '2023-03-26'
+  id: nilsonne_2023_figure
 presentations: []

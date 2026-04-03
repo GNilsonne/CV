@@ -11,8 +11,10 @@ Usage:
 
 import argparse
 import json
+import re
 import sys
 import time
+import unicodedata
 import urllib.request
 from pathlib import Path
 
@@ -164,6 +166,62 @@ SECTION_MAP = {
 }
 
 
+# ---------- ID generation ----------
+
+def _slugify(text: str) -> str:
+    """Convert text to a slug: lowercase, ascii-safe, underscores."""
+    text = unicodedata.normalize('NFKD', text)
+    text = text.encode('ascii', 'ignore').decode('ascii').lower()
+    text = re.sub(r'[^a-z0-9]+', '_', text)
+    return text.strip('_')
+
+
+def _first_surname(authors: str) -> str:
+    """Extract the first author's surname."""
+    if not authors:
+        return 'unknown'
+    first = authors.split(',')[0].strip()
+    parts = first.split()
+    if not parts:
+        return 'unknown'
+    last = parts[-1].rstrip('.')
+    if len(last) <= 3 and last.replace('-', '').replace('.', '').isalpha():
+        surname = parts[0]  # "Nilsonne G" format
+    else:
+        surname = parts[-1]  # "Gustav Nilsonne" format
+    return _slugify(surname.rstrip('*'))
+
+
+_STOP = {'a','an','the','of','in','on','for','and','to','is','are','was',
+         'were','be','been','with','from','by','at','or','not','but','its',
+         'as','do','does','did','can','how','what','when','where','why',
+         'no','vs','between'}
+
+def _title_keyword(title: str) -> str:
+    """Extract a distinctive keyword from the title."""
+    t = re.sub(r'^\[|\]$', '', title.strip())
+    words = re.findall(r'[a-zA-Z\u00C0-\u024F]+', t)
+    for w in words:
+        if len(w) > 3 and w.lower() not in _STOP:
+            return _slugify(w)
+    return _slugify(words[0]) if words else 'untitled'
+
+
+def generate_id(entry: dict, existing_ids: set) -> str:
+    """Generate a unique id for a CV entry."""
+    surname = _first_surname(entry.get('authors', ''))
+    year = entry.get('year', '')
+    keyword = _title_keyword(entry.get('title', ''))
+    base = f"{surname}_{year}_{keyword}" if year else f"{surname}_{keyword}"
+    candidate = base
+    suffix = 2
+    while candidate in existing_ids:
+        candidate = f"{base}_{suffix}"
+        suffix += 1
+    existing_ids.add(candidate)
+    return candidate
+
+
 def work_to_entry(parsed: dict) -> dict:
     """Convert a parsed work to a YAML entry."""
     entry = {
@@ -240,6 +298,14 @@ def main():
     doi_map = existing_dois(existing)
     title_set = existing_titles(existing)
 
+    # Collect all existing IDs for collision avoidance
+    all_ids: set = set()
+    for sec in existing:
+        if isinstance(existing[sec], list):
+            for e in existing[sec]:
+                if isinstance(e, dict) and e.get('id'):
+                    all_ids.add(e['id'])
+
     print(f"Fetching work summaries from ORCID {args.orcid}...")
     put_codes = fetch_orcid_works_summary(args.orcid)
     print(f"Found {len(put_codes)} works, fetching details...")
@@ -298,6 +364,7 @@ def main():
 
         section = SECTION_MAP.get(parsed["type"], "other_publications")
         entry = work_to_entry(parsed)
+        entry['id'] = generate_id(entry, all_ids)
         existing[section].append(entry)
         if norm:
             title_set.add(norm)
