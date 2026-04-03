@@ -1410,6 +1410,12 @@ publications:
   journal: PLOS ONE
   links: {}
   date: '2021-04-22'
+  volume: '16'
+  issue: '4'
+  pages: e0249065
+  issn: 1932-6203
+  publication_date: '2021-04-22'
+  open_access: Open Access
 - title: 'Fostering global data sharing: highlighting the recommendations of the Research Data Alliance COVID-19 working group'
   journal: Wellcome Open Research
   doi: 10.12688/wellcomeopenres.16378.2
@@ -2781,8 +2787,15 @@ publications:
   year: 2025
   doi: 10.1371/journal.pone.0331609
   journal: PLOS One
-  links: {}
+  links:
+    preprint: https://doi.org/10.31234/osf.io/aj6mn
   date: '2025-09-02'
+  volume: '20'
+  issue: '9'
+  pages: e0331609
+  issn: 1932-6203
+  publication_date: '2025-09-02'
+  open_access: Open Access
 - title: Cross-lagged network models do not prove causality and may be evaluated through triangulation
   authors: Sorjonen K, Melin B, Nilsonne G
   journal: Acta Psychologica
@@ -2810,8 +2823,15 @@ publications:
   year: 2025
   doi: 10.1371/journal.pone.0326486
   journal: PLOS One
-  links: {}
+  links:
+    preprint: https://doi.org/10.31234/osf.io/tbhx6
   date: '2025-10-24'
+  volume: '20'
+  issue: '10'
+  pages: e0326486
+  issn: 1932-6203
+  publication_date: '2025-10-24'
+  open_access: Open Access
 - title: 'Still No Convincing Evidence for a Causal Effect of Academic Self-Concept on Achievement: A Reply to Núñez-Regueiro
     et al., 2025'
   authors: Sorjonen K, Melin B, Nilsonne G
@@ -2930,6 +2950,12 @@ publications:
   journal: Nature
   links: {}
   date: '2026-04-02'
+  volume: '652'
+  issue: '8108'
+  pages: 135-142
+  issn: 0028-0836
+  publication_date: '2026-04-02'
+  open_access: Closed Access
 preprints:
 - title: 'Disease threat does not predict attractiveness preference in a United Kingdom dataset: a replication attempt and
     commentary on White et al., Psych Sci 2013'
@@ -2942,14 +2968,6 @@ preprints:
   rims_id: '703302'
   publication_date: '2015-01-20'
   date: '2015-01-20'
-- title: 'Intrinsic brain connectivity after partial sleep deprivation in young and older adults: results from the Stockholm
-    Sleepy Brain study'
-  authors: Gustav Nilsonne, Sandra Tamm, Johanna Schwarz, Rita Almeida, Håkan Fischer, Göran Kecklund, Mats Lekander, Peter
-    Fransson, Torbjörn Åkerstedt
-  year: 2016
-  doi: 10.1101/073494
-  links: {}
-  date: '2016-09-05'
 - title: 'A cocktail fallacy in research with composite variables: a commentary on job strain and effort–reward imbalance
     (ERI) theories with updated meta-analyses on health outcomes'
   journal: ''
@@ -2970,13 +2988,6 @@ preprints:
   links: {}
   doi: 10.31235/osf.io/2kxq8
   date: '2020-03-06'
-- title: Spontaneous eye-movements during eyes-open rest reduce resting-state-network modularity by increasing visual-sensorimotor
-    connectivity
-  authors: Cemal Koba, Giuseppe Notaro, Sandra Tamm, Gustav Nilsonne, Uri Hasson
-  year: 2020
-  doi: 10.1101/2020.05.18.100669
-  links: {}
-  date: '2020-05-20'
 - title: Empirical evidence for a three-level model of emotional contagion, empathy and emotional regulation
   journal: ''
   doi: 10.31234/osf.io/ake34
@@ -2986,14 +2997,6 @@ preprints:
   rims_id: '640316'
   date: '2021-02-05'
   year: 2021
-- title: 'Discrepancy review: A feasibility study of a novel peer review intervention to reduce undisclosed discrepancies
-    between registrations and publications'
-  authors: Robert T. Thibault, Tom E. Hardwicke, Robbie W. A. Clark, Charlotte R. Pennington, Gustav Nilsonne, Aoife O'Mahony,
-    Katie Drax, Jacqueline Thompson, Marcus R. Munafò
-  year: 2022
-  doi: 10.1101/2022.01.18.22269507
-  links: {}
-  date: '2022-01-21'
 - title: Pathways towards community-based, transparent, and systematic quality control of research objects
   authors: Gustav Nilsonne
   year: 2022
@@ -3037,18 +3040,6 @@ preprints:
   publication_date: '2024-01-11'
   rims_id: '843716'
   date: '2024-01-11'
-- title: Results reporting for clinical trials led by medical universities and university hospitals in the Nordic countries
-    was often missing or delayed
-  authors: Gustav Nilsonne, Susanne Wieschowski, Nicholas J. DeVito, Maia Salholz-Hillel, Love Ahnström, Till Bruckner, Katarzyna
-    Klas, Tarik Suljic, Samruddhi Yerunkar, Natasha Olsson, Carolina Cruz, Karolina Strzebonska, Lars Småbrekke, Mateusz T.
-    Wasylewski, Johan Bengtsson, Martin Ringsten, Aminul Schuster, Tomasz Krawczyk, Themistoklis Paraskevas, Eero Raittio,
-    Luca Herczeg, Jan-Ole Hesselberg, Sofia Karlsson, Ronak Borana, Matteo Bruschettini, Shai Mulinari, Karely Lizárraga,
-    Maximilian Siebert, Nicole Hildebrand, Shreya Ramakrishnan, Perrine Janiaud, Emmanuel Zavalis, Delwen Franzen, Kim Boesen,
-    Lars G. Hemkens, Florian Naudet, Sofie Possmark, Rebecca M. Willén, John P. Ioannidis, Daniel Strech, Cathrine Axfors
-  year: 2024
-  doi: 10.1101/2024.02.04.24301363
-  links: {}
-  date: '2024-02-05'
 - title: 'In aqua veritas: Triangulation of cross-lagged effects for improved causal inference'
   journal: ''
   doi: 10.31234/osf.io/ztwy6
@@ -3078,13 +3069,6 @@ preprints:
   acceptance_date: '2024-10-27'
   rims_id: '887852'
   date: '2024-10-27'
-- title: 'The Spurious Prospective Associations Model (SPAM): Explaining longitudinal associations due to statistical artifacts'
-  journal: PsyArXiv
-  authors: Sorjonen K, Melin B, Nilsonne G
-  links: {}
-  doi: 10.31234/osf.io/aj6mn
-  date: '2024-11-01'
-  year: 2024
 - title: 'Inconclusive evidence for a prospective effect of academic self-concept on achievement: A simulated reanalysis and
     comment on Marsh et al. (2024)'
   journal: ''
@@ -3194,11 +3178,6 @@ preprints:
   publication_date: '2026-03-17'
   acceptance_date: '2026-03-17'
   date: '2026-03-17'
-- title: 'Still spurious: A comment on attempts to revive cognitive ability tilts'
-  journal: ''
-  doi: 10.31234/osf.io/tbhx6
-  authors: Sorjonen K, Melin B, Nilsonne G
-  links: {}
 - title: A multimodal brain imaging dataset on sleep deprivation in young and old humans
   journal: Karolinska Open Archive
   authors: Nilsonne G, Tamm S, d’Onofrio P, Thuné HÅ, Schwarz J, Lavebratt C, Liu, JJ, Månsson KNT, Sundelin T, Axelsson J,
