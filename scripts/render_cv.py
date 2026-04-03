@@ -241,10 +241,10 @@ def format_authors_vancouver(authors_str, max_authors=6) -> str:
         return ", ".join(authors)
 
 
-def format_links_latex(links) -> str:
-    """Format links dict as LaTeX inline list."""
+def _link_parts(links) -> list:
+    """Return a list of \\href{url}{label} strings from a links dict."""
     if not links or not isinstance(links, dict):
-        return ""
+        return []
     labels = {
         "preprint": "preprint",
         "data": "data",
@@ -270,8 +270,41 @@ def format_links_latex(links) -> str:
             continue
         seen_urls.add(url)
         label = labels.get(key, key)
-        # Don't escape URLs - they go inside \href
         parts.append(rf"\href{{{url}}}{{{label}}}")
+    return parts
+
+
+def format_links_latex(links) -> str:
+    """Format links dict as LaTeX inline bracketed list."""
+    parts = _link_parts(links)
+    if parts:
+        return " [" + " | ".join(parts) + "]"
+    return ""
+
+
+def format_links_with_doi(doi, links) -> str:
+    """Combine DOI and links into a single bracketed group separated by |."""
+    parts = []
+    if doi:
+        parts.append(rf"\href{{https://doi.org/{doi}}}{{doi}}")
+    parts.extend(_link_parts(links))
+    if parts:
+        return " [" + " | ".join(parts) + "]"
+    return ""
+
+
+def format_peer_review_links(review) -> str:
+    """Combine paper DOI and report DOIs into a single bracketed group."""
+    parts = []
+    paper_doi = review.get('paper_doi', '')
+    report_dois = review.get('report_dois', [])
+    if paper_doi:
+        parts.append(rf"\href{{https://doi.org/{paper_doi}}}{{doi for paper}}")
+    for i, rd in enumerate(report_dois):
+        if len(report_dois) > 1:
+            parts.append(rf"\href{{https://doi.org/{rd}}}{{doi for report {i+1}}}")
+        else:
+            parts.append(rf"\href{{https://doi.org/{rd}}}{{doi for report}}")
     if parts:
         return " [" + " | ".join(parts) + "]"
     return ""
@@ -290,6 +323,8 @@ def render_latex(data: dict, template_dir: str, template_name: str) -> str:
     env.filters["tex"] = tex_escape
     env.filters["autolink"] = autolink
     env.filters["links"] = format_links_latex
+    env.filters["doilinks"] = lambda entry: format_links_with_doi(entry.get('doi', ''), entry.get('links', {}))
+    env.filters["reviewlinks"] = format_peer_review_links
     env.filters["notrailingdot"] = lambda s: str(s).rstrip(".") if s else ""
     env.filters["doi"] = lambda s: str(s).replace("_", r"\_") if s else ""
     env.filters["vancouver_authors"] = format_authors_vancouver
