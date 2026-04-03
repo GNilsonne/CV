@@ -152,6 +152,9 @@
 <% for c in academic_commissions %>
     \item << c.description|autolink >>
     <% if c.subitems %>
+    <% if c.compact is defined and c.compact %>
+    <% for sub in c.subitems %><% if not loop.first %> \textperiodcentered{} <% endif %><% if sub is mapping %><< sub.name|autolink >><% if sub.wos %>\textsuperscript{\,\scriptsize WoS}<% endif %><% else %><< sub|autolink >><% endif %><% endfor %>
+    <% else %>
     \begin{itemize}
     <% for sub in c.subitems %>
         <% if sub is mapping %>
@@ -161,6 +164,7 @@
         <% endif %>
     <% endfor %>
     \end{itemize}
+    <% endif %>
     <% endif %>
     <% if c.footnote %>\par{\small << c.footnote|autolink >>}<% endif %>
 <% endfor %>

@@ -307,6 +307,7 @@ academic_commissions:
   - name: The Review of Psychology
     wos: false
   footnote: 'Verified in Web of Science (Reviewer Recognition Service, ID: 1550920)'
+  compact: true
 - description: 'Reviewer for scientific grants:'
   subitems:
   - Horizon 2020 Marie Skłodowska Curie 2017
