@@ -84,11 +84,14 @@ def autolink(text) -> str:
     # Collect segments: (start, end, raw_url, display_label)
     segments = []
     
-    # Match "doi: 10.xxxx" patterns
-    for m in re.finditer(r'\bdoi:\s*(10\.\S+)', text):
+    # Match "doi: 10.xxxx" patterns (including "doi of review report: 10.xxxx")
+    for m in re.finditer(r'\bdoi(?:\s+of[^:]*)?:\s*(10\.\S+)', text):
         doi = m.group(1).rstrip('.,;)')
         url = f'https://doi.org/{doi}'
-        segments.append((m.start(), m.start() + len('doi: ') + len(doi), url, f'doi: {doi}'))
+        full_match_text = m.group(0)
+        if full_match_text.endswith(('.', ',', ';', ')')):
+            full_match_text = full_match_text[:-1]
+        segments.append((m.start(), m.start() + len(full_match_text), url, full_match_text))
     
     # Match "url: domain/path" patterns
     for m in re.finditer(r'\burl:\s*(\S+)', text):

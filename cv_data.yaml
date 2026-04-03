@@ -465,12 +465,6 @@ publications:
   id: nilsonne_2009_phenotype
   pub_type: original
   date: '2009-01-01'
-- title: '[Open Access Week 16-24 October: Open access increases access to the research]'
-  authors: Nilsonne, G
-  year: 2010
-  date: '2010-01-01'
-  journal: Lakartidningen
-  links: {}
 - title: Selenite Induces Posttranscriptional Blockade of HLA-E Expression and Sensitizes Tumor Cells to CD94/NKG2A-Positive
     NK cells
   journal: Journal of Immunology
@@ -3274,6 +3268,12 @@ scholarly_debate:
   authors: Nilsonne G
   links:
     web: http://ww2.lakartidningen.se/07engine.php?articleId=14714
+- title: '[Open Access Week 16-24 October: Open access increases access to the research]'
+  authors: Nilsonne, G
+  year: 2010
+  date: '2010-01-01'
+  journal: Lakartidningen
+  links: {}
 - title: Om bevisföring i klinisk medicin och i allmänhet
   journal: Folkvett
   year: 2011
