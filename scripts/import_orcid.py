@@ -190,14 +190,41 @@ def load_existing(path: Path) -> dict:
     return {}
 
 
+# All sections to scan for existing entries (avoid re-adding works that
+# were manually moved to a different section, e.g. scholarly_debate).
+ALL_ENTRY_SECTIONS = list(set(SECTION_MAP.values())) + [
+    "scholarly_debate", "other_publications",
+]
+
+
+def _normalise_title(title: str) -> str:
+    """Lower-case, strip brackets/punctuation for fuzzy title matching."""
+    import re
+    t = title.strip().lower()
+    t = re.sub(r'^\[|\]$', '', t)   # remove surrounding brackets
+    t = re.sub(r'[^a-z0-9 ]', '', t)  # keep only alphanumeric + space
+    t = re.sub(r'\s+', ' ', t).strip()
+    return t
+
+
 def existing_dois(data: dict) -> dict:
-    """Build DOI → (section, index) map."""
+    """Build DOI → (section, index) map across all entry sections."""
     doi_map = {}
-    for section in set(SECTION_MAP.values()):
+    for section in ALL_ENTRY_SECTIONS:
         for i, entry in enumerate(data.get(section, [])):
             if entry.get("doi"):
                 doi_map[entry["doi"].lower()] = (section, i)
     return doi_map
+
+
+def existing_titles(data: dict) -> set:
+    """Build a set of normalised titles across all entry sections."""
+    titles = set()
+    for section in ALL_ENTRY_SECTIONS:
+        for entry in data.get(section, []):
+            if entry.get("title"):
+                titles.add(_normalise_title(entry["title"]))
+    return titles
 
 
 def main():
@@ -211,6 +238,7 @@ def main():
     output_path = Path(args.output)
     existing = load_existing(output_path)
     doi_map = existing_dois(existing)
+    title_set = existing_titles(existing)
 
     print(f"Fetching work summaries from ORCID {args.orcid}...")
     put_codes = fetch_orcid_works_summary(args.orcid)
@@ -260,9 +288,19 @@ def main():
             skipped_count += 1
             continue
 
+        # Skip works whose title already exists in any section (catches
+        # entries without DOI that were manually moved, e.g. to
+        # scholarly_debate).
+        norm = _normalise_title(parsed.get("title", ""))
+        if norm and norm in title_set:
+            skipped_count += 1
+            continue
+
         section = SECTION_MAP.get(parsed["type"], "other_publications")
         entry = work_to_entry(parsed)
         existing[section].append(entry)
+        if norm:
+            title_set.add(norm)
         if doi:
             doi_map[doi] = (section, len(existing[section]) - 1)
         new_count += 1
