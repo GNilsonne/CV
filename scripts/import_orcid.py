@@ -61,8 +61,84 @@ def fetch_works_bulk(orcid_id: str, put_codes: list[str]) -> list[dict]:
     return works
 
 
+def _format_author_short(full_name: str) -> str:
+    """Convert a full name to 'Surname Initials' format.
+
+    Examples:
+        'Gustav Nilsonne'          -> 'Nilsonne G'
+        'Anna-Karin Rundlöf'       -> 'Rundlöf A-K'
+        'Marcel A. L. M. van Assen' -> 'van Assen M A L M'
+        'Eric-Jan Wagenmakers'     -> 'Wagenmakers E-J'
+        'Nilsonne G'               -> 'Nilsonne G'  (already short)
+    """
+    name = full_name.strip()
+    if not name:
+        return name
+
+    # Detect if already in short format: last token is all-caps initials
+    # e.g. "Nilsonne G", "Rundlöf A-K", "van Assen M A L M"
+    parts = name.split()
+    if len(parts) >= 2:
+        # Check if everything after the surname-like prefix is initials
+        # Initials: single letter (possibly with dot), or hyphenated initials like A-K
+        def _is_initial(tok: str) -> bool:
+            tok = tok.rstrip('.')
+            # Single letter
+            if len(tok) == 1 and tok.isalpha():
+                return True
+            # Hyphenated initials like A-K
+            if re.match(r'^[A-Z]\.?-[A-Z]\.?$', tok):
+                return True
+            return False
+
+        # Find where initials start from the end
+        idx = len(parts)
+        while idx > 1 and _is_initial(parts[idx - 1]):
+            idx -= 1
+        if idx < len(parts) and idx >= 1:
+            # Everything from idx onward looks like initials — already short
+            return name
+
+    # Name particles (lowercase) that are part of the surname
+    _PARTICLES = {'van', 'von', 'de', 'del', 'der', 'den', 'di', 'la', 'le', 'el', 'al', 'bin', 'ibn', 'dos', 'das', 'du'}
+
+    # Split into given names and surname
+    # Strategy: surname is the last token (plus any preceding particles)
+    tokens = name.split()
+    if len(tokens) == 1:
+        return name  # mononym
+
+    # Find surname start: walk backwards past the last token, then include
+    # any preceding lowercase particles
+    surname_start = len(tokens) - 1
+    while surname_start > 0 and tokens[surname_start - 1].lower() in _PARTICLES:
+        surname_start -= 1
+
+    # Edge case: if surname_start == 0, everything looks like surname;
+    # treat first token as given name instead
+    if surname_start == 0:
+        surname_start = 1
+
+    given_tokens = tokens[:surname_start]
+    surname = ' '.join(tokens[surname_start:])
+
+    # Build initials from given names
+    initials_parts = []
+    for g in given_tokens:
+        g = g.rstrip('.')
+        if '-' in g:
+            # Hyphenated given name: "Anna-Karin" -> "A-K", "Eric-Jan" -> "E-J"
+            sub = g.split('-')
+            initials_parts.append('-'.join(s[0].upper() for s in sub if s))
+        else:
+            initials_parts.append(g[0].upper())
+
+    initials = ' '.join(initials_parts)
+    return f"{surname} {initials}" if initials else surname
+
+
 def extract_authors(work: dict) -> str:
-    """Extract author list from ORCID work detail."""
+    """Extract author list from ORCID work detail, formatted as 'Surname I'."""
     contribs = (work.get("contributors") or {}).get("contributor", [])
     if not contribs:
         return ""
@@ -73,20 +149,20 @@ def extract_authors(work: dict) -> str:
         role = (c.get("contributor-attributes") or {}).get("contributor-role", "")
         name = (c.get("credit-name") or {}).get("value", "")
         if role == "author" and name:
-            authors.append(name)
+            authors.append(_format_author_short(name))
 
     # If no role-tagged authors, use all contributors with names (older entries)
     if not authors:
         for c in contribs:
             name = (c.get("credit-name") or {}).get("value", "")
             if name:
-                authors.append(name)
+                authors.append(_format_author_short(name))
 
     return ", ".join(authors) if authors else ""
 
 
 def extract_authors_list(work: dict) -> list[str]:
-    """Extract author list as a Python list."""
+    """Extract author list as a Python list (short format)."""
     contribs = (work.get("contributors") or {}).get("contributor", [])
     if not contribs:
         return []
@@ -96,13 +172,13 @@ def extract_authors_list(work: dict) -> list[str]:
         role = (c.get("contributor-attributes") or {}).get("contributor-role", "")
         name = (c.get("credit-name") or {}).get("value", "")
         if role == "author" and name:
-            authors.append(name)
+            authors.append(_format_author_short(name))
 
     if not authors:
         for c in contribs:
             name = (c.get("credit-name") or {}).get("value", "")
             if name:
-                authors.append(name)
+                authors.append(_format_author_short(name))
 
     return authors
 

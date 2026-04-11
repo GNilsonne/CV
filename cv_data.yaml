@@ -2872,75 +2872,54 @@ publications:
   pub_type: original
   date: '2026-01-01'
 - title: Investigating the analytical robustness of the social and behavioural sciences
-  authors: Balazs Aczel, Barnabas Szaszi, Harry T. Clelland, Marton Kovacs, Felix Holzmeister, Don van Ravenzwaaij, Hannah
-    Schulz-Kümpel, Sabine Hoffmann, Gustav Nilsonne, Livia Kosa, Zoltan A. Torma, Yousuf Abdelfatah, Christopher L. Aberson,
-    Oguz A. Acar, Ensar Acem, Matus Adamkovic, Timofey Adamovich, Krisna Adiasto, Love Ahnström, Atakan M. Akil, Adil S. Al-Busaidi,
-    Ali H. Al-Hoorie, Casper J. Albers, Peter J. Allen, Taym Alsalti, Micah Altman, Shilaan Alzahawi, Ettore Ambrosini, Saule
-    Anafinova, Rahul Anand, Martin Angerer, Ariadna Angulo-Brunet, Alberto Antonietti, Jozsef Arato, Andreu Arenas, Marco
-    M. Aviña, Flavio Azevedo, Marko Bachl, Bence Bago, Štěpán Bahník, Bradley J. Baker, Elza Balayan, Cassandra L. Baldwin,
-    Benjamin Banai, Kasia Banas, František Bartoš, Ernest Baskin, Jojanneke A. Bastiaansen, Nadège Bault, Christopher W. Bauman,
-    Quintin H. Beazer, Maciej Behnke, Theiss Bendixen, Sebastian Berger, Anna Bernard, Ursa Bernardic, Paul A. Bloom, Annika
-    Boldt, Ciril Bosch-Rosa, Rotem Botvinik-Nezer, Adam Bouyamourn, Ozge Bozkurt, Laurel Brehm, Johannes Breuer, Ryan Briggs,
-    Hilmar Brohmer, Erin Buchanan, Johannes Buckenmaier, Jeffrey Buckley, Jacek Buczny, Matthias Burghart, Bilal H. Butt,
-    Nick Byrd, Valentina Cafarelli, Patrick Callahan, Tabaré Capitán, Kevin Carriere, Andrea M. Cataldo, Gabriel Cepaluni,
-    Eugene Chan, Jesse J. Chandler, Chia-chen Chang, Xi Chen, Shirley Shuo Chen, Fadong Chen, Hao Chen, Valerii Chirkov, Daniela
-    Cialfi, Beth Clarke, Sophie G. Coelho, Clara Cohen, Jason Collins, Susan W. Cook, Gaia Corlazzoli, Jamie Cummins, Christian
-    Czymara, Jonathan D’hondt, Anna Dalla Rosa, Abi M. B. Davis, Charles P. Davis, Martin V. Day, Freya De Keyzer, Joshua
-    R. de Leeuw, Tjeerd Rudmer de Vries, Ramit Debnath, Filip Dechterenko, Elif E. Demiral, Marc Desgroseilliers, Dominik
-    Dianovics, Veronica Diveica, Stephan Dochow-Sondershaus, Simone Dohle, LiChen Dong, Jonas Dora, Angela R. Dorrough, Anna
-    Dreber, Hongfei Du, John E. Edlund, Anita Eerland, Emir Efendić, Jacob Elder, Mahmoud M. Elsherif, Mareike Ernst, Eduardo
-    Estrada, Luis Eudave, Thomas R. Evans, Arodi Farrera, El Mehdi Ferrouhi, Lenka Fiala, Fabrício M. Fialho, Joshua L. Fiechter,
-    Miloš Fišar, Pablo Ezequiel Flores-Kanter, Michał Folwarczny, Jessica L. Fossum, Vithor R. Franco, René Freichel, Danilo
-    Freire, Joris Frese, Alexander C. Furnas, Johann D. Gaebler, Lisa C. Gajary, Carl Michael Galang, Benjamin Ganschow, S.
-    Mason Garrison, Agata Gasiorowska, Bruno Gasparotto Ponne, Romain Gauriot, Alice Geminiani, Diogo Geraldes, Morton Ann
-    Gernsbacher, Cinzia Giani, Enrico Glerean, Vukašin Gligorić, Timo Gnambs, Amélie Godefroidt, Bastián González-Bustamante,
-    Andreas Goreis, Lorenz Graf-Vlachy, Manuel Grieder, Dmitry Grigoryev, Sandra Grinschgl, David J. Grüning, João F. Guassi
-    Moreira, Clément Guichet, Lilas Gurgand, Hooman Habibnia, Andrew C. Hafenbrack, Sebastian Hafenbrädl, Carolin Häffner,
-    Felix Hagemeister, Matthew Haigh, Nandor Hajdu, Narges Hajimoladarvish, Jonathan D. Hall, Maik Hamjediers, Robert M. Hardwick,
-    Mehmet Harma, Nicholas R. Harp, Áron D. Hartvig, Raphael H. Heiberger, Arthur Heim, Øystein Hernæs, Dennis Hernaus, Tom
-    Heyman, Joshua Hicks, Jeremy Hogeveen, Julia Höpler, Sean Dae Houlihan, Christoph Huber, Conor Hughes, Teresa Hummler,
-    Karoline Huth, Moritz Ingendahl, Tatsunori Ishii, Ozan Isler, Kamil Izydorczak, Iain R. Jackson, Andrew Jahn, Maitri Jain,
-    Alexander Jakubow, Daisung Jang, JunHyeok Jang, Marc Jekel, Fanli Jia, William Jiménez-Leal, Rebecca Johnson, Alex Jones,
-    Sebastian Jungkunz, Pavol Kačmár, Caspar Kaiser, Yağmur Kalaycı, Jaroslaw Kantorowicz, Anıl Karabulut, Julian D. Karch,
-    Hamid Karimi-Rouzbahani, Johannes A. Karl, Austėja Kažemekaitytė, Aliaksandr Kazlou, Zoltan Kekecs, Jin Kim, Michael H.
-    Kirchler, Bence Kiss-Dobronyi, Kai N. Klasmeier, Jack W. Klein, Cemal Koba, Marta Kołczyńska, Pavlos Kolias, Matěj Kolouch
-    Grabovský, Max Korbmacher, Živa Korda, Marta Kowal, André Kretzschmar, Vladislav Krivoshchekov, Angelos-Miltiadis Krypotos,
-    Marcus Kubsch, Yoshihiko Kunisato, David Lacko, Jan R. Landwehr, Martin Lange, Hongmi Lee, Daniel Lee, Sangil Lee, Edward
-    P. Lemay, Jr., Daniel Lempert, Andrea Leo, Elise Lesage, Joel M. Levin, Peng Li, Jing Lin, Luke Lindsay, Daria Lisovoj,
-    Meng Liu, Sihong Liu, Tingshu Liu, Sergio Lo Iacono, Paul Lodder, Rubén López-Bueno, Ruben Lopez-Nicolas, Katharina Loter,
-    Nigel Mantou Lou, Andrey Lovakov, Jackson G. Lu, Jonas Ludwig, Finn Luebber, Jiří Lukavský, Charles Q. Luo, Xuanyu Lyu,
-    Esther Maassen, Martin Máčel, Michael L. Mack, Christopher R. Madan, Andreas Mädebach, Joseph Maffly-Kipp, Daniel J. Mallinson,
-    Igor Marchetti, Tyler Marghetis, Matteo M. Marini, Diego Marino Fages, Mayte Martínez, Mario Martinoli, Aidas Masiliunas,
-    Sébastien Massoni, Kaleb C. Mathieu, Stefan Mayer, Duncan J. Mayer, Maren Mayer, Ethan M. McCormick, Ian M. McDonough,
-    Amanda L. McGowan, Miranda M. McIntyre, Paul McKee, Armando N. Meier, Pascal F. Meier, Helena Melero, Christoph Merkle,
-    Raphael Merz, Michalis P. Michaelides, Patrik Michaelsen, Gosia Mikolajczak, Wladislaw Mill, Philip Millroth, Kirill G.
-    Miroshnik, Michal Misiak, Youri L. Mora, David Moreau, Chris Moreh, Coby Morvinski, Faisal Mushtaq, Tamás Nagy, Christa
-    Nater, Elias Naumann, Gorka Navarrete, Stephan Nebe, Andre Nedderhoff, Richard Nennstiel, Martin Neugebauer, Eliana Nicolaisen-Sobesky,
-    Yngwie A. Nielsen, Guiomar Niso, Benjamin Nowak, Mehmet Okan, Kenneth Ong, Adrian I. Onicas, Christian Oswald, Kasper
-    Otten, Shubham Pandey, Myrto Pantazi, Paolo Papale, Philip Pärnamets, Shiva Pauer, Yuri G. Pavlov, Samuel Pawel, Jonathan
-    E. Peelle, Hannah K. Peetz, Anton Peez, Francesca Pesciarelli, Brenton D. Peterson, Benjamin Petruželka, Jonas Petter,
-    Jan Pfänder, Gerit Pfuhl, Joseph Phillips, Matthew T. Pietryka, Angelo Pirrone, Ilse L. Pit, Anna Plachti, Irene Sophia
-    Plank, Matteo Ploner, Russell A. Poldrack, Monique M. H. Pollmann, Simon Porcher, Patrick Präg, Andrew Adrian Y. Pua,
-    Jessica Pugel, Rohan Puri, Marcell Püski, Setayesh Radkani, Louis Raes, Ismaël Rafaï, Klara Raiber, Steve Rathje, Raphael
-    Rehms, Mikhail Reshetnikov, Caleb J. Reynolds, James P. Reynolds, Kévin Rigaud, Charlie Rioux, Sebastian Rivera, Olly
-    Robertson, Rafael Román-Caballero, Ivan Ropovik, Lukas Röseler, Robert M. Ross, Amanda Rotella, Franziska F. Rüffer, Felix
-    Rusche, Massimo Rusconi, Irene Russo, Alexander H. J. Sahm, Janos Salamon, Margaret Samahita, Ali Sanaei, Arshiya Sangchooli,
-    Alexandra Sarafoglou, Michele Scandola, Henning Schaak, Michael Schaerer, Eric Schares, Hayden T. Schilling, Xenia Schmalz,
-    Kathleen Schmidt, Tom Schonberg, Marcel R. Schreiner, Joris M. Schröder, Anna-Lena Schubert, Brendan Schuetze, Douglas
-    H. Schultz, Lars Schulze, Shawn T. Schwartz, Nicole Schwitter, Bermond Scoggins, Yashvin Seetahul, Raffaello Seri, David
-    R. Shanks, Stacy T. Shaw, Joseph Shaw, Qiang Shen, Christoph Siemroth, Martina Sladekova, Angela Somo, Arjun Sondhi, Burak
-    Sonmez, Lisa Spantig, Maarten Speekenbrink, Angelos Stamos, Lukasz Stasielowicz, Leonie C. Steckermeier, Simon R. Steinkamp,
-    Andrea H. Stoevenbelt, Chris N. H. Street, Jordan W. Suchow, Hans Fredrik Sunde, James Sundquist, Vsevolod Suschevskiy,
-    Scott D. Swain, Peter Szecsi, Raluca D. Szekely-Copîndean, Ewa Szumowska, Alessandro Tacconelli, Eli Talbert, John P.
-    Tang, Jorge N. Tendeiro, Martina Testori, Enrico Toffalini, Aleksandar Tomašević, Selin Topel, Lasse Torkkeli, Leonardo
-    Tozzi, Jakub Traczyk, Alexander Trinidad, Darinka Trübutschek, Konrad Turek, Maximiliane Uhlich, Eric L. Uhlmann, Karolina
-    Urbanska, Jasper Van Assche, Marcel A. L. M. van Assen, Noah N. N. van Dongen, Kenny van Lieshout, Roel van Veldhuizen,
-    Marton A. Varga, Leigh Ann Vaughn, Fruzsina Venczel, Michela Vezzoli, Paul Vierus, Antonino Visalli, Emily Voldal, Fabio
-    Votta, Eric-Jan Wagenmakers, Anica Waldendorf, Matthew J. Walker, Matthew B. Wall, Henri Wallen, Ke Wang, Iris Wang, Y.
-    Andre Wang, Markus Weinmann, Martin Weiß, Christian Westheide, Aaron Wichman, Juliane C. Wilcke, Benedict J. Williams,
-    David Wisniewski, Thomas K. A. Woiczyk, Mateusz Woźniak, Joshua D. Wright, Wu Youyou, Jesper N. Wulff, Tao Yang, Siu Kit
-    Yeung, Kenneth S. L. Yuen, Michał Zawistowski, Rizqy A. Zein, Xian Zhao, Zefan Zheng, Steven Zhou, Conrad Ziller, David
-    Zimmerman, Cristina Zogmaister, Ro’i Zultan, Nicholas Fox, Timothy M. Errington, Brian A. Nosek
+  authors: Aczel B, Szaszi B, Clelland H T, Kovacs M, Holzmeister F, van Ravenzwaaij D, Schulz-Kümpel H, Hoffmann S, Nilsonne
+    G, Kosa L, Torma Z A, Abdelfatah Y, Aberson C L, Acar O A, Acem E, Adamkovic M, Adamovich T, Adiasto K, Ahnström L, Akil
+    A M, Al-Busaidi A S, Al-Hoorie A H, Albers C J, Allen P J, Alsalti T, Altman M, Alzahawi S, Ambrosini E, Anafinova S,
+    Anand R, Angerer M, Angulo-Brunet A, Antonietti A, Arato J, Arenas A, Aviña M M, Azevedo F, Bachl M, Bago B, Bahník Š,
+    Baker B J, Balayan E, Baldwin C L, Banai B, Banas K, Bartoš F, Baskin E, Bastiaansen J A, Bault N, Bauman C W, Beazer
+    Q H, Behnke M, Bendixen T, Berger S, Bernard A, Bernardic U, Bloom P A, Boldt A, Bosch-Rosa C, Botvinik-Nezer R, Bouyamourn
+    A, Bozkurt O, Brehm L, Breuer J, Briggs R, Brohmer H, Buchanan E, Buckenmaier J, Buckley J, Buczny J, Burghart M, Butt
+    B H, Byrd N, Cafarelli V, Callahan P, Capitán T, Carriere K, Cataldo A M, Cepaluni G, Chan E, Chandler J J, Chang C-C,
+    Chen X, Chen S S, Chen F, Chen H, Chirkov V, Cialfi D, Clarke B, Coelho S G, Cohen C, Collins J, Cook S W, Corlazzoli
+    G, Cummins J, Czymara C, D’hondt J, Rosa A D, Davis A M B, Davis C P, Day M V, De Keyzer F, de Leeuw J R, de Vries T R,
+    Debnath R, Dechterenko F, Demiral E E, Desgroseilliers M, Dianovics D, Diveica V, Dochow-Sondershaus S, Dohle S, Dong
+    L, Dora J, Dorrough A R, Dreber A, Du H, Edlund J E, Eerland A, Efendić E, Elder J, Elsherif M M, Ernst M, Estrada E,
+    Eudave L, Evans T R, Farrera A, Ferrouhi E M, Fiala L, Fialho F M, Fiechter J L, Fišar M, Flores-Kanter P E, Folwarczny
+    M, Fossum J L, Franco V R, Freichel R, Freire D, Frese J, Furnas A C, Gaebler J D, Gajary L C, Galang C M, Ganschow B,
+    Garrison S M, Gasiorowska A, Ponne B G, Gauriot R, Geminiani A, Geraldes D, Gernsbacher M A, Giani C, Glerean E, Gligorić
+    V, Gnambs T, Godefroidt A, González-Bustamante B, Goreis A, Graf-Vlachy L, Grieder M, Grigoryev D, Grinschgl S, Grüning
+    D J, Moreira J F G, Guichet C, Gurgand L, Habibnia H, Hafenbrack A C, Hafenbrädl S, Häffner C, Hagemeister F, Haigh M,
+    Hajdu N, Hajimoladarvish N, Hall J D, Hamjediers M, Hardwick R M, Harma M, Harp N R, Hartvig Á D, Heiberger R H, Heim
+    A, Hernæs Ø, Hernaus D, Heyman T, Hicks J, Hogeveen J, Höpler J, Houlihan S D, Huber C, Hughes C, Hummler T, Huth K, Ingendahl
+    M, Ishii T, Isler O, Izydorczak K, Jackson I R, Jahn A, Jain M, Jakubow A, Jang D, Jang J, Jekel M, Jia F, Jiménez-Leal
+    W, Johnson R, Jones A, Jungkunz S, Kačmár P, Kaiser C, Kalaycı Y, Kantorowicz J, Karabulut A, Karch J D, Karimi-Rouzbahani
+    H, Karl J A, Kažemekaitytė A, Kazlou A, Kekecs Z, Kim J, Kirchler M H, Kiss-Dobronyi B, Klasmeier K N, Klein J W, Koba
+    C, Kołczyńska M, Kolias P, Grabovský M K, Korbmacher M, Korda Ž, Kowal M, Kretzschmar A, Krivoshchekov V, Krypotos A-M,
+    Kubsch M, Kunisato Y, Lacko D, Landwehr J R, Lange M, Lee H, Lee D, Lee S, Lemay E P, Jr., Lempert D, Leo A, Lesage E,
+    Levin J M, Li P, Lin J, Lindsay L, Lisovoj D, Liu M, Liu S, Liu T, Iacono S L, Lodder P, López-Bueno R, Lopez-Nicolas
+    R, Loter K, Lou N M, Lovakov A, Lu J G, Ludwig J, Luebber F, Lukavský J, Luo C Q, Lyu X, Maassen E, Máčel M, Mack M L,
+    Madan C R, Mädebach A, Maffly-Kipp J, Mallinson D J, Marchetti I, Marghetis T, Marini M M, Fages D M, Martínez M, Martinoli
+    M, Masiliunas A, Massoni S, Mathieu K C, Mayer S, Mayer D J, Mayer M, McCormick E M, McDonough I M, McGowan A L, McIntyre
+    M M, McKee P, Meier A N, Meier P F, Melero H, Merkle C, Merz R, Michaelides M P, Michaelsen P, Mikolajczak G, Mill W,
+    Millroth P, Miroshnik K G, Misiak M, Mora Y L, Moreau D, Moreh C, Morvinski C, Mushtaq F, Nagy T, Nater C, Naumann E,
+    Navarrete G, Nebe S, Nedderhoff A, Nennstiel R, Neugebauer M, Nicolaisen-Sobesky E, Nielsen Y A, Niso G, Nowak B, Okan
+    M, Ong K, Onicas A I, Oswald C, Otten K, Pandey S, Pantazi M, Papale P, Pärnamets P, Pauer S, Pavlov Y G, Pawel S, Peelle
+    J E, Peetz H K, Peez A, Pesciarelli F, Peterson B D, Petruželka B, Petter J, Pfänder J, Pfuhl G, Phillips J, Pietryka
+    M T, Pirrone A, Pit I L, Plachti A, Plank I S, Ploner M, Poldrack R A, Pollmann M M H, Porcher S, Präg P, Pua A A Y, Pugel
+    J, Puri R, Püski M, Radkani S, Raes L, Rafaï I, Raiber K, Rathje S, Rehms R, Reshetnikov M, Reynolds C J, Reynolds J P,
+    Rigaud K, Rioux C, Rivera S, Robertson O, Román-Caballero R, Ropovik I, Röseler L, Ross R M, Rotella A, Rüffer F F, Rusche
+    F, Rusconi M, Russo I, Sahm A H J, Salamon J, Samahita M, Sanaei A, Sangchooli A, Sarafoglou A, Scandola M, Schaak H,
+    Schaerer M, Schares E, Schilling H T, Schmalz X, Schmidt K, Schonberg T, Schreiner M R, Schröder J M, Schubert A-L, Schuetze
+    B, Schultz D H, Schulze L, Schwartz S T, Schwitter N, Scoggins B, Seetahul Y, Seri R, Shanks D R, Shaw S T, Shaw J, Shen
+    Q, Siemroth C, Sladekova M, Somo A, Sondhi A, Sonmez B, Spantig L, Speekenbrink M, Stamos A, Stasielowicz L, Steckermeier
+    L C, Steinkamp S R, Stoevenbelt A H, Street C N H, Suchow J W, Sunde H F, Sundquist J, Suschevskiy V, Swain S D, Szecsi
+    P, Szekely-Copîndean R D, Szumowska E, Tacconelli A, Talbert E, Tang J P, Tendeiro J N, Testori M, Toffalini E, Tomašević
+    A, Topel S, Torkkeli L, Tozzi L, Traczyk J, Trinidad A, Trübutschek D, Turek K, Uhlich M, Uhlmann E L, Urbanska K, Van
+    Assche J, van Assen M A L M, van Dongen N N N, van Lieshout K, van Veldhuizen R, Varga M A, Vaughn L A, Venczel F, Vezzoli
+    M, Vierus P, Visalli A, Voldal E, Votta F, Wagenmakers E-J, Waldendorf A, Walker M J, Wall M B, Wallen H, Wang K, Wang
+    I, Wang Y A, Weinmann M, Weiß M, Westheide C, Wichman A, Wilcke J C, Williams B J, Wisniewski D, Woiczyk T K A, Woźniak
+    M, Wright J D, Youyou W, Wulff J N, Yang T, Yeung S K, Yuen K S L, Zawistowski M, Zein R A, Zhao X, Zheng Z, Zhou S, Ziller
+    C, Zimmerman D, Zogmaister C, Zultan R, Fox N, Errington T M, Nosek B A
   year: 2026
   doi: 10.1038/s41586-025-09844-9
   journal: Nature
