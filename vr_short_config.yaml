@@ -2,16 +2,16 @@
 # Select exactly 10 publications by id from cv_data.yaml.
 
 selected_publications:
-  - "replace_with_publication_id_1"
-  - "replace_with_publication_id_2"
-  - "replace_with_publication_id_3"
-  - "replace_with_publication_id_4"
-  - "replace_with_publication_id_5"
-  - "replace_with_publication_id_6"
-  - "replace_with_publication_id_7"
-  - "replace_with_publication_id_8"
-  - "replace_with_publication_id_9"
-  - "replace_with_publication_id_10"
+  - nilsonne_2016_diurnal
+  - nilsonne_2017_circulating
+  - botviniknezer_2020_variability
+  - nilsonne_2021_eeg
+  - weissgerber_2024_understanding
+  - nilsonne_2025_results
+  - aczel_2026_investigating
+  - nilsonne_2009_phenotype
+  - enqvist_2011_selenite
+  - mundt_2013_hyaluronan
 
 # Name fragment to bold in author lists.
 bold_name: "Nilsonne G"
