@@ -168,14 +168,27 @@ def add_title(doc, applicant_name):
 
 def add_reference(doc, pub, number, bold_name="Nilsonne G"):
     paragraph = doc.add_paragraph()
-    paragraph.paragraph_format.space_before = Pt(0)
-    paragraph.paragraph_format.space_after = Pt(0)
+    paragraph.paragraph_format.space_after = Pt(4)
+    paragraph.paragraph_format.space_before = Pt(1)
     paragraph.paragraph_format.line_spacing = 1.0
-    paragraph.paragraph_format.left_indent = Cm(0.75)
-    paragraph.paragraph_format.first_line_indent = Cm(-0.75)
 
-    run = paragraph.add_run(f"{number}. ")
+    indent = Cm(1.0)
+    paragraph.paragraph_format.left_indent = indent
+    paragraph.paragraph_format.first_line_indent = -indent
+
+    run = paragraph.add_run(f"{number}.\t")
     apply_run_style(run)
+
+    p_pr = paragraph._element.get_or_add_pPr()
+    tabs = p_pr.find(qn("w:tabs"))
+    if tabs is None:
+        tabs = p_pr.makeelement(qn("w:tabs"), {})
+        p_pr.append(tabs)
+    tab = tabs.makeelement(qn("w:tab"), {
+        qn("w:val"): "left",
+        qn("w:pos"): str(int(indent.emu / 914400 * 1440)),
+    })
+    tabs.append(tab)
 
     authors = format_authors_vancouver(pub.get("authors", ""))
     if authors:
