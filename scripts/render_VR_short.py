@@ -29,6 +29,7 @@ import yaml
 try:
     from docx import Document
     from docx.enum.text import WD_ALIGN_PARAGRAPH
+    from docx.oxml import OxmlElement
     from docx.oxml.ns import qn
     from docx.shared import Cm, Pt, RGBColor
 except ImportError:
@@ -41,10 +42,46 @@ def load_yaml(path):
         return yaml.safe_load(f.read())
 
 
-def format_authors_vancouver(authors_str, max_authors=None):
+def add_hyperlink(paragraph, text, url, font_size=Pt(11), color=RGBColor(0, 0, 238)):
+    part = paragraph.part
+    r_id = part.relate_to(
+        url,
+        "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
+        is_external=True,
+    )
+
+    hyperlink = OxmlElement("w:hyperlink")
+    hyperlink.set(qn("r:id"), r_id)
+
+    run_elem = OxmlElement("w:r")
+    r_pr = OxmlElement("w:rPr")
+
+    color_elem = OxmlElement("w:color")
+    color_elem.set(qn("w:val"), str(color) if color else "0000EE")
+    r_pr.append(color_elem)
+
+    underline_elem = OxmlElement("w:u")
+    underline_elem.set(qn("w:val"), "single")
+    r_pr.append(underline_elem)
+
+    if font_size:
+        size_elem = OxmlElement("w:sz")
+        size_elem.set(qn("w:val"), str(int(font_size.pt * 2)))
+        r_pr.append(size_elem)
+
+    run_elem.append(r_pr)
+    run_elem.text = text
+    hyperlink.append(run_elem)
+    paragraph._element.append(hyperlink)
+
+
+
+def format_authors_vancouver(authors_str, max_authors=6):
     if not authors_str:
         return ""
     authors_str = str(authors_str).strip()
+    if "et al" in authors_str.lower() and authors_str.count(",") < 15:
+        return authors_str
 
     parts = [p.strip() for p in authors_str.split(",")]
 
@@ -176,7 +213,8 @@ def add_reference(doc, pub, number, bold_name="Nilsonne G"):
 
     doi = (pub.get("doi", "") or "").strip()
     if doi:
-        apply_run_style(paragraph.add_run(f". doi: {doi}"))
+        apply_run_style(paragraph.add_run(". doi: "))
+        add_hyperlink(paragraph, doi, f"https://doi.org/{doi}")
     else:
         apply_run_style(paragraph.add_run("."))
 
