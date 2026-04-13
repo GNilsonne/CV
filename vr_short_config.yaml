@@ -1,0 +1,17 @@
+# Short VR publication list configuration
+# Select exactly 10 publications by id from cv_data.yaml.
+
+selected_publications:
+  - "replace_with_publication_id_1"
+  - "replace_with_publication_id_2"
+  - "replace_with_publication_id_3"
+  - "replace_with_publication_id_4"
+  - "replace_with_publication_id_5"
+  - "replace_with_publication_id_6"
+  - "replace_with_publication_id_7"
+  - "replace_with_publication_id_8"
+  - "replace_with_publication_id_9"
+  - "replace_with_publication_id_10"
+
+# Name fragment to bold in author lists.
+bold_name: "Nilsonne G"
