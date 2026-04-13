@@ -1893,7 +1893,7 @@ publications:
     between registrations and publications'
   journal: Royal Society Open Science
   doi: 10.1098/rsos.220142
-  year: 2014
+  year: 2022
   authors: TARG Meta-Research Group & Collaborators
   links:
     preprint: https://doi.org/10.1101/2022.01.18.22269507
@@ -1910,7 +1910,7 @@ publications:
   keywords: meta-research, outcome switching, peer review, pre-registration, selective reporting, trial registration
   open_access: Open Access
   rims_id: '451790'
-  id: targ_2014_discrepancy
+  id: targ_2022_discrepancy
   pub_type: original
   date: '2022-07-01'
 - title: Examining the generalizability of research findings from archival data

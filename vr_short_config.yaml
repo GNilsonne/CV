@@ -6,12 +6,12 @@ selected_publications:
   - nilsonne_2017_circulating
   - botviniknezer_2020_variability
   - nilsonne_2021_eeg
+  - targ_2022_discrepancy
   - weissgerber_2024_understanding
+  - sarafoglou_2024_subjective
+  - sorjonen_2025_spurious
   - nilsonne_2025_results
   - aczel_2026_investigating
-  - nilsonne_2009_phenotype
-  - enqvist_2011_selenite
-  - mundt_2013_hyaluronan
 
 # Name fragment to bold in author lists.
 bold_name: "Nilsonne G"
