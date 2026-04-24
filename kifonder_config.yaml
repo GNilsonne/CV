@@ -1,0 +1,27 @@
+# Configuration for KI fonder publication outputs
+# ==============================================
+
+# Exactly 10 publication IDs from cv_data.yaml, in display order.
+selected_publications:
+  - nilsonne_2021_eeg
+  - botviniknezer_2020_variability
+  - nilsonne_2025_results
+  - aczel_2026_investigating
+  - miske_2026_investigating
+  - tyner_2026_investigating
+  - nilsonne_2021_oxazepam
+  - trübutschek_2024_eegmanypipelines
+  - nilsonne_2021_empirical
+  - poldrack_2024_past
+
+# Name string to bold in references.
+bold_name: "Nilsonne G"
+
+# Full publication list output range.
+full_list_start_year: 2021
+
+# Optional classification overrides for publications in cv_data.yaml.
+# Types: original, review, other
+type_overrides: []
+#  - id: "some_publication_id"
+#    type: "review"
