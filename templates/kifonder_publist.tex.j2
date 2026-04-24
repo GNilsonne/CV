@@ -30,35 +30,15 @@
 {\large\textbf{<< meta.name|tex >> -- Complete publication list << start_year >>--present}}
 \end{center}
 
-\section*{Peer-reviewed original research articles}
-<% if originals %>
+\section*{Publications << start_year >>--present}
+<% if full_publication_list %>
 \begin{enumerate}
-<% for pub in originals %>
+<% for pub in full_publication_list %>
 \item <% if pub.authors %><< pub.authors|kif_authors|kif_bold_name >>: <% endif %><< pub.title|notrailingdot|tex >>. <% if pub.journal %>\textit{<< pub.journal|notrailingdot|tex >>}<% endif %><% if pub.volume %>,<< pub.volume >><% if pub.pages %>:<< pub.pages >><% elif pub.article_number %>:<< pub.article_number >><% endif %><% endif %><% if pub.year %>, << pub.year >><% endif %>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %>
 <% endfor %>
 \end{enumerate}
 <% else %>
 No entries found.
-<% endif %>
-
-\section*{Review articles}
-<% if reviews %>
-\begin{enumerate}
-<% for pub in reviews %>
-\item <% if pub.authors %><< pub.authors|kif_authors|kif_bold_name >>: <% endif %><< pub.title|notrailingdot|tex >>. <% if pub.journal %>\textit{<< pub.journal|notrailingdot|tex >>}<% endif %><% if pub.volume %>,<< pub.volume >><% if pub.pages %>:<< pub.pages >><% elif pub.article_number %>:<< pub.article_number >><% endif %><% endif %><% if pub.year %>, << pub.year >><% endif %>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %>
-<% endfor %>
-\end{enumerate}
-<% else %>
-No entries found.
-<% endif %>
-
-<% if other_articles %>
-\section*{Other articles}
-\begin{enumerate}
-<% for pub in other_articles %>
-\item <% if pub.authors %><< pub.authors|kif_authors|kif_bold_name >>: <% endif %><< pub.title|notrailingdot|tex >>. <% if pub.journal %>\textit{<< pub.journal|notrailingdot|tex >>}<% endif %><% if pub.volume %>,<< pub.volume >><% if pub.pages %>:<< pub.pages >><% elif pub.article_number %>:<< pub.article_number >><% endif %><% endif %><% if pub.year %>, << pub.year >><% endif %>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|tex >>}<% endif %>
-<% endfor %>
-\end{enumerate}
 <% endif %>
 
 \end{document}

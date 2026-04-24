@@ -338,27 +338,20 @@ def render_full_publication_pdf(data, config, publications):
 
     pubs_sorted = sorted(publications, key=lambda p: ((p.get("year", 0) or 0), p.get("date", "")), reverse=True)
 
-    originals = []
-    reviews = []
-    other_articles = []
+    full_publication_list = []
     for pub in pubs_sorted:
         if not in_year_range(pub, start=start_year):
             continue
         ptype = classify_publication(pub, type_overrides)
-        if ptype == "review":
-            reviews.append(pub)
-        elif ptype == "other":
-            other_articles.append(pub)
-        else:
-            originals.append(pub)
+        if ptype == "other":
+            continue
+        full_publication_list.append(pub)
 
     template = env.get_template("kifonder_publist.tex.j2")
     tex_output = template.render(
         meta=data.get("meta", {}),
         start_year=start_year,
-        originals=originals,
-        reviews=reviews,
-        other_articles=other_articles,
+        full_publication_list=full_publication_list,
         bold_name=config.get("bold_name", "Nilsonne G"),
     )
 
