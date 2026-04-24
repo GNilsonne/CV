@@ -3,16 +3,16 @@
 
 # Exactly 10 publication IDs from cv_data.yaml, in display order.
 selected_publications:
-  - nilsonne_2021_eeg
+  - open_2015_estimating
   - botviniknezer_2020_variability
+  - aczel_2021_consensus
+  - nilsonne_2021_eeg
+  - nilsonne_2023_olika
+  - trübutschek_2024_eegmanypipelines
   - nilsonne_2025_results
   - aczel_2026_investigating
   - miske_2026_investigating
   - tyner_2026_investigating
-  - nilsonne_2021_oxazepam
-  - trübutschek_2024_eegmanypipelines
-  - nilsonne_2021_empirical
-  - poldrack_2024_past
 
 # Name string to bold in references.
 bold_name: "Nilsonne G"
