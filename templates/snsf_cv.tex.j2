@@ -1,0 +1,88 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{libertinus}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage[hyphens]{url}
+\usepackage{xurl}
+\usepackage[colorlinks,breaklinks=true]{hyperref}
+
+\hypersetup{
+    urlcolor=blue!60!black,
+    linkcolor=blue!60!black,
+    citecolor=blue!60!black,
+}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}
+\titlespacing*{\section}{0pt}{2ex plus .5ex minus .2ex}{0.8ex plus .2ex}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+\titlespacing*{\subsection}{0pt}{1.2ex plus .3ex minus .1ex}{0.4ex plus .1ex}
+
+\setlist[itemize]{leftmargin=1.5em, itemsep=0.4ex, parsep=0ex, topsep=0.5ex}
+\setlist[enumerate]{leftmargin=1.8em, itemsep=0.5ex, parsep=0ex, topsep=0.5ex}
+\sloppy
+
+\begin{document}
+
+\begin{center}
+    {\LARGE\bfseries << meta.name|tex >>}\\[0.4em]
+    <% if meta.affiliation %><< meta.affiliation|tex >>\\<% endif %>
+    <% if meta.email %>\href{mailto:<< meta.email >>}{<< meta.email|tex >>}\\<% endif %>
+    ORCID iD: \href{https://orcid.org/<< meta.orcid >>}{<< meta.orcid >>}
+\end{center}
+
+\section{Education and training}
+\begin{itemize}
+<% for deg in education %>
+    \item << deg.description|autolink >><% if deg.link %> \href{<< deg.link >>}{[link]}<% endif %>
+<% endfor %>
+\end{itemize}
+
+\section{Previous and current employment}
+\begin{itemize}
+<% for pos in employment %>
+    \item << pos.description|autolink >>
+<% endfor %>
+\end{itemize}
+
+\section{Major achievements with selected works}
+<% for achievement in achievements %>
+\subsection{<< achievement.title|tex >>}
+<% if achievement.category %>
+\noindent\textit{<< achievement.category|tex >>}
+
+<% endif %>
+<< achievement.description|autolink >>
+
+<% if achievement.selected_works %>
+\begin{enumerate}
+<% for work in achievement.selected_works %>
+    \item << work|workref >>
+<% endfor %>
+\end{enumerate}
+<% endif %>
+<% endfor %>
+
+\section{Net academic age}
+<% if net_academic_age %>
+<< net_academic_age|tex >>
+<% else %>
+Not yet specified.
+<% endif %>
+
+<% if snsf_notes %>
+\begin{itemize}
+<% for note in snsf_notes %>
+    \item << note|autolink >>
+<% endfor %>
+\end{itemize}
+<% endif %>
+
+\section{ORCID iD}
+\href{https://orcid.org/<< meta.orcid >>}{<< meta.orcid >>}
+
+\end{document}

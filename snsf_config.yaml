@@ -1,0 +1,45 @@
+net_academic_age:
+  phd_year: 2009
+  phd_month: 1
+  display: 17 years, 4 months
+
+notes:
+  - Net academic age should be checked against the SNSF calculator and adjusted for any eligible deductions before submission.
+  - The selected works below are a first pass and can be replaced to better match the application narrative.
+
+achievements:
+  - title: Open and reproducible research as a research program
+    category: Generation of knowledge, innovation and advancement of research
+    description: >-
+      I have contributed to meta-research and open science by studying how research practices shape the credibility,
+      reproducibility, and reuse of scientific knowledge. This work spans empirical studies of reproducibility,
+      methodological contributions on transparency and multi-analyst designs, and practical guidance that has helped
+      translate open-science principles into community standards and everyday research workflows.
+    selected_work_ids:
+      - open_2015_estimating
+      - klein_nd_practical
+      - aczel_2021_consensus
+      - botviniknezer_2020_variability
+
+  - title: Collaborative infrastructure and standards for large-scale, reusable science
+    category: Development and support of peers and the wider research community
+    description: >-
+      A second line of work has focused on building and supporting collaborative infrastructures that make research more
+      reusable across labs and countries. I have contributed to large international collaborations, open data and metadata
+      standards, and community-driven models for training and coordination. These activities connect methodological rigor
+      with concrete practices that allow other researchers to share, combine, and evaluate evidence more effectively.
+    selected_work_ids:
+      - gau_2021_brainhack
+      - bourget_2022_microscopy
+      - austin_2021_fostering
+
+  - title: Translation to broader research culture and public-facing research policy
+    category: Broader society
+    description: >-
+      I have also worked to connect research reform with wider public and institutional debates. This includes work on
+      legal and policy constraints on international data sharing, open-science governance, and communication aimed at
+      helping researchers, institutions, and broader audiences interpret evidence and research evaluation more carefully.
+    selected_work_ids:
+      - hallinan_2021_international
+      - hardwicke_nd_data
+      - nilsonne_2023_olika
