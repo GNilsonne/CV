@@ -14,8 +14,7 @@ meta:
 degrees:
 - description: MD, Karolinska Institutet, 2009
   year: 2009
-- description: 'PhD, Experimental Pathology, Karolinska Institutet, 2009: Experimental therapeutics against malignant mesothelioma:
-    investigations in vitro. Full text: KI Open Archive'
+- description: 'PhD, Experimental Pathology, Karolinska Institutet, 2009: Experimental therapeutics against malignant mesothelioma: investigations in vitro. Full text: KI Open Archive'
   link: https://openarchive.ki.se/xmlui/handle/10616/38731
   year: 2009
 - description: Associate Professor (Docent), Karolinska Institutet, 2021
@@ -35,8 +34,7 @@ employment:
 - description: National Coordinator of Data Domain Specialists, Swedish National Data Service, 2019-2023
 - description: Visiting Fellow, QUEST Center, Berlin Institute of Health, Charité - Universitätsmedizin Berlin, 2020-2021
 - description: Researcher, Karolinska Institutet, Department of Clinical Neuroscience, 2022-
-- description: Visiting Scientist and Affiliate, Stanford University, Meta-Research Innovation Center at Stanford (METRICS),
-    2023-
+- description: Visiting Scientist and Affiliate, Stanford University, Meta-Research Innovation Center at Stanford (METRICS), 2023-
 - description: Senior Advisor, Swedish National Data Service, 2024-
 phd_supervision:
 - name: Michael Ingre
@@ -158,16 +156,14 @@ teaching:
     Delay Task.'
   - 'Rickard Steijer, Degree project in medicine, Karolinska Institutet, 2018: Emotion regulation in self-reported disinhibition,
     boldness and meanness. doi: 10.17605/osf.io/8P9VG'
-  - 'Johnny Soares, Degree project in medicine, Karolinska Institutet, 2019: The effects of sleep deprivation on vigilance
-    and neural activation during the Sustained Attention to Response Task. doi: 10.31237/osf.io/e8bmt'
+  - 'Johnny Soares, Degree project in medicine, Karolinska Institutet, 2019: The effects of sleep deprivation on vigilance and neural activation during the Sustained Attention to Response Task. doi: 10.31237/osf.io/e8bmt'
   - 'Poyan Karimi, Degree project in medicine, Karolinska Institutet, 2019: A functional magnetic resonance imaging study
     on sleep deprivation and its effect on empathy for pain and emotional regulation. doi: 10.31237/osf.io/r89q6'
   - 'Vivianne Jakobsson, Degree project in medicine, Karolinska Institutet, 2019: Resting state connectivity during total
     sleep deprivation: A functional magnetic resonance study doi: 10.31237/osf.io/3dtxz'
   - 'Sanna Graniittiaho, Degree project in medicine, Karolinska Institutet, 2020: Effects of sleep deprivation on empathy
     for pain and emotion regulation: A behavioral and neuroimaging study. doi: 10.31237/osf.io/z4gfy'
-  - 'Lasse Anttila, Degree project in medicine, Karolinska Institutet, 2020: A Functional Magnetic Resonance Imaging Study
-    on Global Signal Variability After One Night of Total sleep Deprivation doi: 10.31237/osf.io/dhqj2'
+  - 'Lasse Anttila, Degree project in medicine, Karolinska Institutet, 2020: A Functional Magnetic Resonance Imaging Study  on Global Signal Variability After One Night of Total sleep Deprivation doi: 10.31237/osf.io/dhqj2'
   - 'Anton Glasberg, Degree project in medicine, Karolinska Institutet, 2023: The role of Interleukin-6 as a biomarker in
     ADHD. doi: 10.31237/osf.io/4gfmk'
   - Dania Alkattan, Degree project in medicine, Karolinska Institutet, 2023
@@ -183,7 +179,8 @@ awards:
   link: https://www.nok.se/priser-och-stipendier/stipendier/popularvetenskapliga-arbetsstipendier/natur--kulturs-popularvetenskapliga-pris-2018/
 - description: British Neuroscience Association Credibility in Neuroscience Prize, 2023, awarded to the EEGManyLabs project.
   link: https://www.bna.org.uk/mediacentre/news/credibility-prize-2023/
-- description: Excellence in Neuroscience Annual Reward (EINAR), awarded by the Department of Clinical Neuroscience at Karolinska Institutet, 2026
+- description: Excellence in Neuroscience Annual Reward (EINAR), awarded by the Department of Clinical Neuroscience at Karolinska
+    Institutet, 2026
 phd_committee:
 - description: 'University of Copenhagen, Tarang Sharma: Effects of selective serotonin reuptake inhibitors (SSRIs) and serotonin-norepinephrine
     reuptake inhibitors (SNRIs) on suicidality, violence, and quality of life. 2018-04-23.'
@@ -1800,6 +1797,14 @@ publications:
   id: sorjonen_2022_spurious
   pub_type: original
   date: '2022-02-01'
+- title: 'Figure: interlinked digital research objects'
+  authors: Nilsonne G
+  year: 2022
+  date: '2022-02-01'
+  doi: 10.53962/smzv-g623
+  journal: ResearchEquals
+  links: {}
+  id: nilsonne_2022_figure_2
 - title: Editors publishing in their own journals – a systematic review of prevalence and a discussion of normative aspects
   journal: Learned Publishing
   doi: 10.1002/leap.1449
@@ -2474,7 +2479,8 @@ publications:
 - title: Understanding the provenance and quality of methods is essential for responsible reuse of FAIR data
   journal: Nature Medicine
   year: 2024
-  authors: Weissgerber T L, Gazda M A, Nilsonne G, ter Riet G, Cobey K D, Prieß-Buchheit J, Noro J, Schulz R, Tijdink J K, Bobrov E, Bannach-Brown A, Franzen D L, Moschini U, Naudet F, Mansmann U, Salholz-Hillel M, Bandrowski A, Macleod M R
+  authors: Weissgerber T L, Gazda M A, Nilsonne G, ter Riet G, Cobey K D, Prieß-Buchheit J, Noro J, Schulz R, Tijdink J K,
+    Bobrov E, Bannach-Brown A, Franzen D L, Moschini U, Naudet F, Mansmann U, Salholz-Hillel M, Bandrowski A, Macleod M R
   links: {}
   id: weissgerber_2024_understanding
   pub_type: review
@@ -2871,6 +2877,72 @@ publications:
   id: sorjonen_2026_low
   pub_type: original
   date: '2026-01-01'
+- title: Investigating the reproducibility of the social and behavioural sciences
+  authors: Miske O, Abatayo A L, Daley M, Dirzo M, Fox N, Haber N, Hahn K M, Struhl M K, Mawhinney B, Silverstein P, Stankov
+    T, Tyner A H, Adamkovič M, Alzahawi S, Anafinova S, Awtrey E, Axxe E, Bailey J, Bakker B N, Balaji A, Banik G, Bartoš
+    F, Berkman H, Berry Z, Bethke F S, Brady T F, Breznau N, Capitan S, Capitán T, Caquelin L, Cheng K J, Chopik W J, Clochard
+    G-J, Coupé T, Cummins J, Burak E G D, Duan J, Esterling K M, Evans T R, Fiala N, Field J, Gay V, Geng J, Gereke J, Gleibs
+    I H, Gourdon-Kanhukamwe A, Grigoryev D, Gunby N, Hanel P H P, Hong S, Houlihan S D, Huntington-Klein N, Izydorczak K,
+    Jankowsky K, Jonas K, Kačmár P, Kapoor H, Karcher S, Kołczyńska M, Kretschmer D, Lazarevic L, Leahy K E, Lee J C, Limnios
+    C, Liu A-C, Lloyd J W, Lopez-Nicolas R, Lou N M, Lucas R E, Maier M, Mallinson D J, Martončik M, McCall M C, Mehta N,
+    Méndez E, Michalak J, Molden D C, Mushtaq F, Neuendorf C, Nichols A L, Nilsonne G, O’Boyle E, Oh J, Ostermann T, Oyebanjo
+    A, Panczak R, Pavlov Y G, Pavlović Z, Peter N, Peters K, Porter N D, Purol M, Puthillam A, Ramljak M, Reader A T, Reed
+    W R, Röer J P, Ropovik I, Savi A O, Schmidt K, Schnabel L, Sevigny E L, Shaki S, Shakya S, Soh A, Somo A, Sonmez F, Strømland
+    E, Suchow J W, Szabelska A, Tagat A, Tutor M V, Urbanska K, Van Dessel P, Vargo E J, Vo D T H, Volkman V, Wang K, Wichman
+    A L, Williams J R, Winter F, Wintermantel F, Zhang N, Ziano I, Zogmaister C, Zupan Z, Nosek B A, Errington T M
+  year: 2026
+  doi: 10.1038/s41586-026-10203-5
+  journal: Nature
+  links: {}
+  date: '2026-04-01'
+  volume: '652'
+  pages: 126-134
+  issn: 0028-0836
+  eissn: 1476-4687
+  publication_date: '2026-04-01'
+  open_access: Closed Access
+  id: miske_2026_investigating
+- title: Investigating the replicability of the social and behavioural sciences
+  authors: Tyner A H, Abatayo A L, Daley M, Field S, Fox N, Haber N A, Hahn K M, Struhl M K, Mawhinney B, Miske O, Silverstein
+    P, Soderberg C K, Stankov T, Abbasi A, Aberson C L, Aczel B, Adamkovič M, Albayrak N, Allen P J, Andreychik M, Awtrey
+    E, Axxe E, Azevedo F, Bader M D, Bago B, Bailey J, Bakker M, Banik G, Banks G C, Baskin E, Batruch A, Beatteay A, Behr
+    S M, Berente N, Berry Z, Białkowski J, Bodroža B, Boeschoten L, Bognar M, Bokhove C, Bonfiglio D, Bouwman R, Brady T F,
+    Braithwaite S R, Jiménez G B, Brick C, Bricka T, Briker R, Brown A N, Brown G D A, van Aert R C M, Caldwell K, Capitan
+    S, Capitán T, Chandler J, Charles T, Chartier C R, Chawdhary R, Cheng K J, Chopik W J, Clark B, Colvin V E, Comer C C,
+    Costantini G, Coupé T, Cummins J, Czernatowicz-Kukuczka A, de Leeuw J, Dobolyi D, Druckman J N, Duan J, Dujmović M, Dunleavy
+    D J, Durkee P K, Emery C, Esterling K M, Evans T R, Fedor A, Fernández-Castilla B, Fiala N, Field J G, Fong N, Fonseca
+    M A, Freeman A L J, Freese J, Geiger S J, Geng J, Getz L M, Geven L M, Gleibs I H, Gonzales D P, Gooty J, Gourdon-Kanhukamwe
+    A, Greculescu C, Griffin S M, Grigoryan L, Grunow M, Gunby N, Hall B, Hanel P H P, Hannon E E, Harper S, Held M J, Hickman
+    L, Higgins N C, Hippel S, Hoeppner S, Hong S, Hostler T J, Inzlicht M, Izydorczak K, Jaeger B, Jankowsky K, Jarke-Neuert
+    J, Jensen M, Jokić B, Jolles D, Jolly P, Jones A M, Juanchich M, Kačmár P, Kapoor H, Keljanovic A, Koirala S, Kołczyńska
+    M, Kouroupaki D, Kühnen U, Landgrave M, Larson M J, Laulié L, Lawrence A C E, Le Forestier J M, Leahy K E, Lee S, Leslie
+    J, Lewis S C, Limnios C, Lin H, Liu A-C, Lloyd J W, Ludvig E A, Lynott D, MacDonald J, Mallik P, Mallinson D J, Marinazzo
+    D, Martarelli C S, Matacotta J, McBride A, McHugh C, McMillan G, Méndez E, Metzger M, Michaelides M P, Michalak J, Micheli
+    L, Miller J K, Milyavskaya M, Molden D C, Monjaras A G, Moreau D, Morrow A, Moya C, Mudrik L, Mulder L B, Munt K A, Nandi
+    A, Nason K, Nast C, Nave G, Nax H H, Neubauer F, Nguyen P L L, Nichols A L, Nilsonne G, O’Boyle E, Oettinghaus J, Oh J,
+    Oshana A, Ostermann T, Ostrowski R P, Oyebanjo A, Panczak R, Patrianakos J, Pavez I, Pavlov Y G, Persson S, Perugini M,
+    Peters K, Pieters C, Ponizovskiy V, Porter N D, Prenoveau J M, Purić D, Purol M F, Puthillam A, Quinn K A, Ramljak M,
+    Reed W R, Ritchie M, Ritzau M, Roche S P, Rodela R, Röer J P, Ropovik I, Rothschild J, Saal J, Safadi H, Samaha J, Sanchez
+    M, Sankaran S, Santos D, Sargent A C, Sauter M, Schmidt K, Schnabel L, Schroeder A N, Schuetz S W, Schuetze B A, Schulte-Mecklenbeck
+    M, Schütz A, Sevigny E L, Shackleton E, Shafranek R M, Shaki S, Shakya S, Sirota M, Sisco M R, Sitnikov M M, Slevc L R,
+    Smalarz L, Smith C T, Snyder J S, Sommet N, Sonmez F, Spellman B A, Stanulewicz-Buckley N, Stock G, Street C N H, Strømland
+    E, Sundelin T, Syed M, Szabelska A, Szaszi B, Szumowska E, Tagat A, Täuber S, Tay L, Thapa S, Thatcher J, Tsaklakidou
+    D, Tummers L, Turkovich E, Tutor M V, Urbanska K, van 't Veer A, van Assen M, van de Ven N, van den Goorbergh R, Vargo
+    E J, Vaughn L A, Vazire S, Vermeulen J M, Vo D T H, Volkman V, Wagenmakers E-J, Wagner D, Walasek L, Walter F, Warmelink
+    L, Wei L, Weißflog M I, Weller N, Wichman A L, Wilbiks J, Williams J R, Wolfe K, Wort F, Wright R, Wulff J N, Xue X, Yan
+    V X, Yang Y, Yoon S, Žeželj I, Zhang Y, Ziano I, Zogmaister C, Zupan Z, Zwaan R A, Nosek B A, Errington T M
+  year: 2026
+  doi: 10.1038/s41586-025-10078-y
+  journal: Nature
+  links: {}
+  date: '2026-04-01'
+  volume: '652'
+  pages: 143-150
+  issn: 0028-0836
+  eissn: 1476-4687
+  publication_date: '2026-04-01'
+  open_access: Closed Access
+  id: tyner_2026_investigating
 - title: Investigating the analytical robustness of the social and behavioural sciences
   authors: Aczel B, Szaszi B, Clelland H T, Kovacs M, Holzmeister F, van Ravenzwaaij D, Schulz-Kümpel H, Hoffmann S, Nilsonne
     G, Kosa L, Torma Z A, Abdelfatah Y, Aberson C L, Acar O A, Acem E, Adamkovic M, Adamovich T, Adiasto K, Ahnström L, Akil
@@ -2932,76 +3004,15 @@ publications:
   publication_date: '2026-04-02'
   open_access: Closed Access
   id: aczel_2026_investigating
-- title: Investigating the reproducibility of the social and behavioural sciences
-  authors: Miske O, Abatayo A L, Daley M, Dirzo M, Fox N, Haber N, Hahn K M, Struhl M K, Mawhinney B, Silverstein P,
-    Stankov T, Tyner A H, Adamkovič M, Alzahawi S, Anafinova S, Awtrey E, Axxe E, Bailey J, Bakker B N, Balaji A,
-    Banik G, Bartoš F, Berkman H, Berry Z, Bethke F S, Brady T F, Breznau N, Capitan S, Capitán T, Caquelin L, Cheng
-    K J, Chopik W J, Clochard G-J, Coupé T, Cummins J, Burak E G D, Duan J, Esterling K M, Evans T R, Fiala N, Field
-    J, Gay V, Geng J, Gereke J, Gleibs I H, Gourdon-Kanhukamwe A, Grigoryev D, Gunby N, Hanel P H P, Hong S, Houlihan
-    S D, Huntington-Klein N, Izydorczak K, Jankowsky K, Jonas K, Kačmár P, Kapoor H, Karcher S, Kołczyńska M, Kretschmer
-    D, Lazarevic L, Leahy K E, Lee J C, Limnios C, Liu A-C, Lloyd J W, Lopez-Nicolas R, Lou N M, Lucas R E, Maier M,
-    Mallinson D J, Martončik M, McCall M C, Mehta N, Méndez E, Michalak J, Molden D C, Mushtaq F, Neuendorf C, Nichols
-    A L, Nilsonne G, O’Boyle E, Oh J, Ostermann T, Oyebanjo A, Panczak R, Pavlov Y G, Pavlović Z, Peter N, Peters K,
-    Porter N D, Purol M, Puthillam A, Ramljak M, Reader A T, Reed W R, Röer J P, Ropovik I, Savi A O, Schmidt K,
-    Schnabel L, Sevigny E L, Shaki S, Shakya S, Soh A, Somo A, Sonmez F, Strømland E, Suchow J W, Szabelska A, Tagat
-    A, Tutor M V, Urbanska K, Van Dessel P, Vargo E J, Vo D T H, Volkman V, Wang K, Wichman A L, Williams J R, Winter
-    F, Wintermantel F, Zhang N, Ziano I, Zogmaister C, Zupan Z, Nosek B A, Errington T M
+- title: 'Results Reporting in Antimicrobial Agent Clinical Trials: An analysis of Compliance and Timeliness Under the 2017
+    Final FDAAA Rule'
+  authors: Curtin M, Wiltshire A, Nilsonne G, Siebert M
   year: 2026
-  doi: 10.1038/s41586-026-10203-5
-  journal: Nature
+  date: '2026-05-01'
+  doi: 10.1016/j.jclinepi.2026.112307
+  journal: Journal of Clinical Epidemiology
   links: {}
-  date: '2026-04-01'
-  volume: '652'
-  pages: 126-134
-  issn: 0028-0836
-  eissn: 1476-4687
-  publication_date: '2026-04-01'
-  open_access: Closed Access
-  id: miske_2026_investigating
-- title: Investigating the replicability of the social and behavioural sciences
-  authors: Tyner A H, Abatayo A L, Daley M, Field S, Fox N, Haber N A, Hahn K M, Struhl M K, Mawhinney B, Miske O,
-    Silverstein P, Soderberg C K, Stankov T, Abbasi A, Aberson C L, Aczel B, Adamkovič M, Albayrak N, Allen P J,
-    Andreychik M, Awtrey E, Axxe E, Azevedo F, Bader M D, Bago B, Bailey J, Bakker M, Banik G, Banks G C, Baskin E,
-    Batruch A, Beatteay A, Behr S M, Berente N, Berry Z, Białkowski J, Bodroža B, Boeschoten L, Bognar M, Bokhove C,
-    Bonfiglio D, Bouwman R, Brady T F, Braithwaite S R, Jiménez G B, Brick C, Bricka T, Briker R, Brown A N, Brown
-    G D A, van Aert R C M, Caldwell K, Capitan S, Capitán T, Chandler J, Charles T, Chartier C R, Chawdhary R, Cheng
-    K J, Chopik W J, Clark B, Colvin V E, Comer C C, Costantini G, Coupé T, Cummins J, Czernatowicz-Kukuczka A, de
-    Leeuw J, Dobolyi D, Druckman J N, Duan J, Dujmović M, Dunleavy D J, Durkee P K, Emery C, Esterling K M, Evans T
-    R, Fedor A, Fernández-Castilla B, Fiala N, Field J G, Fong N, Fonseca M A, Freeman A L J, Freese J, Geiger S J,
-    Geng J, Getz L M, Geven L M, Gleibs I H, Gonzales D P, Gooty J, Gourdon-Kanhukamwe A, Greculescu C, Griffin S M,
-    Grigoryan L, Grunow M, Gunby N, Hall B, Hanel P H P, Hannon E E, Harper S, Held M J, Hickman L, Higgins N C,
-    Hippel S, Hoeppner S, Hong S, Hostler T J, Inzlicht M, Izydorczak K, Jaeger B, Jankowsky K, Jarke-Neuert J, Jensen
-    M, Jokić B, Jolles D, Jolly P, Jones A M, Juanchich M, Kačmár P, Kapoor H, Keljanovic A, Koirala S, Kołczyńska
-    M, Kouroupaki D, Kühnen U, Landgrave M, Larson M J, Laulié L, Lawrence A C E, Le Forestier J M, Leahy K E, Lee
-    S, Leslie J, Lewis S C, Limnios C, Lin H, Liu A-C, Lloyd J W, Ludvig E A, Lynott D, MacDonald J, Mallik P, Mallinson
-    D J, Marinazzo D, Martarelli C S, Matacotta J, McBride A, McHugh C, McMillan G, Méndez E, Metzger M, Michaelides
-    M P, Michalak J, Micheli L, Miller J K, Milyavskaya M, Molden D C, Monjaras A G, Moreau D, Morrow A, Moya C, Mudrik
-    L, Mulder L B, Munt K A, Nandi A, Nason K, Nast C, Nave G, Nax H H, Neubauer F, Nguyen P L L, Nichols A L, Nilsonne
-    G, O’Boyle E, Oettinghaus J, Oh J, Oshana A, Ostermann T, Ostrowski R P, Oyebanjo A, Panczak R, Patrianakos J,
-    Pavez I, Pavlov Y G, Persson S, Perugini M, Peters K, Pieters C, Ponizovskiy V, Porter N D, Prenoveau J M, Purić
-    D, Purol M F, Puthillam A, Quinn K A, Ramljak M, Reed W R, Ritchie M, Ritzau M, Roche S P, Rodela R, Röer J P,
-    Ropovik I, Rothschild J, Saal J, Safadi H, Samaha J, Sanchez M, Sankaran S, Santos D, Sargent A C, Sauter M,
-    Schmidt K, Schnabel L, Schroeder A N, Schuetz S W, Schuetze B A, Schulte-Mecklenbeck M, Schütz A, Sevigny E L,
-    Shackleton E, Shafranek R M, Shaki S, Shakya S, Sirota M, Sisco M R, Sitnikov M M, Slevc L R, Smalarz L, Smith
-    C T, Snyder J S, Sommet N, Sonmez F, Spellman B A, Stanulewicz-Buckley N, Stock G, Street C N H, Strømland E,
-    Sundelin T, Syed M, Szabelska A, Szaszi B, Szumowska E, Tagat A, Täuber S, Tay L, Thapa S, Thatcher J, Tsaklakidou
-    D, Tummers L, Turkovich E, Tutor M V, Urbanska K, van 't Veer A, van Assen M, van de Ven N, van den Goorbergh R,
-    Vargo E J, Vaughn L A, Vazire S, Vermeulen J M, Vo D T H, Volkman V, Wagenmakers E-J, Wagner D, Walasek L, Walter
-    F, Warmelink L, Wei L, Weißflog M I, Weller N, Wichman A L, Wilbiks J, Williams J R, Wolfe K, Wort F, Wright R,
-    Wulff J N, Xue X, Yan V X, Yang Y, Yoon S, Žeželj I, Zhang Y, Ziano I, Zogmaister C, Zupan Z, Zwaan R A, Nosek
-    B A, Errington T M
-  year: 2026
-  doi: 10.1038/s41586-025-10078-y
-  journal: Nature
-  links: {}
-  date: '2026-04-01'
-  volume: '652'
-  pages: 143-150
-  issn: 0028-0836
-  eissn: 1476-4687
-  publication_date: '2026-04-01'
-  open_access: Closed Access
-  id: tyner_2026_investigating
+  id: curtin_2026_results
 preprints:
 - title: 'Disease threat does not predict attractiveness preference in a United Kingdom dataset: a replication attempt and
     commentary on White et al., Psych Sci 2013'
@@ -3248,6 +3259,21 @@ preprints:
   acceptance_date: '2026-03-17'
   date: '2026-03-17'
   id: ahnstrom_2026_trialscout
+- title: 'Assessing Compliance with Reporting Requirements in European Phase II–IV Clinical Trials: A Cross-Sectional Observational
+    Study'
+  authors: Bruckner T, Dike C E, Caquelin L, Freeman A, Aspromonti D A, DeVito N J, Song Z, Karam G, Nilsonne G
+  year: 2026
+  date: '2026-04-05'
+  doi: 10.64898/2026.04.03.26350111
+  links: {}
+  id: bruckner_2026_assessing
+- title: 'Many Pipelines, One Dataset: Analytic Flexibility and Its Impact in EEG Research'
+  authors: Cesnaite E, Algermissen J, Vinding MC, Vitale A, Pascarella A, Fischer NL, Yang Y-F, Trübutschek D, Gianelli C, Marshall CR, Abbasi O, Adamovich T, Adel L, Agarwal N, Aguado-López B, Ajmeria U, Al E, Aldeen H, Alejandro RJ, Alenina EA, Alex M, Ambrosini E, Angus DJ, Anzolin A, Appelhoff S, Arcara G, Arkhipova Y, Azanova M, Bagattini C, Baker DH, Bamberg C, Barbero FM, Battal C, Bauer A-KR, Bayram B, Bazán PR, Beale H, Belanova E, Bergström ZM, Bernardi G, Berto M, Betta M, Blanchette I, Bortoletto M, Bottari D, Braboszcz C, Bradford DE, Brooks JL, Brunskill CM, Bublatzky F, Büchel D, Calce RP, Capizzi M, Cassani R, Castellanos MC, Cattaneo L, Cerda-Company X, Chen L, Chen X, Chen Y, Choo Y, Chuan-Peng H, Chugani K, Cichy RM, Cimrová B, Ciranka S, Civier O, Cogoni C, Coll M-P, Coloigner J, Conejero A, Constant M, Corona-González CE, Criscuolo A, Cruse D, Cury C, Czeszumski A, Dahl MJ, Davidson M, de Vries IEJ, del Castillo MD, DeLuca V, Demarchi G, Desender K, Dias M, Waller D, Dietz M, Dimigen O, Ding H, Dong L, Drijvers L, Drisdelle BL, Duma GM, Dumas G, Ehinger B, Emmendorfer AK, Enge A, Evas S, Fedele T, Federici A, Feld GB, Fink LK, Fischer S, Fló E, Formica S, Forschack N, Forster B, Franz M, Franzen L, Fry CM, Galvez-Pol A, García-Lázaro HG, García Alanis JC, Garrido-Vásquez P, Gerdfeldter B, Gerike G, Gippert M, González-García C, Gordillo D, Grabowska A, Greenwood L-M, Griffiths BJ, Grollero D, Gross J, Gubler DA, Guilleminot P, Güler B, Gundlach C, Günseli E, Guo M, Güth MR, Haciahmet C, Hadas I, Hämäläinen J, Han S, Harris AM, Hassan M, Haufe S, Heinsfeld AS, Herholz P, Hervault M, Hill AT, Hodapp A, Hommelsen M, Honcamp H, Hosang TJ, Hsu C-H, Hsu T-Y, Huang C, Huber-Huber C, Hughes M, Ibanez A, Iravani B, Isenburg K, Jack BN, Jamshidi Idaji M, Jefsen OH, Jeong E, Jiang F, Joechner A-K, Johnson MR, Jung K-Y, Kaboodvand N, Kaiser D, Kałamała P, Kang T, Kapralov N, Karimi-Rouzbahani H, Kegler M, Kelley NJ, Kern S, Kerrén C, Kim S, Kiseleva A, Klatt L-I, Klotzsche F, Kluger DS, König P, Kopp B, Kosciessa JQ, Kosilo M, Kotchoubey B, Kouara L, Krewinkel S, Kroczek LOH, Kührt C, Lago S, Lamoš M, Langer N, Lazurenko D, Le Denmat P, Lees T, Lehmann T, Lenc T, Lenoir C, Li W, Li Z, Liesefeld AM, Liesefeld HR, Likhanov M, Lintz EN, Lioi G, Litvak V, Liu X, Liu Y, Lo Y-H, López-Caneda E, López-García D, Lorenz C, Löw A, Lu R, Lu Z, Luque A, Lydon-Staley D, MacGregor O, Maffei A, Maier ME, Makowski LM, Mantegna F, Marcantoni E, Martín-Buro MC, Martinovici A, Marzecova A, Masina F, Mattingley JB, Mazzini S, Medani T, Mei T, Melcher D, Meng Q, Menger NS, Mheich A, Mitka M, Monroy C, Montefinese M, Moreau D, Moreau Q, Mudrik L, Mushtaq F, Myers NE, Naal-Ruiz NE, Najafi F, Ngo H-VV, Nie L, Nilsson M, Niso G, Nyhus E, Oerlemans J, Olivetti E, Orpella J, Ort E, Palenciano AF, Park K, Pastötter B, Patai Z, Paul K, Paulo AJM, Pellegrino G, Pereira Soares SM, Pestilli F, Pezzetta R, Pfabigan DM, Plachti A, Pomper U, Popov T, Prado P, Protzner AB, Prystauka Y, Qian H, Rabovsky M, Ramos da Cruz J, Rausch M, Rawal A, Repplinger S, Rice DR, Riecansky I, Riha P, Rodrigues J, Roncaglia MP, Rose M, Rösner M, Rothman J, Ruch S, Ruhnau P, Sarig Golan A, Sarkar A, Satish A, Scarpazza C, Scheffel C, Schepers J, Schettino A, Schmidt B, Schmidt F, Schubert A-L, Schuler A-L, Scrivener CL, Senderecka M, Senftleben U, Serin F, Serrano JI, Shabanpour M, Shamova V, Shareef I, Sherbina D, Short CA, Signoret C, Sirius EVP, Skukies R, Soria-Frisch A, Soylu F, Speer S, Steinfath TP, Steinhauser R, Steinkamp SR, Stephani T, Strobel A, Strzelczyk D, Sun P, Sun Y, Surrey C, Syrov N, Tagliaferri M, Talwar S, Tarantino V, Tavano A, Taylor JR, Thiele C, Thirugnanasambandam N, Todorova L, Tomić A, Troche SJ, Tseng L-Y, Tune S, Turan G, Turella L, Ulloa JL, Valiadis M, Vallesi A, van der Wijk G, van Vliet M, van Wingerden M, Varano E, Varma MM, Vasconcelos M, Vergilova Y, Vilà-Balló A, Visalli A, Viviani G, Vloeberghs R, Wacker J, Wang Y-J, Wang M-Y, Wang T, Wei D, Werkle-Bergner M, White D, Whitton S, Wiebels K, Wiens S, Wittkamp CA, Wolf M-I, Wong-Kee-You A, Woods W, Wurm F, Wynn SC, Xie J, Xifra-Porxas A, Xu W, Yakovlev L, Yang J, Yavuz M, Youssofzadeh V, Yu R, Zafar T, Zago S, Zakharov I, Zakrzewska MZ, Zhang J, Zhang Z, Zhen S, Zhou X, Zhu JD, Zhu S, Zhuang Q, Zich C, Zomorrodi R, Zugarramurdi C, Navid MS, Puoliväli T, Senoussi M, Yeaton JD, Aczel B, Cohen MX, Delorme A, Dreber A, Hipp J, Holzmeister F, Johannesson M, Ković V, Oostenveld R, Pavlov YG, Pernet C, Poldrack RA, Puce A, Schonberg T, Schweinsberg M, Šoškić A, Szaszi B, Uhlmann EL, Nilsonne G, Busch NA
+  year: 2026
+  date: '2026-05-07'
+  doi: 10.31222/osf.io/wvx48_v2
+  links: {}
+  id: cesnaite_2026_many
 - title: A multimodal brain imaging dataset on sleep deprivation in young and old humans
   journal: Karolinska Open Archive
   authors: Nilsonne G, Tamm S, d’Onofrio P, Thuné HÅ, Schwarz J, Lavebratt C, Liu, JJ, Månsson KNT, Sundelin T, Axelsson J,
