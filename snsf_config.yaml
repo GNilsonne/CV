@@ -1,11 +1,7 @@
 net_academic_age:
   phd_year: 2009
-  phd_month: 1
-  display: 17 years, 4 months
-
-notes:
-  - Net academic age should be checked against the SNSF calculator and adjusted for any eligible deductions before submission.
-  - The selected works below are a first pass and can be replaced to better match the application narrative.
+  phd_month: 12
+  display: 16 years, 6 months
 
 achievements:
   - title: Open and reproducible research as a research program
