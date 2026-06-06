@@ -109,6 +109,16 @@ def first_token(name: str) -> str:
     return tokens[0] if tokens else ""
 
 
+def trailing_initials(name: str) -> str:
+    tokens = split_name_tokens(name)
+    if len(tokens) < 2:
+        return ""
+    last = tokens[-1]
+    if last.isalpha() and len(last) <= 4:
+        return last
+    return ""
+
+
 def names_equivalent(full_name_a: str, full_name_b: str) -> bool:
     return normalize_name(full_name_a) == normalize_name(full_name_b)
 
@@ -155,6 +165,7 @@ def load_coauthors(path: Path) -> list[dict]:
             "surname": coauthor_surname_key(name),
             "first_initial": first_initial(name),
             "first_token": first_token(name),
+            "trailing_initials": trailing_initials(name),
         })
     return out
 
@@ -292,6 +303,11 @@ def match_people(people: list[dict], coauthors: list[dict]):
         for c in same_surname:
             if c["first_token"] and person["first_token"] and c["first_token"] == person["first_token"]:
                 possible.append(("same_surname_same_first_token", c))
+
+        for c in same_surname:
+            initials = c.get("trailing_initials", "")
+            if initials and person["first_initial"] and initials.startswith(person["first_initial"]):
+                possible.append(("same_surname_matching_initial_prefix", c))
 
         dedup = []
         seen = set()
