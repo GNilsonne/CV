@@ -150,15 +150,24 @@ def load_coauthors(path: Path) -> list[dict]:
 
 def load_people(path: Path, first_col: str, last_col: str) -> list[dict]:
     with path.open("r", encoding="utf-8-sig", newline="") as f:
-        reader = csv.DictReader(f)
+        sample = f.read(4096)
+        f.seek(0)
+        try:
+            dialect = csv.Sniffer().sniff(sample, delimiters=",;	|")
+        except csv.Error:
+            dialect = csv.excel
+        reader = csv.DictReader(f, dialect=dialect)
         rows = list(reader)
+        fieldnames = [collapse_spaces(h or "") for h in (reader.fieldnames or [])]
 
-    if not rows:
+    if not rows and not fieldnames:
         return []
 
-    missing = {first_col, last_col} - set(rows[0].keys())
+    missing = {first_col, last_col} - set(fieldnames)
     if missing:
-        raise ValueError(f"People CSV missing required columns: {sorted(missing)}")
+        raise ValueError(
+            f"People CSV missing required columns: {sorted(missing)}; headers found: {fieldnames}"
+        )
 
     out = []
     for i, row in enumerate(rows, start=2):
