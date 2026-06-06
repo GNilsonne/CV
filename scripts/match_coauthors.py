@@ -5,6 +5,8 @@ Match an external people list against CV co-authors exported by list_coauthors.p
 Input files:
   1) coauthors CSV from scripts/list_coauthors.py --format csv
      Expected columns: name, paper_count
+     If generated with --with-papers, an additional papers column is included and
+     will be carried through to the match output.
 
   2) external CSV exported from Excel
      Expected columns: first_name,last_name
@@ -17,6 +19,7 @@ Outputs:
 
 Typical usage:
   python3 scripts/list_coauthors.py --format csv
+  python3 scripts/list_coauthors.py --format csv --with-papers
   python3 scripts/match_coauthors.py \
       --coauthors output/coauthors.csv \
       --people people.csv
@@ -160,6 +163,7 @@ def load_coauthors(path: Path) -> list[dict]:
         out.append({
             "name": name,
             "paper_count": row.get("paper_count", ""),
+            "papers": row.get("papers", ""),
             "norm": normalize_name(name),
             "norm_ascii": normalize_name(name, remove_accents=True),
             "surname": coauthor_surname_key(name),
@@ -257,6 +261,7 @@ def match_people(people: list[dict], coauthors: list[dict]):
                     "match_type": "exact_full_name",
                     "matched_coauthor": c["name"],
                     "paper_count": c["paper_count"],
+                    "papers": c.get("papers", ""),
                 })
             continue
 
@@ -268,6 +273,7 @@ def match_people(people: list[dict], coauthors: list[dict]):
                     "match_type": "exact_full_name_no_accents",
                     "matched_coauthor": c["name"],
                     "paper_count": c["paper_count"],
+                    "papers": c.get("papers", ""),
                 })
             continue
 
@@ -279,6 +285,7 @@ def match_people(people: list[dict], coauthors: list[dict]):
                     "match_type": "exact_vancouver_name",
                     "matched_coauthor": c["name"],
                     "paper_count": c["paper_count"],
+                    "papers": c.get("papers", ""),
                 })
             continue
 
@@ -290,6 +297,7 @@ def match_people(people: list[dict], coauthors: list[dict]):
                     "match_type": "exact_vancouver_name_no_accents",
                     "matched_coauthor": c["name"],
                     "paper_count": c["paper_count"],
+                    "papers": c.get("papers", ""),
                 })
             continue
 
@@ -323,6 +331,7 @@ def match_people(people: list[dict], coauthors: list[dict]):
                 "possible_matches": " | ".join(c["name"] for _, c in dedup),
                 "possible_match_types": " | ".join(r for r, _ in dedup),
                 "possible_paper_counts": " | ".join(str(c["paper_count"]) for _, c in dedup),
+                "possible_papers": " || ".join(c.get("papers", "") for _, c in dedup),
             })
         else:
             unmatched.append(person)
@@ -357,12 +366,12 @@ def main() -> int:
     write_csv(
         outdir / "matched_exact.csv",
         matched_exact,
-        ["source_row", "first_name", "last_name", "full_name", "match_type", "matched_coauthor", "paper_count"],
+        ["source_row", "first_name", "last_name", "full_name", "match_type", "matched_coauthor", "paper_count", "papers"],
     )
     write_csv(
         outdir / "matched_possible.csv",
         matched_possible,
-        ["source_row", "first_name", "last_name", "full_name", "possible_match_types", "possible_matches", "possible_paper_counts"],
+        ["source_row", "first_name", "last_name", "full_name", "possible_match_types", "possible_matches", "possible_paper_counts", "possible_papers"],
     )
     write_csv(
         outdir / "unmatched.csv",

@@ -193,7 +193,7 @@ If you receive an Excel file with first names and last names in separate columns
 
 ```bash
 # From the repo root
-python3 scripts/list_coauthors.py --format csv
+python3 scripts/list_coauthors.py --format csv --with-papers
 
 # Export the Excel file as CSV, for example: people.csv
 # Expected default columns in that CSV: first_name,last_name
@@ -203,7 +203,7 @@ python3 scripts/match_coauthors.py \
   --people people.csv
 ```
 
-This writes three output files:
+This writes three output files. If the co-author export was generated with `--with-papers`, the match files also include the papers each person co-authored with you:
 
 - `output/coauthor_matches/matched_exact.csv`
 - `output/coauthor_matches/matched_possible.csv`
