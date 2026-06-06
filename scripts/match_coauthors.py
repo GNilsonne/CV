@@ -121,6 +121,17 @@ def row_full_name(first_name: str, last_name: str) -> str:
     return collapse_spaces(f"{first_name} {last_name}")
 
 
+def vancouver_key_from_person(first_name: str, last_name: str, *, remove_accents: bool = False) -> str:
+    surname = normalize_name(last_name, remove_accents=remove_accents)
+    first = normalize_name(first_name, remove_accents=remove_accents)
+    if not surname:
+        return ""
+    initials = "".join(part[0] for part in first.split() if part)
+    if initials:
+        return f"{surname} {initials}"
+    return surname
+
+
 def load_coauthors(path: Path) -> list[dict]:
     with path.open("r", encoding="utf-8-sig", newline="") as f:
         reader = csv.DictReader(f, delimiter=";")
@@ -183,6 +194,8 @@ def load_people(path: Path, first_col: str, last_col: str) -> list[dict]:
             "full_name": full_name,
             "norm": normalize_name(full_name),
             "norm_ascii": normalize_name(full_name, remove_accents=True),
+            "vancouver": vancouver_key_from_person(first_name, last_name),
+            "vancouver_ascii": vancouver_key_from_person(first_name, last_name, remove_accents=True),
             "surname": external_surname_key(first_name, last_name),
             "first_initial": external_first_initial(first_name),
             "first_token": first_token(first_name),
@@ -242,6 +255,28 @@ def match_people(people: list[dict], coauthors: list[dict]):
                 matched_exact.append({
                     **person,
                     "match_type": "exact_full_name_no_accents",
+                    "matched_coauthor": c["name"],
+                    "paper_count": c["paper_count"],
+                })
+            continue
+
+        vancouver_exact = unique_by_name(by_norm.get(person["vancouver"], []))
+        if vancouver_exact:
+            for c in vancouver_exact:
+                matched_exact.append({
+                    **person,
+                    "match_type": "exact_vancouver_name",
+                    "matched_coauthor": c["name"],
+                    "paper_count": c["paper_count"],
+                })
+            continue
+
+        vancouver_ascii = unique_by_name(by_norm_ascii.get(person["vancouver_ascii"], []))
+        if vancouver_ascii:
+            for c in vancouver_ascii:
+                matched_exact.append({
+                    **person,
+                    "match_type": "exact_vancouver_name_no_accents",
                     "matched_coauthor": c["name"],
                     "paper_count": c["paper_count"],
                 })
