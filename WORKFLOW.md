@@ -183,6 +183,47 @@ python3 scripts/list_coauthors.py --format csv > coauthors.csv
 python3 scripts/list_coauthors.py --from-orcid 0000-0001-5273-0150
 ```
 
+### 7. Match an external people list against co-authors
+
+If you receive an Excel file with first names and last names in separate columns and want to check whether any of those people are already co-authors:
+
+1. Export co-authors from the CV data
+2. Export the Excel file as CSV
+3. Run the matcher script
+
+```bash
+# From the repo root
+python3 scripts/list_coauthors.py --format csv
+
+# Export the Excel file as CSV, for example: people.csv
+# Expected default columns in that CSV: first_name,last_name
+
+python3 scripts/match_coauthors.py \
+  --coauthors output/coauthors.csv \
+  --people people.csv
+```
+
+This writes three output files:
+
+- `output/coauthor_matches/matched_exact.csv`
+- `output/coauthor_matches/matched_possible.csv`
+- `output/coauthor_matches/unmatched.csv`
+
+Matching logic:
+
+- exact full-name match
+- exact full-name match after removing accents/diacritics
+- possible match: same surname + same first initial
+- possible match: same surname + same first token
+
+If your CSV uses different column names, override them explicitly:
+
+```bash
+python3 scripts/match_coauthors.py \
+  --coauthors output/coauthors.csv \
+  --people people.csv   --first-col FirstName   --last-col LastName
+```
+
 ## Enrichment scripts
 
 ### Enrich from KI RIMS
