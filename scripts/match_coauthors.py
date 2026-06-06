@@ -155,6 +155,13 @@ def load_coauthors(path: Path) -> list[dict]:
     if missing:
         raise ValueError(f"Coauthors CSV missing required columns: {sorted(missing)}")
 
+    has_papers_column = bool(rows and "papers" in rows[0])
+    if rows and not has_papers_column:
+        print(
+            "Note: coauthors CSV has no 'papers' column. Re-run 'python3 scripts/list_coauthors.py --format csv --with-papers' if you want papers in the match output.",
+            file=sys.stderr,
+        )
+
     out = []
     for row in rows:
         name = collapse_spaces(row.get("name", ""))
