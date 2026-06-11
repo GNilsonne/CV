@@ -159,8 +159,6 @@ def main():
 \usepackage[hyphens]{url}
 \usepackage{xurl}
 \usepackage[colorlinks,breaklinks=true]{hyperref}
-\usepackage{lastpage}
-\usepackage{fancyhdr}
 
 \hypersetup{
     urlcolor=blue!70!black,
@@ -169,10 +167,7 @@ def main():
 
 \linespread{1.0}
 
-\pagestyle{fancy}
-\fancyhf{}
-\rfoot{\thepage/\pageref{LastPage}}
-\renewcommand{\headrulewidth}{0pt}
+\pagestyle{empty}
 
 \setlist[enumerate]{leftmargin=2.5em, labelsep=0.5em, itemsep=0.5ex, parsep=0.3ex, topsep=0.5ex}
 \sloppy
@@ -180,7 +175,7 @@ def main():
 \begin{document}
 
 \begin{center}
-{\large\textbf{<< meta.name|tex >> -- Publication List}}
+\textbf{<< meta.name|tex >> -- Publication List}
 \end{center}
 
 \section*{Peer-reviewed research articles << year_label >>}
