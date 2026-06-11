@@ -51,6 +51,12 @@ cv-generator/
 3. **Need updated CV?** → Run `render_cv.py`
 4. **Funder asks about open data?** → Run `list_outputs.py --type data`
 
+## Publication List Renderers
+
+- `python3 scripts/render_vr.py` renders the VR publication list to `output/vr_publist.tex` and, if `pdflatex` is available, `output/vr_publist.pdf`.
+- `python3 scripts/render_kid.py` renders a KI-style publication list for the rolling last 5 years using the same layout as the VR output, writing `output/kid_publist.tex` and, if `pdflatex` is available, `output/kid_publist.pdf`.
+- Add `--no-pdf` to either command to skip PDF compilation and write only the LaTeX source.
+
 ## Customisation
 
 - **LaTeX template**: Edit `templates/cv.tex.j2` to match your preferred CV style
