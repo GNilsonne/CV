@@ -3668,7 +3668,7 @@ invited_talks:
   year: 2012
   links: {}
   venue: Stockholm University, Center for Cultural Evolution, Stockholm, Sweden, 2012-12-14
-- title: Partial sleep deprivation and emotional function: the Stockholm Sleepy Brain Project.
+- title: 'Partial sleep deprivation and emotional function: the Stockholm Sleepy Brain Project'
   year: 2013
   links: {}
   venue: University of California at Berkeley, Dept. of Psychology, USA, 2013
@@ -3681,7 +3681,7 @@ invited_talks:
   links: {}
   venue: Karolinska Institutet, Department of Learning, Informatics, Management, and Ethics, Stockholm, Sweden, 2014 (with
     Karim Jebari)
-- title: Sleep deprivation and the brain: focus on emotion.
+- title: 'Sleep deprivation and the brain: focus on emotion'
   year: 2014
   links:
     web: http://ki.se/en/cns/calendar/imaging-the-sleepy-brain
@@ -3695,7 +3695,7 @@ invited_talks:
   year: 2015
   links: {}
   venue: Karolinska Institutet, Department of Clinical Neuroscience, Division of Psychology, Stockholm, Sweden, 2015
-- title: Psychopathy: Brain mechanisms from an evolutionary perspective.
+- title: 'Psychopathy: Brain mechanisms from an evolutionary perspective'
   year: 2015
   links: {}
   venue: Karolinska Institutet and Swedish National Board of Forensic Medicine, Symposium on Psychopathy and Neurobiological
@@ -3721,7 +3721,7 @@ invited_talks:
   links:
     slides: https://osf.io/5a8f2
   venue: Karolinska Institutet, Department of Public Health, Stockholm, Sweden, 2016
-- title: Open data: examples and implications.
+- title: 'Open data: examples and implications.'
   year: 2016
   links: {}
   venue: Gävle University, Gävle, Sweden, 2016
@@ -3740,8 +3740,8 @@ invited_talks:
   year: 2017
   links: {}
   venue: Panelsamtal, Högskolan i Skövde, 2017-04-06
-- title: Effects of sleep deprivation on resting state connectivity and emotional processing: results from the Stockholm
-    Sleepy Brain study.
+- title: 'Effects of sleep deprivation on resting state connectivity and emotional processing: results from the Stockholm
+    Sleepy Brain study'
   year: 2017
   links: {}
   venue: University of California at Berkeley, Dept. of Psychology, USA, 2017-07-17
@@ -3783,8 +3783,8 @@ invited_talks:
   year: 2018
   links: {}
   venue: Framida miljövård på vetenskaplig grund – hurvetdudet, MISTRA Council for Environmental Management 2018-05-28
-- title: Intrinsic brain connectivity after partial sleep deprivation in young and older adults: results from the Stockholm
-    Sleepy Brain study
+- title: 'Intrinsic brain connectivity after partial sleep deprivation in young and older adults: results from the Stockholm
+    Sleepy Brain study'
   year: 2018
   links: {}
   venue: StratNeuro Retreat 2018-05-30
@@ -3817,16 +3817,16 @@ invited_talks:
   year: 2019
   links: {}
   venue: Stockholm University, 2019-05-14
-- title: Open Science: a researcher’s perspective
+- title: 'Open Science: a researcher’s perspective'
   year: 2019
   links: {}
-  venue: Erasmus Staff Week for Librarians: Towards Open Science, 2019-09-27
+  venue: 'Erasmus Staff Week for Librarians: Towards Open Science, 2019-09-27'
 - title: Open science – what a young researcher needs to know?
   year: 2019
   links:
     slides: https://osf.io/xbcde/
   venue: Karolinska Institutet, Brjánn Ljótsson's research group, 2019-10-31
-- title: Open neuroimaging data and personal data privacy: convergence or divergence
+- title: 'Open neuroimaging data and personal data privacy: convergence or divergence'
   year: 2020
   links:
     video: https://www.youtube.com/watch?v=A3BapxKPnRQ&list=PLVso6Qs8PLChTc8uMUWNSe_Bj4tfOHC_f&index=27
@@ -3836,7 +3836,7 @@ invited_talks:
   links:
     video: https://www.youtube.com/watch?v=-GKKiwMyfH8&list=PLVso6Qs8PLChTc8uMUWNSe_Bj4tfOHC_f&index=15
   venue: Organization for Human Brain Mapping, Emergent Session, 2020-07-01, panel talk
-- title: Brain research data sharing and personal data privacy: continued discussion on anonymization + community meeting
+- title: 'Brain research data sharing and personal data privacy: continued discussion on anonymization + community meeting'
   year: 2020
   links:
     video: https://www.youtube.com/watch?v=j9wFwBxwMvI&list=PLVso6Qs8PLChTc8uMUWNSe_Bj4tfOHC_f&index=16
@@ -3881,7 +3881,7 @@ invited_talks:
   links:
     slides: https://osf.io/uktqb/
   venue: European Open Science Cloud Steering Board, 2021-09-29
-- title: "It matters how we open knowledge": A panel discussion on open access and equity
+- title: '"It matters how we open knowledge": A panel discussion on open access and equity'
   year: 2021
   links:
     video: https://www.youtube.com/watch?v=6oZbVTqhX5o
@@ -3924,7 +3924,7 @@ invited_talks:
   year: 2022
   links:
     slides: https://osf.io/amz5w/
-  venue: Chapter XXXVII of Focus on Open Science: Stockholm, University College London, 2022-06-02
+  venue: 'Chapter XXXVII of Focus on Open Science: Stockholm, University College London, 2022-06-02'
 - title: Research Reproducibility in the Social Sciences
   year: 2022
   links:
@@ -3935,7 +3935,7 @@ invited_talks:
   links: {}
   venue: Mitt i transformationen 4 - presentationer och diskussioner om den interna omfördelningsmodellen för Bibsamkonsortiet,
     National Library of Sweden, 2022-06-15
-- title: Omställning till ett öppet vetenskapssystem: svenska lärosätens roll
+- title: 'Omställning till ett öppet vetenskapssystem: svenska lärosätens roll'
   year: 2022
   links:
     slides: https://osf.io/zvyqa/
@@ -4016,7 +4016,7 @@ invited_talks:
     video: https://www.youtube.com/watch?v=HohWoE3bMi0
     transcript: https://consilium-scientific.org/2022-02-17-09-37-19/108-transcript-23/401-brainstorming-new-ways-to-drive-clinical-trial-reporting
   venue: Panel discussion, Consilium Scientific, 2023-04-27
-- title: Debate: Should sponsors be sanctioned for failing to report clinical results?
+- title: 'Debate: Should sponsors be sanctioned for failing to report clinical results?'
   year: 2023
   links:
     video: https://www.youtube.com/watch?v=IjsGeVlkXeE
@@ -4026,8 +4026,8 @@ invited_talks:
   year: 2023
   links:
     slides: https://osf.io/e6vrj
-  venue: German Reproducibility Networks and Berlin Institutes of Health, Reproducible research: Education and Teaching
-    formats reports from the reproducibility networks, Berlin, 2023-05-11
+  venue: 'German Reproducibility Networks and Berlin Institutes of Health, Reproducible research: Education and Teaching
+    formats reports from the reproducibility networks, Berlin, 2023-05-11'
 - title: Sekundäranvändning av forskningsdata – forskarens perspektiv
   year: 2023
   links:
@@ -4047,8 +4047,8 @@ invited_talks:
   year: 2023
   links:
     slides: https://osf.io/fk3ny
-  venue: ymposium: Towards better science – FAIR and open research data in practice. Karolinska Institutet Open Science
-    Working Group, 2023-09-07
+  venue: 'Symposium: Towards better science – FAIR and open research data in practice. Karolinska Institutet Open Science
+    Working Group, 2023-09-07'
 - title: Open and accessible data – a recipe for research success?
   year: 2023
   links:
@@ -4065,7 +4065,7 @@ invited_talks:
     video: https://www.youtube.com/watch?v=RoYXvmG0KN0
     slides: https://osf.io/z2cyn
   venue: METRICS Center, Stanford University, 2023-10-05
-- title: Pathways to an open science system: Replacing academic journals
+- title: 'Pathways to an open science system: Replacing academic journals'
   year: 2023
   links:
     slides: https://osf.io/jvw5g
@@ -4115,7 +4115,7 @@ invited_talks:
   links:
     slides: https://osf.io/79hcn
   venue: The Swedish School of Sports and Health Sciences, 2024-05-16
-- title: The long road towards open science: strategies for change
+- title: 'The long road towards open science: strategies for change'
   year: 2024
   links:
     slides: https://osf.io/rn8wf
@@ -4234,8 +4234,8 @@ conference_presentations:
   authors: Nilsonne G
   year: 2015
   links: {}
-- title: It hurts me too: an fMRI study on the effects of experimental sleep restriction on empathy for pain in younger and
-    older adults
+- title: 'It hurts me too: an fMRI study on the effects of experimental sleep restriction on empathy for pain in younger and
+    older adults'
   authors: Tamm S, et al
   year: 2016
   links: {}
