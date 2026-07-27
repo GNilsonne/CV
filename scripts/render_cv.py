@@ -266,6 +266,9 @@ def _link_parts(links) -> list:
         "certificate": "certificate",
         "swecris": "SweCRIS",
         "cordis": "CORDIS",
+        "doi": "doi",
+        "osf": "OSF",
+        "link": "link",
         "url": "link",
     }
     parts = []
@@ -390,6 +393,41 @@ def format_supervision_links(entry) -> str:
     return ""
 
 
+def _normalise_url(key, value) -> str:
+    """Expand a shorthand link value into a full URL.
+
+    Data files store DOIs bare (``10.6084/...``) and other links as bare domains
+    (``osf.io/xxx``, ``openarchive.ki.se/...``), so add the scheme and DOI
+    resolver here rather than requiring fully-qualified URLs in the YAML.
+    """
+    text = str(value).strip().rstrip(".,;")
+    if not text:
+        return ""
+    if text.startswith(("http://", "https://")):
+        return text
+    if key == "doi" or text.startswith("10."):
+        return f"https://doi.org/{text}"
+    if text.startswith("urn:"):
+        return f"http://urn.kb.se/resolve?urn={text}"
+    return f"https://{text}"
+
+
+def format_student_links(entry) -> str:
+    """Bracketed link group for a student thesis entry.
+
+    Brackets sit outside the hyperlinks. Values may be bare DOIs or bare
+    domains, so each is normalised to a full URL first.
+    """
+    if not entry or not isinstance(entry, dict):
+        return ""
+    links = {}
+    for key in ("doi", "link", "osf"):
+        url = _normalise_url(key, entry.get(key, ""))
+        if url:
+            links[key] = url
+    return format_links_latex(links)
+
+
 def format_grant_links(entry) -> str:
     """Link/SweCRIS/CORDIS links for a grant entry, in that order."""
     return format_entry_links(entry, ("link", "swecris", "cordis"))
@@ -433,6 +471,7 @@ def render_latex(data: dict, template_dir: str, template_name: str) -> str:
     env.filters["supervisiontitle"] = format_supervision_title
     env.filters["supervisionlinks"] = format_supervision_links
     env.filters["grantlinks"] = format_grant_links
+    env.filters["studentlinks"] = format_student_links
     env.filters["notrailingdot"] = lambda s: str(s).rstrip(".") if s else ""
     env.filters["doi"] = lambda s: str(s).replace("_", r"\_") if s else ""
     env.filters["vancouver_authors"] = format_authors_vancouver

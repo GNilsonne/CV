@@ -129,57 +129,73 @@ teaching:
 - description: Director of postgraduate studies (studierektor), Stress Research Institute, 2014-2019
 - description: 'Supervisor to student thesis work:'
   subitems:
-  - 'Semra Öz, Bachelor thesis in biomedical science, Karolinska Institutet, 2006: Undersökningar av experimentella cytostatika
-    mot malignt mesoteliom (co-supervisor)'
-  - 'Adam Szulkin, Summer research school in biomedical science, Karolinska Institutet, 2006: Phenotypic differences of Malignant
-    Mesothelioma cells in sensitivity to Gemcitabine and Alimta'
-  - 'Filip Mundt, Summer research school in biomedical science, Karolinska Institutet, 2006: Investigations of the Cytotoxicity
-    of Carboplatin against Malignant Mesothelioma Cells and the Effects in Combination with Selenite'
-  - 'Sandra Tamm, Degree project in medicine, Karolinska Institutet, 2010: Farmakologisk modulering av empati, ett beteendeförsök
-    om effekterna av oxazepam – ett anxiolytiskt bensodiazepinpreparat – på empatiska responser'
-  - 'Philip Little, Degree project in medicine, Karolinska Institutet, 2011: Effects of Midazolam and Flumazenil on Empathic
-    Response – an Exploratory Study'
-  - 'Madeleine Hedlund, Elective essay in psychology, 2015: The relationship between IL-6 and sleep – a meta-analysis'
-  - 'Sahand Sharifzadeh, Degree project in medicine, Karolinska Institutet, 2016: The influence of maternal depression during
-    pregnancy on neonatal fiber tract integrity url: openarchive.ki.se/xmlui/handle/10616/45432'
-  - 'Erika Unsbo, Degree project in medicine, Karolinska Institutet, 2017: Motor abnormalities among children with PANS and/or
-    PANDAS. doi: 10.6084/m9.figshare.4584034.v2'
-  - 'Malin Blomberg, Degree project in medicine, Karolinska Institutet, 2017: Visuospatial ability in children with PANDAS
-    and PANS. doi: 10.6084/m9.figshare.4591657.v1'
-  - 'Arian Jafari and Bo Jenner, Degree project in psychology, Karolinska Institutet, 2017: Ethical review board-approved
-    protocols and intent to use open practices in research on human subjects in Sweden. osf: osf.io/vgbw2'
-  - 'Alia Lellouchi, Degree project in medicine, Karolinska Institutet, 2017: Cognitive and motor function in children with
-    suspected PANS/PANDAS.'
-  - 'Daniel Samsami, Degree project in medicine, Karolinska Institutet, 2017: Activation of ventral striatum during anticipation
-    of reward – A pilot study using functional magnetic resonance imaging for a future experiment about psychopathy. doi:
-    10.6084/m9.figshare.5005238.v2'
-  - 'Jakob Berefelt, Degree project in medicine, Karolinska Institutet, 2017: Activation of Anterior Insular Cortex and Anterior
-    Medial Cingulate Cortex Associated with Direct Pain Perception and Empathy for Pain. doi: 10.6084/m9.figshare.5084557.v1'
-  - 'Fredrik Hannfors, Degree project in medicine, Karolinska Institutet, 2017: Associations between Empathy for Pain, Emotional
-    Mimicry and Emotional Contagion - Indicative Evidence from fMRI and EMG Paradigms. doi: 10.6084/m9.figshare.5307361.v1'
-  - 'Jolinn Duvinger, Degree project in medicine, Karolinska Institutet, 2017: Effekter av COMT- polymorfism på empati för
-    smärta - En studie med fMRI-data.'
-  - 'Olea Schau Rybäck, Degree project in medicine, Karolinska Institutet, 2018: Reward anticipation and psychopathic traits
-    - Association between Triarchic Psychopathy Measure subscales and activity in ventral striatum during Monetary Incentive
-    Delay Task.'
-  - 'Rickard Steijer, Degree project in medicine, Karolinska Institutet, 2018: Emotion regulation in self-reported disinhibition,
-    boldness and meanness. doi: 10.17605/osf.io/8P9VG'
-  - 'Johnny Soares, Degree project in medicine, Karolinska Institutet, 2019: The effects of sleep deprivation on vigilance and neural activation during the Sustained Attention to Response Task. doi: 10.31237/osf.io/e8bmt'
-  - 'Poyan Karimi, Degree project in medicine, Karolinska Institutet, 2019: A functional magnetic resonance imaging study
-    on sleep deprivation and its effect on empathy for pain and emotional regulation. doi: 10.31237/osf.io/r89q6'
-  - 'Vivianne Jakobsson, Degree project in medicine, Karolinska Institutet, 2019: Resting state connectivity during total
-    sleep deprivation: A functional magnetic resonance study doi: 10.31237/osf.io/3dtxz'
-  - 'Sanna Graniittiaho, Degree project in medicine, Karolinska Institutet, 2020: Effects of sleep deprivation on empathy
-    for pain and emotion regulation: A behavioral and neuroimaging study. doi: 10.31237/osf.io/z4gfy'
-  - 'Lasse Anttila, Degree project in medicine, Karolinska Institutet, 2020: A Functional Magnetic Resonance Imaging Study  on Global Signal Variability After One Night of Total sleep Deprivation doi: 10.31237/osf.io/dhqj2'
-  - 'Anton Glasberg, Degree project in medicine, Karolinska Institutet, 2023: The role of Interleukin-6 as a biomarker in
-    ADHD. doi: 10.31237/osf.io/4gfmk'
-  - Dania Alkattan, Degree project in medicine, Karolinska Institutet, 2023
-  - Niclas Dittasiri, Degree project in medicine, Karolinska Institutet, 2023
-  - Sohaib Adem Osman, Degree project in medicine, Karolinska Institutet, 2023
-  - Iraida Suditu, Degree project in medicine, Karolinska Institutet, 2023
-  - Ash Mechlaoui, Degree project in medicine, Karolinska Institutet, 2024
-  - Sofie Emilson, Degree project in medicine, Karolinska Institutet, 2024
+  - description: 'Semra Öz, Bachelor thesis in biomedical science, Karolinska Institutet, 2006'
+    title: 'Undersökningar av experimentella cytostatika mot malignt mesoteliom'
+    role: 'co-supervisor'
+  - description: 'Adam Szulkin, Summer research school in biomedical science, Karolinska Institutet, 2006'
+    title: 'Phenotypic differences of Malignant Mesothelioma cells in sensitivity to Gemcitabine and Alimta'
+  - description: 'Filip Mundt, Summer research school in biomedical science, Karolinska Institutet, 2006'
+    title: 'Investigations of the Cytotoxicity of Carboplatin against Malignant Mesothelioma Cells and the Effects in Combination with Selenite'
+  - description: 'Sandra Tamm, Degree project in medicine, Karolinska Institutet, 2010'
+    title: 'Farmakologisk modulering av empati, ett beteendeförsök om effekterna av oxazepam – ett anxiolytiskt bensodiazepinpreparat – på empatiska responser'
+  - description: 'Philip Little, Degree project in medicine, Karolinska Institutet, 2011'
+    title: 'Effects of Midazolam and Flumazenil on Empathic Response – an Exploratory Study'
+  - description: 'Madeleine Hedlund, Elective essay in psychology, 2015'
+    title: 'The relationship between IL-6 and sleep – a meta-analysis'
+  - description: 'Sahand Sharifzadeh, Degree project in medicine, Karolinska Institutet, 2016'
+    title: 'The influence of maternal depression during pregnancy on neonatal fiber tract integrity'
+    link: 'openarchive.ki.se/xmlui/handle/10616/45432'
+  - description: 'Erika Unsbo, Degree project in medicine, Karolinska Institutet, 2017'
+    title: 'Motor abnormalities among children with PANS and/or PANDAS'
+    doi: '10.6084/m9.figshare.4584034.v2'
+  - description: 'Malin Blomberg, Degree project in medicine, Karolinska Institutet, 2017'
+    title: 'Visuospatial ability in children with PANDAS and PANS'
+    doi: '10.6084/m9.figshare.4591657.v1'
+  - description: 'Arian Jafari and Bo Jenner, Degree project in psychology, Karolinska Institutet, 2017'
+    title: 'Ethical review board-approved protocols and intent to use open practices in research on human subjects in Sweden'
+    osf: 'osf.io/vgbw2'
+  - description: 'Alia Lellouchi, Degree project in medicine, Karolinska Institutet, 2017'
+    title: 'Cognitive and motor function in children with suspected PANS/PANDAS'
+  - description: 'Daniel Samsami, Degree project in medicine, Karolinska Institutet, 2017'
+    title: 'Activation of ventral striatum during anticipation of reward – A pilot study using functional magnetic resonance imaging for a future experiment about psychopathy'
+    doi: '10.6084/m9.figshare.5005238.v2'
+  - description: 'Jakob Berefelt, Degree project in medicine, Karolinska Institutet, 2017'
+    title: 'Activation of Anterior Insular Cortex and Anterior Medial Cingulate Cortex Associated with Direct Pain Perception and Empathy for Pain'
+    doi: '10.6084/m9.figshare.5084557.v1'
+  - description: 'Fredrik Hannfors, Degree project in medicine, Karolinska Institutet, 2017'
+    title: 'Associations between Empathy for Pain, Emotional Mimicry and Emotional Contagion - Indicative Evidence from fMRI and EMG Paradigms'
+    doi: '10.6084/m9.figshare.5307361.v1'
+  - description: 'Jolinn Duvinger, Degree project in medicine, Karolinska Institutet, 2017'
+    title: 'Effekter av COMT- polymorfism på empati för smärta - En studie med fMRI-data'
+  - description: 'Olea Schau Rybäck, Degree project in medicine, Karolinska Institutet, 2018'
+    title: 'Reward anticipation and psychopathic traits - Association between Triarchic Psychopathy Measure subscales and activity in ventral striatum during Monetary Incentive Delay Task'
+  - description: 'Rickard Steijer, Degree project in medicine, Karolinska Institutet, 2018'
+    title: 'Emotion regulation in self-reported disinhibition, boldness and meanness'
+    doi: '10.17605/osf.io/8P9VG'
+  - description: 'Johnny Soares, Degree project in medicine, Karolinska Institutet, 2019'
+    title: 'The effects of sleep deprivation on vigilance and neural activation during the Sustained Attention to Response Task'
+    doi: '10.31237/osf.io/e8bmt'
+  - description: 'Poyan Karimi, Degree project in medicine, Karolinska Institutet, 2019'
+    title: 'A functional magnetic resonance imaging study on sleep deprivation and its effect on empathy for pain and emotional regulation'
+    doi: '10.31237/osf.io/r89q6'
+  - description: 'Vivianne Jakobsson, Degree project in medicine, Karolinska Institutet, 2019'
+    title: 'Resting state connectivity during total sleep deprivation: A functional magnetic resonance study'
+    doi: '10.31237/osf.io/3dtxz'
+  - description: 'Sanna Graniittiaho, Degree project in medicine, Karolinska Institutet, 2020'
+    title: 'Effects of sleep deprivation on empathy for pain and emotion regulation: A behavioral and neuroimaging study'
+    doi: '10.31237/osf.io/z4gfy'
+  - description: 'Lasse Anttila, Degree project in medicine, Karolinska Institutet, 2020'
+    title: 'A Functional Magnetic Resonance Imaging Study on Global Signal Variability After One Night of Total sleep Deprivation'
+    doi: '10.31237/osf.io/dhqj2'
+  - description: 'Anton Glasberg, Degree project in medicine, Karolinska Institutet, 2023'
+    title: 'The role of Interleukin-6 as a biomarker in ADHD'
+    doi: '10.31237/osf.io/4gfmk'
+  - description: 'Dania Alkattan, Degree project in medicine, Karolinska Institutet, 2023'
+  - description: 'Niclas Dittasiri, Degree project in medicine, Karolinska Institutet, 2023'
+  - description: 'Sohaib Adem Osman, Degree project in medicine, Karolinska Institutet, 2023'
+  - description: 'Iraida Suditu, Degree project in medicine, Karolinska Institutet, 2023'
+  - description: 'Ash Mechlaoui, Degree project in medicine, Karolinska Institutet, 2024'
+  - description: 'Sofie Emilson, Degree project in medicine, Karolinska Institutet, 2024'
 awards:
 - description: Open Data Champion, SPARC Europe, 2017.
   link: https://openscholarchampions.eu/opendata/champion/dataforevidence/

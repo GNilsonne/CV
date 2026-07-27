@@ -108,7 +108,7 @@
 <% if t.subitems is defined and t.subitems %>
     \begin{itemize}
 <% for sub in t.subitems %>
-        \item << sub|autolink >>
+        \item <% if sub is mapping %><< sub.description|autolink >><% if sub.title %>: \emph{<< sub.title|tex >>}<% endif %><% if sub.role %> (<< sub.role|tex >>)<% endif %><< sub|studentlinks >><% else %><< sub|autolink >><% endif %>
 <% endfor %>
     \end{itemize}
 <% endif %>

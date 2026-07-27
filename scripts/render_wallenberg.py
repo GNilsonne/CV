@@ -183,6 +183,32 @@ def add_bullet_with_link(doc, text, url=None, link_label="[link]"):
     return p
 
 
+def flatten_subitem(sub):
+    """Render a subitem as plain text, accepting strings or structured dicts.
+
+    Student thesis subitems are dicts with description/title/role plus optional
+    doi/link/osf fields; other sections still use plain strings. Without this,
+    a dict would fall through to ``str()`` and print its Python repr.
+    """
+    if isinstance(sub, str):
+        return sub
+    if not isinstance(sub, dict):
+        return str(sub)
+    text = str(sub.get("description", "") or "").strip()
+    title = str(sub.get("title", "") or "").strip()
+    if title:
+        text = f'{text}: "{title}"' if text else f'"{title}"'
+    role = str(sub.get("role", "") or "").strip()
+    if role:
+        text = f"{text} ({role})"
+    for key in ("doi", "link", "osf"):
+        value = str(sub.get(key, "") or "").strip()
+        if value:
+            label = "doi" if key == "doi" else key
+            text = f"{text} [{label}: {value}]"
+    return text or sub.get("name", "") or str(sub)
+
+
 def add_sub_bullet(doc, text):
     """Add a second-level bullet (List Bullet 2)."""
     p = doc.add_paragraph(style="List Bullet 2")
@@ -362,7 +388,7 @@ def build_cv(data, doc):
         for t in teaching:
             add_bullet(doc, t.get("description", ""))
             for sub in t.get("subitems", []) or []:
-                add_sub_bullet(doc, sub if isinstance(sub, str) else str(sub))
+                add_sub_bullet(doc, flatten_subitem(sub))
 
     # --- Awards ---
     awards = data.get("awards", [])
@@ -399,7 +425,7 @@ def build_cv(data, doc):
         for c in other_commissions:
             add_bullet(doc, c.get("description", ""))
             for sub in c.get("subitems", []) or []:
-                add_sub_bullet(doc, sub if isinstance(sub, str) else str(sub))
+                add_sub_bullet(doc, flatten_subitem(sub))
 
 
 # ---------------------------------------------------------------------------
