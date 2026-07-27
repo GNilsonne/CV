@@ -56,7 +56,7 @@
 \section{Degrees and Qualifications}
 \begin{itemize}
 <% for deg in degrees %>
-    \item << deg.description|autolink >><% if deg.link %> \href{<< deg.link >>}{[link]}<% endif %>
+    \item << deg.description|autolink >><% if deg|degreedate %>, << deg|degreedate >><% endif %><% if deg.title %>: \emph{<< deg.title|tex >>}<% endif %><< deg|degreelinks >>
 <% endfor %>
 \end{itemize}
 <% endif %>

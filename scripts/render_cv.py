@@ -12,6 +12,7 @@ Outputs:
 """
 
 import argparse
+import datetime
 from pathlib import Path
 from collections import defaultdict
 
@@ -261,6 +262,8 @@ def _link_parts(links) -> list:
         "pdf": "pdf",
         "diva": "DiVA",
         "program": "program",
+        "thesis": "thesis",
+        "certificate": "certificate",
         "url": "link",
     }
     parts = []
@@ -291,6 +294,43 @@ def format_links_with_doi(doi, links) -> str:
     if parts:
         return " [" + " | ".join(parts) + "]"
     return ""
+
+
+def format_degree_date(degree) -> str:
+    """Return the degree's date if present, otherwise its year.
+
+    A full ``date`` (e.g. 2009-12-11) is more specific than ``year``, so it wins
+    when both are given. YAML parses ISO dates into date objects, so format
+    those back to ISO strings rather than relying on ``str()`` of a datetime.
+    """
+    if not degree or not isinstance(degree, dict):
+        return ""
+    date = degree.get("date")
+    if date:
+        if isinstance(date, (datetime.date, datetime.datetime)):
+            return date.strftime("%Y-%m-%d")
+        return str(date).strip()
+    year = degree.get("year")
+    if year:
+        return str(year).strip()
+    return ""
+
+
+def format_degree_links(degree) -> str:
+    """Format a degree's thesis/certificate links as a bracketed group.
+
+    Mirrors the bracketed ``[a | b]`` style used by the publication sections.
+    Link fields sit at the top level of a degree entry rather than in a nested
+    ``links`` dict, so they are collected explicitly to keep label order stable.
+    """
+    if not degree or not isinstance(degree, dict):
+        return ""
+    links = {}
+    for key in ("thesis", "certificate", "link"):
+        url = degree.get(key)
+        if url and str(url).strip():
+            links[key] = str(url).strip()
+    return format_links_latex(links)
 
 
 def format_peer_review_links(review) -> str:
@@ -325,6 +365,8 @@ def render_latex(data: dict, template_dir: str, template_name: str) -> str:
     env.filters["links"] = format_links_latex
     env.filters["doilinks"] = lambda entry: format_links_with_doi(entry.get('doi', ''), entry.get('links', {}))
     env.filters["reviewlinks"] = format_peer_review_links
+    env.filters["degreedate"] = format_degree_date
+    env.filters["degreelinks"] = format_degree_links
     env.filters["notrailingdot"] = lambda s: str(s).rstrip(".") if s else ""
     env.filters["doi"] = lambda s: str(s).replace("_", r"\_") if s else ""
     env.filters["vancouver_authors"] = format_authors_vancouver
