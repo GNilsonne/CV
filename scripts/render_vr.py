@@ -258,7 +258,7 @@ def main():
     env.filters["tex"] = tex_escape
     env.filters["notrailingdot"] = lambda s: str(s).rstrip(".") if s else ""
     env.filters["doi"] = lambda s: str(s).replace("_", r"\_") if s else ""
-    env.filters["vr_authors"] = format_authors_vancouver
+    env.filters["vr_authors"] = lambda s: tex_escape(format_authors_vancouver(s))
     env.filters["vr_bold_name"] = vr_bold_name
 
     template = env.get_template("vr_publist.tex.j2")

@@ -104,7 +104,12 @@ def compile_pdf(tex_path):
         ["pdflatex", "-interaction=nonstopmode", filename],
     ]
     for command in commands:
-        result = subprocess.run(command, cwd=workdir, capture_output=True, text=True)
+        # pdflatex echoes source lines in its own 8-bit encoding, so decoding its
+        # output strictly as UTF-8 crashes on Swedish characters. Replace rather
+        # than fail: this text is only used for the error message below.
+        result = subprocess.run(
+            command, cwd=workdir, capture_output=True, text=True, errors="replace"
+        )
         if result.returncode != 0:
             raise RuntimeError(
                 f"pdflatex failed for {' '.join(command)}\nSTDOUT:\n{result.stdout}\nSTDERR:\n{result.stderr}"
@@ -145,7 +150,7 @@ def main():
     env.filters["tex"] = tex_escape
     env.filters["notrailingdot"] = lambda value: str(value).rstrip(".") if value else ""
     env.filters["doi"] = lambda value: str(value).replace("_", r"\_") if value else ""
-    env.filters["vr_authors"] = format_authors_vancouver
+    env.filters["vr_authors"] = lambda value: tex_escape(format_authors_vancouver(value))
     env.filters["vr_bold_name"] = bold_name
 
     template = env.from_string(r"""\documentclass[11pt,a4paper]{article}
@@ -156,6 +161,7 @@ def main():
 \renewcommand{\familydefault}{\sfdefault}
 \usepackage[margin=2.5cm]{geometry}
 \usepackage{enumitem}
+\usepackage{xcolor}
 \usepackage[hyphens]{url}
 \usepackage{xurl}
 \usepackage[colorlinks,breaklinks=true]{hyperref}
