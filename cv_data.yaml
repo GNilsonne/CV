@@ -4282,9 +4282,10 @@ conference_presentations:
   authors: 'Nilsonne G, commentator on presentation by Gravert C:'
   year: 2016
   links: {}
-- title: 'Nilsonne G. Panelsamtal. Öppen Vetenskap – Möjligheter och utmaningar, Stockholm 2017. Program: \href{http://www.suhf.se/storage/ma/d3809593a7aa480e974101d18a93cbe9/15fb3e16f5'
+- title: 'Nilsonne G. Panelsamtal. Öppen Vetenskap – Möjligheter och utmaningar, Stockholm 2017.'
   year: 2017
-  links: {}
+  links:
+    program: http://www.suhf.se/storage/ma/d3809593a7aa480e974101d18a93cbe9/15fb3e16f507402f9e4bd8b6858176be/pdf/C6D15F65C14989E82DAF8F21D9310860735D7050/Program%20%c3%96ppen%20vetenskap%20170228.pdf
 - title: 'Increased global fMRI signal variability after partial sleep deprivation: findings from the Stockholm Sleepy Brain
     study.'
   authors: Nilsonne G, Tamm S, Schwarz J, Almeida R, Fischer H, Kecklund G, Lekander M, Fransson P, Åkerstedt T

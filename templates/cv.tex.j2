@@ -38,8 +38,8 @@
 % Header
 \begin{center}
     {\LARGE\bfseries << meta.name|tex >>}\\[0.5em]
-    << meta.affiliation|tex >>\\
-    <% if meta.email %>\href{mailto:<< meta.email >>}{<< meta.email|tex >>}<% endif %>\\
+    <% if meta.affiliation %><< meta.affiliation|tex >>\\<% endif %>
+    <% if meta.email %>\href{mailto:<< meta.email >>}{<< meta.email|tex >>}\\<% endif %>
     ORCID: \href{https://orcid.org/<< meta.orcid >>}{<< meta.orcid >>}
     <% if meta.profiles %>\\
     <% if meta.profiles.github %>GitHub: \href{<< meta.profiles.github >>}{GNilsonne}<% endif %>
