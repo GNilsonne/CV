@@ -124,8 +124,8 @@ teaching:
   subitems:
   - Introduction to brain imaging, PhD course, Karolinska Institutet 2014
   - Cognitive neuroscience, elective course for medical students, Karolinska Institutet 2014-2015
-  - 'Ethics, Open science, and Reproducible research, PhD course, Stockholm University 2016-2018. Course materials: osf.io/ct9ad/'
-  - 'Open science and Reproducible research, PhD course, Karolinska Institutet 2017- Web: ki.se. Course materials: osf.io/gxbqs/'
+  - 'Ethics, Open science, and Reproducible research, PhD course, Stockholm University 2016-2018'
+  - 'Open science and Reproducible research, PhD course, Karolinska Institutet 2017-'
   - Scientific Illustration and Visualization, PhD course, Karolinska Institutet 2023-
 - description: Director of postgraduate studies (studierektor), Stress Research Institute, 2014-2019
 - description: 'Supervisor to student thesis work:'
@@ -215,39 +215,28 @@ awards:
 - description: Excellence in Neuroscience Annual Reward (EINAR), awarded by the Department of Clinical Neuroscience at Karolinska
     Institutet, 2026
 phd_committee:
-- description: 'University of Copenhagen, Tarang Sharma: Effects of selective serotonin reuptake inhibitors (SSRIs) and serotonin-norepinephrine
-    reuptake inhibitors (SNRIs) on suicidality, violence, and quality of life. 2018-04-23.'
+- description: 'University of Copenhagen, Tarang Sharma: Effects of selective serotonin reuptake inhibitors (SSRIs) and serotonin-norepinephrine reuptake inhibitors (SNRIs) on suicidality, violence, and quality of life. 2018-04-23.'
 academic_commissions:
 - description: Member of committee for research and education (FoUU-kommittén), Karolinska University Hospital, 2005 (Student
     representative)
 - description: Member of steering group for Karolinska Institutet Cancer network, 2004-2005 (Student representative)
 - description: Speech writer to Karolinska Institutet president Harriet Wallberg-Henriksson, 2005-2007, with Carl Savage
-- description: Member of Biotermgruppen, (Swedish Committee for Terminology in the Biomedical Sciences) 2010-, Vice president
+- description: Member of Biotermgruppen, (Swedish Committee for Terminology in the Biomedical Sciences) 2010-2023, Vice president
     2011
-- description: Organiser, IgNobel tour events in Stockholm, yearly 2012-
+- description: Organiser, IgNobel tour events in Stockholm, yearly 2012-2019
 - description: Co-founder of Nätverket för evidensbaserad policy (Swedish Network for Evidence-Based Policy) 2015, President
-    2016-2017, 2019-
-  links:
-    Nätverket för evidensbaserad policy: http://evidensbaseradpolicy.se/
-- description: 'Organizer of Imaging the Sleepy Brain symposium, Karolinska Institutet 2014, with Torbjörn Åkerstedt Program:
-    ki.se Abstracts: idear-net'
-  links:
-    ki.se: http://ki.se/en/cns/calendar/imaging-the-sleepy-brain
-    idear-net: http://www.idear-net.net/ssc/?wpdmpro=abstracts-imaging-the-sleepy-brain
+    2016-2017, 2019-2023
+- description: 'Organizer of Imaging the Sleepy Brain symposium, Karolinska Institutet 2014, with Torbjörn Åkerstedt'
 - description: Ambassador for the Center for Open Science
   subitems:
   - Participated in the Mozilla Festival 2014, London, UK
-  links:
-    Center for Open Science: https://cos.io/
 - description: Chairperson of the Committee for Badges for open practices, Center for Open Science, 2014-2017
   links:
     Badges for open practices: https://osf.io/tvyxz/wiki/home/
 - description: Organiser, Lecture series in collaboration with the Swedish Network for Psychedelic Science, Karolinska Institutet
     2016
 - description: Member of programme committee, SUHF conference on open science 2017
-  links:
-    SUHF conference on open science 2017: http://www.suhf.se/publicerat/konferensdokumentation?MA_START_FOLDER=f5322123-a0c6-4fec-9f77-d1c222b8a51b
-- description: Co-organiser of Stockholm BrainHack 2017 with Malin Sandström and Anders Eklund
+- description: Co-organiser of Stockholm BrainHack 2017 with Malin Sandström and Anders Eklund, 2018 with Malin Sandström
 - description: Member of Steering Committee for Thesis Commons
   links:
     Thesis Commons: https://thesiscommons.org/
@@ -257,22 +246,16 @@ academic_commissions:
     ? Engaging Researchers in Good Data Management - A one-day conference sharing fresh ideas and good practices for creating
       and promoting effective research data practices
     : https://www.data.cam.ac.uk/datanews/engaging-researchers-good-data-management-2017-conference
-- description: 'Member of committee for evaluation of open access mandates, National Library of Sweden, 2017-2018. Report
-    (in Swedish): kb.se'
-  links:
-    kb.se: https://www.kb.se/om-oss/nyheter/nyhetsarkiv/2019-03-19-16-rekommen-dationer-for-oppen-tillgang.html
+- description: 'Member of committee for evaluation of open access mandates, National Library of Sweden, 2017-2018
 - description: Member of committee for the Data Engagement Management Award, 2018.
   links:
     Data Engagement Management Award: http://www.rdmengagementaward.org/
 - description: Member of Research Data Office project team, Karolinska Institutet, 2018-2023
 - description: Member of steering group for International Neuroinformatics Coordinating Facility Swedish Node, 2018
-- description: Co-organiser of Stockholm BrainHack 2018 with Malin Sandström
-  links:
-    Stockholm BrainHack 2018: https://www.incf.org/activities/incf-events/incf-brainhack-2018
 - description: Member of editorial advisory board, Curie (Journal of the Swedish Research Council), 2018-2019
 - description: Member of Research Data Alliance COVID-19 Clinical Working Group
 - description: Representative of Karolinska Institutet to the European Open Science Cloud Association, 2021
-- description: Member of national reference group for open research data, Swedish Research Council, 2021-
+- description: Member of national reference group for open research data, Swedish Research Council, 2021-2023
 - description: Member of committee for a strategy beyond transformative deals with scientific publishers, The Association
     of Swedish Higher Education Institutions, 2021-2023
 - description: Member of committee for implementing a national open science road map, The Association of Swedish Higher Education
@@ -283,74 +266,47 @@ academic_commissions:
     Institutions, 2022-2024
 - description: Member of EOSC-Future & Research Data Alliance Artificial Intelligence & Data Visitation Working Group, 2022-2023
 - description: Member of Karolinska Institutet Open Science Working Group, 2022-
+- description: Member of committee for research assessment in hiring and promotion, The Association of Swedish Higher Education
+    Institutions, 2025-
+- description: Chair of the IGDORE Sweden Foundation
 - description: 'Reviewer for scientific journals, books, and conferences:'
   subitems:
   - name: International Journal of Cancer
-    wos: false
   - name: Cancer Epidemiology, Biomarkers, and Prevention
-    wos: true
   - name: BMC Cancer
-    wos: false
   - name: British Journal of Cancer
-    wos: true
   - name: Journal of Hematology and Oncology
-    wos: true
   - name: Science Translational Medicine
-    wos: false
   - name: Brain, Behavior, and Immunity
-    wos: true
   - name: PLOS One
-    wos: true
   - name: Scandinavian journal of Psychology
-    wos: true
   - name: F1000 Research* (open peer review reports listed below)
-    wos: false
   - name: Organization for Human Brain Mapping 2017
-    wos: false
   - name: American Psychologist
-    wos: true
   - name: Sleep Medicine Reviews
-    wos: true
   - name: Journal of Inflammation Research
-    wos: true
   - name: Organization for Human Brain Mapping 2018
-    wos: false
   - name: Translational Psychiatry
-    wos: true
   - name: SLEEP
-    wos: true
   - name: Human Brain Mapping
-    wos: true
   - name: Molecular Psychiatry
-    wos: true
   - name: Meta-Psychology
-    wos: false
   - name: Systematic Reviews
-    wos: true
   - name: 'Psychiatry Research: Neuroimaging'
-    wos: true
   - name: European Sleep Medicine Textbook (Second Edition)
-    wos: true
   - name: Royal Society Open Science
-    wos: true
   - name: Meta-Psychology
-    wos: false
   - name: The Review of Psychology
-    wos: false
-  footnote: 'Verified in Web of Science (Reviewer Recognition Service, ID: 1550920)'
   compact: true
 - description: 'Reviewer for scientific grants:'
   subitems:
-  - Horizon 2020 Marie Skłodowska Curie 2017
-  - Horizon 2020 Marie Skłodowska Curie 2018
-  - Horizon 2020 Marie Skłodowska Curie 2019
-  - Horizon 2020 Marie Skłodowska Curie 2020
+  - Horizon 2020 Marie Skłodowska Curie 2017, 2018, 2019, 2020
   - SPOKES Wellcome Trust Funded Translational Partnership Fellowships 2020, Berlin Institute of Health
   - Horizon 2020 Future and Emerging Technologies (FET) Open 2020
   - Horizon Europe Marie Skłodowska Curie 2021
-  - Norrsken Mind Foundation 2022
+  - Norrsken Mind Foundation 2022, 2023, 2024, 2025, 2026
   - ACX grants 2023
-  - ALF Region Skåne 2024
+  - ALF Region Skåne 2024, 2026
 - description: Reviewer for scientific prizes
   subitems:
   - British Neuroscience Association Credibility in Neuroscience Prize, 2024
@@ -360,7 +316,7 @@ academic_commissions:
   - Elsevier
   - SAGE Publications
 - description: 'Guest editor of special issue of the Swedish Medical Journal on metascience, "Medicinsk forskning i fågelperspektiv",
-    with Cathrine Axfors and Emmanuel Zavalis, 2023. web: lakartidningen.se/tag/tema-medicinsk-forskning-i-fagelperspektiv/'
+    with Cathrine Axfors and Emmanuel Zavalis, 2023'
   links:
     lakartidningen.se/tag/tema-medicinsk-forskning-i-fagelperspektiv/: https://lakartidningen.se/tag/tema-medicinsk-forskning-i-fagelperspektiv/
 other_commissions:
