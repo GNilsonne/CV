@@ -62,8 +62,8 @@ phd_supervision:
   year: '2019'
   date: 2019-05-23
   role: co-supervisor
-  thesis: 'Pediatric acute neuropsychiatric syndrome: diagnosis, biomarkers and treatment'
-  link: https://hdl.handle.net/10616/46741
+  title: 'Pediatric acute neuropsychiatric syndrome: diagnosis, biomarkers and treatment'
+  thesis: https://hdl.handle.net/10616/46741
 - name: Hannibal Ölund Alonso
   institution: Karolinska Institutet
   year: 2017-
