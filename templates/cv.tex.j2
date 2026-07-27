@@ -42,8 +42,8 @@
     <% if meta.email %>\href{mailto:<< meta.email >>}{<< meta.email|tex >>}\\<% endif %>
     ORCID: \href{https://orcid.org/<< meta.orcid >>}{<< meta.orcid >>}
     <% if meta.profiles %>\\
-    <% if meta.profiles.github %>GitHub: \href{<< meta.profiles.github >>}{GNilsonne}<% endif %>
-    <% if meta.profiles.google_scholar %> $\cdot$ Google Scholar: \href{<< meta.profiles.google_scholar >>}{mXzy9UIAAAAJ}<% endif %>
+    <% if meta.profiles.github %>GitHub: \href{<< meta.profiles.github >>}{<< meta.profiles.github|handle >>}<% endif %>
+    <% if meta.profiles.google_scholar %> $\cdot$ Google Scholar: \href{<< meta.profiles.google_scholar >>}{<< meta.profiles.google_scholar|handle >>}<% endif %>
     <% endif %>
 \end{center}
 
@@ -147,7 +147,7 @@
 \section{Academic Commissions of Trust}
 \begin{itemize}
 <% for c in academic_commissions %>
-    \item << c.description|autolink >>
+    \item << c.description|autolink >><< c.links|links >>
     <% if c.subitems %>
     <% if c.compact is defined and c.compact %>
     <% for sub in c.subitems %><% if not loop.first %> \textperiodcentered{} <% endif %><% if sub is mapping %><< sub.name|autolink >><% if sub.wos %>\textsuperscript{\,\scriptsize WoS}<% endif %><% else %><< sub|autolink >><% endif %><% endfor %>
@@ -195,7 +195,7 @@
 \section{Publications in Academic Journals}
 \begin{enumerate}
 <% for pub in publications %>
-    \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>. <% if pub.journal %>\textit{<< pub.journal|notrailingdot|tex >>}.<% endif %><% if pub.year %> << pub.year >><% endif %><% if pub.volume %>;<< pub.volume >><% endif %><% if pub.issue %>(<< pub.issue >>)<% endif %><% if pub.pages %>:<< pub.pages >><% elif pub.article_number %>:<< pub.article_number >><% endif %>.<< pub|doilinks >>
+    \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|titledot >> <% if pub.journal %>\textit{<< pub.journal|notrailingdot|tex >>}.<% endif %><% if pub.year %> << pub.year >><% endif %><% if pub.volume %>;<< pub.volume >><% endif %><% if pub.issue %>(<< pub.issue >>)<% endif %><% if pub.pages %>:<< pub.pages >><% elif pub.article_number %>:<< pub.article_number >><% endif %>.<< pub|doilinks >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -207,7 +207,7 @@
 \section{Preprints}
 \begin{enumerate}
 <% for pub in preprints %>
-    \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.journal %> \textit{<< pub.journal|tex >>}.<% endif %><< pub|doilinks >>
+    \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|titledot >><% if pub.journal %> \textit{<< pub.journal|tex >>}.<% endif %><% if pub.year %> << pub.year >>.<% endif %><< pub|doilinks >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -219,7 +219,7 @@
 \section{Books}
 \begin{enumerate}
 <% for pub in books %>
-    \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.year %> << pub.year >>.<% endif %><% if pub.doi %> \href{https://doi.org/<< pub.doi >>}{[doi]}<% endif %>
+    \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|titledot >><% if pub.year %> << pub.year >>.<% endif %><< pub|doilinks >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -243,7 +243,7 @@
 \section{Reports}
 \begin{enumerate}
 <% for pub in reports %>
-    \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.year %> << pub.year >>.<% endif %><% if pub.doi %> \href{https://doi.org/<< pub.doi >>}{[doi]}<% endif %>
+    \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|titledot >><% if pub.year %> << pub.year >>.<% endif %><< pub|doilinks >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -255,7 +255,7 @@
 \section{Study Materials}
 \begin{enumerate}
 <% for pub in study_materials %>
-    \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.doi %> \href{https://doi.org/<< pub.doi >>}{[doi]}<% endif %>
+    \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|titledot >><< pub|doilinks >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -267,7 +267,7 @@
 \section{Other Digital Research Objects}
 \begin{enumerate}
 <% for pub in digital_research_objects %>
-    \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.doi %> \href{https://doi.org/<< pub.doi >>}{[doi]}<% endif %>
+    \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|titledot >><< pub|doilinks >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -279,7 +279,7 @@
 \section{Scholarly Debate}
 \begin{enumerate}
 <% for pub in scholarly_debate %>
-    \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|notrailingdot|tex >>.<% if pub.journal %> \textit{<< pub.journal|tex >>}.<% endif %><% if pub.year %> << pub.year >>.<% endif %><< pub.links|links >>
+    \item <% if pub.authors %><< pub.authors|vancouver_authors|tex >>. <% endif %><< pub.title|titledot >><% if pub.journal %> \textit{<< pub.journal|tex >>}.<% endif %><% if pub.year %> << pub.year >>.<% endif %><< pub.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -291,7 +291,7 @@
 \section{Invited Talks}
 \begin{enumerate}
 <% for pres in invited_talks %>
-    \item << pres.title|notrailingdot|tex >>.<% if pres.venue %> << pres.venue|autolink >><% if not pres.venue.endswith('.') %>.<% endif %><% endif %><% if pres.year and not pres.venue %> << pres.year >>.<% endif %><< pres.links|links >>
+    \item << pres.title|titledot >><% if pres.venue %> << pres.venue|autolink >><% if not pres.venue.endswith('.') %>.<% endif %><% endif %><% if pres.year and not pres.venue %> << pres.year >>.<% endif %><< pres.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -312,7 +312,7 @@
 \section{Popular Science Talks}
 \begin{enumerate}
 <% for pres in popular_science_talks %>
-    \item << pres.title|notrailingdot|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
+    \item << pres.title|titledot >><% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -321,7 +321,7 @@
 \section{Popular Science Writings and General Debate}
 \begin{enumerate}
 <% for pub in popular_science_writings %>
-    \item << pub.title|notrailingdot|tex >>.<% if pub.year %> << pub.year >>.<% endif %><< pub.links|links >>
+    \item << pub.title|titledot >><% if pub.year %> << pub.year >>.<% endif %><< pub.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -333,7 +333,7 @@
 \section{Conference Presentations}
 \begin{enumerate}
 <% for pres in conference_presentations %>
-    \item <% if pres.authors %><< pres.authors|vancouver_authors|tex >>. <% endif %><< pres.title|notrailingdot|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
+    \item <% if pres.authors %><< pres.authors|vancouver_authors|tex >>. <% endif %><< pres.title|titledot >><% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>
@@ -345,7 +345,7 @@
 \section{Other Indexed Conference Abstracts}
 \begin{enumerate}
 <% for pres in conference_abstracts %>
-    \item <% if pres.authors %><< pres.authors|vancouver_authors|tex >>. <% endif %><< pres.title|notrailingdot|tex >>.<% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
+    \item <% if pres.authors %><< pres.authors|vancouver_authors|tex >>. <% endif %><< pres.title|titledot >><% if pres.year %> << pres.year >>.<% endif %><< pres.links|links >>
 <% endfor %>
 \end{enumerate}
 <% endif %>

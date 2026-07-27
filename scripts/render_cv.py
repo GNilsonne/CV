@@ -237,13 +237,105 @@ def format_authors_vancouver(authors_str, max_authors=6) -> str:
         authors = [p.strip() for p in parts if p.strip()]
     
     if len(authors) > max_authors:
-        return ", ".join(authors[:6]) + ", et al"
+        rendered = ", ".join(authors[:6]) + ", et al"
     else:
-        return ", ".join(authors)
+        rendered = ", ".join(authors)
+    # Templates append their own period after the author list, so drop a
+    # trailing one carried in from the source data to avoid "Melin B..".
+    if rendered.endswith(".") and not rendered.endswith("et al."):
+        rendered = rendered[:-1]
+    return rendered
 
 
-def _link_parts(links) -> list:
-    """Return a list of \\href{url}{label} strings from a links dict."""
+def profile_handle(url) -> str:
+    """Derive a short display handle from a profile URL.
+
+    The header previously hardcoded handles that duplicated cv_data.yaml, so a
+    changed URL would leave a stale label behind. Prefer an explicit user id in
+    the query string, else fall back to the last non-empty path segment.
+    """
+    raw = str(url).strip() if url else ""
+    if not raw:
+        return ""
+    base, _, query = raw.partition("?")
+    for pair in query.split("&"):
+        key, _, value = pair.partition("=")
+        if key in ("user", "id") and value:
+            return tex_escape(value)
+    segments = [s for s in base.rstrip("/").split("/") if s]
+    if len(segments) <= 2:  # scheme + host only, no path to name
+        return tex_escape(segments[-1]) if segments else ""
+    return tex_escape(segments[-1])
+
+
+def format_title_sentence(text) -> str:
+    """Escape a title and terminate it with a single period.
+
+    Titles in the data end inconsistently: some carry a trailing period, some
+    none, and some end in ? or !. Appending a period unconditionally produced
+    "...hur gor vi?." so sentence-final punctuation is left alone. A dangling
+    trailing colon introduces nothing once rendered, so it is replaced by the
+    normal period separator rather than preserved.
+    """
+    raw = str(text).strip() if text else ""
+    raw = raw.rstrip(".").strip()
+    if not raw:
+        return ""
+    if raw.endswith(":"):
+        raw = raw[:-1].rstrip()
+    escaped = tex_escape(raw)
+    if raw.endswith(("?", "!")):
+        return escaped
+    return escaped + "."
+
+
+def _canonical_url(url) -> str:
+    """Normalise a URL for duplicate detection only.
+
+    Ignores scheme, host aliases used by DOI resolvers, and a trailing slash,
+    so ``http://dx.doi.org/10.x`` and ``https://doi.org/10.x`` compare equal.
+    The original URL is still what gets linked.
+    """
+    text = str(url).strip().lower()
+    for prefix in ("https://", "http://"):
+        if text.startswith(prefix):
+            text = text[len(prefix) :]
+            break
+    for host in ("dx.doi.org/", "doi.org/", "www."):
+        if text.startswith(host):
+            text = text[len(host) :]
+    return text.rstrip("/")
+
+
+def _fallback_link_label(key: str) -> str:
+    """Pick a short label for a links key missing from the known label map.
+
+    Some entries use the link text itself as the key: a bare DOI, a domain, or
+    even the whole description. Printing those verbatim gives an unreadable
+    label, so collapse them to the generic label their shape implies. Short,
+    word-like keys pass through so new descriptive keys still work.
+    """
+    key = str(key).strip()
+    if not key:
+        return "link"
+    lowered = key.lower()
+    if lowered.startswith("10.") or lowered.startswith("doi:"):
+        return "doi"
+    if lowered.startswith(("http://", "https://", "www.")) or "/" in key:
+        return "link"
+    if " " not in key and "." in key:
+        return "web"
+    if " " in key or len(key) > 24:
+        return "link"
+    return key
+
+
+def _link_parts(links, seen_urls=None) -> list:
+    """Return a list of \\href{url}{label} strings from a links dict.
+
+    Pass ``seen_urls`` to suppress URLs already emitted by the caller, so an
+    entry whose ``links`` repeats its own DOI renders one label, not two.
+    """
     if not links or not isinstance(links, dict):
         return []
     labels = {
@@ -270,15 +362,17 @@ def _link_parts(links) -> list:
         "osf": "OSF",
         "link": "link",
         "url": "link",
+        "transcript": "transcript",
     }
     parts = []
-    seen_urls = set()
+    if seen_urls is None:
+        seen_urls = set()
     for key, url in links.items():
-        if not url or url in seen_urls:
+        if not url or _canonical_url(url) in seen_urls:
             continue
-        seen_urls.add(url)
-        label = labels.get(key, key)
-        parts.append(rf"\href{{{url}}}{{{label}}}")
+        seen_urls.add(_canonical_url(url))
+        label = labels.get(key, _fallback_link_label(key))
+        parts.append(rf"\href{{{url}}}{{{tex_escape(label)}}}")
     return parts
 
 
@@ -293,9 +387,12 @@ def format_links_latex(links) -> str:
 def format_links_with_doi(doi, links) -> str:
     """Combine DOI and links into a single bracketed group separated by |."""
     parts = []
+    seen_urls = set()
     if doi:
-        parts.append(rf"\href{{https://doi.org/{doi}}}{{doi}}")
-    parts.extend(_link_parts(links))
+        doi_url = f"https://doi.org/{doi}"
+        seen_urls.add(_canonical_url(doi_url))
+        parts.append(rf"\href{{{doi_url}}}{{doi}}")
+    parts.extend(_link_parts(links, seen_urls))
     if parts:
         return " [" + " | ".join(parts) + "]"
     return ""
@@ -479,6 +576,8 @@ def render_latex(data: dict, template_dir: str, template_name: str) -> str:
     env.filters["studentlinks"] = format_student_links
     env.filters["awardlinks"] = format_award_links
     env.filters["notrailingdot"] = lambda s: str(s).rstrip(".") if s else ""
+    env.filters["titledot"] = format_title_sentence
+    env.filters["handle"] = profile_handle
     env.filters["doi"] = lambda s: str(s).replace("_", r"\_") if s else ""
     env.filters["vancouver_authors"] = format_authors_vancouver
 
