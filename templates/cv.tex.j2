@@ -80,7 +80,7 @@
 \section{Supervision of PhD Students}
 \begin{itemize}
 <% for s in phd_supervision %>
-    \item << s.name|tex >>, << s.institution|tex >><% if s|entrydate %>, << s|entrydate >><% endif %>, << s.role >>.<% if s|supervisiontitle %> Thesis: \emph{<< s|supervisiontitle|tex >>}.<% endif %><< s|supervisionlinks >>
+    \item << s.name|tex >>, << s.institution|tex >><% if s|entrydate %>, << s|entrydate >><% endif %>, << s.role >>.<% if s|supervisiontitle %> \emph{<< s|supervisiontitle|tex >>}.<% endif %><< s|supervisionlinks >>
 <% endfor %>
 \end{itemize}
 <% endif %>
