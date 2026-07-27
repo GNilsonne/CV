@@ -264,6 +264,8 @@ def _link_parts(links) -> list:
         "program": "program",
         "thesis": "thesis",
         "certificate": "certificate",
+        "swecris": "SweCRIS",
+        "cordis": "CORDIS",
         "url": "link",
     }
     parts = []
@@ -388,6 +390,11 @@ def format_supervision_links(entry) -> str:
     return ""
 
 
+def format_grant_links(entry) -> str:
+    """Link/SweCRIS/CORDIS links for a grant entry, in that order."""
+    return format_entry_links(entry, ("link", "swecris", "cordis"))
+
+
 def format_peer_review_links(review) -> str:
     """Combine paper DOI and report DOIs into a single bracketed group."""
     parts = []
@@ -425,6 +432,7 @@ def render_latex(data: dict, template_dir: str, template_name: str) -> str:
     env.filters["entrydate"] = format_entry_date
     env.filters["supervisiontitle"] = format_supervision_title
     env.filters["supervisionlinks"] = format_supervision_links
+    env.filters["grantlinks"] = format_grant_links
     env.filters["notrailingdot"] = lambda s: str(s).rstrip(".") if s else ""
     env.filters["doi"] = lambda s: str(s).replace("_", r"\_") if s else ""
     env.filters["vancouver_authors"] = format_authors_vancouver

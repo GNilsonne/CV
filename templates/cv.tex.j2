@@ -92,7 +92,7 @@
 \section{Research Grants}
 \begin{itemize}
 <% for g in grants %>
-    \item << g.description|autolink >><% if g.link %> \href{<< g.link >>}{[link]}<% endif %>
+    \item << g.description|autolink >><< g|grantlinks >>
 <% endfor %>
 \end{itemize}
 <% endif %>
