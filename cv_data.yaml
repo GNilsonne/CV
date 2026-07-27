@@ -1,7 +1,6 @@
 meta:
   name: Gustav Nilsonne
   orcid: 0000-0001-5273-0150
-  affiliation: Karolinska Institutet
   email: gustav.nilsonne@ki.se
   profiles:
     github: https://github.com/GNilsonne
@@ -13,7 +12,8 @@ meta:
 degrees:
 - description: MD, Karolinska Institutet
   year: 2009
-  link: 
+  date: 2009-04-23
+  certificate: https://drive.google.com/file/d/1UA6nrhNgX2EWPQcoQkYf1jy-LNTeyyaJ/view?usp=sharing 
 - description: PhD, Experimental Pathology, Karolinska Institutet
   title: 'Experimental therapeutics against malignant mesothelioma: investigations in vitro'
   thesis: https://hdl.handle.net/10616/38731
@@ -21,16 +21,18 @@ degrees:
   year: 2009
   date: 2009-12-11
 - description: Associate Professor (Docent), Karolinska Institutet
+  certificate: https://drive.google.com/file/d/1vCjQ4xnuwff1q63vJxhOypz3vV0akwnw/view?usp=sharing
   year: 2021
+  date: 2021-02-11
 employment:
 - description: Military service in the mounted band of the Royal Lifeguard Dragoons, 2002
 - description: Prosector, Department of Pathology, Karolinska University Hospital, 2005-2006
-- description: Junior physician, geriatric and cognitive medicine, Karolinska University Hospital, 2010
+- description: Junior physician, Geriatric and Cognitive Medicine, Karolinska University Hospital, 2010
 - description: Postdoctoral Researcher, Karolinska Institutet, Department of Clinical Neuroscience, 2010-2011
 - description: Visiting Postdoctoral Fellow, Donders Institute of Cognitive Neuroimaging, 2012
 - description: Postdoctoral Researcher, Stockholm University, Stress Research Institute, 2012-2014
 - description: Associated Postdoctoral Fellow, Karolinska Institutet, Department of Clinical Neuroscience, 2012-2014
-- description: Researcher, Stockholm University, Stress Research Institute/Department of Psychology, 2014-
+- description: Researcher, Stockholm University, Stress Research Institute/Department of Psychology, 2014-2025
 - description: Associated Researcher, Karolinska Institutet, Department of Clinical Neuroscience, 2014-2021
 - description: Visiting Scholar, Stanford University, Department of Psychology, 2017
 - description: Data Domain Specialist, Karolinska Institutet/Swedish National Data Service, 2017-2023
@@ -43,22 +45,25 @@ phd_supervision:
 - name: Michael Ingre
   institution: Stockholm University
   year: '2017'
+  date: 2017-05-22
   role: co-supervisor
-  thesis: 'P-hacking in academic research: a critical review of the job strain model and of the association between night
+  title: 'P-hacking in academic research: a critical review of the job strain model and of the association between night
     work and breast cancer in women'
-  link: http://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-141136
+  thesis: http://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-141136
 - name: Sandra Tamm
   institution: Karolinska Institutet
   year: '2019'
+  date: 2019-04-05
   role: co-supervisor
-  thesis: A neuroimaging perspective on the emotional sleepy brain
-  link: https://openarchive.ki.se/xmlui/handle/10616/46632
+  title: A neuroimaging perspective on the emotional sleepy brain
+  thesis: https://hdl.handle.net/10616/46632
 - name: Eva Hesselmark
   institution: Karolinska Institutet
   year: '2019'
+  date: 2019-05-23
   role: co-supervisor
-  thesis: 'Pediatric acute neuropsychiatric syndrome : diagnosis, biomarkers and treatment'
-  link: https://openarchive.ki.se/xmlui/handle/10616/46741
+  thesis: 'Pediatric acute neuropsychiatric syndrome: diagnosis, biomarkers and treatment'
+  link: https://hdl.handle.net/10616/46741
 - name: Hannibal Ölund Alonso
   institution: Karolinska Institutet
   year: 2017-
