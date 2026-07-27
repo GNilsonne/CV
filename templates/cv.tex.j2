@@ -123,7 +123,7 @@
 \section{Awards}
 \begin{itemize}
 <% for a in awards %>
-    \item << a.description|autolink >><% if a.link %> \href{<< a.link >>}{[link]}<% endif %>
+    \item << a.description|autolink >><< a|awardlinks >>
 <% endfor %>
 \end{itemize}
 <% endif %>

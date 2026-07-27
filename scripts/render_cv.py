@@ -428,6 +428,11 @@ def format_student_links(entry) -> str:
     return format_links_latex(links)
 
 
+def format_award_links(entry) -> str:
+    """Bracketed link group for an award entry, brackets outside the hyperlink."""
+    return format_entry_links(entry, ("link",))
+
+
 def format_grant_links(entry) -> str:
     """Link/SweCRIS/CORDIS links for a grant entry, in that order."""
     return format_entry_links(entry, ("link", "swecris", "cordis"))
@@ -472,6 +477,7 @@ def render_latex(data: dict, template_dir: str, template_name: str) -> str:
     env.filters["supervisionlinks"] = format_supervision_links
     env.filters["grantlinks"] = format_grant_links
     env.filters["studentlinks"] = format_student_links
+    env.filters["awardlinks"] = format_award_links
     env.filters["notrailingdot"] = lambda s: str(s).rstrip(".") if s else ""
     env.filters["doi"] = lambda s: str(s).replace("_", r"\_") if s else ""
     env.filters["vancouver_authors"] = format_authors_vancouver
