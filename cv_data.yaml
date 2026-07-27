@@ -208,10 +208,10 @@ and meta-analysis'
   - description: 'Love Ahnström, Degree project in medicine, Karolinska Institutet, 2025'
     title: 'A novel method to link clinical trial registrations to published results using a large language model'
 awards:
-- description: Open Data Champion, SPARC Europe, 2017.
+- description: Open Data Champion, SPARC Europe, 2017
   link: https://openscholarchampions.eu/opendata/champion/dataforevidence/
-- description: Natur & Kulturs populärvetenskapliga arbetsstipendium, 2018.
-- description: British Neuroscience Association Credibility in Neuroscience Prize, 2023, awarded to the EEGManyLabs project.
+- description: Natur & Kulturs populärvetenskapliga arbetsstipendium, 2018
+- description: British Neuroscience Association Credibility in Neuroscience Prize, 2023, awarded to the EEGManyLabs project
 - description: Excellence in Neuroscience Annual Reward (EINAR), awarded by the Department of Clinical Neuroscience at Karolinska
     Institutet, 2026
 phd_committee:
@@ -246,7 +246,7 @@ academic_commissions:
     ? Engaging Researchers in Good Data Management - A one-day conference sharing fresh ideas and good practices for creating
       and promoting effective research data practices
     : https://www.data.cam.ac.uk/datanews/engaging-researchers-good-data-management-2017-conference
-- description: 'Member of committee for evaluation of open access mandates, National Library of Sweden, 2017-2018
+- description: 'Member of committee for evaluation of open access mandates, National Library of Sweden, 2017-2018'
 - description: Member of committee for the Data Engagement Management Award, 2018.
   links:
     Data Engagement Management Award: http://www.rdmengagementaward.org/
@@ -352,7 +352,6 @@ other_commissions:
   - RFSU Stockholm, auditor, 2013-2018
   - RFSU Researchers' Network, founding member, 2013-2018
 - description: 'Nya Moderaterna: Medlem i arbetsgrupp för reformer, 2016-2017'
-- description: Swedish network for Evidence-Based Policy, founding member 2015, president 2018-
 - description: Advisory Board, DeSci Foundation
 - description: Advisory Board, NEKO Health
 publications:
