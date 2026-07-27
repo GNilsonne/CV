@@ -9,15 +9,18 @@ meta:
     osf: https://osf.io/nolrw
     website: http://nilsonne.net
     ki_profile: https://ki.se/en/people/gustav-nilsonne
-    su_profile: https://www.su.se/profiles/guni6529-1.189647
     stanford_profile: https://metrics.stanford.edu/people/gustav-nilsonne
 degrees:
-- description: MD, Karolinska Institutet, 2009
+- description: MD, Karolinska Institutet
   year: 2009
-- description: 'PhD, Experimental Pathology, Karolinska Institutet, 2009: Experimental therapeutics against malignant mesothelioma: investigations in vitro. Full text: KI Open Archive'
-  link: https://openarchive.ki.se/xmlui/handle/10616/38731
+  link: 
+- description: PhD, Experimental Pathology, Karolinska Institutet
+  title: 'Experimental therapeutics against malignant mesothelioma: investigations in vitro'
+  thesis: https://hdl.handle.net/10616/38731
+  certificate: https://drive.google.com/file/d/1wPoXWzGTD1PblRiVgE-iiS7kcPiPG6Mf/view?usp=sharing
   year: 2009
-- description: Associate Professor (Docent), Karolinska Institutet, 2021
+  date: 2009-12-11
+- description: Associate Professor (Docent), Karolinska Institutet
   year: 2021
 employment:
 - description: Military service in the mounted band of the Royal Lifeguard Dragoons, 2002
