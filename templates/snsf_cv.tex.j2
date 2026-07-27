@@ -38,7 +38,7 @@
 \section{Education and training}
 \begin{itemize}
 <% for deg in education %>
-    \item << deg.description|autolink >><% if deg.link %> \href{<< deg.link >>}{[link]}<% endif %>
+    \item << deg.description|autolink >><% if deg.link %> [\href{<< deg.link >>}{link}]<% endif %>
 <% endfor %>
 \end{itemize}
 
