@@ -296,41 +296,96 @@ def format_links_with_doi(doi, links) -> str:
     return ""
 
 
-def format_degree_date(degree) -> str:
-    """Return the degree's date if present, otherwise its year.
+def _is_url(value) -> bool:
+    """True when a value looks like a link rather than free text."""
+    if not value:
+        return False
+    text = str(value).strip()
+    if not text or " " in text:
+        return False
+    return text.startswith(("http://", "https://", "doi:", "10.", "urn:", "www."))
+
+
+def format_entry_date(entry) -> str:
+    """Return an entry's date if present, otherwise its year.
 
     A full ``date`` (e.g. 2009-12-11) is more specific than ``year``, so it wins
     when both are given. YAML parses ISO dates into date objects, so format
     those back to ISO strings rather than relying on ``str()`` of a datetime.
     """
-    if not degree or not isinstance(degree, dict):
+    if not entry or not isinstance(entry, dict):
         return ""
-    date = degree.get("date")
+    date = entry.get("date")
     if date:
         if isinstance(date, (datetime.date, datetime.datetime)):
             return date.strftime("%Y-%m-%d")
         return str(date).strip()
-    year = degree.get("year")
+    year = entry.get("year")
     if year:
         return str(year).strip()
     return ""
 
 
-def format_degree_links(degree) -> str:
-    """Format a degree's thesis/certificate links as a bracketed group.
+def format_entry_links(entry, keys) -> str:
+    """Format an entry's top-level URL fields as a bracketed link group.
 
-    Mirrors the bracketed ``[a | b]`` style used by the publication sections.
-    Link fields sit at the top level of a degree entry rather than in a nested
-    ``links`` dict, so they are collected explicitly to keep label order stable.
+    Mirrors the bracketed ``[a | b]`` style used by the publication sections,
+    with the brackets outside the hyperlink. Link fields sit at the top level of
+    these entries rather than in a nested ``links`` dict, so they are collected
+    explicitly to keep label order stable. Values that are not URLs are skipped
+    so stale free-text entries never produce a broken \\href.
     """
-    if not degree or not isinstance(degree, dict):
+    if not entry or not isinstance(entry, dict):
         return ""
     links = {}
-    for key in ("thesis", "certificate", "link"):
-        url = degree.get(key)
-        if url and str(url).strip():
+    for key in keys:
+        url = entry.get(key)
+        if _is_url(url):
             links[key] = str(url).strip()
     return format_links_latex(links)
+
+
+def format_degree_date(degree) -> str:
+    """Date-or-year for a degree entry."""
+    return format_entry_date(degree)
+
+
+def format_degree_links(degree) -> str:
+    """Thesis/certificate links for a degree entry."""
+    return format_entry_links(degree, ("thesis", "certificate", "link"))
+
+
+def format_supervision_title(entry) -> str:
+    """Thesis title for a supervision entry.
+
+    Prefers the ``title`` field. Older entries stored the title in ``thesis``
+    with the URL in ``link``; when ``thesis`` holds free text rather than a URL
+    it is used as the title so those entries still render.
+    """
+    if not entry or not isinstance(entry, dict):
+        return ""
+    title = entry.get("title")
+    if title and str(title).strip():
+        return str(title).strip()
+    legacy = entry.get("thesis")
+    if legacy and not _is_url(legacy):
+        return str(legacy).strip()
+    return ""
+
+
+def format_supervision_links(entry) -> str:
+    """Thesis link for a supervision entry.
+
+    The URL normally sits in ``thesis``, but older entries put it in ``link``.
+    Either way it points at the thesis, so it is labelled ``thesis``.
+    """
+    if not entry or not isinstance(entry, dict):
+        return ""
+    for key in ("thesis", "link"):
+        url = entry.get(key)
+        if _is_url(url):
+            return format_links_latex({"thesis": str(url).strip()})
+    return ""
 
 
 def format_peer_review_links(review) -> str:
@@ -367,6 +422,9 @@ def render_latex(data: dict, template_dir: str, template_name: str) -> str:
     env.filters["reviewlinks"] = format_peer_review_links
     env.filters["degreedate"] = format_degree_date
     env.filters["degreelinks"] = format_degree_links
+    env.filters["entrydate"] = format_entry_date
+    env.filters["supervisiontitle"] = format_supervision_title
+    env.filters["supervisionlinks"] = format_supervision_links
     env.filters["notrailingdot"] = lambda s: str(s).rstrip(".") if s else ""
     env.filters["doi"] = lambda s: str(s).replace("_", r"\_") if s else ""
     env.filters["vancouver_authors"] = format_authors_vancouver
