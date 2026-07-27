@@ -9,6 +9,7 @@ meta:
     website: http://nilsonne.net
     ki_profile: https://ki.se/en/people/gustav-nilsonne
     stanford_profile: https://metrics.stanford.edu/people/gustav-nilsonne
+    web_of_science: https://www.webofscience.com/wos/author/record/C-4579-2008
 degrees:
 - description: MD, Karolinska Institutet
   year: 2009
@@ -194,14 +195,18 @@ teaching:
   - description: 'Niclas Dittasiri, Degree project in medicine, Karolinska Institutet, 2023'
     title: 'The association between depression and interleukin-6 in cerebrospinal fluid - A replication and extension of a systematic review and meta-analysis'
   - description: 'Sohaib Adem Osman, Degree project in medicine, Karolinska Institutet, 2023'
-    title: 
+    title: 'Transparency in registered clinical trials at Nordic medical universities and university hospitals'
   - description: 'Iraida Suditu, Degree project in medicine, Karolinska Institutet, 2023'
     title: 'The Inflammatory Biomarker Interleukin-6 (IL-6) and Bipolar Disorder - A replication and extension of a systematic review 
 and meta-analysis'
   - description: 'Ash Mechlaoui, Degree project in medicine, Karolinska Institutet, 2024'
+    title: 'Interleukin-6 as a biomarker in Schizophrenia - Replication and extension of a systematic review and meta-analysis'
   - description: 'Sofie Emilson, Degree project in medicine, Karolinska Institutet, 2024'
+    title: 'Transparency and reporting quality of registered clinical trials in the Nordic countries - A cross-sectional study'
   - description: 'Ava Aspromonti, Degree project in medicine, Karolinska Institutet, 2025'
+    title: 'Prediction Models for Mortality and Functional Outcomes after Ischemic Stroke - An Umbrella Review'
   - description: 'Love Ahnström, Degree project in medicine, Karolinska Institutet, 2025'
+    title: 'A novel method to link clinical trial registrations to published results using a large language model'
 awards:
 - description: Open Data Champion, SPARC Europe, 2017.
   link: https://openscholarchampions.eu/opendata/champion/dataforevidence/
