@@ -122,8 +122,14 @@ def format_authors_vancouver(authors_str, max_authors=None):
         authors.pop()
 
     if max_authors and len(authors) > max_authors:
-        return ", ".join(authors[:max_authors]) + ", et al"
-    return ", ".join(authors)
+        rendered = ", ".join(authors[:max_authors]) + ", et al"
+    else:
+        rendered = ", ".join(authors)
+    # Callers append their own separator after the author list, so drop a
+    # trailing period carried in from the data to avoid "Melin B.:".
+    if rendered.endswith(".") and not rendered.endswith("et al."):
+        rendered = rendered[:-1]
+    return rendered
 
 
 def is_first_author(pub, name="Nilsonne"):

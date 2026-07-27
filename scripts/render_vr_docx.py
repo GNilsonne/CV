@@ -37,6 +37,22 @@ def load_yaml(path):
     return yaml.load(content, Loader=yaml.SafeLoader)
 
 
+def title_with_period(text) -> str:
+    """Return a title terminated by a single period.
+
+    Titles end inconsistently in the data: some carry a trailing period, some
+    none, and some end in ? or !. Appending a period unconditionally produced
+    "...hur gor vi?.", so sentence-final punctuation is kept as-is. A dangling
+    trailing colon introduces nothing here and becomes a period.
+    """
+    raw = (str(text) if text else "").strip().rstrip(".").strip()
+    if not raw:
+        return ""
+    if raw.endswith(":"):
+        raw = raw[:-1].rstrip()
+    return raw if raw.endswith(("?", "!")) else raw + "."
+
+
 def format_authors_vancouver(authors_str, max_authors=6):
     if not authors_str:
         return ""
@@ -74,8 +90,14 @@ def format_authors_vancouver(authors_str, max_authors=6):
         authors = [p.strip() for p in parts if p.strip()]
 
     if len(authors) > max_authors:
-        return ", ".join(authors[:6]) + ", et al"
-    return ", ".join(authors)
+        rendered = ", ".join(authors[:6]) + ", et al"
+    else:
+        rendered = ", ".join(authors)
+    # Callers append their own separator after the author list, so drop a
+    # trailing period carried in from the data to avoid "Melin B..".
+    if rendered.endswith(".") and not rendered.endswith("et al."):
+        rendered = rendered[:-1]
+    return rendered
 
 
 def format_reference(pub):
@@ -84,9 +106,9 @@ def format_reference(pub):
     if pub.get("authors"):
         parts.append(format_authors_vancouver(pub["authors"]))
         parts.append(". ")
-    title = (pub.get("title", "") or "").rstrip(".")
+    title = title_with_period(pub.get("title", ""))
     parts.append(title)
-    parts.append(". ")
+    parts.append(" ")
     if pub.get("journal"):
         parts.append(pub["journal"].rstrip("."))
     if pub.get("year"):
@@ -109,7 +131,7 @@ def add_reference(paragraph, pub, bold_name="Nilsonne G"):
     """Add a formatted reference to a paragraph, with the applicant name in bold
     and journal in italics."""
     authors = format_authors_vancouver(pub.get("authors", ""))
-    title = (pub.get("title", "") or "").rstrip(".")
+    title = title_with_period(pub.get("title", ""))
     doi = pub.get("doi", "")
 
     # Authors with bold name
@@ -126,7 +148,7 @@ def add_reference(paragraph, pub, bold_name="Nilsonne G"):
         paragraph.add_run(". ")
 
     # Title
-    paragraph.add_run(title + ". ")
+    paragraph.add_run(title + " ")
 
     # Journal (italic)
     journal = (pub.get("journal", "") or "").rstrip(".")
@@ -157,7 +179,7 @@ def add_reference(paragraph, pub, bold_name="Nilsonne G"):
 def add_simple_reference(paragraph, pub, bold_name="Nilsonne G"):
     """Simplified reference for talks, preprints, etc."""
     authors = format_authors_vancouver(pub.get("authors", ""))
-    title = (pub.get("title", "") or "").rstrip(".")
+    title = title_with_period(pub.get("title", ""))
 
     if authors:
         if bold_name in authors:
@@ -171,7 +193,7 @@ def add_simple_reference(paragraph, pub, bold_name="Nilsonne G"):
             paragraph.add_run(authors)
         paragraph.add_run(". ")
 
-    paragraph.add_run(title + ".")
+    paragraph.add_run(title)
 
     journal = (pub.get("journal", "") or "").rstrip(".")
     if journal:

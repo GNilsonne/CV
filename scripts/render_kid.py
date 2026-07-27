@@ -78,8 +78,34 @@ def format_authors_vancouver(authors_str, max_authors=6) -> str:
         authors = [part.strip() for part in parts if part.strip()]
 
     if len(authors) > max_authors:
-        return ", ".join(authors[:6]) + ", et al"
-    return ", ".join(authors)
+        rendered = ", ".join(authors[:6]) + ", et al"
+    else:
+        rendered = ", ".join(authors)
+    # The template appends its own period after the author list, so drop a
+    # trailing one carried in from the data to avoid "Melin B..".
+    if rendered.endswith(".") and not rendered.endswith("et al."):
+        rendered = rendered[:-1]
+    return rendered
+
+
+def format_title_sentence(text) -> str:
+    """Escape a title and terminate it with a single period.
+
+    Titles end inconsistently in the data: some carry a trailing period, some
+    none, and some end in ? or !. Appending a period unconditionally produced
+    "...hur gor vi?.", so sentence-final punctuation is left alone. A dangling
+    trailing colon introduces nothing once rendered and becomes a period.
+    """
+    raw = str(text).strip() if text else ""
+    raw = raw.rstrip(".").strip()
+    if not raw:
+        return ""
+    if raw.endswith(":"):
+        raw = raw[:-1].rstrip()
+    escaped = tex_escape(raw)
+    if raw.endswith(("?", "!")):
+        return escaped
+    return escaped + "."
 
 
 def bold_name(text, name="Nilsonne G") -> str:
@@ -149,6 +175,7 @@ def main():
     )
     env.filters["tex"] = tex_escape
     env.filters["notrailingdot"] = lambda value: str(value).rstrip(".") if value else ""
+    env.filters["titledot"] = format_title_sentence
     env.filters["doi"] = lambda value: str(value).replace("_", r"\_") if value else ""
     env.filters["vr_authors"] = lambda value: tex_escape(format_authors_vancouver(value))
     env.filters["vr_bold_name"] = bold_name
@@ -188,7 +215,7 @@ def main():
 
 \begin{enumerate}
 <% for pub in peer_reviewed_articles %>
-\item <% if pub.authors %><< pub.authors|vr_authors|vr_bold_name >>. <% endif %><< pub.title|notrailingdot|tex >>. <% if pub.journal %>\textit{<< pub.journal|notrailingdot|tex >>}<% endif %><% if pub.year %> << pub.year >><% endif %><% if pub.volume %>;<< pub.volume >><% endif %><% if pub.issue %>(<< pub.issue >>)<% endif %><% if pub.pages %>:<< pub.pages >><% elif pub.article_number %>:<< pub.article_number >><% endif %>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %>
+\item <% if pub.authors %><< pub.authors|vr_authors|vr_bold_name >>. <% endif %><< pub.title|titledot >> <% if pub.journal %>\textit{<< pub.journal|notrailingdot|tex >>}<% endif %><% if pub.year %> << pub.year >><% endif %><% if pub.volume %>;<< pub.volume >><% endif %><% if pub.issue %>(<< pub.issue >>)<% endif %><% if pub.pages %>:<< pub.pages >><% elif pub.article_number %>:<< pub.article_number >><% endif %>.<% if pub.doi %> doi:~\href{https://doi.org/<< pub.doi >>}{<< pub.doi|doi >>}<% endif %>
 <% endfor %>
 \end{enumerate}
 

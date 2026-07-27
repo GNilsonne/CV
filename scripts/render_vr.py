@@ -71,8 +71,34 @@ def format_authors_vancouver(authors_str, max_authors=6) -> str:
         authors = [p.strip() for p in parts if p.strip()]
 
     if len(authors) > max_authors:
-        return ", ".join(authors[:6]) + ", et al"
-    return ", ".join(authors)
+        rendered = ", ".join(authors[:6]) + ", et al"
+    else:
+        rendered = ", ".join(authors)
+    # The template appends its own period after the author list, so drop a
+    # trailing one carried in from the data to avoid "Melin B..".
+    if rendered.endswith(".") and not rendered.endswith("et al."):
+        rendered = rendered[:-1]
+    return rendered
+
+
+def format_title_sentence(text) -> str:
+    """Escape a title and terminate it with a single period.
+
+    Titles end inconsistently in the data: some carry a trailing period, some
+    none, and some end in ? or !. Appending a period unconditionally produced
+    "...hur gor vi?.", so sentence-final punctuation is left alone. A dangling
+    trailing colon introduces nothing once rendered and becomes a period.
+    """
+    raw = str(text).strip() if text else ""
+    raw = raw.rstrip(".").strip()
+    if not raw:
+        return ""
+    if raw.endswith(":"):
+        raw = raw[:-1].rstrip()
+    escaped = tex_escape(raw)
+    if raw.endswith(("?", "!")):
+        return escaped
+    return escaped + "."
 
 
 def vr_bold_name(text, name="Nilsonne G") -> str:
@@ -257,6 +283,7 @@ def main():
 
     env.filters["tex"] = tex_escape
     env.filters["notrailingdot"] = lambda s: str(s).rstrip(".") if s else ""
+    env.filters["titledot"] = format_title_sentence
     env.filters["doi"] = lambda s: str(s).replace("_", r"\_") if s else ""
     env.filters["vr_authors"] = lambda s: tex_escape(format_authors_vancouver(s))
     env.filters["vr_bold_name"] = vr_bold_name
