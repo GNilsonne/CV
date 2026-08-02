@@ -262,13 +262,15 @@ academic_commissions:
     Institutions, 2021-2022
 - description: Co-chair of Task Force for Research Careers, Credit, and Recognition, European Open Science Cloud Association
     (EOSC-A), 2021-2023
+- description: Co-founder and member of the Swedish Reproducibility Network, 2021-
 - description: Member of committee for research assessment in hiring and promotion, The Association of Swedish Higher Education
     Institutions, 2022-2024
 - description: Member of EOSC-Future & Research Data Alliance Artificial Intelligence & Data Visitation Working Group, 2022-2023
 - description: Member of Karolinska Institutet Open Science Working Group, 2022-
 - description: Member of committee for research assessment in hiring and promotion, The Association of Swedish Higher Education
     Institutions, 2025-
-- description: Chair of the IGDORE Sweden Foundation
+- description: Board member and Working Group Chair, Swedish National Chapter of Coara, 2025-
+- description: Chair of the IGDORE Sweden Foundation, 2025-
 - description: 'Reviewer for scientific journals, books, and conferences:'
   subitems:
   - name: International Journal of Cancer
@@ -307,6 +309,9 @@ academic_commissions:
   - Norrsken Mind Foundation 2022, 2023, 2024, 2025, 2026
   - ACX grants 2023
   - ALF Region Skåne 2024, 2026
+  - COST 2025
+  - Horizon Europe Pillar 2 2025
+  - EIC Pathfinder 2026
 - description: Reviewer for scientific prizes
   subitems:
   - British Neuroscience Association Credibility in Neuroscience Prize, 2024
@@ -317,8 +322,6 @@ academic_commissions:
   - SAGE Publications
 - description: 'Guest editor of special issue of the Swedish Medical Journal on metascience, "Medicinsk forskning i fågelperspektiv",
     with Cathrine Axfors and Emmanuel Zavalis, 2023'
-  links:
-    lakartidningen.se/tag/tema-medicinsk-forskning-i-fagelperspektiv/: https://lakartidningen.se/tag/tema-medicinsk-forskning-i-fagelperspektiv/
 other_commissions:
 - description: Association of Swedish School Student Unions (Elevorganisationen i Sverige, now Sveriges Elevkårer)
   subitems:
