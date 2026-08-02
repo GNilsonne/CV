@@ -13,18 +13,18 @@ meta:
 degrees:
 - description: MD, Karolinska Institutet
   year: 2009
-  date: 2009-04-23
-  certificate: https://drive.google.com/file/d/1UA6nrhNgX2EWPQcoQkYf1jy-LNTeyyaJ/view?usp=sharing 
+  date: '2009-04-23'
+  certificate: https://drive.google.com/file/d/1UA6nrhNgX2EWPQcoQkYf1jy-LNTeyyaJ/view?usp=sharing
 - description: PhD, Experimental Pathology, Karolinska Institutet
   title: 'Experimental therapeutics against malignant mesothelioma: investigations in vitro'
   thesis: https://hdl.handle.net/10616/38731
   certificate: https://drive.google.com/file/d/1wPoXWzGTD1PblRiVgE-iiS7kcPiPG6Mf/view?usp=sharing
   year: 2009
-  date: 2009-12-11
+  date: '2009-12-11'
 - description: Associate Professor (Docent), Karolinska Institutet
   certificate: https://drive.google.com/file/d/1vCjQ4xnuwff1q63vJxhOypz3vV0akwnw/view?usp=sharing
   year: 2021
-  date: 2021-02-11
+  date: '2021-02-11'
 employment:
 - description: Military service in the mounted band of the Royal Lifeguard Dragoons, 2002
 - description: Prosector, Department of Pathology, Karolinska University Hospital, 2005-2006
@@ -40,28 +40,29 @@ employment:
 - description: National Coordinator of Data Domain Specialists, Swedish National Data Service, 2019-2023
 - description: Visiting Fellow, QUEST Center, Berlin Institute of Health, Charité - Universitätsmedizin Berlin, 2020-2021
 - description: Researcher, Karolinska Institutet, Department of Clinical Neuroscience, 2022-
-- description: Visiting Scientist and Affiliate, Stanford University, Meta-Research Innovation Center at Stanford (METRICS), 2023-
+- description: Visiting Scientist and Affiliate, Stanford University, Meta-Research Innovation Center at Stanford (METRICS),
+    2023-
 - description: Senior Advisor, Swedish National Data Service, 2024-
 phd_supervision:
 - name: Michael Ingre
   institution: Stockholm University
   year: '2017'
-  date: 2017-05-22
+  date: '2017-05-22'
   role: co-supervisor
-  title: 'P-hacking in academic research: a critical review of the job strain model and of the association between night
-    work and breast cancer in women'
+  title: 'P-hacking in academic research: a critical review of the job strain model and of the association between night work
+    and breast cancer in women'
   thesis: http://urn.kb.se/resolve?urn=urn:nbn:se:su:diva-141136
 - name: Sandra Tamm
   institution: Karolinska Institutet
   year: '2019'
-  date: 2019-04-05
+  date: '2019-04-05'
   role: co-supervisor
   title: A neuroimaging perspective on the emotional sleepy brain
   thesis: https://hdl.handle.net/10616/46632
 - name: Eva Hesselmark
   institution: Karolinska Institutet
   year: '2019'
-  date: 2019-05-23
+  date: '2019-05-23'
   role: co-supervisor
   title: 'Pediatric acute neuropsychiatric syndrome: diagnosis, biomarkers and treatment'
   thesis: https://hdl.handle.net/10616/46741
@@ -124,89 +125,98 @@ teaching:
   subitems:
   - Introduction to brain imaging, PhD course, Karolinska Institutet 2014
   - Cognitive neuroscience, elective course for medical students, Karolinska Institutet 2014-2015
-  - 'Ethics, Open science, and Reproducible research, PhD course, Stockholm University 2016-2018'
-  - 'Open science and Reproducible research, PhD course, Karolinska Institutet 2017-'
+  - Ethics, Open science, and Reproducible research, PhD course, Stockholm University 2016-2018
+  - Open science and Reproducible research, PhD course, Karolinska Institutet 2017-
   - Scientific Illustration and Visualization, PhD course, Karolinska Institutet 2023-
 - description: Director of postgraduate studies (studierektor), Stress Research Institute, 2014-2019
 - description: 'Supervisor to student thesis work:'
   subitems:
-  - description: 'Semra Öz, Bachelor thesis in biomedical science, Karolinska Institutet, 2006'
-    title: 'Undersökningar av experimentella cytostatika mot malignt mesoteliom'
-    role: 'co-supervisor'
-  - description: 'Adam Szulkin, Summer research school in biomedical science, Karolinska Institutet, 2006'
-    title: 'Phenotypic differences of Malignant Mesothelioma cells in sensitivity to Gemcitabine and Alimta'
-  - description: 'Filip Mundt, Summer research school in biomedical science, Karolinska Institutet, 2006'
-    title: 'Investigations of the Cytotoxicity of Carboplatin against Malignant Mesothelioma Cells and the Effects in Combination with Selenite'
-  - description: 'Sandra Tamm, Degree project in medicine, Karolinska Institutet, 2010'
-    title: 'Farmakologisk modulering av empati, ett beteendeförsök om effekterna av oxazepam – ett anxiolytiskt bensodiazepinpreparat – på empatiska responser'
-  - description: 'Philip Little, Degree project in medicine, Karolinska Institutet, 2011'
-    title: 'Effects of Midazolam and Flumazenil on Empathic Response – an Exploratory Study'
-  - description: 'Madeleine Hedlund, Elective essay in psychology, 2015'
-    title: 'The relationship between IL-6 and sleep – a meta-analysis'
-  - description: 'Sahand Sharifzadeh, Degree project in medicine, Karolinska Institutet, 2016'
-    title: 'The influence of maternal depression during pregnancy on neonatal fiber tract integrity'
-  - description: 'Erika Unsbo, Degree project in medicine, Karolinska Institutet, 2017'
-    title: 'Motor abnormalities among children with PANS and/or PANDAS'
-    doi: '10.6084/m9.figshare.4584034.v2'
-  - description: 'Malin Blomberg, Degree project in medicine, Karolinska Institutet, 2017'
-    title: 'Visuospatial ability in children with PANDAS and PANS'
-    link: '10.6084/m9.figshare.4591657.v1'
-  - description: 'Arian Jafari and Bo Jenner, Degree project in psychology, Karolinska Institutet, 2017'
-    title: 'Ethical review board-approved protocols and intent to use open practices in research on human subjects in Sweden'
-    link: 'osf.io/vgbw2'
-  - description: 'Alia Lellouchi, Degree project in medicine, Karolinska Institutet, 2017'
-    title: 'Cognitive and motor function in children with suspected PANS/PANDAS'
-  - description: 'Daniel Samsami, Degree project in medicine, Karolinska Institutet, 2017'
-    title: 'Activation of ventral striatum during anticipation of reward – A pilot study using functional magnetic resonance imaging for a future experiment about psychopathy'
-    link: '10.6084/m9.figshare.5005238.v2'
-  - description: 'Jakob Berefelt, Degree project in medicine, Karolinska Institutet, 2017'
-    title: 'Activation of Anterior Insular Cortex and Anterior Medial Cingulate Cortex Associated with Direct Pain Perception and Empathy for Pain'
-    link: '10.6084/m9.figshare.5084557.v1'
-  - description: 'Fredrik Hannfors, Degree project in medicine, Karolinska Institutet, 2017'
-    title: 'Associations between Empathy for Pain, Emotional Mimicry and Emotional Contagion - Indicative Evidence from fMRI and EMG Paradigms'
-    link: '10.6084/m9.figshare.5307361.v1'
-  - description: 'Jolinn Duvinger, Degree project in medicine, Karolinska Institutet, 2017'
-    title: 'Effekter av COMT- polymorfism på empati för smärta - En studie med fMRI-data'
-  - description: 'Olea Schau Rybäck, Degree project in medicine, Karolinska Institutet, 2018'
-    title: 'Reward anticipation and psychopathic traits - Association between Triarchic Psychopathy Measure subscales and activity in ventral striatum during Monetary Incentive Delay Task'
-  - description: 'Rickard Steijer, Degree project in medicine, Karolinska Institutet, 2018'
-    title: 'Emotion regulation in self-reported disinhibition, boldness and meanness'
-    link: '10.17605/osf.io/8P9VG'
-  - description: 'Johnny Soares, Degree project in medicine, Karolinska Institutet, 2019'
-    title: 'The effects of sleep deprivation on vigilance and neural activation during the Sustained Attention to Response Task'
-    link: '10.31237/osf.io/e8bmt'
-  - description: 'Poyan Karimi, Degree project in medicine, Karolinska Institutet, 2019'
-    title: 'A functional magnetic resonance imaging study on sleep deprivation and its effect on empathy for pain and emotional regulation'
-    link: '10.31237/osf.io/r89q6'
-  - description: 'Vivianne Jakobsson, Degree project in medicine, Karolinska Institutet, 2019'
+  - description: Semra Öz, Bachelor thesis in biomedical science, Karolinska Institutet, 2006
+    title: Undersökningar av experimentella cytostatika mot malignt mesoteliom
+    role: co-supervisor
+  - description: Adam Szulkin, Summer research school in biomedical science, Karolinska Institutet, 2006
+    title: Phenotypic differences of Malignant Mesothelioma cells in sensitivity to Gemcitabine and Alimta
+  - description: Filip Mundt, Summer research school in biomedical science, Karolinska Institutet, 2006
+    title: Investigations of the Cytotoxicity of Carboplatin against Malignant Mesothelioma Cells and the Effects in Combination
+      with Selenite
+  - description: Sandra Tamm, Degree project in medicine, Karolinska Institutet, 2010
+    title: Farmakologisk modulering av empati, ett beteendeförsök om effekterna av oxazepam – ett anxiolytiskt bensodiazepinpreparat
+      – på empatiska responser
+  - description: Philip Little, Degree project in medicine, Karolinska Institutet, 2011
+    title: Effects of Midazolam and Flumazenil on Empathic Response – an Exploratory Study
+  - description: Madeleine Hedlund, Elective essay in psychology, 2015
+    title: The relationship between IL-6 and sleep – a meta-analysis
+  - description: Sahand Sharifzadeh, Degree project in medicine, Karolinska Institutet, 2016
+    title: The influence of maternal depression during pregnancy on neonatal fiber tract integrity
+  - description: Erika Unsbo, Degree project in medicine, Karolinska Institutet, 2017
+    title: Motor abnormalities among children with PANS and/or PANDAS
+    doi: 10.6084/m9.figshare.4584034.v2
+  - description: Malin Blomberg, Degree project in medicine, Karolinska Institutet, 2017
+    title: Visuospatial ability in children with PANDAS and PANS
+    link: 10.6084/m9.figshare.4591657.v1
+  - description: Arian Jafari and Bo Jenner, Degree project in psychology, Karolinska Institutet, 2017
+    title: Ethical review board-approved protocols and intent to use open practices in research on human subjects in Sweden
+    link: osf.io/vgbw2
+  - description: Alia Lellouchi, Degree project in medicine, Karolinska Institutet, 2017
+    title: Cognitive and motor function in children with suspected PANS/PANDAS
+  - description: Daniel Samsami, Degree project in medicine, Karolinska Institutet, 2017
+    title: Activation of ventral striatum during anticipation of reward – A pilot study using functional magnetic resonance
+      imaging for a future experiment about psychopathy
+    link: 10.6084/m9.figshare.5005238.v2
+  - description: Jakob Berefelt, Degree project in medicine, Karolinska Institutet, 2017
+    title: Activation of Anterior Insular Cortex and Anterior Medial Cingulate Cortex Associated with Direct Pain Perception
+      and Empathy for Pain
+    link: 10.6084/m9.figshare.5084557.v1
+  - description: Fredrik Hannfors, Degree project in medicine, Karolinska Institutet, 2017
+    title: Associations between Empathy for Pain, Emotional Mimicry and Emotional Contagion - Indicative Evidence from fMRI
+      and EMG Paradigms
+    link: 10.6084/m9.figshare.5307361.v1
+  - description: Jolinn Duvinger, Degree project in medicine, Karolinska Institutet, 2017
+    title: Effekter av COMT- polymorfism på empati för smärta - En studie med fMRI-data
+  - description: Olea Schau Rybäck, Degree project in medicine, Karolinska Institutet, 2018
+    title: Reward anticipation and psychopathic traits - Association between Triarchic Psychopathy Measure subscales and activity
+      in ventral striatum during Monetary Incentive Delay Task
+  - description: Rickard Steijer, Degree project in medicine, Karolinska Institutet, 2018
+    title: Emotion regulation in self-reported disinhibition, boldness and meanness
+    link: 10.17605/osf.io/8P9VG
+  - description: Johnny Soares, Degree project in medicine, Karolinska Institutet, 2019
+    title: The effects of sleep deprivation on vigilance and neural activation during the Sustained Attention to Response
+      Task
+    link: 10.31237/osf.io/e8bmt
+  - description: Poyan Karimi, Degree project in medicine, Karolinska Institutet, 2019
+    title: A functional magnetic resonance imaging study on sleep deprivation and its effect on empathy for pain and emotional
+      regulation
+    link: 10.31237/osf.io/r89q6
+  - description: Vivianne Jakobsson, Degree project in medicine, Karolinska Institutet, 2019
     title: 'Resting state connectivity during total sleep deprivation: A functional magnetic resonance study'
-    link: '10.31237/osf.io/3dtxz'
-  - description: 'Sanna Graniittiaho, Degree project in medicine, Karolinska Institutet, 2020'
+    link: 10.31237/osf.io/3dtxz
+  - description: Sanna Graniittiaho, Degree project in medicine, Karolinska Institutet, 2020
     title: 'Effects of sleep deprivation on empathy for pain and emotion regulation: A behavioral and neuroimaging study'
-    link: '10.31237/osf.io/z4gfy'
-  - description: 'Lasse Anttila, Degree project in medicine, Karolinska Institutet, 2020'
-    title: 'A Functional Magnetic Resonance Imaging Study on Global Signal Variability After One Night of Total sleep Deprivation'
-    link: '10.31237/osf.io/dhqj2'
-  - description: 'Anton Glasberg, Degree project in medicine, Karolinska Institutet, 2023'
-    title: 'The role of Interleukin-6 as a biomarker in ADHD'
-    link: '10.31237/osf.io/4gfmk'
-  - description: 'Dania Alkattan, Degree project in medicine, Karolinska Institutet, 2023'
-    title: 'The Role of Interleukin 6 (IL-6) as an Inflammatory Biomarker in Post-Traumatic Stress Disorder (PTSD) - A Meta-analysis'
-  - description: 'Niclas Dittasiri, Degree project in medicine, Karolinska Institutet, 2023'
-    title: 'The association between depression and interleukin-6 in cerebrospinal fluid - A replication and extension of a systematic review and meta-analysis'
-  - description: 'Sohaib Adem Osman, Degree project in medicine, Karolinska Institutet, 2023'
-    title: 'Transparency in registered clinical trials at Nordic medical universities and university hospitals'
-  - description: 'Iraida Suditu, Degree project in medicine, Karolinska Institutet, 2023'
-    title: 'The Inflammatory Biomarker Interleukin-6 (IL-6) and Bipolar Disorder - A replication and extension of a systematic review 
-and meta-analysis'
-  - description: 'Ash Mechlaoui, Degree project in medicine, Karolinska Institutet, 2024'
-    title: 'Interleukin-6 as a biomarker in Schizophrenia - Replication and extension of a systematic review and meta-analysis'
-  - description: 'Sofie Emilson, Degree project in medicine, Karolinska Institutet, 2024'
-    title: 'Transparency and reporting quality of registered clinical trials in the Nordic countries - A cross-sectional study'
-  - description: 'Ava Aspromonti, Degree project in medicine, Karolinska Institutet, 2025'
-    title: 'Prediction Models for Mortality and Functional Outcomes after Ischemic Stroke - An Umbrella Review'
-  - description: 'Love Ahnström, Degree project in medicine, Karolinska Institutet, 2025'
-    title: 'A novel method to link clinical trial registrations to published results using a large language model'
+    link: 10.31237/osf.io/z4gfy
+  - description: Lasse Anttila, Degree project in medicine, Karolinska Institutet, 2020
+    title: A Functional Magnetic Resonance Imaging Study on Global Signal Variability After One Night of Total sleep Deprivation
+    link: 10.31237/osf.io/dhqj2
+  - description: Anton Glasberg, Degree project in medicine, Karolinska Institutet, 2023
+    title: The role of Interleukin-6 as a biomarker in ADHD
+    link: 10.31237/osf.io/4gfmk
+  - description: Dania Alkattan, Degree project in medicine, Karolinska Institutet, 2023
+    title: The Role of Interleukin 6 (IL-6) as an Inflammatory Biomarker in Post-Traumatic Stress Disorder (PTSD) - A Meta-analysis
+  - description: Niclas Dittasiri, Degree project in medicine, Karolinska Institutet, 2023
+    title: The association between depression and interleukin-6 in cerebrospinal fluid - A replication and extension of a
+      systematic review and meta-analysis
+  - description: Sohaib Adem Osman, Degree project in medicine, Karolinska Institutet, 2023
+    title: Transparency in registered clinical trials at Nordic medical universities and university hospitals
+  - description: Iraida Suditu, Degree project in medicine, Karolinska Institutet, 2023
+    title: The Inflammatory Biomarker Interleukin-6 (IL-6) and Bipolar Disorder - A replication and extension of a systematic
+      review and meta-analysis
+  - description: Ash Mechlaoui, Degree project in medicine, Karolinska Institutet, 2024
+    title: Interleukin-6 as a biomarker in Schizophrenia - Replication and extension of a systematic review and meta-analysis
+  - description: Sofie Emilson, Degree project in medicine, Karolinska Institutet, 2024
+    title: Transparency and reporting quality of registered clinical trials in the Nordic countries - A cross-sectional study
+  - description: Ava Aspromonti, Degree project in medicine, Karolinska Institutet, 2025
+    title: Prediction Models for Mortality and Functional Outcomes after Ischemic Stroke - An Umbrella Review
+  - description: Love Ahnström, Degree project in medicine, Karolinska Institutet, 2025
+    title: A novel method to link clinical trial registrations to published results using a large language model
 awards:
 - description: Open Data Champion, SPARC Europe, 2017
   link: https://openscholarchampions.eu/opendata/champion/dataforevidence/
@@ -215,7 +225,8 @@ awards:
 - description: Excellence in Neuroscience Annual Reward (EINAR), awarded by the Department of Clinical Neuroscience at Karolinska
     Institutet, 2026
 phd_committee:
-- description: 'University of Copenhagen, Tarang Sharma: Effects of selective serotonin reuptake inhibitors (SSRIs) and serotonin-norepinephrine reuptake inhibitors (SNRIs) on suicidality, violence, and quality of life. 2018-04-23.'
+- description: 'University of Copenhagen, Tarang Sharma: Effects of selective serotonin reuptake inhibitors (SSRIs) and serotonin-norepinephrine
+    reuptake inhibitors (SNRIs) on suicidality, violence, and quality of life. 2018-04-23.'
 academic_commissions:
 - description: Member of committee for research and education (FoUU-kommittén), Karolinska University Hospital, 2005 (Student
     representative)
@@ -226,7 +237,7 @@ academic_commissions:
 - description: Organiser, IgNobel tour events in Stockholm, yearly 2012-2019
 - description: Co-founder of Nätverket för evidensbaserad policy (Swedish Network for Evidence-Based Policy) 2015, President
     2016-2017, 2019-2023
-- description: 'Organizer of Imaging the Sleepy Brain symposium, Karolinska Institutet 2014, with Torbjörn Åkerstedt'
+- description: Organizer of Imaging the Sleepy Brain symposium, Karolinska Institutet 2014, with Torbjörn Åkerstedt
 - description: Ambassador for the Center for Open Science
   subitems:
   - Participated in the Mozilla Festival 2014, London, UK
@@ -246,7 +257,7 @@ academic_commissions:
     ? Engaging Researchers in Good Data Management - A one-day conference sharing fresh ideas and good practices for creating
       and promoting effective research data practices
     : https://www.data.cam.ac.uk/datanews/engaging-researchers-good-data-management-2017-conference
-- description: 'Member of committee for evaluation of open access mandates, National Library of Sweden, 2017-2018'
+- description: Member of committee for evaluation of open access mandates, National Library of Sweden, 2017-2018
 - description: Member of committee for the Data Engagement Management Award, 2018.
   links:
     Data Engagement Management Award: http://www.rdmengagementaward.org/
@@ -305,7 +316,7 @@ academic_commissions:
   - Horizon 2020 Marie Skłodowska Curie 2017, 2018, 2019, 2020
   - SPOKES Wellcome Trust Funded Translational Partnership Fellowships 2020, Berlin Institute of Health
   - Horizon 2020 Future and Emerging Technologies (FET) Open 2020
-  - Horizon Europe Marie Skłodowska Curie 2021
+  - Horizon Europe Marie Skłodowska Curie 2021, 2024
   - Norrsken Mind Foundation 2022, 2023, 2024, 2025, 2026
   - ACX grants 2023
   - ALF Region Skåne 2024, 2026
@@ -320,8 +331,8 @@ academic_commissions:
   - Fri Tanke Förlag
   - Elsevier
   - SAGE Publications
-- description: 'Guest editor of special issue of the Swedish Medical Journal on metascience, "Medicinsk forskning i fågelperspektiv",
-    with Cathrine Axfors and Emmanuel Zavalis, 2023'
+- description: Guest editor of special issue of the Swedish Medical Journal on metascience, "Medicinsk forskning i fågelperspektiv",
+    with Cathrine Axfors and Emmanuel Zavalis, 2023
 other_commissions:
 - description: Association of Swedish School Student Unions (Elevorganisationen i Sverige, now Sveriges Elevkårer)
   subitems:
@@ -3259,12 +3270,57 @@ preprints:
   links: {}
   id: bruckner_2026_assessing
 - title: 'Many Pipelines, One Dataset: Analytic Flexibility and Its Impact in EEG Research'
-  authors: Cesnaite E, Algermissen J, Vinding MC, Vitale A, Pascarella A, Fischer NL, Yang Y-F, Trübutschek D, Gianelli C, Marshall CR, Abbasi O, Adamovich T, Adel L, Agarwal N, Aguado-López B, Ajmeria U, Al E, Aldeen H, Alejandro RJ, Alenina EA, Alex M, Ambrosini E, Angus DJ, Anzolin A, Appelhoff S, Arcara G, Arkhipova Y, Azanova M, Bagattini C, Baker DH, Bamberg C, Barbero FM, Battal C, Bauer A-KR, Bayram B, Bazán PR, Beale H, Belanova E, Bergström ZM, Bernardi G, Berto M, Betta M, Blanchette I, Bortoletto M, Bottari D, Braboszcz C, Bradford DE, Brooks JL, Brunskill CM, Bublatzky F, Büchel D, Calce RP, Capizzi M, Cassani R, Castellanos MC, Cattaneo L, Cerda-Company X, Chen L, Chen X, Chen Y, Choo Y, Chuan-Peng H, Chugani K, Cichy RM, Cimrová B, Ciranka S, Civier O, Cogoni C, Coll M-P, Coloigner J, Conejero A, Constant M, Corona-González CE, Criscuolo A, Cruse D, Cury C, Czeszumski A, Dahl MJ, Davidson M, de Vries IEJ, del Castillo MD, DeLuca V, Demarchi G, Desender K, Dias M, Waller D, Dietz M, Dimigen O, Ding H, Dong L, Drijvers L, Drisdelle BL, Duma GM, Dumas G, Ehinger B, Emmendorfer AK, Enge A, Evas S, Fedele T, Federici A, Feld GB, Fink LK, Fischer S, Fló E, Formica S, Forschack N, Forster B, Franz M, Franzen L, Fry CM, Galvez-Pol A, García-Lázaro HG, García Alanis JC, Garrido-Vásquez P, Gerdfeldter B, Gerike G, Gippert M, González-García C, Gordillo D, Grabowska A, Greenwood L-M, Griffiths BJ, Grollero D, Gross J, Gubler DA, Guilleminot P, Güler B, Gundlach C, Günseli E, Guo M, Güth MR, Haciahmet C, Hadas I, Hämäläinen J, Han S, Harris AM, Hassan M, Haufe S, Heinsfeld AS, Herholz P, Hervault M, Hill AT, Hodapp A, Hommelsen M, Honcamp H, Hosang TJ, Hsu C-H, Hsu T-Y, Huang C, Huber-Huber C, Hughes M, Ibanez A, Iravani B, Isenburg K, Jack BN, Jamshidi Idaji M, Jefsen OH, Jeong E, Jiang F, Joechner A-K, Johnson MR, Jung K-Y, Kaboodvand N, Kaiser D, Kałamała P, Kang T, Kapralov N, Karimi-Rouzbahani H, Kegler M, Kelley NJ, Kern S, Kerrén C, Kim S, Kiseleva A, Klatt L-I, Klotzsche F, Kluger DS, König P, Kopp B, Kosciessa JQ, Kosilo M, Kotchoubey B, Kouara L, Krewinkel S, Kroczek LOH, Kührt C, Lago S, Lamoš M, Langer N, Lazurenko D, Le Denmat P, Lees T, Lehmann T, Lenc T, Lenoir C, Li W, Li Z, Liesefeld AM, Liesefeld HR, Likhanov M, Lintz EN, Lioi G, Litvak V, Liu X, Liu Y, Lo Y-H, López-Caneda E, López-García D, Lorenz C, Löw A, Lu R, Lu Z, Luque A, Lydon-Staley D, MacGregor O, Maffei A, Maier ME, Makowski LM, Mantegna F, Marcantoni E, Martín-Buro MC, Martinovici A, Marzecova A, Masina F, Mattingley JB, Mazzini S, Medani T, Mei T, Melcher D, Meng Q, Menger NS, Mheich A, Mitka M, Monroy C, Montefinese M, Moreau D, Moreau Q, Mudrik L, Mushtaq F, Myers NE, Naal-Ruiz NE, Najafi F, Ngo H-VV, Nie L, Nilsson M, Niso G, Nyhus E, Oerlemans J, Olivetti E, Orpella J, Ort E, Palenciano AF, Park K, Pastötter B, Patai Z, Paul K, Paulo AJM, Pellegrino G, Pereira Soares SM, Pestilli F, Pezzetta R, Pfabigan DM, Plachti A, Pomper U, Popov T, Prado P, Protzner AB, Prystauka Y, Qian H, Rabovsky M, Ramos da Cruz J, Rausch M, Rawal A, Repplinger S, Rice DR, Riecansky I, Riha P, Rodrigues J, Roncaglia MP, Rose M, Rösner M, Rothman J, Ruch S, Ruhnau P, Sarig Golan A, Sarkar A, Satish A, Scarpazza C, Scheffel C, Schepers J, Schettino A, Schmidt B, Schmidt F, Schubert A-L, Schuler A-L, Scrivener CL, Senderecka M, Senftleben U, Serin F, Serrano JI, Shabanpour M, Shamova V, Shareef I, Sherbina D, Short CA, Signoret C, Sirius EVP, Skukies R, Soria-Frisch A, Soylu F, Speer S, Steinfath TP, Steinhauser R, Steinkamp SR, Stephani T, Strobel A, Strzelczyk D, Sun P, Sun Y, Surrey C, Syrov N, Tagliaferri M, Talwar S, Tarantino V, Tavano A, Taylor JR, Thiele C, Thirugnanasambandam N, Todorova L, Tomić A, Troche SJ, Tseng L-Y, Tune S, Turan G, Turella L, Ulloa JL, Valiadis M, Vallesi A, van der Wijk G, van Vliet M, van Wingerden M, Varano E, Varma MM, Vasconcelos M, Vergilova Y, Vilà-Balló A, Visalli A, Viviani G, Vloeberghs R, Wacker J, Wang Y-J, Wang M-Y, Wang T, Wei D, Werkle-Bergner M, White D, Whitton S, Wiebels K, Wiens S, Wittkamp CA, Wolf M-I, Wong-Kee-You A, Woods W, Wurm F, Wynn SC, Xie J, Xifra-Porxas A, Xu W, Yakovlev L, Yang J, Yavuz M, Youssofzadeh V, Yu R, Zafar T, Zago S, Zakharov I, Zakrzewska MZ, Zhang J, Zhang Z, Zhen S, Zhou X, Zhu JD, Zhu S, Zhuang Q, Zich C, Zomorrodi R, Zugarramurdi C, Navid MS, Puoliväli T, Senoussi M, Yeaton JD, Aczel B, Cohen MX, Delorme A, Dreber A, Hipp J, Holzmeister F, Johannesson M, Ković V, Oostenveld R, Pavlov YG, Pernet C, Poldrack RA, Puce A, Schonberg T, Schweinsberg M, Šoškić A, Szaszi B, Uhlmann EL, Nilsonne G, Busch NA
+  authors: Cesnaite E, Algermissen J, Vinding MC, Vitale A, Pascarella A, Fischer NL, Yang Y-F, Trübutschek D, Gianelli C,
+    Marshall CR, Abbasi O, Adamovich T, Adel L, Agarwal N, Aguado-López B, Ajmeria U, Al E, Aldeen H, Alejandro RJ, Alenina
+    EA, Alex M, Ambrosini E, Angus DJ, Anzolin A, Appelhoff S, Arcara G, Arkhipova Y, Azanova M, Bagattini C, Baker DH, Bamberg
+    C, Barbero FM, Battal C, Bauer A-KR, Bayram B, Bazán PR, Beale H, Belanova E, Bergström ZM, Bernardi G, Berto M, Betta
+    M, Blanchette I, Bortoletto M, Bottari D, Braboszcz C, Bradford DE, Brooks JL, Brunskill CM, Bublatzky F, Büchel D, Calce
+    RP, Capizzi M, Cassani R, Castellanos MC, Cattaneo L, Cerda-Company X, Chen L, Chen X, Chen Y, Choo Y, Chuan-Peng H, Chugani
+    K, Cichy RM, Cimrová B, Ciranka S, Civier O, Cogoni C, Coll M-P, Coloigner J, Conejero A, Constant M, Corona-González
+    CE, Criscuolo A, Cruse D, Cury C, Czeszumski A, Dahl MJ, Davidson M, de Vries IEJ, del Castillo MD, DeLuca V, Demarchi
+    G, Desender K, Dias M, Waller D, Dietz M, Dimigen O, Ding H, Dong L, Drijvers L, Drisdelle BL, Duma GM, Dumas G, Ehinger
+    B, Emmendorfer AK, Enge A, Evas S, Fedele T, Federici A, Feld GB, Fink LK, Fischer S, Fló E, Formica S, Forschack N, Forster
+    B, Franz M, Franzen L, Fry CM, Galvez-Pol A, García-Lázaro HG, García Alanis JC, Garrido-Vásquez P, Gerdfeldter B, Gerike
+    G, Gippert M, González-García C, Gordillo D, Grabowska A, Greenwood L-M, Griffiths BJ, Grollero D, Gross J, Gubler DA,
+    Guilleminot P, Güler B, Gundlach C, Günseli E, Guo M, Güth MR, Haciahmet C, Hadas I, Hämäläinen J, Han S, Harris AM, Hassan
+    M, Haufe S, Heinsfeld AS, Herholz P, Hervault M, Hill AT, Hodapp A, Hommelsen M, Honcamp H, Hosang TJ, Hsu C-H, Hsu T-Y,
+    Huang C, Huber-Huber C, Hughes M, Ibanez A, Iravani B, Isenburg K, Jack BN, Jamshidi Idaji M, Jefsen OH, Jeong E, Jiang
+    F, Joechner A-K, Johnson MR, Jung K-Y, Kaboodvand N, Kaiser D, Kałamała P, Kang T, Kapralov N, Karimi-Rouzbahani H, Kegler
+    M, Kelley NJ, Kern S, Kerrén C, Kim S, Kiseleva A, Klatt L-I, Klotzsche F, Kluger DS, König P, Kopp B, Kosciessa JQ, Kosilo
+    M, Kotchoubey B, Kouara L, Krewinkel S, Kroczek LOH, Kührt C, Lago S, Lamoš M, Langer N, Lazurenko D, Le Denmat P, Lees
+    T, Lehmann T, Lenc T, Lenoir C, Li W, Li Z, Liesefeld AM, Liesefeld HR, Likhanov M, Lintz EN, Lioi G, Litvak V, Liu X,
+    Liu Y, Lo Y-H, López-Caneda E, López-García D, Lorenz C, Löw A, Lu R, Lu Z, Luque A, Lydon-Staley D, MacGregor O, Maffei
+    A, Maier ME, Makowski LM, Mantegna F, Marcantoni E, Martín-Buro MC, Martinovici A, Marzecova A, Masina F, Mattingley JB,
+    Mazzini S, Medani T, Mei T, Melcher D, Meng Q, Menger NS, Mheich A, Mitka M, Monroy C, Montefinese M, Moreau D, Moreau
+    Q, Mudrik L, Mushtaq F, Myers NE, Naal-Ruiz NE, Najafi F, Ngo H-VV, Nie L, Nilsson M, Niso G, Nyhus E, Oerlemans J, Olivetti
+    E, Orpella J, Ort E, Palenciano AF, Park K, Pastötter B, Patai Z, Paul K, Paulo AJM, Pellegrino G, Pereira Soares SM,
+    Pestilli F, Pezzetta R, Pfabigan DM, Plachti A, Pomper U, Popov T, Prado P, Protzner AB, Prystauka Y, Qian H, Rabovsky
+    M, Ramos da Cruz J, Rausch M, Rawal A, Repplinger S, Rice DR, Riecansky I, Riha P, Rodrigues J, Roncaglia MP, Rose M,
+    Rösner M, Rothman J, Ruch S, Ruhnau P, Sarig Golan A, Sarkar A, Satish A, Scarpazza C, Scheffel C, Schepers J, Schettino
+    A, Schmidt B, Schmidt F, Schubert A-L, Schuler A-L, Scrivener CL, Senderecka M, Senftleben U, Serin F, Serrano JI, Shabanpour
+    M, Shamova V, Shareef I, Sherbina D, Short CA, Signoret C, Sirius EVP, Skukies R, Soria-Frisch A, Soylu F, Speer S, Steinfath
+    TP, Steinhauser R, Steinkamp SR, Stephani T, Strobel A, Strzelczyk D, Sun P, Sun Y, Surrey C, Syrov N, Tagliaferri M,
+    Talwar S, Tarantino V, Tavano A, Taylor JR, Thiele C, Thirugnanasambandam N, Todorova L, Tomić A, Troche SJ, Tseng L-Y,
+    Tune S, Turan G, Turella L, Ulloa JL, Valiadis M, Vallesi A, van der Wijk G, van Vliet M, van Wingerden M, Varano E, Varma
+    MM, Vasconcelos M, Vergilova Y, Vilà-Balló A, Visalli A, Viviani G, Vloeberghs R, Wacker J, Wang Y-J, Wang M-Y, Wang T,
+    Wei D, Werkle-Bergner M, White D, Whitton S, Wiebels K, Wiens S, Wittkamp CA, Wolf M-I, Wong-Kee-You A, Woods W, Wurm
+    F, Wynn SC, Xie J, Xifra-Porxas A, Xu W, Yakovlev L, Yang J, Yavuz M, Youssofzadeh V, Yu R, Zafar T, Zago S, Zakharov
+    I, Zakrzewska MZ, Zhang J, Zhang Z, Zhen S, Zhou X, Zhu JD, Zhu S, Zhuang Q, Zich C, Zomorrodi R, Zugarramurdi C, Navid
+    MS, Puoliväli T, Senoussi M, Yeaton JD, Aczel B, Cohen MX, Delorme A, Dreber A, Hipp J, Holzmeister F, Johannesson M,
+    Ković V, Oostenveld R, Pavlov YG, Pernet C, Poldrack RA, Puce A, Schonberg T, Schweinsberg M, Šoškić A, Szaszi B, Uhlmann
+    EL, Nilsonne G, Busch NA
   year: 2026
   date: '2026-05-07'
   doi: 10.31222/osf.io/wvx48_v2
   links: {}
   id: cesnaite_2026_many
+- title: 'Prospective effects of academic self-concepts on skills may be spurious: A comment on Núñez-Regueiro et al. (2026)'
+  authors: Sorjonen K, Melin B, Nilsonne G
+  year: 2026
+  date: '2026-05-17'
+  doi: 10.31234/osf.io/a9q4w_v1
+  links: {}
+  id: sorjonen_2026_prospective
 - title: A multimodal brain imaging dataset on sleep deprivation in young and old humans
   journal: Karolinska Open Archive
   authors: Nilsonne G, Tamm S, d’Onofrio P, Thuné HÅ, Schwarz J, Lavebratt C, Liu, JJ, Månsson KNT, Sundelin T, Axelsson J,
@@ -4017,8 +4073,8 @@ invited_talks:
   year: 2023
   links:
     slides: https://osf.io/e6vrj
-  venue: 'German Reproducibility Networks and Berlin Institutes of Health, Reproducible research: Education and Teaching
-    formats reports from the reproducibility networks, Berlin, 2023-05-11'
+  venue: 'German Reproducibility Networks and Berlin Institutes of Health, Reproducible research: Education and Teaching formats
+    reports from the reproducibility networks, Berlin, 2023-05-11'
 - title: Sekundäranvändning av forskningsdata – forskarens perspektiv
   year: 2023
   links:
@@ -4048,8 +4104,8 @@ invited_talks:
 - title: Ett forskarperspektiv
   year: 2023
   links: {}
-  venue: Nationellt strategiskt event om öppen vetenskap och det europeiska öppna forskningsmolnet (EOSC), VR och SUHF,
-    Stockholm, 2023-10-12
+  venue: Nationellt strategiskt event om öppen vetenskap och det europeiska öppna forskningsmolnet (EOSC), VR och SUHF, Stockholm,
+    2023-10-12
 - title: Clinical trials reporting at Nordic medical universities and university hospitals
   year: 2023
   links:
@@ -4061,7 +4117,6 @@ invited_talks:
   links:
     slides: https://osf.io/jvw5g
   venue: Institute for Futures Studies, Stockholm, 2023-10-18
-
 - title: Clinical trials reporting at Nordic medical universities and university hospitals
   year: 2023
   links:
@@ -4072,7 +4127,8 @@ invited_talks:
   year: 2023
   links:
     slides: https://osf.io/cdqm6
-  venue: Evidence-Based Medicine (EBM) Network Seminar, hosted by the Centre for Evidence-Based Medicine (CEBMO) at the University of Southern Denmark and the Center for Evidence-Based Psychiatry in Region Sjælland, Denmark, 2023-12-07
+  venue: Evidence-Based Medicine (EBM) Network Seminar, hosted by the Centre for Evidence-Based Medicine (CEBMO) at the University
+    of Southern Denmark and the Center for Evidence-Based Psychiatry in Region Sjælland, Denmark, 2023-12-07
 - title: ReproducibiliTea Journal Club
   year: 2024
   links: {}
@@ -4240,7 +4296,7 @@ conference_presentations:
   authors: 'Nilsonne G, commentator on presentation by Gravert C:'
   year: 2016
   links: {}
-- title: 'Nilsonne G. Panelsamtal. Öppen Vetenskap – Möjligheter och utmaningar, Stockholm 2017.'
+- title: Nilsonne G. Panelsamtal. Öppen Vetenskap – Möjligheter och utmaningar, Stockholm 2017.
   year: 2017
   links:
     program: http://www.suhf.se/storage/ma/d3809593a7aa480e974101d18a93cbe9/15fb3e16f507402f9e4bd8b6858176be/pdf/C6D15F65C14989E82DAF8F21D9310860735D7050/Program%20%c3%96ppen%20vetenskap%20170228.pdf
