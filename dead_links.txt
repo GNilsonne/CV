@@ -1,188 +1,170 @@
 DEAD AND UNREACHABLE LINKS IN THE CV
 ====================================
 
-Checked 2026-08-02 against output/cv.pdf, rebuilt on commit 615d61c.
+Original check 2026-08-02 against output/cv.pdf built on commit 615d61c.
 431 unique http(s) URLs extracted from output/cv.tex via \href targets.
 Method: curl, follow redirects, 25 s timeout, desktop browser user agent.
 DOIs returning 403/406/429 were re-verified against the Crossref API.
-Line numbers refer to cv_data.yaml as of commit 615d61c.
 
-Summary of HTTP status codes
----------------------------
+REMEDIATED 2026-08-02. Every dead link has now been either repointed at a
+Wayback Machine snapshot or removed from cv_data.yaml. Line numbers below
+refer to cv_data.yaml after the remediation.
+
+Original status code distribution
+---------------------------------
   200  340   OK
   403   39   publisher bot-block, all verified live via Crossref (not dead)
-  404   19   NOT FOUND, of which 18 remain -- see section A
+  404   19   NOT FOUND
   202   14   accepted (fine)
-  000   11   no response -- see sections B, C, D
+  000   11   no response
   302    5   redirect (fine)
   406    2   not acceptable -- 1 DOI verified live via Crossref, 1 SlideShare
   429    1   rate limited -- DOI verified live via Crossref
 
-Needs action: 17 hard 404s (section A, one of the original 18 is now fixed)
-and 3 dead domains (section B).
-Probably fine: 6 DiVA URLs (section C) and 2 Consilium URLs (section D) are
-blocked from the checking host, not dead.
+Outcome
+-------
+   1   DOI corrected (wrong year)
+   8   links repointed at Wayback snapshots -- section A
+  12   links removed, no archive copy existed -- section B
+   8   left untouched, not actually dead -- section C
+  42   blocked/throttled but verified live, no action -- section D
+
+No open dead links remain.
 
 
-A. HARD 404 -- NOT FOUND (18, of which 1 is now fixed)
-=====================================================
+A. REPOINTED AT WAYBACK SNAPSHOTS (8)
+=====================================
 
-A1. Wrong or unregistered DOIs (1 remaining, 1 fixed)
------------------------------------------------------
+All eight archive URLs were re-verified after editing and return HTTP 200.
 
-1) https://doi.org/10.1016/j.paid.2021.111520  -- FIXED 2026-08-02
-   cv_data.yaml:1775
-   Wrong year in the DOI. Corrected to 10.1016/j.paid.2022.111520, which
-   Crossref confirms matches this entry exactly (title, journal, year 2022,
-   authors Sorjonen/Melin/Nilsonne) and which resolves 200 at doi.org.
-   No longer an open issue.
+1) cv_data.yaml:259  Engaging Researchers in Good Data Management conference
+   was: https://www.data.cam.ac.uk/datanews/engaging-researchers-good-data-management-2017-conference
+   now: http://web.archive.org/web/20190903091856/https://www.data.cam.ac.uk/datanews/engaging-researchers-good-data-management-2017-conference
 
-2) https://doi.org/10.31234/osf.io/tbhx6
-   cv_data.yaml:2830
-   Still open. Do NOT repoint this at https://osf.io/tbhx6.
-   An earlier draft of this report suggested that, because the page returns
-   HTTP 200. That was wrong: the OSF API reports the preprint as "pending
-   moderation and not yet publicly available", so the 200 is a placeholder
-   shell rather than the preprint itself. The DOI is absent from Crossref
-   because it was never registered.
-   The published version of this work is live and already recorded on the same
-   entry as doi: 10.1371/journal.pone.0326486 (PLOS One, 200 at doi.org,
-   present in Crossref). So the simplest fix is to drop the dead preprint link
-   entirely -- the citation loses nothing, since the article DOI is there.
-   Left in place pending a decision, since that removes content rather than
-   correcting it.
+2) cv_data.yaml:3467  "Fusk bekampas bast med oppna forskningsdata", Curie 2015
+   was: http://www.tidningencurie.se/22/kronikor/kronikor/2015-06-30-gustav-nilsonne-fusk-bekampas-bast-med-oppna-forskningsdata.html
+   now: http://web.archive.org/web/20160121134554/http://www.tidningencurie.se/22/kronikor/kronikor/2015-06-30-gustav-nilsonne-fusk-bekampas-bast-med-oppna-forskningsdata.html
 
-A2. Dead web pages, Wayback copy available (7)
----------------------------------------------
+3) cv_data.yaml:4622  "Stora steg mot okat medlemsinflytande...", RFSU 2011
+   was: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nummer-4-2011/Stora-steg-mot-okat-medlemsinflytande-pa-arets-RFSU-kongress/
+   now: http://web.archive.org/web/20180311145543/http://www.rfsu.se:80/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nummer-4-2011/Stora-steg-mot-okat-medlemsinflytande-pa-arets-RFSU-kongress/
+   The only one of the seven RFSU newsletter columns with an archive copy.
 
-3) https://www.data.cam.ac.uk/datanews/engaging-researchers-good-data-management-2017-conference
-   cv_data.yaml:259
-   Archived: http://web.archive.org/web/20190903091856/https://www.data.cam.ac.uk/datanews/engaging-researchers-good-data-management-2017-conference
+4) cv_data.yaml:4658  "Biologiska grunder for sexuell laggning", 2013
+   was: http://www.rfsu.se/Bildbank/Dokument/Metod-Handledning/Den%20onaturliga%20naturen_MQ2.pdf?epslanguage=sv
+   now: http://web.archive.org/web/20160912150318/http://www.rfsu.se/Bildbank/Dokument/Metod-Handledning/Den%20onaturliga%20naturen_MQ2.pdf?epslanguage=sv
+   Verified to return the actual PDF (174 pages, 6.0 MB), not a soft 404.
 
-4) http://www.tidningencurie.se/22/kronikor/kronikor/2015-06-30-gustav-nilsonne-fusk-bekampas-bast-med-oppna-forskningsdata.html
-   cv_data.yaml:3471
-   Archived: http://web.archive.org/web/20160121134554/http://www.tidningencurie.se/22/kronikor/kronikor/2015-06-30-gustav-nilsonne-fusk-bekampas-bast-med-oppna-forskningsdata.html
+5) cv_data.yaml:4695  "Evidensbaserad policy", 2015
+   was: https://drive.google.com/file/d/0B6Ii-rt5VieWajZRQjVEdDVHWnM/edit
+   now: http://web.archive.org/web/20210909011318/https://drive.google.com/file/d/0B6Ii-rt5VieWajZRQjVEdDVHWnM/edit
 
-5) http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nummer-4-2011/Stora-steg-mot-okat-medlemsinflytande-pa-arets-RFSU-kongress/
-   cv_data.yaml:4630
-   Archived: http://web.archive.org/web/20180311145543/http://www.rfsu.se:80/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nummer-4-2011/Stora-steg-mot-okat-medlemsinflytande-pa-arets-RFSU-kongress/
+6) cv_data.yaml:4703  "Evidensbaserad policy ger ideologin tydligare roll", 2016
+   was: http://www.frihetssmedjan.se/2016/04/gustav-nilsonne-med-dr-evidensbaserad-policy-ger-ideologin-tydligare-roll/
+   now: http://web.archive.org/web/20191228202112/http://www.frihetssmedjan.se:80/2016/04/gustav-nilsonne-med-dr-evidensbaserad-policy-ger-ideologin-tydligare-roll/
 
-6) http://www.rfsu.se/Bildbank/Dokument/Metod-Handledning/Den%20onaturliga%20naturen_MQ2.pdf?epslanguage=sv
-   cv_data.yaml:4671
-   Archived: http://web.archive.org/web/20160912150318/http://www.rfsu.se/Bildbank/Dokument/Metod-Handledning/Den%20onaturliga%20naturen_MQ2.pdf?epslanguage=sv
+7) cv_data.yaml:4707  "Evidensbasering ar ett ungt och innehallsrikt begrepp", 2016
+   was: http://www.frihetssmedjan.se/2016/05/replik-evidensbasering-ar-ett-ungt-och-innehallsrikt-begrepp/
+   now: http://web.archive.org/web/20191228072138/http://www.frihetssmedjan.se:80/2016/05/replik-evidensbasering-ar-ett-ungt-och-innehallsrikt-begrepp/
 
-7) https://drive.google.com/file/d/0B6Ii-rt5VieWajZRQjVEdDVHWnM/edit
-   cv_data.yaml:4708
-   Archived: http://web.archive.org/web/20210909011318/https://drive.google.com/file/d/0B6Ii-rt5VieWajZRQjVEdDVHWnM/edit
-
-8) http://www.frihetssmedjan.se/2016/04/gustav-nilsonne-med-dr-evidensbaserad-policy-ger-ideologin-tydligare-roll/
-   cv_data.yaml:4716
-   Archived: http://web.archive.org/web/20191228202112/http://www.frihetssmedjan.se:80/2016/04/gustav-nilsonne-med-dr-evidensbaserad-policy-ger-ideologin-tydligare-roll/
-
-9) http://www.frihetssmedjan.se/2016/05/replik-evidensbasering-ar-ett-ungt-och-innehallsrikt-begrepp/
-   cv_data.yaml:4720
-   Archived: http://web.archive.org/web/20191228072138/http://www.frihetssmedjan.se:80/2016/05/replik-evidensbasering-ar-ett-ungt-och-innehallsrikt-begrepp/
-
-A3. Dead web pages, no Wayback copy found (9)
----------------------------------------------
-
-10) http://www.lakartidningen.se/OldWebArticlePdf/1/15188/2491.pdf
-    cv_data.yaml:3413
-
-11) http://ki.se/en/cns/calendar/imaging-the-sleepy-brain
-    cv_data.yaml:3734
-
-12) http://www.suhf.se/storage/ma/d3809593a7aa480e974101d18a93cbe9/15fb3e16f507402f9e4bd8b6858176be/pdf/C6D15F65C14989E82DAF8F21D9310860735D7050/Program%20%c3%96ppen%20vetenskap%20170228.pdf
-    cv_data.yaml:4302
-
-13) http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nummer-3/Var-ar-alla-flickorna/
-    cv_data.yaml:4627
-
-14) http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Mars-2011/Ordforandens-rader/
-    cv_data.yaml:4624
-
-15) http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-12012/Dags-for-regeringen-att-satta-ned-foten-om-tvangssteriliseringarna/
-    cv_data.yaml:4645
-
-16) http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nummer-5-2011/Pridefestivalen-en-hojdpunkt-pa-aret/
-    cv_data.yaml:4633
-
-17) http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-72011/Battre-kunskaper-kravs-om-ungdomars-sexuella-halsa/
-    cv_data.yaml:4639, 4642  (same URL used twice)
-
-18) http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-52011/Dags-for-handling-i-tvangssteriliseringsfragan/
-    cv_data.yaml:4636
-
-Note: the whole RFSU newsletter tree (items 5, 13-18) was reorganised when
-rfsu.se was rebuilt. Only one of the seven has a Wayback copy.
+8) cv_data.yaml:4715  "Rothstein overdriver problem med evidensbaserad policy", 2019
+   was: http://evidensbaseradpolicy.se/2019/11/12/rothstein-overdriver-problem-med-randomiserade-provningar-av-policy/
+   now: http://web.archive.org/web/20240808041257/http://evidensbaseradpolicy.se/2019/11/12/rothstein-overdriver-problem-med-randomiserade-provningar-av-policy/
+   The domain evidensbaseradpolicy.se no longer has a DNS record at all.
 
 
-B. DEAD DOMAINS -- NO DNS RECORD (3)
-====================================
+B. REMOVED, NO ARCHIVE COPY EXISTED (12)
+========================================
 
-These domains no longer resolve at all, so the pages are gone for good.
+The Wayback Machine had no snapshot of any of these, so the link was deleted
+and the surrounding entry left in place with an empty links map. Every one of
+these entries still appears in the CV, just without a hyperlink. Titles,
+years, journals and venues were not touched.
 
-19) http://www.rdmengagementaward.org/
-    cv_data.yaml:263
-    No DNS for www.rdmengagementaward.org. No Wayback copy found.
+Dead domains, no DNS record:
+ 1) http://www.rdmengagementaward.org/
+    Data Engagement Management Award committee, 2018
+ 2) http://ww2.lakartidningen.se/07engine.php?articleId=14714
+    "Lakarstudenters minskande empati under utbildningen ifragasatts", 2010
+    Retired Lakartidningen subdomain.
 
-20) http://ww2.lakartidningen.se/07engine.php?articleId=14714
-    cv_data.yaml:3420
-    No DNS for ww2.lakartidningen.se (retired subdomain). No Wayback copy found.
+Dead pages:
+ 3) http://www.lakartidningen.se/OldWebArticlePdf/1/15188/2491.pdf
+    "Open access okar forskningens tillganglighet", Lakartidningen 2010
+ 4) http://ki.se/en/cns/calendar/imaging-the-sleepy-brain
+    "Sleep deprivation and the brain: focus on emotion", 2014
+    The entry keeps its DiVA link, so the record is still reachable.
+ 5) http://www.suhf.se/storage/ma/.../Program%20Oppen%20vetenskap%20170228.pdf
+    Panelsamtal, Oppen Vetenskap, Stockholm 2017
 
-21) http://evidensbaseradpolicy.se/2019/11/12/rothstein-overdriver-problem-med-randomiserade-provningar-av-policy/
-    cv_data.yaml:4728
-    No DNS for evidensbaseradpolicy.se.
-    Archived: http://web.archive.org/web/20240808041257/http://evidensbaseradpolicy.se/2019/11/12/rothstein-overdriver-problem-med-randomiserade-provningar-av-policy/
+RFSU Stockholm newsletter columns, 2011-2012. The whole newsletter tree died
+when rfsu.se was rebuilt; only item A3 above survives in the archive:
+ 6) .../Nyhetsbrev/Mars-2011/Ordforandens-rader/
+    "Tankar kring det nya verksamhetsaret."
+ 7) .../Nyhetsbrev/Nummer-3/Var-ar-alla-flickorna/
+    "Var ar alla flickorna?"
+ 8) .../Nyhetsbrev/Nummer-5-2011/Pridefestivalen-en-hojdpunkt-pa-aret/
+    "Pridefestivalen en hojdpunkt pa aret."
+ 9) .../Nyhetsbrev/Nyhetsbrev-52011/Dags-for-handling-i-tvangssteriliseringsfragan/
+    "Dags for handling i tvangssteriliseringsfragan."
+10) .../Nyhetsbrev/Nyhetsbrev-72011/Battre-kunskaper-kravs-om-ungdomars-sexuella-halsa/
+    "Battre kunskaper kravs om ungas sexuella halsa." AND
+    "Kunskap - en kungsvag till forandring."
+    The same URL was used on two different entries; both links were removed.
+11) .../Nyhetsbrev/Nyhetsbrev-12012/Dags-for-regeringen-att-satta-ned-foten-om-tvangssteriliseringarna/
+    "Dags for regeringen att satta ned foten om tvangssteriliseringarna."
 
-
-C. DiVA -- UNREACHABLE FROM THIS HOST, PROBABLY LIVE (6)
-========================================================
-
-www.diva-portal.org resolves (130.238.7.110) but every connection from the
-checking host times out, including the site root. DiVA is a national service
-and these are almost certainly fine in a browser. Listed for completeness --
-please spot-check one by hand before changing anything.
-
-22) http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1055191&dswid=-9257
-    cv_data.yaml:3435
-23) http://www.diva-portal.org/smash/get/diva2:1055191/FULLTEXT01.pdf
-    cv_data.yaml:3436
-24) http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1172689
-    cv_data.yaml:3512
-25) http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1673731
-    cv_data.yaml:3622
-26) https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1746618
-    cv_data.yaml:3642
-27) http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A775077&dswid=-7532
-    cv_data.yaml:3735
-
-
-D. CONSILIUM SCIENTIFIC -- TLS CHAIN PROBLEM, SITE IS LIVE (2)
-==============================================================
-
-Both URLs fail strict certificate validation from this host ("unable to get
-local issuer certificate") but return HTTP 200 when validation is relaxed, so
-the pages exist. The server is probably serving an incomplete certificate
-chain, which some browsers tolerate and others warn about. No CV change needed;
-worth telling the site owner.
-
-28) https://consilium-scientific.org/2022-02-17-09-37-19/108-transcript-23/401-brainstorming-new-ways-to-drive-clinical-trial-reporting
-    cv_data.yaml:4064
-    Archived: http://web.archive.org/web/20250109115439/https://www.consilium-scientific.org/2022-02-17-09-37-19/108-transcript-23/401-brainstorming-new-ways-to-drive-clinical-trial-reporting
-
-29) https://consilium-scientific.org/2022-02-17-09-37-19/409-debate-should-sponsors-be-sanctioned-for-failing-to-report-clinical-results
-    cv_data.yaml:4070
-    Archived: http://web.archive.org/web/20260313041845/https://consilium-scientific.org/2022-02-17-09-37-19/409-debate-should-sponsors-be-sanctioned-for-failing-to-report-clinical-results
+Unregistered DOI:
+12) https://doi.org/10.31234/osf.io/tbhx6
+    Preprint link on "Still spurious: A comment on attempts to revive
+    cognitive ability tilts", PLOS One 2025.
+    Absent from Crossref because the DOI was never registered. Note that
+    https://osf.io/tbhx6 returns HTTP 200 but is NOT a valid substitute: the
+    OSF API reports the preprint as "pending moderation and not yet publicly
+    available", so the 200 is a placeholder shell. The entry keeps its
+    published article DOI 10.1371/journal.pone.0326486, which is live and in
+    Crossref, so nothing was lost by removing the preprint link.
 
 
-E. NOT DEAD -- BLOCKED OR THROTTLED, VERIFIED LIVE (42)
-=======================================================
+C. LEFT UNTOUCHED -- NOT ACTUALLY DEAD (8)
+==========================================
+
+C1. DiVA (6) -- unreachable from the checking host, live in a browser
+
+www.diva-portal.org resolves (130.238.7.110) but every connection from this
+host times out, including the site root, which is a network restriction here
+rather than a broken link. DiVA is a Swedish national service. All six links
+were deliberately kept.
+
+  cv_data.yaml:3432  diva2:1055191 record
+  cv_data.yaml:3433  diva2:1055191 FULLTEXT01.pdf
+  cv_data.yaml:3509  diva2:1172689
+  cv_data.yaml:3619  diva2:1673731
+  cv_data.yaml:3639  diva2:1746618
+  cv_data.yaml:3731  diva2:775077
+
+C2. Consilium Scientific (2) -- incomplete TLS chain, pages exist
+
+Both fail strict certificate validation from this host ("unable to get local
+issuer certificate") but return HTTP 200 when validation is relaxed. The
+server is serving an incomplete certificate chain, which some browsers
+tolerate. Left as-is; worth telling the site owner rather than editing the CV.
+
+  cv_data.yaml:4059  401-brainstorming-new-ways-to-drive-clinical-trial-reporting
+  cv_data.yaml:4065  409-debate-should-sponsors-be-sanctioned-for-failing-to-report-clinical-results
+
+Archived copies exist if these ever do go down:
+  http://web.archive.org/web/20250109115439/https://www.consilium-scientific.org/2022-02-17-09-37-19/108-transcript-23/401-brainstorming-new-ways-to-drive-clinical-trial-reporting
+  http://web.archive.org/web/20260313041845/https://consilium-scientific.org/2022-02-17-09-37-19/409-debate-should-sponsors-be-sanctioned-for-failing-to-report-clinical-results
+
+
+D. BLOCKED OR THROTTLED BUT VERIFIED LIVE (42) -- NO ACTION
+===========================================================
 
 Recorded so these are not re-investigated on the next pass.
 
-41 DOIs returned 403, 406 or 429 from doi.org. Every one of them resolves in
-the Crossref API (HTTP 200), so the codes are publisher bot-blocking and rate
+41 DOIs returned 403, 406 or 429 from doi.org. Every one resolves in the
+Crossref API (HTTP 200), so the codes are publisher bot-blocking and rate
 limiting rather than broken links. Includes 10.7554/eLife.72185 (406) and
 10.1101/2024.10.26.620382 (429).
 
@@ -190,28 +172,37 @@ limiting rather than broken links. Includes 10.7554/eLife.72185 (406) and
     http://www.slideshare.net/kbredaktion/ppna-slutna-och-dolda-data-erfarenheter-av-en-metaanalys-och-synpunkter-frn-en-forskares-horisont-gustav-nilsonne
 
 
-F. CHANGES SINCE THE FIRST PASS
-===============================
+E. SEPARATELY FIXED
+===================
 
-The first pass ran against commit 84bc618. Commits 58d832a and 615d61c then
-edited cv_data.yaml (163 insertions, 104 deletions), so the CV was rebuilt and
-the URL set re-diffed. Exactly two URLs changed:
+https://doi.org/10.1016/j.paid.2021.111520 -> 10.1016/j.paid.2022.111520
+  cv_data.yaml:1774, Lord's paradox entry. The year segment was wrong.
+  Crossref confirms the corrected DOI matches this entry exactly (same title,
+  journal, year 2022, authors Sorjonen/Melin/Nilsonne) and it resolves 200.
 
-Removed, so no longer a problem:
-    https://lakartidningen.se/tag/tema-medicinsk-forskning-i-fagelperspektiv/
-    Was a 404. Gone from cv_data.yaml entirely. This is why section A lists 18
-    items while the status table above records 19 raw 404 responses.
+https://lakartidningen.se/tag/tema-medicinsk-forskning-i-fagelperspektiv/
+  Was a 404 in the first pass. Removed from cv_data.yaml by upstream commits
+  58d832a/615d61c before remediation, so no action was needed.
 
-Added, and healthy:
-    https://doi.org/10.31234/osf.io/a9q4w_v1
-    HTTP 200 at doi.org, present in Crossref, and https://osf.io/a9q4w
-    resolves. No action needed.
-
-All line numbers in this file were regenerated after those commits.
+https://doi.org/10.31234/osf.io/a9q4w_v1
+  Added by those same upstream commits. Healthy: 200 at doi.org, present in
+  Crossref, and osf.io/a9q4w resolves.
 
 
-HOW TO REPRODUCE
-================
+VERIFICATION AFTER REMEDIATION
+==============================
+
+  - cv_data.yaml parses as valid YAML.
+  - All nine render scripts exit 0.
+  - Every generated LaTeX log has zero errors; cv.pdf is 18 pages.
+  - No removed URL appears anywhere under output/.
+  - All 8 Wayback URLs return HTTP 200, re-checked after editing.
+  - All 6 DiVA links still present.
+  - Entries whose links were removed still render, with no empty brackets.
+
+
+HOW TO REPRODUCE THE CHECK
+==========================
 
     cd CV
     python3 scripts/render_cv.py
@@ -229,8 +220,13 @@ HOW TO REPRODUCE
     open('/tmp/allurls.txt', 'w').write('\n'.join(seen) + '\n')
     PY
 
-Then check each URL with curl -L -m 25 and a desktop user agent, and re-verify
-any DOI that returns 403, 406 or 429 against https://api.crossref.org/works/<doi>
-before calling it dead. Regenerate line numbers with grep -nF against
-cv_data.yaml, since several URLs are stored LaTeX-escaped (\& and \%) and will
-not match the rendered form.
+Then check each URL with curl -L -m 25 and a desktop user agent. Before
+calling anything dead:
+  - re-verify DOIs returning 403/406/429 at https://api.crossref.org/works/<doi>
+  - treat HTTP 200 with suspicion for repository links; check the provider API
+    (for example https://api.osf.io/v2/preprints/<id>/), since moderation
+    placeholders and SPA shells also return 200
+  - retry 000 with -k to distinguish a TLS chain problem from a dead host, and
+    check DNS with getent hosts to distinguish a dead domain from a firewall
+Regenerate line numbers with grep -nF against cv_data.yaml, since several URLs
+are stored LaTeX-escaped (\& and \%) and will not match the rendered form.

@@ -256,11 +256,10 @@ academic_commissions:
   links:
     ? Engaging Researchers in Good Data Management - A one-day conference sharing fresh ideas and good practices for creating
       and promoting effective research data practices
-    : https://www.data.cam.ac.uk/datanews/engaging-researchers-good-data-management-2017-conference
+    : http://web.archive.org/web/20190903091856/https://www.data.cam.ac.uk/datanews/engaging-researchers-good-data-management-2017-conference
 - description: Member of committee for evaluation of open access mandates, National Library of Sweden, 2017-2018
 - description: Member of committee for the Data Engagement Management Award, 2018.
-  links:
-    Data Engagement Management Award: http://www.rdmengagementaward.org/
+  links: {}
 - description: Member of Research Data Office project team, Karolinska Institutet, 2018-2023
 - description: Member of steering group for International Neuroinformatics Coordinating Facility Swedish Node, 2018
 - description: Member of editorial advisory board, Curie (Journal of the Swedish Research Council), 2018-2019
@@ -2826,8 +2825,7 @@ publications:
   year: 2025
   doi: 10.1371/journal.pone.0326486
   journal: PLOS One
-  links:
-    preprint: https://doi.org/10.31234/osf.io/tbhx6
+  links: {}
   date: '2025-10-24'
   volume: '20'
   issue: '10'
@@ -3409,15 +3407,13 @@ scholarly_debate:
   journal: Läkartidningen
   year: 2010
   authors: Nilsonne G
-  links:
-    web: http://www.lakartidningen.se/OldWebArticlePdf/1/15188/2491.pdf
+  links: {}
   id: nilsonne_2010_open
 - title: Läkarstudenters minskande empati under utbildningen ifrågasätts
   journal: Läkartidningen
   year: 2010
   authors: Nilsonne G
-  links:
-    web: http://ww2.lakartidningen.se/07engine.php?articleId=14714
+  links: {}
   id: nilsonne_2010_lakarstudenters
 - title: '[Open Access Week 16-24 October: Open access increases access to the research]'
   authors: Nilsonne, G
@@ -3468,7 +3464,7 @@ scholarly_debate:
   year: 2015
   authors: Nilsonne G
   links:
-    web: http://www.tidningencurie.se/22/kronikor/kronikor/2015-06-30-gustav-nilsonne-fusk-bekampas-bast-med-oppna-forskningsdata.html
+    web: http://web.archive.org/web/20160121134554/http://www.tidningencurie.se/22/kronikor/kronikor/2015-06-30-gustav-nilsonne-fusk-bekampas-bast-med-oppna-forskningsdata.html
   id: nilsonne_2015_fusk
 - title: Mindre än hälften av psykologistudier kunde reproduceras
   journal: Läkartidningen
@@ -3731,7 +3727,6 @@ invited_talks:
 - title: 'Sleep deprivation and the brain: focus on emotion'
   year: 2014
   links:
-    web: http://ki.se/en/cns/calendar/imaging-the-sleepy-brain
     diva: http://www.diva-portal.org/smash/record.jsf?pid=diva2%3A775077\&dswid=-7532
   venue: Imaging the Sleepy Brain symposium, Karolinska Institutet 2014.
 - title: Why do psychopathic traits persist? - an evolutionary perspective.
@@ -4298,8 +4293,7 @@ conference_presentations:
   links: {}
 - title: Nilsonne G. Panelsamtal. Öppen Vetenskap – Möjligheter och utmaningar, Stockholm 2017.
   year: 2017
-  links:
-    program: http://www.suhf.se/storage/ma/d3809593a7aa480e974101d18a93cbe9/15fb3e16f507402f9e4bd8b6858176be/pdf/C6D15F65C14989E82DAF8F21D9310860735D7050/Program%20%c3%96ppen%20vetenskap%20170228.pdf
+  links: {}
 - title: 'Increased global fMRI signal variability after partial sleep deprivation: findings from the Stockholm Sleepy Brain
     study.'
   authors: Nilsonne G, Tamm S, Schwarz J, Almeida R, Fischer H, Kecklund G, Lekander M, Fransson P, Åkerstedt T
@@ -4620,29 +4614,22 @@ popular_science_writings:
   year: 2011
   links: {}
 - title: Tankar kring det nya verksamhetsåret.
-  links:
-    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Mars-2011/Ordforandens-rader/
+  links: {}
 - title: Var är alla flickorna?
-  links:
-    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nummer-3/Var-ar-alla-flickorna/
+  links: {}
 - title: Stora steg mot ökat medlemsinflytande på årets RFSU-kongress.
   links:
-    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nummer-4-2011/Stora-steg-mot-okat-medlemsinflytande-pa-arets-RFSU-kongress/
+    web: http://web.archive.org/web/20180311145543/http://www.rfsu.se:80/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nummer-4-2011/Stora-steg-mot-okat-medlemsinflytande-pa-arets-RFSU-kongress/
 - title: Pridefestivalen en höjdpunkt på året.
-  links:
-    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nummer-5-2011/Pridefestivalen-en-hojdpunkt-pa-aret/
+  links: {}
 - title: Dags för handling i tvångssteriliseringsfrågan.
-  links:
-    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-52011/Dags-for-handling-i-tvangssteriliseringsfragan/
+  links: {}
 - title: Bättre kunskaper krävs om ungas sexuella hälsa.
-  links:
-    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-72011/Battre-kunskaper-kravs-om-ungdomars-sexuella-halsa/
+  links: {}
 - title: Kunskap – en kungsväg till förändring.
-  links:
-    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-72011/Battre-kunskaper-kravs-om-ungdomars-sexuella-halsa/
+  links: {}
 - title: Dags för regeringen att sätta ned foten om tvångssteriliseringarna.
-  links:
-    web: http://www.rfsu.se/sv/RFSU-nara-dig/RFSU-Stockholm/Nyhetsbrev/Nyhetsbrev-12012/Dags-for-regeringen-att-satta-ned-foten-om-tvangssteriliseringarna/
+  links: {}
 - title: Det ideella engagemanget är öppenhetens grundval.
   year: 2011
   links:
@@ -4668,7 +4655,7 @@ popular_science_writings:
 - title: Biologiska grunder för sexuell läggning.
   year: 2013
   links:
-    web: http://www.rfsu.se/Bildbank/Dokument/Metod-Handledning/Den\%20onaturliga\%20naturen_MQ2.pdf?epslanguage=sv
+    web: http://web.archive.org/web/20160912150318/http://www.rfsu.se/Bildbank/Dokument/Metod-Handledning/Den\%20onaturliga\%20naturen_MQ2.pdf?epslanguage=sv
 - title: 'Krönikor/gästblogginlägg i Curie 2014-2015:'
   year: 2014
   links: {}
@@ -4705,7 +4692,7 @@ popular_science_writings:
 - title: Evidensbaserad policy.
   year: 2015
   links:
-    web: https://drive.google.com/file/d/0B6Ii-rt5VieWajZRQjVEdDVHWnM/edit
+    web: http://web.archive.org/web/20210909011318/https://drive.google.com/file/d/0B6Ii-rt5VieWajZRQjVEdDVHWnM/edit
 - title: Rösträttsreform måste testas på rätt sätt.
   year: 2016
   links:
@@ -4713,11 +4700,11 @@ popular_science_writings:
 - title: Evidensbaserad policy ger ideologin tydligare roll.
   year: 2016
   links:
-    web: http://www.frihetssmedjan.se/2016/04/gustav-nilsonne-med-dr-evidensbaserad-policy-ger-ideologin-tydligare-roll/
+    web: http://web.archive.org/web/20191228202112/http://www.frihetssmedjan.se:80/2016/04/gustav-nilsonne-med-dr-evidensbaserad-policy-ger-ideologin-tydligare-roll/
 - title: Evidensbasering är ett ungt och innehållsrikt begrepp.
   year: 2016
   links:
-    web: http://www.frihetssmedjan.se/2016/05/replik-evidensbasering-ar-ett-ungt-och-innehallsrikt-begrepp/
+    web: http://web.archive.org/web/20191228072138/http://www.frihetssmedjan.se:80/2016/05/replik-evidensbasering-ar-ett-ungt-och-innehallsrikt-begrepp/
 - title: Skolor, delta inte i ett dåligt betygsexperiment.
   year: 2016
   links:
@@ -4725,7 +4712,7 @@ popular_science_writings:
 - title: Rothstein överdriver problem med evidensbaserad policy.
   year: 2019
   links:
-    web: http://evidensbaseradpolicy.se/2019/11/12/rothstein-overdriver-problem-med-randomiserade-provningar-av-policy/
+    web: http://web.archive.org/web/20240808041257/http://evidensbaseradpolicy.se/2019/11/12/rothstein-overdriver-problem-med-randomiserade-provningar-av-policy/
 - title: De utmattade måste få tillgång till rätt vård
   year: 2022
   links: {}
