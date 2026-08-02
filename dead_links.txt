@@ -18,27 +18,39 @@ Summary of HTTP status codes
   406    2   not acceptable -- 1 DOI verified live via Crossref, 1 SlideShare
   429    1   rate limited -- DOI verified live via Crossref
 
-Needs action: 18 hard 404s (section A) and 3 dead domains (section B).
+Needs action: 17 hard 404s (section A, one of the original 18 is now fixed)
+and 3 dead domains (section B).
 Probably fine: 6 DiVA URLs (section C) and 2 Consilium URLs (section D) are
 blocked from the checking host, not dead.
 
 
-A. HARD 404 -- NOT FOUND (18)
-=============================
+A. HARD 404 -- NOT FOUND (18, of which 1 is now fixed)
+=====================================================
 
-A1. Wrong or unregistered DOIs (2)
-----------------------------------
+A1. Wrong or unregistered DOIs (1 remaining, 1 fixed)
+-----------------------------------------------------
 
-1) https://doi.org/10.1016/j.paid.2021.111520
+1) https://doi.org/10.1016/j.paid.2021.111520  -- FIXED 2026-08-02
    cv_data.yaml:1775
-   Wrong year in the DOI. The correct DOI is 10.1016/j.paid.2022.111520,
-   confirmed present in Crossref. This is a one-character data fix.
+   Wrong year in the DOI. Corrected to 10.1016/j.paid.2022.111520, which
+   Crossref confirms matches this entry exactly (title, journal, year 2022,
+   authors Sorjonen/Melin/Nilsonne) and which resolves 200 at doi.org.
+   No longer an open issue.
 
 2) https://doi.org/10.31234/osf.io/tbhx6
    cv_data.yaml:2830
-   Not in Crossref -- the DOI was probably never registered. The underlying
-   preprint is live at https://osf.io/tbhx6 (HTTP 200), so the link could
-   point there instead.
+   Still open. Do NOT repoint this at https://osf.io/tbhx6.
+   An earlier draft of this report suggested that, because the page returns
+   HTTP 200. That was wrong: the OSF API reports the preprint as "pending
+   moderation and not yet publicly available", so the 200 is a placeholder
+   shell rather than the preprint itself. The DOI is absent from Crossref
+   because it was never registered.
+   The published version of this work is live and already recorded on the same
+   entry as doi: 10.1371/journal.pone.0326486 (PLOS One, 200 at doi.org,
+   present in Crossref). So the simplest fix is to drop the dead preprint link
+   entirely -- the citation loses nothing, since the article DOI is there.
+   Left in place pending a decision, since that removes content rather than
+   correcting it.
 
 A2. Dead web pages, Wayback copy available (7)
 ---------------------------------------------
