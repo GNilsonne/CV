@@ -2634,6 +2634,32 @@ publications:
   id: sorjonen_2024_questioning
   pub_type: review
   date: '2024-10-01'
+- title: 'Effects of one-night partial sleep deprivation on perivascular space volume fraction: Findings from the Stockholm
+    Sleepy Brain Study'
+  journal: Sleep Medicine
+  doi: 10.1016/j.sleep.2025.106537
+  year: 2024
+  authors: Custer RM, Lynch KM, Barisano G, Herting MM, Åkerstedt T, Nilsonne G, Ahmadi H, Choupan J
+  links:
+    preprint: 10.1101/2024.10.26.620382
+  publication_date: '2024-10-27'
+  acceptance_date: '2024-10-27'
+  rims_id: '887852'
+  date: '2024-10-27'
+  id: custer_2024_effects
+- title: 'Inconclusive evidence for a prospective effect of academic self-concept on achievement: A simulated reanalysis and
+    comment on Marsh et al. (2024)'
+  journal: 'Educational Psychology Review'
+  doi: 10.1007/s10648-025-10008-4
+  year: 2024
+  authors: Sorjonen K, Melin B, Nilsonne G
+  links: 
+    preprint: https://doi.org/10.31234/osf.io/3cjtr
+    data: https://osf.io/9sbvh/overview
+  publication_date: '2024-11-22'
+  rims_id: '896128'
+  date: '2024-11-22'
+  id: sorjonen_2024_inconclusive
 - title: Altered Empathy Processing in Frontotemporal Dementia
   journal: JAMA Network Open
   doi: 10.1001/jamanetworkopen.2024.48601
@@ -2805,7 +2831,8 @@ publications:
   year: 2025
   volume: '260'
   pages: '105562'
-  links: {}
+  links:
+    preprint: https://doi.org/10.31234/osf.io/j3k68
   rims_id: '1059947'
   pmid: '40945146'
   issn: 0001-6918
@@ -3011,7 +3038,8 @@ publications:
   date: '2026-05-01'
   doi: 10.1016/j.jclinepi.2026.112307
   journal: Journal of Clinical Epidemiology
-  links: {}
+  links:
+    preprint: https://doi.org/10.64898/2025.12.23.25342922
   id: curtin_2026_results
 preprints:
 - title: 'Disease threat does not predict attractiveness preference in a United Kingdom dataset: a replication attempt and
@@ -3126,29 +3154,6 @@ preprints:
   date: '2024-07-12'
   year: 2024
   id: sorjonen_2024_taxonomy
-- title: 'Effects of one-night partial sleep deprivation on perivascular space volume fraction: Findings from the Stockholm
-    Sleepy Brain Study'
-  journal: ''
-  doi: 10.1101/2024.10.26.620382
-  year: 2024
-  authors: Custer RM, Lynch KM, Barisano G, Herting MM, Åkerstedt T, Nilsonne G, Ahmadi H, Choupan J
-  links: {}
-  publication_date: '2024-10-27'
-  acceptance_date: '2024-10-27'
-  rims_id: '887852'
-  date: '2024-10-27'
-  id: custer_2024_effects
-- title: 'Inconclusive evidence for a prospective effect of academic self-concept on achievement: A simulated reanalysis and
-    comment on Marsh et al. (2024)'
-  journal: ''
-  doi: 10.31234/osf.io/3cjtr
-  year: 2024
-  authors: Sorjonen K, Melin B, Nilsonne G
-  links: {}
-  publication_date: '2024-11-22'
-  rims_id: '896128'
-  date: '2024-11-22'
-  id: sorjonen_2024_inconclusive
 - title: 'Triangulation can be useful depending on what you wish to achieve: A reply to Lucas et al. (2024)'
   journal: ''
   doi: 10.31234/osf.io/6dq2j
@@ -3238,17 +3243,6 @@ preprints:
   acceptance_date: '2025-12-05'
   date: '2025-12-05'
   id: alavi_2025_unpacking
-- title: Assessing the Compliance and Timeliness of Results Reporting for Clinical Trials on Antimicrobial Agents
-  authors: Curtin M, Wiltshire A, Nilsonne G, Siebert M
-  doi: 10.64898/2025.12.23.25342922
-  year: 2025
-  pages: 2025.12.23.25342922
-  links: {}
-  rims_id: '1089851'
-  publication_date: '2025-12-31'
-  acceptance_date: '2025-12-31'
-  date: '2025-12-31'
-  id: curtin_2025_assessing
 - title: TrialScout links published results to trial registrations using a large language model
   authors: Ahnström L, Bruckner T, Aspromonti DA, Caquelin L, Cummins J, DeVito NJ, Axfors C, Ioannidis JPA, Nilsonne G
   doi: 10.64898/2026.03.15.26348383
@@ -4186,6 +4180,16 @@ invited_talks:
   links:
     slides: https://osf.io/5r8v9
   venue: IP4OS project meeting, 2025-02-13
+- title: Open Access Publishing: Beyond Academic Journals
+  year: 2025
+  links:
+    slides: https://osf.io/shbhq/files/gydf3
+  venue: Lund University Faculty of Medicine Open Science Day, 2025-03-06
+- title: Rewards and Incentives in Open Science: Evaluation, Merits, and Advancing Research Assessment (CoARA)
+  year: 2025
+  links:
+    slides: https://osf.io/shbhq/files/f23rw
+  venue: Lund University Faculty of Medicine Open Science Day, 2025-03-06
 - title: Öppna forskningsdata för ett rationellt samhälle
   year: 2025
   links: {}
